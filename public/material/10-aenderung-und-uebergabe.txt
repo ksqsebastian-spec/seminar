@@ -6,7 +6,7 @@ Keine Änderung durch Hadi Teherani: Es ist weiterhin unser Rollenspiel.
 Aktualisiere die Excel-Kalkulation mit Formeln. Erhalte die ursprüngliche Version.
 Fülle die Angebotsvorlage mit dem aktuellen Preis und den geprüften Angaben.
 Erzeuge DOCX und PDF und lass ChatGPT sie in deinem OneDrive-Ordner speichern.
-Aktualisiere den Übungsentwurf an die eigene Adresse und den PDF-Anhang. Nicht versenden.
+Aktualisiere den Übungsentwurf an Kerims zuvor geprüfte Adresse und Mission_Hadi.pdf als PDF-Anhang. Nicht versenden.
 Zeige jemandem Quellen, Annahmen, Kalkulation, Dateien und offenen nächsten Schritt.
 Räume Übungstermin und geplante Aufgabe wieder auf.
 

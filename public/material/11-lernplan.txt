@@ -4,7 +4,7 @@ Echte Recherche. Unser fiktives Angebot. Dein ChatGPT.
 
 Du arbeitest in deinem eigenen ChatGPT und Microsoft 365. Unser Angebot ist ein Seminar-Rollenspiel. Es gibt keine Anfrage oder Zusage von Hadi Teherani.
 
-Hadi Teherani ist die reale Person. Schrank, Betrieb, Maße, Preise und Weihnachtstermin sind unser Seminar-Rollenspiel. Wir recherchieren öffentliche Geschäftskontakte; Übungsentwürfe gehen an die eigene Adresse und bleiben ungesendet.
+Hadi Teherani ist die reale Person. Schrank, Betrieb, Maße, Preise und Weihnachtstermin sind unser Seminar-Rollenspiel. Wir recherchieren öffentliche Geschäftskontakte; Übungsentwürfe gehen an den zuvor geprüften Kontakt Kerim und bleiben ungesendet.
 
 ## Lernziel
 Du recherchierst, bedienst Websites, bearbeitest Dateien und bereitest ein vollständiges Angebot vor.
@@ -28,7 +28,7 @@ Prinzip ansehen, echte Vorführung durch Kerim, im eigenen Konto üben, Ergebnis
 ## Tag 2
 - 09:00 · Wieder ankommen · 15 min
 - 09:15 · ChatGPT füllt das Angebot aus. · 60 min
-- 10:15 · Ein Schrank für Hadi. · 55 min
+- 10:15 · Kerim, wir haben Großes vor! · 55 min
 - 11:10 · Pause · 15 min
 - 11:25 · Schrankbesprechung an Weihnachten. · 60 min
 - 12:25 · Mittagspause · 60 min
@@ -248,36 +248,40 @@ ChatGPT erhält unsere leere Angebotsvorlage, den Schrankbrief und die Kalkulati
 - Annahmen und offene Angaben sind erkennbar.
 - DOCX und PDF liegen in meinem OneDrive.
 
-**Danach:** Die Angebots-PDF kommt an den Mailentwurf.
+**Danach:** Die geprüften Angaben fließen in Mission_Hadi.pdf für Kerim ein.
 
-## 8. Ein Schrank für Hadi.
-Wir formulieren ein Anschreiben an das recherchierte Büro. Der öffentliche Kontakt bleibt in der Recherche; der Übungsentwurf wird an die eigene Adresse gespeichert. So üben wir die vollständige Vorbereitung ohne externe Kontaktaufnahme.
+## 8. Kerim, wir haben Großes vor!
+Wir prüfen, ob es im eigenen Postfach schon Korrespondenz mit Hadi Teherani oder seinem Büro gibt. Danach finden wir Kerims Kontakt und bereiten eine lockere interne Mail mit Mission_Hadi.pdf vor. Die angekündigte Zusammenarbeit ist unser Seminar-Rollenspiel, keine bestätigte Zusage.
 
 **Das lernen wir:**
-- Bezug auf belegbare Recherche herstellen
-- Mailtext entwerfen und überarbeiten
-- Entwurf in Outlook speichern
-- Datei als Anhang hinzufügen
-- Empfänger, Text und tatsächlichen Anhang prüfen
+- Posteingang und gesendete Mails durchsuchen
+- Treffer lesen und keinen Treffer ehrlich benennen
+- Kerims Kontakt finden und E-Mail-Adresse prüfen
+- Eine einseitige PDF aus Projektangaben erstellen
+- Humorvollen Mailtext überarbeiten
+- Entwurf mit tatsächlichem Dateianhang in Outlook prüfen
 
 **Das zeigst du live:**
-1. Entwirf das Anschreiben. Lass einen kurzen Text auf Basis der Recherche schreiben.
-   Auftrag: Entwirf ein kurzes Anschreiben an das Büro von Hadi Teherani. Wir möchten unseren maßgefertigten Büroschrank vorstellen. Beziehe dich nur auf belegbare Recherche. Keine bestehende Geschäftsbeziehung behaupten.
-2. Mach es persönlicher. Passe Ton, Länge und Einstieg an.
-   Auftrag: Etwas lockerer und halb so lang. Bleibe höflich mit Sie. Unsere Schrankidee ist ein Vorschlag.
-3. Speichere ihn in Outlook. Für den Test nimmst du deine eigene Adresse, nicht den recherchierten Bürokontakt.
-   Auftrag: Speichere den Text als Outlook-Entwurf an meine eigene E-Mail-Adresse. Betreff: ÜBUNG – Ein Schrank für Hadi. Nicht senden.
-4. Hänge das Angebot an. Füge die gespeicherte PDF hinzu. Die konkrete Anhangsfunktion muss im Konto verfügbar sein; sonst den Anhang direkt in Outlook ergänzen.
-   Auftrag: Füge die geprüfte Angebots-PDF aus meinem OneDrive zum Übungsentwurf hinzu. Keine vorhandenen Anhänge ersetzen. Nicht senden.
-5. Öffne den Entwurf. Kontrolliere Empfänger, Betreff, Text und Anhang in Outlook.
+1. Gab es schon Kontakt? Suche im eigenen Postfach, auch in gesendeten Nachrichten. Lies passende Treffer; eine Namensnennung allein ist noch keine Korrespondenz mit seinem Büro.
+   Auftrag: Suche in meinem Postfach und meinen gesendeten Mails nach Korrespondenz mit Hadi Teherani. Prüfe auch die Schreibweise Hadi Tehrani und die recherchierte Büro-Adresse. Zeige passende Treffer mit Absender, Empfänger, Datum und Betreff. Fasse nur gelesene Nachrichten zusammen. Wenn du nichts findest, sage das und nenne den durchsuchten Bereich.
+2. Finde Kerims Kontakt. Lass gespeicherte Kontakte durchsuchen. Falls der Zugriff fehlt, kann eine frühere Mail helfen. Bei mehreren Treffern wählst du die richtige Person.
+   Auftrag: Finde den Kontakt unseres Seminarleiters Kerim in meinen gespeicherten Outlook-Kontakten. Zeige vollständigen Namen und E-Mail-Adresse. Bei mehreren Treffern frage nach. Falls du keinen Kontakt findest oder keinen Zugriff hast, sage das; erfinde keine Adresse.
+3. Mach eine Mission-PDF. Nutze den Schrankbrief und deine geprüfte Kalkulation. Erstelle eine Seite und öffne sie vor dem Anhängen.
+   Auftrag: Erstelle Mission_Hadi.pdf als einseitigen Projekt-Steckbrief: Titel „Ein Schrank für Hadi“, unsere Schrankidee, Maße als Übungsannahmen, aktueller Angebotspreis aus meiner Kalkulation mit klarer Netto-/Bruttoangabe und drei offene Fragen. Kennzeichne die Zusammenarbeit als Seminar-Rollenspiel ohne Zusage. Speichere die PDF in meinem OneDrive-Ordner Seminar Schrank.
+4. Weihe Kerim ein. Lass einen lockeren, kurzen Text schreiben und verbessere ihn. Echte Suchergebnisse und unser Rollenspiel bleiben unterscheidbar.
+   Auftrag: Entwirf eine kurze, lustige Mail an Kerim mit dem Betreff „ÜBUNG – Kerim, wir haben Großes vor!“. Einstieg: „Kerim, wir arbeiten jetzt mit Hadi Teherani! Zumindest in unserem Seminar – der Schrank ist schon geplant, seine Zusage fehlt noch.“ Ergänze das tatsächliche Ergebnis der Korrespondenzsuche und verweise auf Mission_Hadi.pdf. Keine erfundene Korrespondenz oder Zusage. Noch nicht speichern oder senden.
+5. Speichere den Entwurf mit Anhang. Verwende den geprüften Kontakt Kerim. Wenn der Kontakt noch offen ist, kläre ihn zuerst. Anhangsfunktion prüfen; falls nötig die PDF direkt in Outlook anhängen.
+   Auftrag: Speichere den überarbeiteten Text als Outlook-Entwurf an die zuvor geprüfte E-Mail-Adresse von Kerim. Hänge die geprüfte Datei Mission_Hadi.pdf aus Seminar Schrank an. Keine anderen Empfänger. Nicht senden.
+6. Öffne und prüfe alles. Öffne den Entwurf in Outlook. Prüfe Kerims Adresse, den Rollenspiel-Hinweis und öffne den tatsächlichen Anhang.
 
-**Eigene Aufgabe:** Entwirf das Anschreiben und speichere es mit PDF als Übung an dich selbst.
+**Eigene Aufgabe:** Suche nach Hadi-Korrespondenz, finde Kerim und entwirf ihm eine lockere Projektmail mit Mission_Hadi.pdf.
 
 **Ergebnis prüfen:**
-- Der Text erfindet keine Beziehung oder Anfrage.
-- Empfänger ist meine eigene Adresse.
-- Die richtige PDF ist angehängt.
-- Die Mail wurde nicht versendet.
+- Die Korrespondenzsuche ist belegt oder als erfolglos im durchsuchten Bereich benannt.
+- Kerims Name und E-Mail-Adresse sind geprüft.
+- Die Zusammenarbeit ist als Seminar-Rollenspiel erkennbar.
+- Mission_Hadi.pdf hängt tatsächlich an und lässt sich öffnen.
+- Die Mail bleibt ungesendet.
 
 **Danach:** Zum Abschluss wird es weihnachtlich.
 
@@ -325,7 +329,7 @@ Wir planen, dass ChatGPT zu einem späteren Zeitpunkt einen Mailentwurf vorberei
 1. Sichere den aktuellen Stand. Lass Angebot, Quellen und offene Punkte kurz zusammenfassen.
    Auftrag: Fasse den Stand unseres Schrankprojekts zusammen. Welche Datei ist die aktuelle Angebots-PDF? Was ist noch offen?
 2. Plane die Entwurfserstellung. Nimm zum Test einen Zeitpunkt einige Minuten später. Die Aufgabe darf nichts senden.
-   Auftrag: Plane für einen von mir bestätigten Zeitpunkt in Europe/Berlin: Erstelle einen kurzen Mailentwurf zu unserem Schrankangebot an das Büro von Hadi Teherani. Speichere ihn, wenn Outlook verfügbar ist, als ÜBUNG an meine eigene Adresse. Nichts versenden. Fehlen Dateien oder Berechtigungen, melde das.
+   Auftrag: Plane für einen von mir bestätigten Zeitpunkt in Europe/Berlin: Erstelle einen kurzen Folgeentwurf an Kerim zu unserem Schrankprojekt. Nutze nur den zuvor geprüften Kontakt und den gesicherten Projektstand. Kennzeichne das Seminar-Rollenspiel. Speichere ihn, wenn Outlook verfügbar ist, als ÜBUNG-Entwurf an Kerim. Ist seine geprüfte Adresse nicht verfügbar, frage nach und erfinde keine. Nichts versenden. Fehlen Dateien oder Berechtigungen, melde das.
 3. Prüfe den gespeicherten Auftrag. Öffne die geplante Aufgabe. Kontrolliere Zeitpunkt, Zeitzone und erlaubte Aktion.
    Auftrag: Zeige mir die gespeicherte Aufgabe und ihren genauen Auftrag.
 4. Prüfe das Ergebnis und räume auf. Wenn die Testzeit erreicht ist, öffne den Entwurf oder die Rückmeldung. Deaktiviere die Übungsaufgabe danach.

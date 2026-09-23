@@ -30,4 +30,4 @@ DEINE DATEIEN
 Projekt: Schrank für Hadi
 OneDrive-Ordner: Seminar – Schrank für Hadi
 ChatGPT soll den Ordner anlegen, die hochgeladene Quelle ablegen, eine bearbeitbare Word-Fassung erstellen und zusätzlich eine PDF erzeugen.
-Das Angebot bleibt als unverbindlicher Seminarentwurf gekennzeichnet. Übungsmails an die eigene Adresse speichern, nicht versenden.
+Das Angebot bleibt als unverbindlicher Seminarentwurf gekennzeichnet. Übungsmails an Kerims zuvor geprüfte Adresse speichern, nicht versenden.

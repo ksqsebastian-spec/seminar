@@ -35,7 +35,7 @@ DEINE DATEIEN
 Projekt: Schrank für Hadi
 OneDrive-Ordner: Seminar – Schrank für Hadi
 ChatGPT soll den Ordner anlegen, die hochgeladene Quelle ablegen, eine bearbeitbare Word-Fassung erstellen und zusätzlich eine PDF erzeugen.
-Das Angebot bleibt als unverbindlicher Seminarentwurf gekennzeichnet. Übungsmails an die eigene Adresse speichern, nicht versenden.
+Das Angebot bleibt als unverbindlicher Seminarentwurf gekennzeichnet. Übungsmails an Kerims zuvor geprüfte Adresse speichern, nicht versenden.
 ''',
 '09-recherche-und-browser.txt':'''ZWEI FÄHIGKEITEN – ZWEI AUFGABEN
 
@@ -77,7 +77,7 @@ Prüfe ihn. Entferne anschließend nur diesen Übungstermin.
 SPÄTER EINEN ENTWURF ERSTELLEN
 Plane einen einmaligen Zeitpunkt wenige Minuten nach der Vorführung.
 ChatGPT soll dann einen Mailentwurf zu unserem Schrankangebot vorbereiten.
-Wenn Outlook für die geplante Aufgabe verfügbar ist: als ÜBUNG an die eigene Adresse speichern.
+Wenn Outlook für die geplante Aufgabe verfügbar ist: als ÜBUNG an Kerims zuvor geprüfte Adresse speichern.
 Wenn Dateien oder Rechte fehlen: die Lücke melden oder den Entwurf als Text bereitstellen.
 Nichts versenden. Kein zeitversetzter Mailversand.
 Prüfe die gespeicherte Aufgabe, den Zeitpunkt und die Zeitzone.
@@ -91,7 +91,7 @@ Keine Änderung durch Hadi Teherani: Es ist weiterhin unser Rollenspiel.
 Aktualisiere die Excel-Kalkulation mit Formeln. Erhalte die ursprüngliche Version.
 Fülle die Angebotsvorlage mit dem aktuellen Preis und den geprüften Angaben.
 Erzeuge DOCX und PDF und lass ChatGPT sie in deinem OneDrive-Ordner speichern.
-Aktualisiere den Übungsentwurf an die eigene Adresse und den PDF-Anhang. Nicht versenden.
+Aktualisiere den Übungsentwurf an Kerims zuvor geprüfte Adresse und Mission_Hadi.pdf als PDF-Anhang. Nicht versenden.
 Zeige jemandem Quellen, Annahmen, Kalkulation, Dateien und offenen nächsten Schritt.
 Räume Übungstermin und geplante Aufgabe wieder auf.
 

@@ -11,7 +11,7 @@ Prüfe ihn. Entferne anschließend nur diesen Übungstermin.
 SPÄTER EINEN ENTWURF ERSTELLEN
 Plane einen einmaligen Zeitpunkt wenige Minuten nach der Vorführung.
 ChatGPT soll dann einen Mailentwurf zu unserem Schrankangebot vorbereiten.
-Wenn Outlook für die geplante Aufgabe verfügbar ist: als ÜBUNG an die eigene Adresse speichern.
+Wenn Outlook für die geplante Aufgabe verfügbar ist: als ÜBUNG an Kerims zuvor geprüfte Adresse speichern.
 Wenn Dateien oder Rechte fehlen: die Lücke melden oder den Entwurf als Text bereitstellen.
 Nichts versenden. Kein zeitversetzter Mailversand.
 Prüfe die gespeicherte Aufgabe, den Zeitpunkt und die Zeitzone.

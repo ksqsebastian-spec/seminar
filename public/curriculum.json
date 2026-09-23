@@ -660,7 +660,7 @@
         "04-schrankkalkulation.xlsx"
       ],
       "bonus": "Lass die Einleitung für einen sachlichen und einen etwas mutigeren Stil formulieren.",
-      "carry": "Die Angebots-PDF kommt an den Mailentwurf.",
+      "carry": "Die geprüften Angaben fließen in Mission_Hadi.pdf für Kerim ein.",
       "day": 2,
       "time": "09:15",
       "number": 7,
@@ -673,91 +673,102 @@
     },
     {
       "id": "antwort",
-      "title": "Ein Schrank für Hadi.",
-      "short": "Mailentwurf mit Anhang.",
+      "title": "Kerim, wir haben Großes vor!",
+      "short": "Korrespondenz suchen, Kontakt finden, Entwurf mit Anhang.",
       "tools": [
         "chatgpt",
-        "outlook"
+        "outlook",
+        "onedrive"
       ],
       "minutes": 55,
-      "why": "Wir formulieren ein Anschreiben an das recherchierte Büro. Der öffentliche Kontakt bleibt in der Recherche; der Übungsentwurf wird an die eigene Adresse gespeichert. So üben wir die vollständige Vorbereitung ohne externe Kontaktaufnahme.",
-      "principle": "Persönlich schreiben. Als Entwurf prüfen.",
-      "story": "Wir formulieren ein Anschreiben an das recherchierte Büro. Der öffentliche Kontakt bleibt in der Recherche; der Übungsentwurf wird an die eigene Adresse gespeichert. So üben wir die vollständige Vorbereitung ohne externe Kontaktaufnahme.",
-      "outcome": "Ein ungesendeter Outlook-Entwurf an dich selbst mit Angebots-PDF.",
+      "why": "Wir prüfen, ob es im eigenen Postfach schon Korrespondenz mit Hadi Teherani oder seinem Büro gibt. Danach finden wir Kerims Kontakt und bereiten eine lockere interne Mail mit Mission_Hadi.pdf vor. Die angekündigte Zusammenarbeit ist unser Seminar-Rollenspiel, keine bestätigte Zusage.",
+      "principle": "Erst suchen. Dann Kerim einweihen.",
+      "story": "Wir prüfen, ob es im eigenen Postfach schon Korrespondenz mit Hadi Teherani oder seinem Büro gibt. Danach finden wir Kerims Kontakt und bereiten eine lockere interne Mail mit Mission_Hadi.pdf vor. Die angekündigte Zusammenarbeit ist unser Seminar-Rollenspiel, keine bestätigte Zusage.",
+      "outcome": "Ein ungesendeter Outlook-Entwurf an den geprüften Kontakt Kerim mit Mission_Hadi.pdf.",
       "skills": [
-        "Bezug auf belegbare Recherche herstellen",
-        "Mailtext entwerfen und überarbeiten",
-        "Entwurf in Outlook speichern",
-        "Datei als Anhang hinzufügen",
-        "Empfänger, Text und tatsächlichen Anhang prüfen"
+        "Posteingang und gesendete Mails durchsuchen",
+        "Treffer lesen und keinen Treffer ehrlich benennen",
+        "Kerims Kontakt finden und E-Mail-Adresse prüfen",
+        "Eine einseitige PDF aus Projektangaben erstellen",
+        "Humorvollen Mailtext überarbeiten",
+        "Entwurf mit tatsächlichem Dateianhang in Outlook prüfen"
       ],
       "demos": [
         {
-          "title": "Entwirf das Anschreiben.",
-          "action": "Lass einen kurzen Text auf Basis der Recherche schreiben.",
-          "prompt": "Entwirf ein kurzes Anschreiben an das Büro von Hadi Teherani. Wir möchten unseren maßgefertigten Büroschrank vorstellen. Beziehe dich nur auf belegbare Recherche. Keine bestehende Geschäftsbeziehung behaupten.",
-          "see": "Ein erster Text in ChatGPT.",
+          "title": "Gab es schon Kontakt?",
+          "action": "Suche im eigenen Postfach, auch in gesendeten Nachrichten. Lies passende Treffer; eine Namensnennung allein ist noch keine Korrespondenz mit seinem Büro.",
+          "prompt": "Suche in meinem Postfach und meinen gesendeten Mails nach Korrespondenz mit Hadi Teherani. Prüfe auch die Schreibweise Hadi Tehrani und die recherchierte Büro-Adresse. Zeige passende Treffer mit Absender, Empfänger, Datum und Betreff. Fasse nur gelesene Nachrichten zusammen. Wenn du nichts findest, sage das und nenne den durchsuchten Bereich.",
+          "see": "Passende Korrespondenz oder ein klarer Hinweis: Im durchsuchten Bereich nichts gefunden.",
           "asset": ""
         },
         {
-          "title": "Mach es persönlicher.",
-          "action": "Passe Ton, Länge und Einstieg an.",
-          "prompt": "Etwas lockerer und halb so lang. Bleibe höflich mit Sie. Unsere Schrankidee ist ein Vorschlag.",
-          "see": "Der Entwurf passt zu deinem Stil.",
+          "title": "Finde Kerims Kontakt.",
+          "action": "Lass gespeicherte Kontakte durchsuchen. Falls der Zugriff fehlt, kann eine frühere Mail helfen. Bei mehreren Treffern wählst du die richtige Person.",
+          "prompt": "Finde den Kontakt unseres Seminarleiters Kerim in meinen gespeicherten Outlook-Kontakten. Zeige vollständigen Namen und E-Mail-Adresse. Bei mehreren Treffern frage nach. Falls du keinen Kontakt findest oder keinen Zugriff hast, sage das; erfinde keine Adresse.",
+          "see": "Der richtige Kerim und seine Adresse sind geprüft. Fehlt der Kontakt, fragst du Kerim im Raum.",
           "asset": ""
         },
         {
-          "title": "Speichere ihn in Outlook.",
-          "action": "Für den Test nimmst du deine eigene Adresse, nicht den recherchierten Bürokontakt.",
-          "prompt": "Speichere den Text als Outlook-Entwurf an meine eigene E-Mail-Adresse. Betreff: ÜBUNG – Ein Schrank für Hadi. Nicht senden.",
-          "see": "Ein ungesendeter Entwurf ist in Outlook sichtbar.",
+          "title": "Mach eine Mission-PDF.",
+          "action": "Nutze den Schrankbrief und deine geprüfte Kalkulation. Erstelle eine Seite und öffne sie vor dem Anhängen.",
+          "prompt": "Erstelle Mission_Hadi.pdf als einseitigen Projekt-Steckbrief: Titel „Ein Schrank für Hadi“, unsere Schrankidee, Maße als Übungsannahmen, aktueller Angebotspreis aus meiner Kalkulation mit klarer Netto-/Bruttoangabe und drei offene Fragen. Kennzeichne die Zusammenarbeit als Seminar-Rollenspiel ohne Zusage. Speichere die PDF in meinem OneDrive-Ordner Seminar Schrank.",
+          "see": "Die PDF liegt im eigenen Ordner und lässt sich öffnen.",
           "asset": ""
         },
         {
-          "title": "Hänge das Angebot an.",
-          "action": "Füge die gespeicherte PDF hinzu. Die konkrete Anhangsfunktion muss im Konto verfügbar sein; sonst den Anhang direkt in Outlook ergänzen.",
-          "prompt": "Füge die geprüfte Angebots-PDF aus meinem OneDrive zum Übungsentwurf hinzu. Keine vorhandenen Anhänge ersetzen. Nicht senden.",
-          "see": "Die richtige PDF hängt tatsächlich am Entwurf.",
+          "title": "Weihe Kerim ein.",
+          "action": "Lass einen lockeren, kurzen Text schreiben und verbessere ihn. Echte Suchergebnisse und unser Rollenspiel bleiben unterscheidbar.",
+          "prompt": "Entwirf eine kurze, lustige Mail an Kerim mit dem Betreff „ÜBUNG – Kerim, wir haben Großes vor!“. Einstieg: „Kerim, wir arbeiten jetzt mit Hadi Teherani! Zumindest in unserem Seminar – der Schrank ist schon geplant, seine Zusage fehlt noch.“ Ergänze das tatsächliche Ergebnis der Korrespondenzsuche und verweise auf Mission_Hadi.pdf. Keine erfundene Korrespondenz oder Zusage. Noch nicht speichern oder senden.",
+          "see": "Ein humorvoller Text, den du kürzen oder persönlicher machen lassen kannst.",
           "asset": ""
         },
         {
-          "title": "Öffne den Entwurf.",
-          "action": "Kontrolliere Empfänger, Betreff, Text und Anhang in Outlook.",
+          "title": "Speichere den Entwurf mit Anhang.",
+          "action": "Verwende den geprüften Kontakt Kerim. Wenn der Kontakt noch offen ist, kläre ihn zuerst. Anhangsfunktion prüfen; falls nötig die PDF direkt in Outlook anhängen.",
+          "prompt": "Speichere den überarbeiteten Text als Outlook-Entwurf an die zuvor geprüfte E-Mail-Adresse von Kerim. Hänge die geprüfte Datei Mission_Hadi.pdf aus Seminar Schrank an. Keine anderen Empfänger. Nicht senden.",
+          "see": "Der Entwurf ist in Outlook sichtbar, an Kerim adressiert und enthält die PDF.",
+          "asset": ""
+        },
+        {
+          "title": "Öffne und prüfe alles.",
+          "action": "Öffne den Entwurf in Outlook. Prüfe Kerims Adresse, den Rollenspiel-Hinweis und öffne den tatsächlichen Anhang.",
           "prompt": "",
-          "see": "Der Empfänger ist die eigene Adresse. Der Anhang lässt sich öffnen.",
+          "see": "Richtiger Empfänger, richtige PDF und weiterhin ungesendet.",
           "asset": ""
         }
       ],
-      "mission": "Entwirf das Anschreiben und speichere es mit PDF als Übung an dich selbst.",
+      "mission": "Suche nach Hadi-Korrespondenz, finde Kerim und entwirf ihm eine lockere Projektmail mit Mission_Hadi.pdf.",
       "steps": [
-        "Text entwerfen und anpassen.",
-        "Outlook-Entwurf an dich speichern.",
-        "PDF anhängen und öffnen."
+        "Korrespondenz suchen und Kerims Kontakt prüfen.",
+        "Mission_Hadi.pdf aus deinen Projektdateien erstellen und öffnen.",
+        "Mailtext verbessern, als Entwurf an Kerim speichern und PDF anhängen."
       ],
       "checks": [
-        "Der Text erfindet keine Beziehung oder Anfrage.",
-        "Empfänger ist meine eigene Adresse.",
-        "Die richtige PDF ist angehängt.",
-        "Die Mail wurde nicht versendet."
+        "Die Korrespondenzsuche ist belegt oder als erfolglos im durchsuchten Bereich benannt.",
+        "Kerims Name und E-Mail-Adresse sind geprüft.",
+        "Die Zusammenarbeit ist als Seminar-Rollenspiel erkennbar.",
+        "Mission_Hadi.pdf hängt tatsächlich an und lässt sich öffnen.",
+        "Die Mail bleibt ungesendet."
       ],
       "hints": [
-        "Erst den Text fertigstellen, dann in Outlook speichern.",
-        "Ein Text in ChatGPT ist noch kein Outlook-Entwurf.",
-        "Bei fehlender Anhangsfunktion die PDF direkt in Outlook hinzufügen und dort prüfen."
+        "Kein Suchtreffer ist ein gültiges Ergebnis. Nicht behaupten, es habe niemals Kontakt gegeben.",
+        "Mehrere Kerims? Vollständigen Namen und Adresse vergleichen. Kein Kontakt? Kerim im Raum fragen.",
+        "Bei fehlender Anhangsfunktion die geprüfte PDF direkt in Outlook ergänzen."
       ],
       "question": {
-        "ask": "ChatGPT zeigt einen Mailtext. Liegt er schon in Outlook?",
+        "ask": "ChatGPT findet keine passende Mail. Was schreiben wir?",
         "options": [
-          "Ja.",
-          "Nur wenn der Entwurf dort gespeichert wurde."
+          "Im durchsuchten Bereich wurde keine Korrespondenz gefunden.",
+          "Hadi hat uns mündlich zugesagt."
         ],
-        "correct": 1,
-        "explain": "Öffne Outlook und prüfe den Entwurf."
+        "correct": 0,
+        "explain": "Suchlücken sind keine Einladung, eine Vorgeschichte zu erfinden."
       },
       "files": [
-        "05-angebotsvorlage.docx"
+        "03-schrankbrief.txt",
+        "04-schrankkalkulation.xlsx"
       ],
-      "bonus": "Schreibe eine zweite Betreffzeile, die neugierig macht, ohne Vertrautheit vorzutäuschen.",
+      "bonus": "Lass zwei Betreffzeilen schreiben: eine sachliche und eine augenzwinkernde. Wähle selbst.",
       "carry": "Zum Abschluss wird es weihnachtlich.",
       "day": 2,
       "time": "10:15",
@@ -891,7 +902,7 @@
         {
           "title": "Plane die Entwurfserstellung.",
           "action": "Nimm zum Test einen Zeitpunkt einige Minuten später. Die Aufgabe darf nichts senden.",
-          "prompt": "Plane für einen von mir bestätigten Zeitpunkt in Europe/Berlin: Erstelle einen kurzen Mailentwurf zu unserem Schrankangebot an das Büro von Hadi Teherani. Speichere ihn, wenn Outlook verfügbar ist, als ÜBUNG an meine eigene Adresse. Nichts versenden. Fehlen Dateien oder Berechtigungen, melde das.",
+          "prompt": "Plane für einen von mir bestätigten Zeitpunkt in Europe/Berlin: Erstelle einen kurzen Folgeentwurf an Kerim zu unserem Schrankprojekt. Nutze nur den zuvor geprüften Kontakt und den gesicherten Projektstand. Kennzeichne das Seminar-Rollenspiel. Speichere ihn, wenn Outlook verfügbar ist, als ÜBUNG-Entwurf an Kerim. Ist seine geprüfte Adresse nicht verfügbar, frage nach und erfinde keine. Nichts versenden. Fehlen Dateien oder Berechtigungen, melde das.",
           "see": "Die geplante Aufgabe enthält Uhrzeit, Kontext und die Grenze „nicht senden“.",
           "asset": ""
         },
@@ -1110,7 +1121,7 @@
         ],
         [
           "10:15",
-          "Ein Schrank für Hadi.",
+          "Kerim, wir haben Großes vor!",
           "55 min"
         ],
         [

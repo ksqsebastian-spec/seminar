@@ -43,3 +43,5 @@ Passwortschutz gilt für die ausgelieferte Website und direkte Download-URLs. Di
 
 Die automatisierten Tests prüfen geschützte Assets, Login, Cookies, abgelaufene/manipulierte Sitzungen, Cross-Origin-Schutz, Download-Dateien und die Inhaltsstruktur. Die tatsächlichen Work-Aktionen sind keine automatisierte Integration dieser Website.
 
+
+Die Mailstation sucht zuerst echte frühere Korrespondenz, findet Kerims gespeicherten Kontakt und erstellt einen humorvollen, ungesendeten Entwurf an ihn. Die Teilnehmenden erzeugen Mission_Hadi.pdf aus ihren eigenen Seminarergebnissen und hängen die geprüfte Datei an.

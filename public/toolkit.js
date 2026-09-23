@@ -9,12 +9,12 @@ export const toolkit=[
 ['Browser steuern','Kleine, überprüfbare Schritte; Handlungen explizit benennen.','Öffne die Maßtabelle auf dieser Seite und erkläre sie. Nichts bestellen.','Die sichtbare Seite zeigt die gesuchte Information.'],
 ['Erinnerung und Wiederholung','Zeit, Zeitzone, Quelle, Ergebnis und Endpunkt nennen. Verfügbarkeit ist kontoabhängig.','Zeige die Einrichtung einer Montagszusammenfassung um 08:30 Uhr für vier Wochen, Europe/Berlin.','Gespeicherte Aufgabe öffnen und nach der Übung deaktivieren.']
 ]},
-{name:'Outlook Mail',app:'outlook',intro:'Die Grundübung endet mit einem ungesendeten Entwurf an deine eigene Adresse. Funktionen hängen von Konto, Plugin und Freigaben ab.',items:[
+{name:'Outlook Mail',app:'outlook',intro:'Die Grundübung endet mit einem ungesendeten Entwurf an Kerims zuvor geprüfte Adresse. Funktionen hängen von Konto, Plugin und Freigaben ab.',items:[
 ['Finden und auswählen','Suche nach Datum, Absender, Betreff oder Anhang. Wähle bei mehreren Treffern erst die richtige Mail.','Zeige meine heutigen Mails mit Absender und Betreff.','Richtige Mail und richtiges Konto.'],
 ['Lesen und erklären','Lass Inhalt, gewünschte Handlung und offene Fragen trennen.','Was möchte der Absender von mir, und welche Angaben fehlen?','Mit Originalmail vergleichen.'],
 ['Anhänge lesen','Benenne die konkrete Datei, statt pauschal alle Anhänge zu verwenden.','Erkläre mir den Anhang Projektbrief.pdf aus dieser Mail.','Dateiname, Inhalt und Bezug zur Mail stimmen.'],
 ['Antworttext verbessern','Erst in ChatGPT formulieren und überarbeiten.','Kürzer, freundlich und mit Sie. Keine neuen Zusagen.','Fakten und Ton prüfen.'],
-['Entwurf speichern','Neuer Entwurf oder Antwortentwurf auf eine konkrete Mail. Ein Chattext ist noch kein Outlook-Entwurf.','Speichere den geprüften Text als Übungsentwurf an meine eigene Adresse. Noch nicht senden.','Im Outlook-Ordner Entwürfe öffnen.'],
+['Entwurf speichern','Neuer Entwurf oder Antwortentwurf auf eine konkrete Mail. Ein Chattext ist noch kein Outlook-Entwurf.','Speichere den geprüften Text als Übungsentwurf an Kerims zuvor geprüfte Adresse. Noch nicht senden.','Im Outlook-Ordner Entwürfe öffnen.'],
 ['Datei anhängen','Direkte Plugin-Anhänge unter 3 MB. Bei fehlender Funktion selbst in Outlook anhängen.','Hänge diese geprüfte PDF an genau diesen Entwurf an.','Richtigen Anhang im Entwurf öffnen.'],
 ['Antwort-an-alle und Weiterleiten','Prüfe alle Empfänger. Weiterleiten kann Inhalte und Anhänge an neue Personen geben.','Zeige zuerst, wer die Antwort erhalten würde. Noch nicht versenden.','An und CC sind passend; kein ungewollter Empfänger.','Vertiefung'],
 ['Senden und später senden','Beides sind echte Handlungen. Eine geplante Mail kann ohne weiteres Zutun versendet werden.','Zeige Empfänger, Text, Anhang und Versandzeit zur Kontrolle.','Erst nach explizitem Auftrag ausführen; Übung höchstens an eigene Adresse.','Vertiefung'],
