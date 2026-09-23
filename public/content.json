@@ -1,778 +1,1600 @@
 {
+  "version": 2,
   "chapters": [
-    "Dein neuer Arbeitsalltag",
-    "In Work ankommen",
-    "Gute Arbeitsaufträge",
-    "Projekte & Kontext",
-    "Plugins & Verbindungen",
-    "Mail & OneDrive",
-    "Recherche & Browser",
-    "Excel & Tabellen",
-    "Dateien & Formulare",
-    "Kalender & Scheduling",
-    "Dein kompletter Workflow"
+    "Start & Vorbereitung",
+    "Mit Work anfangen",
+    "Bessere Antworten bekommen",
+    "Projekte verstehen",
+    "Plugins verstehen",
+    "Mails & Dateien nutzen",
+    "Internet & Browser nutzen",
+    "Excel einfacher nutzen",
+    "Dokumente ausfüllen",
+    "Termine vorbereiten",
+    "Aufgaben später erledigen lassen"
   ],
   "slides": [
     {
       "id": 1,
-      "title": "KI, die mitarbeitet.",
+      "type": "hero",
+      "title": "KI für deinen Arbeitsalltag.",
+      "lead": "Heute machen wir ganz normale Büroarbeit einfacher.",
       "chapter": 0,
-      "chapterName": "Dein neuer Arbeitsalltag",
-      "lead": "Weniger suchen. Klarer entscheiden. Arbeit fertig bekommen.",
-      "steps": [],
-      "goal": "",
-      "criteria": "",
-      "hints": [],
-      "bonus": "",
-      "paragraphs": [],
-      "type": "statement"
+      "chapterName": "Willkommen",
+      "paragraphs": []
     },
     {
       "id": 2,
-      "title": "Was würdest du heute gern abgeben?",
+      "type": "prep",
+      "title": "Vor dem Seminar: einmal alles testen.",
+      "lead": "Wenn etwas fehlt, kontaktiere ITP.",
       "chapter": 0,
-      "chapterName": "Dein neuer Arbeitsalltag",
-      "lead": "Eine nervige Aufgabe reicht.",
-      "steps": [],
-      "goal": "",
-      "criteria": "",
-      "hints": [],
-      "bonus": "",
-      "paragraphs": [
-        "Welche Aufgabe kostet dich regelmäßig Zeit? Denk an eine Sache, die du heute gern einfacher erledigen würdest."
-      ],
-      "type": "statement"
+      "chapterName": "Vorbereitung",
+      "paragraphs": []
     },
     {
       "id": 3,
-      "title": "Unsere Werkstatt für heute",
+      "type": "intro",
+      "title": "Du musst keine Technik lernen.",
+      "lead": "Du sagst, was du brauchst. Wir schauen uns ein Beispiel an. Dann probierst du es selbst.",
       "chapter": 0,
-      "chapterName": "Dein neuer Arbeitsalltag",
-      "lead": "Ein fiktiver Betrieb. Echte Aufgaben. Deine Entscheidungen.",
-      "steps": [],
-      "goal": "",
-      "criteria": "",
-      "hints": [],
-      "bonus": "",
+      "chapterName": "So läuft es ab",
       "paragraphs": [
-        "Willkommen bei Werkraum Ausbau. Unser fiktiver Handwerksbetrieb modernisiert Büroräume, kauft Material ein und sucht einen neuen Standort.",
-        "Alle Übungsdaten sind erfunden. Du arbeitest mit vorbereiteten Unterlagen in deinen verbundenen Konten."
-      ],
-      "type": "statement"
+        "Wir arbeiten mit erfundenen Daten aus einem Handwerksbetrieb. Eigene Kundenunterlagen brauchst du nicht."
+      ]
     },
     {
+      "name": "Mit Work anfangen",
+      "app": "chatgpt",
+      "title": "Work hilft dir, Arbeit zu erledigen.",
+      "explain": "Du beschreibst eine Aufgabe in deinen eigenen Worten. Work macht daraus zum Beispiel einen Text, eine Liste oder eine Datei.",
+      "example": "Aus Notizen wird eine Aufgabenliste.",
+      "benefit": "Du musst deine Stichpunkte nicht selbst sortieren.",
+      "inputTitle": "Deine Notizen",
+      "input": [
+        "Lindenhof zurückrufen",
+        "Lieferung nachfragen",
+        "Drei Angebote vergleichen"
+      ],
+      "prompt": "Mach aus diesen Notizen eine übersichtliche Aufgabenliste. Schreib zu jedem Punkt, was ich als Nächstes tun sollte.",
+      "outputTitle": "Deine Aufgabenliste",
+      "output": [
+        "Lindenhof: Anlass des Rückrufs klären.",
+        "Lieferung: Status beim Lieferanten erfragen.",
+        "Angebote: Preise und Lieferkosten vergleichen."
+      ],
+      "check": "Sind alle drei Punkte dabei? Dann kannst du mit der Liste weiterarbeiten.",
+      "task": "Lade die Tagesnotizen in Work und lass daraus eine Aufgabenliste erstellen.",
+      "success": [
+        "Alle Notizen tauchen wieder auf.",
+        "Du verstehst, was als Nächstes zu tun ist."
+      ],
+      "file": "01-tagesnotizen.txt",
+      "kind": "notes",
       "id": 4,
-      "title": "Drei Gewohnheiten, die bleiben",
-      "chapter": 0,
-      "chapterName": "Dein neuer Arbeitsalltag",
-      "lead": "Klar beauftragen. Gemeinsam verbessern. Ergebnis prüfen.",
-      "steps": [],
-      "goal": "",
-      "criteria": "",
-      "hints": [],
-      "bonus": "",
+      "type": "lesson",
+      "chapter": 1,
+      "chapterName": "Mit Work anfangen",
+      "lead": "Work hilft dir, Arbeit zu erledigen.",
       "paragraphs": [
-        "Die erste Antwort ist ein Arbeitsstand. Sag, was fehlt. Zeig die Quelle. Prüfe, ob das Ergebnis wirklich zur Aufgabe passt."
+        "Du beschreibst eine Aufgabe in deinen eigenen Worten. Work macht daraus zum Beispiel einen Text, eine Liste oder eine Datei."
       ],
-      "type": "statement"
+      "steps": [
+        "Deine Unterlagen",
+        "Dein Auftrag",
+        "Das Ergebnis",
+        "Kurz prüfen"
+      ],
+      "goal": "Lade die Tagesnotizen in Work und lass daraus eine Aufgabenliste erstellen.",
+      "criteria": "Alle Notizen tauchen wieder auf.; Du verstehst, was als Nächstes zu tun ist.",
+      "hints": [
+        "Mach aus diesen Notizen eine übersichtliche Aufgabenliste. Schreib zu jedem Punkt, was ich als Nächstes tun sollte."
+      ],
+      "bonus": ""
     },
     {
+      "name": "Mit Work anfangen",
+      "app": "chatgpt",
+      "title": "Aus Notizen wird eine Aufgabenliste.",
+      "explain": "Du beschreibst eine Aufgabe in deinen eigenen Worten. Work macht daraus zum Beispiel einen Text, eine Liste oder eine Datei.",
+      "example": "Aus Notizen wird eine Aufgabenliste.",
+      "benefit": "Du musst deine Stichpunkte nicht selbst sortieren.",
+      "inputTitle": "Deine Notizen",
+      "input": [
+        "Lindenhof zurückrufen",
+        "Lieferung nachfragen",
+        "Drei Angebote vergleichen"
+      ],
+      "prompt": "Mach aus diesen Notizen eine übersichtliche Aufgabenliste. Schreib zu jedem Punkt, was ich als Nächstes tun sollte.",
+      "outputTitle": "Deine Aufgabenliste",
+      "output": [
+        "Lindenhof: Anlass des Rückrufs klären.",
+        "Lieferung: Status beim Lieferanten erfragen.",
+        "Angebote: Preise und Lieferkosten vergleichen."
+      ],
+      "check": "Sind alle drei Punkte dabei? Dann kannst du mit der Liste weiterarbeiten.",
+      "task": "Lade die Tagesnotizen in Work und lass daraus eine Aufgabenliste erstellen.",
+      "success": [
+        "Alle Notizen tauchen wieder auf.",
+        "Du verstehst, was als Nächstes zu tun ist."
+      ],
+      "file": "01-tagesnotizen.txt",
+      "kind": "notes",
       "id": 5,
-      "title": "Aus einem Gedanken wird eine Aufgabe",
+      "type": "demo",
       "chapter": 1,
-      "chapterName": "In Work ankommen",
-      "lead": "Beschreib, was am Ende fertig sein soll.",
-      "steps": [],
-      "goal": "",
-      "criteria": "",
-      "hints": [],
-      "bonus": "",
+      "chapterName": "Mit Work anfangen",
+      "lead": "Aus Notizen wird eine Aufgabenliste.",
       "paragraphs": [
-        "Beginne mit dem gewünschten Ergebnis. Füge die passenden Dateien hinzu und arbeite im selben Vorgang weiter.",
-        "Probier es aus: Aufgabe starten, Material hinzufügen, Ergebnis ansehen und eine Verbesserung anfordern."
+        "Du beschreibst eine Aufgabe in deinen eigenen Worten. Work macht daraus zum Beispiel einen Text, eine Liste oder eine Datei."
       ],
-      "type": "statement"
+      "steps": [
+        "Deine Unterlagen",
+        "Dein Auftrag",
+        "Das Ergebnis",
+        "Kurz prüfen"
+      ],
+      "goal": "Lade die Tagesnotizen in Work und lass daraus eine Aufgabenliste erstellen.",
+      "criteria": "Alle Notizen tauchen wieder auf.; Du verstehst, was als Nächstes zu tun ist.",
+      "hints": [
+        "Mach aus diesen Notizen eine übersichtliche Aufgabenliste. Schreib zu jedem Punkt, was ich als Nächstes tun sollte."
+      ],
+      "bonus": ""
     },
     {
+      "name": "Mit Work anfangen",
+      "app": "chatgpt",
+      "title": "Jetzt probierst du es.",
+      "explain": "Du beschreibst eine Aufgabe in deinen eigenen Worten. Work macht daraus zum Beispiel einen Text, eine Liste oder eine Datei.",
+      "example": "Aus Notizen wird eine Aufgabenliste.",
+      "benefit": "Du musst deine Stichpunkte nicht selbst sortieren.",
+      "inputTitle": "Deine Notizen",
+      "input": [
+        "Lindenhof zurückrufen",
+        "Lieferung nachfragen",
+        "Drei Angebote vergleichen"
+      ],
+      "prompt": "Mach aus diesen Notizen eine übersichtliche Aufgabenliste. Schreib zu jedem Punkt, was ich als Nächstes tun sollte.",
+      "outputTitle": "Deine Aufgabenliste",
+      "output": [
+        "Lindenhof: Anlass des Rückrufs klären.",
+        "Lieferung: Status beim Lieferanten erfragen.",
+        "Angebote: Preise und Lieferkosten vergleichen."
+      ],
+      "check": "Sind alle drei Punkte dabei? Dann kannst du mit der Liste weiterarbeiten.",
+      "task": "Lade die Tagesnotizen in Work und lass daraus eine Aufgabenliste erstellen.",
+      "success": [
+        "Alle Notizen tauchen wieder auf.",
+        "Du verstehst, was als Nächstes zu tun ist."
+      ],
+      "file": "01-tagesnotizen.txt",
+      "kind": "notes",
       "id": 6,
-      "title": "Beispiel: Montag, 08:12 Uhr",
+      "type": "challenge",
       "chapter": 1,
-      "chapterName": "In Work ankommen",
-      "lead": "Fünf Notizen. Ein brauchbarer Start.",
-      "steps": [
-        "Notizzettel: „Lieferung unklar; Lindenhof fragt nach Termin; Angebot prüfen; Team informieren; Formular fehlt.“",
-        "Auftrag: „Ordne diese Notizen in nächste Schritte. Markiere fehlende Informationen. Erfinde keine Termine.“",
-        "Ergebnis: Aufgabe / nächster Schritt / benötigte Information.",
-        "„Lieferung unklar“ erhält die Rückfrage „Welcher Lieferant und welcher Vorgang?“."
+      "chapterName": "Mit Work anfangen",
+      "lead": "Lade die Tagesnotizen in Work und lass daraus eine Aufgabenliste erstellen.",
+      "paragraphs": [
+        "Du beschreibst eine Aufgabe in deinen eigenen Worten. Work macht daraus zum Beispiel einen Text, eine Liste oder eine Datei."
       ],
-      "goal": "",
-      "criteria": "",
-      "hints": [],
-      "bonus": "",
-      "paragraphs": [],
-      "type": "demo"
+      "steps": [
+        "Deine Unterlagen",
+        "Dein Auftrag",
+        "Das Ergebnis",
+        "Kurz prüfen"
+      ],
+      "goal": "Lade die Tagesnotizen in Work und lass daraus eine Aufgabenliste erstellen.",
+      "criteria": "Alle Notizen tauchen wieder auf.; Du verstehst, was als Nächstes zu tun ist.",
+      "hints": [
+        "Mach aus diesen Notizen eine übersichtliche Aufgabenliste. Schreib zu jedem Punkt, was ich als Nächstes tun sollte."
+      ],
+      "bonus": ""
     },
     {
+      "name": "Bessere Antworten bekommen",
+      "app": "chatgpt",
+      "title": "Sag Work, was du anders brauchst.",
+      "explain": "Die erste Antwort muss nicht perfekt sein. Du kannst sie kürzer, freundlicher oder genauer machen lassen – direkt in derselben Aufgabe.",
+      "example": "Eine zu lange Mail wird kurz und klar.",
+      "benefit": "Du verbesserst die Antwort, ohne neu anzufangen.",
+      "inputTitle": "Der erste Entwurf",
+      "input": [
+        "Vielen Dank für Ihre ausführliche Nachricht und das entgegengebrachte Vertrauen. Sehr gern möchten wir Sie bei Ihrem geplanten Vorhaben unterstützen und gemeinsam die nächsten Schritte besprechen …"
+      ],
+      "prompt": "Bitte kürzer: höchstens drei Sätze. Frage nach einem passenden Termin für eine Besichtigung. Sage noch keinen Termin zu.",
+      "outputTitle": "Der bessere Entwurf",
+      "output": [
+        "Vielen Dank für Ihre Anfrage. Gern besichtigen wir die Räume, bevor wir ein Angebot erstellen. Wann würde Ihnen ein Termin passen?"
+      ],
+      "check": "Ist die Mail kurz und freundlich? Ist klar, dass der Termin noch offen ist?",
+      "task": "Öffne den fehlerhaften Mailentwurf. Lass Work daraus eine kurze Antwort ohne erfundene Zusagen machen.",
+      "success": [
+        "Keine erfundenen Preise oder Termine.",
+        "Die Antwort passt zur Kundenanfrage."
+      ],
+      "file": "02-fehlerhafter-entwurf.txt",
+      "kind": "mail",
       "id": 7,
-      "title": "Du bist dran: Bring Ordnung rein",
-      "chapter": 1,
-      "chapterName": "In Work ankommen",
-      "lead": "",
-      "steps": [],
-      "goal": "Erstelle aus `01-tagesnotizen.txt` einen Arbeitsplan, mit dem eine andere Person weiterarbeiten könnte.",
-      "criteria": "Alle fünf Themen sind enthalten; die nächsten Schritte sind konkret; unbekannte Zuständigkeiten und Zeiten sind als offen markiert.",
-      "hints": [
-        "Was ist Information, was ist Aufgabe?",
-        "Lass eine erste Struktur erstellen und überarbeite sie.",
-        "„Mach aus diesen Notizen eine übersichtliche Aufgabenliste. Trenne bekannte Fakten von offenen Fragen. Schlage eine Reihenfolge vor und begründe sie kurz.“"
+      "type": "lesson",
+      "chapter": 2,
+      "chapterName": "Bessere Antworten bekommen",
+      "lead": "Sag Work, was du anders brauchst.",
+      "paragraphs": [
+        "Die erste Antwort muss nicht perfekt sein. Du kannst sie kürzer, freundlicher oder genauer machen lassen – direkt in derselben Aufgabe."
       ],
-      "bonus": "Lass dir eine kompakte Version für eine kurze Teambesprechung erstellen.",
-      "paragraphs": [],
-      "type": "challenge"
+      "steps": [
+        "Deine Unterlagen",
+        "Dein Auftrag",
+        "Das Ergebnis",
+        "Kurz prüfen"
+      ],
+      "goal": "Öffne den fehlerhaften Mailentwurf. Lass Work daraus eine kurze Antwort ohne erfundene Zusagen machen.",
+      "criteria": "Keine erfundenen Preise oder Termine.; Die Antwort passt zur Kundenanfrage.",
+      "hints": [
+        "Bitte kürzer: höchstens drei Sätze. Frage nach einem passenden Termin für eine Besichtigung. Sage noch keinen Termin zu."
+      ],
+      "bonus": ""
     },
     {
+      "name": "Bessere Antworten bekommen",
+      "app": "chatgpt",
+      "title": "Eine zu lange Mail wird kurz und klar.",
+      "explain": "Die erste Antwort muss nicht perfekt sein. Du kannst sie kürzer, freundlicher oder genauer machen lassen – direkt in derselben Aufgabe.",
+      "example": "Eine zu lange Mail wird kurz und klar.",
+      "benefit": "Du verbesserst die Antwort, ohne neu anzufangen.",
+      "inputTitle": "Der erste Entwurf",
+      "input": [
+        "Vielen Dank für Ihre ausführliche Nachricht und das entgegengebrachte Vertrauen. Sehr gern möchten wir Sie bei Ihrem geplanten Vorhaben unterstützen und gemeinsam die nächsten Schritte besprechen …"
+      ],
+      "prompt": "Bitte kürzer: höchstens drei Sätze. Frage nach einem passenden Termin für eine Besichtigung. Sage noch keinen Termin zu.",
+      "outputTitle": "Der bessere Entwurf",
+      "output": [
+        "Vielen Dank für Ihre Anfrage. Gern besichtigen wir die Räume, bevor wir ein Angebot erstellen. Wann würde Ihnen ein Termin passen?"
+      ],
+      "check": "Ist die Mail kurz und freundlich? Ist klar, dass der Termin noch offen ist?",
+      "task": "Öffne den fehlerhaften Mailentwurf. Lass Work daraus eine kurze Antwort ohne erfundene Zusagen machen.",
+      "success": [
+        "Keine erfundenen Preise oder Termine.",
+        "Die Antwort passt zur Kundenanfrage."
+      ],
+      "file": "02-fehlerhafter-entwurf.txt",
+      "kind": "mail",
       "id": 8,
-      "title": "Woran erkennst du ein brauchbares Ergebnis?",
-      "chapter": 1,
-      "chapterName": "In Work ankommen",
-      "lead": "Kann jemand damit weiterarbeiten?",
-      "steps": [],
-      "goal": "",
-      "criteria": "",
-      "hints": [],
-      "bonus": "",
+      "type": "demo",
+      "chapter": 2,
+      "chapterName": "Bessere Antworten bekommen",
+      "lead": "Eine zu lange Mail wird kurz und klar.",
       "paragraphs": [
-        "Check: vollständig, konkret, ohne erfundene Zusagen. Zwei unterschiedliche Lösungen können beide gut sein."
+        "Die erste Antwort muss nicht perfekt sein. Du kannst sie kürzer, freundlicher oder genauer machen lassen – direkt in derselben Aufgabe."
       ],
-      "type": "statement"
+      "steps": [
+        "Deine Unterlagen",
+        "Dein Auftrag",
+        "Das Ergebnis",
+        "Kurz prüfen"
+      ],
+      "goal": "Öffne den fehlerhaften Mailentwurf. Lass Work daraus eine kurze Antwort ohne erfundene Zusagen machen.",
+      "criteria": "Keine erfundenen Preise oder Termine.; Die Antwort passt zur Kundenanfrage.",
+      "hints": [
+        "Bitte kürzer: höchstens drei Sätze. Frage nach einem passenden Termin für eine Besichtigung. Sage noch keinen Termin zu."
+      ],
+      "bonus": ""
     },
     {
+      "name": "Bessere Antworten bekommen",
+      "app": "chatgpt",
+      "title": "Jetzt probierst du es.",
+      "explain": "Die erste Antwort muss nicht perfekt sein. Du kannst sie kürzer, freundlicher oder genauer machen lassen – direkt in derselben Aufgabe.",
+      "example": "Eine zu lange Mail wird kurz und klar.",
+      "benefit": "Du verbesserst die Antwort, ohne neu anzufangen.",
+      "inputTitle": "Der erste Entwurf",
+      "input": [
+        "Vielen Dank für Ihre ausführliche Nachricht und das entgegengebrachte Vertrauen. Sehr gern möchten wir Sie bei Ihrem geplanten Vorhaben unterstützen und gemeinsam die nächsten Schritte besprechen …"
+      ],
+      "prompt": "Bitte kürzer: höchstens drei Sätze. Frage nach einem passenden Termin für eine Besichtigung. Sage noch keinen Termin zu.",
+      "outputTitle": "Der bessere Entwurf",
+      "output": [
+        "Vielen Dank für Ihre Anfrage. Gern besichtigen wir die Räume, bevor wir ein Angebot erstellen. Wann würde Ihnen ein Termin passen?"
+      ],
+      "check": "Ist die Mail kurz und freundlich? Ist klar, dass der Termin noch offen ist?",
+      "task": "Öffne den fehlerhaften Mailentwurf. Lass Work daraus eine kurze Antwort ohne erfundene Zusagen machen.",
+      "success": [
+        "Keine erfundenen Preise oder Termine.",
+        "Die Antwort passt zur Kundenanfrage."
+      ],
+      "file": "02-fehlerhafter-entwurf.txt",
+      "kind": "mail",
       "id": 9,
-      "title": "Sag mehr als „Mach mal“",
+      "type": "challenge",
       "chapter": 2,
-      "chapterName": "Gute Arbeitsaufträge",
-      "lead": "Ziel. Kontext. Material. Grenzen. Ergebnis.",
-      "steps": [],
-      "goal": "",
-      "criteria": "",
-      "hints": [],
-      "bonus": "",
+      "chapterName": "Bessere Antworten bekommen",
+      "lead": "Öffne den fehlerhaften Mailentwurf. Lass Work daraus eine kurze Antwort ohne erfundene Zusagen machen.",
       "paragraphs": [
-        "Kein auswendig zu lernender Spezialprompt. Fünf einfache Fragen: Was soll fertig sein? Für wen? Auf welcher Grundlage? Was darf nicht passieren? In welcher Form brauche ich es?"
+        "Die erste Antwort muss nicht perfekt sein. Du kannst sie kürzer, freundlicher oder genauer machen lassen – direkt in derselben Aufgabe."
       ],
-      "type": "statement"
+      "steps": [
+        "Deine Unterlagen",
+        "Dein Auftrag",
+        "Das Ergebnis",
+        "Kurz prüfen"
+      ],
+      "goal": "Öffne den fehlerhaften Mailentwurf. Lass Work daraus eine kurze Antwort ohne erfundene Zusagen machen.",
+      "criteria": "Keine erfundenen Preise oder Termine.; Die Antwort passt zur Kundenanfrage.",
+      "hints": [
+        "Bitte kürzer: höchstens drei Sätze. Frage nach einem passenden Termin für eine Besichtigung. Sage noch keinen Termin zu."
+      ],
+      "bonus": ""
     },
     {
+      "name": "Projekte verstehen",
+      "app": "chatgpt",
+      "title": "Ein Projekt hält deine Arbeit zusammen.",
+      "explain": "Für einen Kundenauftrag brauchst du oft mehrere Dateien und Gespräche. Ein Projekt hilft dir, diese Dinge an einem Ort zu organisieren.",
+      "example": "Alles für den Kunden Lindenhof.",
+      "benefit": "Du findest die Unterlagen wieder und musst den Hintergrund nicht jedes Mal neu zusammensuchen.",
+      "inputTitle": "Das gehört zusammen",
+      "input": [
+        "Die Anfrage von Lindenhof",
+        "Die Angaben zum Bauvorhaben",
+        "Deine Regeln für Kundenantworten"
+      ],
+      "prompt": "Fasse die Lindenhof-Unterlagen zusammen. Was wissen wir schon, und welche Angaben fehlen noch?",
+      "outputTitle": "Projekt Lindenhof",
+      "output": [
+        "Geplant: zwei Büroräume modernisieren.",
+        "Angefragt: Trennwände und zwei Innentüren.",
+        "Noch offen: Maße, Zugang und Ausführungstermin."
+      ],
+      "check": "Prüfe bei einer neuen Aufgabe, ob Work die richtigen Projektunterlagen tatsächlich verwendet.",
+      "task": "Lege ein Projekt für Lindenhof an. Füge die Übungsunterlagen hinzu und lass dir den Auftrag kurz erklären.",
+      "success": [
+        "Du findest die Unterlagen im Projekt wieder.",
+        "Die Zusammenfassung passt zu den Unterlagen."
+      ],
+      "file": "03-lindenhof.txt",
+      "kind": "project",
       "id": 10,
-      "title": "Beispiel: Die viel zu freundliche Zusage",
-      "chapter": 2,
-      "chapterName": "Gute Arbeitsaufträge",
-      "lead": "",
-      "steps": [
-        "Auftrag: „Beantworte die Kundenanfrage.“",
-        "Absichtlich mangelhafter Entwurf: „Wir garantieren die Fertigstellung bis Freitag.“",
-        "Korrektur: „Ein Termin ist noch nicht bestätigt. Entferne die Zusage und frage nach dem gewünschten Zeitfenster. Maximal 120 Wörter.“",
-        "Überarbeiteter Entwurf mit klarer Rückfrage statt Zusage."
+      "type": "lesson",
+      "chapter": 3,
+      "chapterName": "Projekte verstehen",
+      "lead": "Ein Projekt hält deine Arbeit zusammen.",
+      "paragraphs": [
+        "Für einen Kundenauftrag brauchst du oft mehrere Dateien und Gespräche. Ein Projekt hilft dir, diese Dinge an einem Ort zu organisieren."
       ],
-      "goal": "",
-      "criteria": "",
-      "hints": [],
-      "bonus": "",
-      "paragraphs": [],
-      "type": "demo"
+      "steps": [
+        "Deine Unterlagen",
+        "Dein Auftrag",
+        "Das Ergebnis",
+        "Kurz prüfen"
+      ],
+      "goal": "Lege ein Projekt für Lindenhof an. Füge die Übungsunterlagen hinzu und lass dir den Auftrag kurz erklären.",
+      "criteria": "Du findest die Unterlagen im Projekt wieder.; Die Zusammenfassung passt zu den Unterlagen.",
+      "hints": [
+        "Fasse die Lindenhof-Unterlagen zusammen. Was wissen wir schon, und welche Angaben fehlen noch?"
+      ],
+      "bonus": ""
     },
     {
+      "name": "Projekte verstehen",
+      "app": "chatgpt",
+      "title": "Alles für den Kunden Lindenhof.",
+      "explain": "Für einen Kundenauftrag brauchst du oft mehrere Dateien und Gespräche. Ein Projekt hilft dir, diese Dinge an einem Ort zu organisieren.",
+      "example": "Alles für den Kunden Lindenhof.",
+      "benefit": "Du findest die Unterlagen wieder und musst den Hintergrund nicht jedes Mal neu zusammensuchen.",
+      "inputTitle": "Das gehört zusammen",
+      "input": [
+        "Die Anfrage von Lindenhof",
+        "Die Angaben zum Bauvorhaben",
+        "Deine Regeln für Kundenantworten"
+      ],
+      "prompt": "Fasse die Lindenhof-Unterlagen zusammen. Was wissen wir schon, und welche Angaben fehlen noch?",
+      "outputTitle": "Projekt Lindenhof",
+      "output": [
+        "Geplant: zwei Büroräume modernisieren.",
+        "Angefragt: Trennwände und zwei Innentüren.",
+        "Noch offen: Maße, Zugang und Ausführungstermin."
+      ],
+      "check": "Prüfe bei einer neuen Aufgabe, ob Work die richtigen Projektunterlagen tatsächlich verwendet.",
+      "task": "Lege ein Projekt für Lindenhof an. Füge die Übungsunterlagen hinzu und lass dir den Auftrag kurz erklären.",
+      "success": [
+        "Du findest die Unterlagen im Projekt wieder.",
+        "Die Zusammenfassung passt zu den Unterlagen."
+      ],
+      "file": "03-lindenhof.txt",
+      "kind": "project",
       "id": 11,
-      "title": "Du bist dran: Rettet diesen Entwurf",
-      "chapter": 2,
-      "chapterName": "Gute Arbeitsaufträge",
-      "lead": "",
-      "steps": [],
-      "goal": "Verbessere `02-fehlerhafter-entwurf.txt` anhand der Kundenanfrage.",
-      "criteria": "Keine unbelegte Termin- oder Preiszusage; die zwei fehlenden Angaben werden erfragt; Ton und Länge passen zu einer Kundenmail.",
-      "hints": [
-        "Welche Behauptung steht nicht in der Quelle?",
-        "Benenne den Fehler und das gewünschte Verhalten.",
-        "„Vergleiche Entwurf und Anfrage. Markiere unbelegte Aussagen und schreibe eine sachliche Antwort. Frage fehlende Angaben ab, statt sie zu ergänzen.“"
+      "type": "demo",
+      "chapter": 3,
+      "chapterName": "Projekte verstehen",
+      "lead": "Alles für den Kunden Lindenhof.",
+      "paragraphs": [
+        "Für einen Kundenauftrag brauchst du oft mehrere Dateien und Gespräche. Ein Projekt hilft dir, diese Dinge an einem Ort zu organisieren."
       ],
-      "bonus": "Lass erklären, welche Änderungen nötig waren und welche Quelle sie begründet.",
-      "paragraphs": [],
-      "type": "challenge"
+      "steps": [
+        "Deine Unterlagen",
+        "Dein Auftrag",
+        "Das Ergebnis",
+        "Kurz prüfen"
+      ],
+      "goal": "Lege ein Projekt für Lindenhof an. Füge die Übungsunterlagen hinzu und lass dir den Auftrag kurz erklären.",
+      "criteria": "Du findest die Unterlagen im Projekt wieder.; Die Zusammenfassung passt zu den Unterlagen.",
+      "hints": [
+        "Fasse die Lindenhof-Unterlagen zusammen. Was wissen wir schon, und welche Angaben fehlen noch?"
+      ],
+      "bonus": ""
     },
     {
+      "name": "Projekte verstehen",
+      "app": "chatgpt",
+      "title": "Jetzt probierst du es.",
+      "explain": "Für einen Kundenauftrag brauchst du oft mehrere Dateien und Gespräche. Ein Projekt hilft dir, diese Dinge an einem Ort zu organisieren.",
+      "example": "Alles für den Kunden Lindenhof.",
+      "benefit": "Du findest die Unterlagen wieder und musst den Hintergrund nicht jedes Mal neu zusammensuchen.",
+      "inputTitle": "Das gehört zusammen",
+      "input": [
+        "Die Anfrage von Lindenhof",
+        "Die Angaben zum Bauvorhaben",
+        "Deine Regeln für Kundenantworten"
+      ],
+      "prompt": "Fasse die Lindenhof-Unterlagen zusammen. Was wissen wir schon, und welche Angaben fehlen noch?",
+      "outputTitle": "Projekt Lindenhof",
+      "output": [
+        "Geplant: zwei Büroräume modernisieren.",
+        "Angefragt: Trennwände und zwei Innentüren.",
+        "Noch offen: Maße, Zugang und Ausführungstermin."
+      ],
+      "check": "Prüfe bei einer neuen Aufgabe, ob Work die richtigen Projektunterlagen tatsächlich verwendet.",
+      "task": "Lege ein Projekt für Lindenhof an. Füge die Übungsunterlagen hinzu und lass dir den Auftrag kurz erklären.",
+      "success": [
+        "Du findest die Unterlagen im Projekt wieder.",
+        "Die Zusammenfassung passt zu den Unterlagen."
+      ],
+      "file": "03-lindenhof.txt",
+      "kind": "project",
       "id": 12,
-      "title": "Wenn es hakt: kleiner, klarer, überprüfbar",
-      "chapter": 2,
-      "chapterName": "Gute Arbeitsaufträge",
-      "lead": "Fehler benennen. Grundlage zeigen. Einen Schritt erneut versuchen.",
-      "steps": [],
-      "goal": "",
-      "criteria": "",
-      "hints": [],
-      "bonus": "",
+      "type": "challenge",
+      "chapter": 3,
+      "chapterName": "Projekte verstehen",
+      "lead": "Lege ein Projekt für Lindenhof an. Füge die Übungsunterlagen hinzu und lass dir den Auftrag kurz erklären.",
       "paragraphs": [
-        "Drei Fälle: falscher Inhalt → Fundstelle zeigen; falsch gelesene Datei → betroffene Seite oder Zeile prüfen; festhängender Browser → letzten sichtbaren Zustand beschreiben und nächsten Schritt eingrenzen. Vor Wiederholungen prüfen, ob eine Handlung bereits ausgeführt wurde, besonders bei Versand oder Terminen."
+        "Für einen Kundenauftrag brauchst du oft mehrere Dateien und Gespräche. Ein Projekt hilft dir, diese Dinge an einem Ort zu organisieren."
       ],
-      "type": "statement"
+      "steps": [
+        "Deine Unterlagen",
+        "Dein Auftrag",
+        "Das Ergebnis",
+        "Kurz prüfen"
+      ],
+      "goal": "Lege ein Projekt für Lindenhof an. Füge die Übungsunterlagen hinzu und lass dir den Auftrag kurz erklären.",
+      "criteria": "Du findest die Unterlagen im Projekt wieder.; Die Zusammenfassung passt zu den Unterlagen.",
+      "hints": [
+        "Fasse die Lindenhof-Unterlagen zusammen. Was wissen wir schon, und welche Angaben fehlen noch?"
+      ],
+      "bonus": ""
     },
     {
+      "name": "Plugins verstehen",
+      "app": "chatgpt",
+      "apps": [
+        "outlook",
+        "onedrive",
+        "excel"
+      ],
+      "title": "Plugins verbinden Work mit deinen Programmen.",
+      "explain": "Ein Plugin ist eine Erweiterung. Damit kann Work zum Beispiel in verbundenen Mails oder Dateien nach Informationen suchen. Die Einrichtung klärst du vorab mit ITP.",
+      "example": "Eine Datei in OneDrive finden.",
+      "benefit": "Du beschreibst, was du suchst, statt dich durch Ordner zu klicken.",
+      "inputTitle": "Deine verbundenen Programme",
+      "input": [
+        "Outlook: Mails und Kalender",
+        "OneDrive: gespeicherte Dateien",
+        "Excel: Tabellen bearbeiten"
+      ],
+      "prompt": "Suche im OneDrive-Übungsordner nach den Unterlagen zu Lindenhof. Zeige mir die passende Datei.",
+      "outputTitle": "Gefundene Unterlage",
+      "output": [
+        "03-lindenhof.txt",
+        "Enthält: Kundenanfrage, Projektbrief und offene Fragen."
+      ],
+      "check": "Öffne die Datei und prüfe, ob es die richtige ist. Wenn Work nicht zugreifen kann, hilft ITP bei der Einrichtung.",
+      "task": "Prüfe deine verbundenen Plugins. Lass Work eine bekannte Übungsdatei in OneDrive finden.",
+      "success": [
+        "Die richtige Verbindung ist eingerichtet.",
+        "Du kannst die gefundene Datei öffnen."
+      ],
+      "file": "03-lindenhof.txt",
+      "kind": "connections",
       "id": 13,
-      "title": "Nicht jeden Morgen von vorn",
-      "chapter": 3,
-      "chapterName": "Projekte & Kontext",
-      "lead": "Ein Vorgang. Ein gemeinsamer Arbeitskontext.",
-      "steps": [],
-      "goal": "",
-      "criteria": "",
-      "hints": [],
-      "bonus": "",
+      "type": "lesson",
+      "chapter": 4,
+      "chapterName": "Plugins verstehen",
+      "lead": "Plugins verbinden Work mit deinen Programmen.",
       "paragraphs": [
-        "Ein Projekt bündelt zusammengehörige Arbeit. Lege dort die Unterlagen und Vorgaben ab, die du für einen Vorgang wiederholt brauchst.",
-        "Prüfe bei einer neuen Aufgabe, welche Informationen Work tatsächlich zur Verfügung stehen. Kontext muss aktuell bleiben."
+        "Ein Plugin ist eine Erweiterung. Damit kann Work zum Beispiel in verbundenen Mails oder Dateien nach Informationen suchen. Die Einrichtung klärst du vorab mit ITP."
       ],
-      "type": "statement"
+      "steps": [
+        "Deine Unterlagen",
+        "Dein Auftrag",
+        "Das Ergebnis",
+        "Kurz prüfen"
+      ],
+      "goal": "Prüfe deine verbundenen Plugins. Lass Work eine bekannte Übungsdatei in OneDrive finden.",
+      "criteria": "Die richtige Verbindung ist eingerichtet.; Du kannst die gefundene Datei öffnen.",
+      "hints": [
+        "Suche im OneDrive-Übungsordner nach den Unterlagen zu Lindenhof. Zeige mir die passende Datei."
+      ],
+      "bonus": ""
     },
     {
+      "name": "Plugins verstehen",
+      "app": "chatgpt",
+      "apps": [
+        "outlook",
+        "onedrive",
+        "excel"
+      ],
+      "title": "Eine Datei in OneDrive finden.",
+      "explain": "Ein Plugin ist eine Erweiterung. Damit kann Work zum Beispiel in verbundenen Mails oder Dateien nach Informationen suchen. Die Einrichtung klärst du vorab mit ITP.",
+      "example": "Eine Datei in OneDrive finden.",
+      "benefit": "Du beschreibst, was du suchst, statt dich durch Ordner zu klicken.",
+      "inputTitle": "Deine verbundenen Programme",
+      "input": [
+        "Outlook: Mails und Kalender",
+        "OneDrive: gespeicherte Dateien",
+        "Excel: Tabellen bearbeiten"
+      ],
+      "prompt": "Suche im OneDrive-Übungsordner nach den Unterlagen zu Lindenhof. Zeige mir die passende Datei.",
+      "outputTitle": "Gefundene Unterlage",
+      "output": [
+        "03-lindenhof.txt",
+        "Enthält: Kundenanfrage, Projektbrief und offene Fragen."
+      ],
+      "check": "Öffne die Datei und prüfe, ob es die richtige ist. Wenn Work nicht zugreifen kann, hilft ITP bei der Einrichtung.",
+      "task": "Prüfe deine verbundenen Plugins. Lass Work eine bekannte Übungsdatei in OneDrive finden.",
+      "success": [
+        "Die richtige Verbindung ist eingerichtet.",
+        "Du kannst die gefundene Datei öffnen."
+      ],
+      "file": "03-lindenhof.txt",
+      "kind": "connections",
       "id": 14,
-      "title": "Beispiel: Bauvorhaben Lindenhof",
-      "chapter": 3,
-      "chapterName": "Projekte & Kontext",
-      "lead": "",
-      "steps": [
-        "Verstreute Informationen: Kundenanfrage, Projektbogen, Kommunikationsregeln.",
-        "Projekt „Lindenhof – Büroausbau“ entsteht als schematische Darstellung.",
-        "Vorgabe: „Kundenfreundlich und sachlich. Keine Preise oder Termine verbindlich zusagen. Fehlende Angaben markieren.“",
-        "Neuer Auftrag greift die Vorgaben auf; Ergebnis wird dennoch geprüft."
+      "type": "demo",
+      "chapter": 4,
+      "chapterName": "Plugins verstehen",
+      "lead": "Eine Datei in OneDrive finden.",
+      "paragraphs": [
+        "Ein Plugin ist eine Erweiterung. Damit kann Work zum Beispiel in verbundenen Mails oder Dateien nach Informationen suchen. Die Einrichtung klärst du vorab mit ITP."
       ],
-      "goal": "",
-      "criteria": "",
-      "hints": [],
-      "bonus": "",
-      "paragraphs": [],
-      "type": "demo"
+      "steps": [
+        "Deine Unterlagen",
+        "Dein Auftrag",
+        "Das Ergebnis",
+        "Kurz prüfen"
+      ],
+      "goal": "Prüfe deine verbundenen Plugins. Lass Work eine bekannte Übungsdatei in OneDrive finden.",
+      "criteria": "Die richtige Verbindung ist eingerichtet.; Du kannst die gefundene Datei öffnen.",
+      "hints": [
+        "Suche im OneDrive-Übungsordner nach den Unterlagen zu Lindenhof. Zeige mir die passende Datei."
+      ],
+      "bonus": ""
     },
     {
+      "name": "Plugins verstehen",
+      "app": "chatgpt",
+      "apps": [
+        "outlook",
+        "onedrive",
+        "excel"
+      ],
+      "title": "Jetzt probierst du es.",
+      "explain": "Ein Plugin ist eine Erweiterung. Damit kann Work zum Beispiel in verbundenen Mails oder Dateien nach Informationen suchen. Die Einrichtung klärst du vorab mit ITP.",
+      "example": "Eine Datei in OneDrive finden.",
+      "benefit": "Du beschreibst, was du suchst, statt dich durch Ordner zu klicken.",
+      "inputTitle": "Deine verbundenen Programme",
+      "input": [
+        "Outlook: Mails und Kalender",
+        "OneDrive: gespeicherte Dateien",
+        "Excel: Tabellen bearbeiten"
+      ],
+      "prompt": "Suche im OneDrive-Übungsordner nach den Unterlagen zu Lindenhof. Zeige mir die passende Datei.",
+      "outputTitle": "Gefundene Unterlage",
+      "output": [
+        "03-lindenhof.txt",
+        "Enthält: Kundenanfrage, Projektbrief und offene Fragen."
+      ],
+      "check": "Öffne die Datei und prüfe, ob es die richtige ist. Wenn Work nicht zugreifen kann, hilft ITP bei der Einrichtung.",
+      "task": "Prüfe deine verbundenen Plugins. Lass Work eine bekannte Übungsdatei in OneDrive finden.",
+      "success": [
+        "Die richtige Verbindung ist eingerichtet.",
+        "Du kannst die gefundene Datei öffnen."
+      ],
+      "file": "03-lindenhof.txt",
+      "kind": "connections",
       "id": 15,
-      "title": "Du bist dran: Richte deinen Arbeitskontext ein",
-      "chapter": 3,
-      "chapterName": "Projekte & Kontext",
-      "lead": "",
-      "steps": [],
-      "goal": "Organisiere die vorbereiteten Lindenhof-Unterlagen so, dass du im nächsten Schritt eine Kundenantwort erarbeiten kannst.",
-      "criteria": "Der Vorgang ist eindeutig benannt; relevante Quellen sind auffindbar; drei sinnvolle Arbeitsregeln sind formuliert.",
-      "hints": [
-        "Was gilt für jede Aufgabe dieses Vorgangs?",
-        "Trenne Vorgaben von veränderlichen Fakten.",
-        "„Formuliere aus diesem Projektbrief drei kurze Arbeitsregeln und eine Übersicht der offenen Angaben. Kennzeichne Vorschläge als Vorschläge.“"
+      "type": "challenge",
+      "chapter": 4,
+      "chapterName": "Plugins verstehen",
+      "lead": "Prüfe deine verbundenen Plugins. Lass Work eine bekannte Übungsdatei in OneDrive finden.",
+      "paragraphs": [
+        "Ein Plugin ist eine Erweiterung. Damit kann Work zum Beispiel in verbundenen Mails oder Dateien nach Informationen suchen. Die Einrichtung klärst du vorab mit ITP."
       ],
-      "bonus": "Starte eine neue Aufgabe im Projekt und prüfe ausdrücklich, welcher Kontext verfügbar ist.",
-      "paragraphs": [],
-      "type": "challenge"
+      "steps": [
+        "Deine Unterlagen",
+        "Dein Auftrag",
+        "Das Ergebnis",
+        "Kurz prüfen"
+      ],
+      "goal": "Prüfe deine verbundenen Plugins. Lass Work eine bekannte Übungsdatei in OneDrive finden.",
+      "criteria": "Die richtige Verbindung ist eingerichtet.; Du kannst die gefundene Datei öffnen.",
+      "hints": [
+        "Suche im OneDrive-Übungsordner nach den Unterlagen zu Lindenhof. Zeige mir die passende Datei."
+      ],
+      "bonus": ""
     },
     {
+      "name": "Mails & Dateien nutzen",
+      "app": "outlook",
+      "apps": [
+        "outlook",
+        "onedrive",
+        "chatgpt"
+      ],
+      "title": "Aus einer Kundenmail wird eine passende Antwort.",
+      "explain": "Work kann eine Mail zusammenfassen und einen Antwortentwurf vorbereiten. Passende Unterlagen aus OneDrive liefern den Hintergrund.",
+      "example": "Lindenhof möchte ein Angebot.",
+      "benefit": "Du siehst schnell, was der Kunde will und was du noch fragen musst.",
+      "inputTitle": "Die Kundenmail",
+      "input": [
+        "„Wir möchten zwei Büroräume modernisieren. Können Sie uns ein Angebot erstellen?“",
+        "Die Maße und ein Besichtigungstermin fehlen noch."
+      ],
+      "prompt": "Entwirf eine kurze Antwort an Lindenhof. Frage nach den fehlenden Maßen und einem Termin zur Besichtigung. Noch nicht versenden.",
+      "outputTitle": "Dein Antwortentwurf",
+      "output": [
+        "Vielen Dank für Ihre Anfrage. Für ein passendes Angebot benötigen wir noch die Maße und möchten die Räume besichtigen. Welche Termine würden Ihnen dafür passen?"
+      ],
+      "check": "Lies Empfänger und Inhalt selbst durch. Erst danach entscheidest du über den Versand.",
+      "task": "Nutze die Lindenhof-Anfrage und schreibe mit Work einen passenden Antwortentwurf. Du musst ihn nicht versenden.",
+      "success": [
+        "Die Antwort geht auf die Anfrage ein.",
+        "Fehlende Informationen werden erfragt."
+      ],
+      "file": "03-lindenhof.txt",
+      "kind": "mail",
       "id": 16,
-      "title": "Kontext pflegen gehört dazu",
-      "chapter": 3,
-      "chapterName": "Projekte & Kontext",
-      "lead": "Aktuell schlägt ausführlich.",
-      "steps": [],
-      "goal": "",
-      "criteria": "",
-      "hints": [],
-      "bonus": "",
+      "type": "lesson",
+      "chapter": 5,
+      "chapterName": "Mails & Dateien nutzen",
+      "lead": "Aus einer Kundenmail wird eine passende Antwort.",
       "paragraphs": [
-        "Veraltete Stände erkennen, widersprüchliche Vorgaben korrigieren, gültige Quellen kennzeichnen. Nicht davon ausgehen, dass jede frühere Unterhaltung automatisch verfügbar ist."
+        "Work kann eine Mail zusammenfassen und einen Antwortentwurf vorbereiten. Passende Unterlagen aus OneDrive liefern den Hintergrund."
       ],
-      "type": "statement"
+      "steps": [
+        "Deine Unterlagen",
+        "Dein Auftrag",
+        "Das Ergebnis",
+        "Kurz prüfen"
+      ],
+      "goal": "Nutze die Lindenhof-Anfrage und schreibe mit Work einen passenden Antwortentwurf. Du musst ihn nicht versenden.",
+      "criteria": "Die Antwort geht auf die Anfrage ein.; Fehlende Informationen werden erfragt.",
+      "hints": [
+        "Entwirf eine kurze Antwort an Lindenhof. Frage nach den fehlenden Maßen und einem Termin zur Besichtigung. Noch nicht versenden."
+      ],
+      "bonus": ""
     },
     {
+      "name": "Mails & Dateien nutzen",
+      "app": "outlook",
+      "apps": [
+        "outlook",
+        "onedrive",
+        "chatgpt"
+      ],
+      "title": "Lindenhof möchte ein Angebot.",
+      "explain": "Work kann eine Mail zusammenfassen und einen Antwortentwurf vorbereiten. Passende Unterlagen aus OneDrive liefern den Hintergrund.",
+      "example": "Lindenhof möchte ein Angebot.",
+      "benefit": "Du siehst schnell, was der Kunde will und was du noch fragen musst.",
+      "inputTitle": "Die Kundenmail",
+      "input": [
+        "„Wir möchten zwei Büroräume modernisieren. Können Sie uns ein Angebot erstellen?“",
+        "Die Maße und ein Besichtigungstermin fehlen noch."
+      ],
+      "prompt": "Entwirf eine kurze Antwort an Lindenhof. Frage nach den fehlenden Maßen und einem Termin zur Besichtigung. Noch nicht versenden.",
+      "outputTitle": "Dein Antwortentwurf",
+      "output": [
+        "Vielen Dank für Ihre Anfrage. Für ein passendes Angebot benötigen wir noch die Maße und möchten die Räume besichtigen. Welche Termine würden Ihnen dafür passen?"
+      ],
+      "check": "Lies Empfänger und Inhalt selbst durch. Erst danach entscheidest du über den Versand.",
+      "task": "Nutze die Lindenhof-Anfrage und schreibe mit Work einen passenden Antwortentwurf. Du musst ihn nicht versenden.",
+      "success": [
+        "Die Antwort geht auf die Anfrage ein.",
+        "Fehlende Informationen werden erfragt."
+      ],
+      "file": "03-lindenhof.txt",
+      "kind": "mail",
       "id": 17,
-      "title": "Verbinden, damit Informationen erreichbar werden",
-      "chapter": 4,
-      "chapterName": "Plugins & Verbindungen",
-      "lead": "Welche Quelle braucht diese Aufgabe?",
-      "steps": [],
-      "goal": "",
-      "criteria": "",
-      "hints": [],
-      "bonus": "",
+      "type": "demo",
+      "chapter": 5,
+      "chapterName": "Mails & Dateien nutzen",
+      "lead": "Lindenhof möchte ein Angebot.",
       "paragraphs": [
-        "Verbinde die Quelle, die deine Aufgabe braucht: Outlook Mail für Nachrichten, OneDrive für Dateien und Kalender für Termine.",
-        "Öffne Plugins in Work und prüfe die verfügbaren Microsoft-365-Verbindungen. Welche Aktionen möglich sind, siehst du an der eingerichteten Verbindung."
+        "Work kann eine Mail zusammenfassen und einen Antwortentwurf vorbereiten. Passende Unterlagen aus OneDrive liefern den Hintergrund."
       ],
-      "type": "statement"
+      "steps": [
+        "Deine Unterlagen",
+        "Dein Auftrag",
+        "Das Ergebnis",
+        "Kurz prüfen"
+      ],
+      "goal": "Nutze die Lindenhof-Anfrage und schreibe mit Work einen passenden Antwortentwurf. Du musst ihn nicht versenden.",
+      "criteria": "Die Antwort geht auf die Anfrage ein.; Fehlende Informationen werden erfragt.",
+      "hints": [
+        "Entwirf eine kurze Antwort an Lindenhof. Frage nach den fehlenden Maßen und einem Termin zur Besichtigung. Noch nicht versenden."
+      ],
+      "bonus": ""
     },
     {
+      "name": "Mails & Dateien nutzen",
+      "app": "outlook",
+      "apps": [
+        "outlook",
+        "onedrive",
+        "chatgpt"
+      ],
+      "title": "Jetzt probierst du es.",
+      "explain": "Work kann eine Mail zusammenfassen und einen Antwortentwurf vorbereiten. Passende Unterlagen aus OneDrive liefern den Hintergrund.",
+      "example": "Lindenhof möchte ein Angebot.",
+      "benefit": "Du siehst schnell, was der Kunde will und was du noch fragen musst.",
+      "inputTitle": "Die Kundenmail",
+      "input": [
+        "„Wir möchten zwei Büroräume modernisieren. Können Sie uns ein Angebot erstellen?“",
+        "Die Maße und ein Besichtigungstermin fehlen noch."
+      ],
+      "prompt": "Entwirf eine kurze Antwort an Lindenhof. Frage nach den fehlenden Maßen und einem Termin zur Besichtigung. Noch nicht versenden.",
+      "outputTitle": "Dein Antwortentwurf",
+      "output": [
+        "Vielen Dank für Ihre Anfrage. Für ein passendes Angebot benötigen wir noch die Maße und möchten die Räume besichtigen. Welche Termine würden Ihnen dafür passen?"
+      ],
+      "check": "Lies Empfänger und Inhalt selbst durch. Erst danach entscheidest du über den Versand.",
+      "task": "Nutze die Lindenhof-Anfrage und schreibe mit Work einen passenden Antwortentwurf. Du musst ihn nicht versenden.",
+      "success": [
+        "Die Antwort geht auf die Anfrage ein.",
+        "Fehlende Informationen werden erfragt."
+      ],
+      "file": "03-lindenhof.txt",
+      "kind": "mail",
       "id": 18,
-      "title": "Beispiel: Welche Unterlage gilt?",
-      "chapter": 4,
-      "chapterName": "Plugins & Verbindungen",
-      "lead": "",
-      "steps": [
-        "Frage: „Welche Unterlagen fehlen für Lindenhof?“",
-        "Quellen: Kundenanfrage und Projektbogen aus dem Übungsbereich.",
-        "Gegenüberstellung: vorhanden / fehlt / widersprüchlich.",
-        "Quellverweise werden hervorgehoben; die veraltete Notiz bleibt als veraltet markiert."
+      "type": "challenge",
+      "chapter": 5,
+      "chapterName": "Mails & Dateien nutzen",
+      "lead": "Nutze die Lindenhof-Anfrage und schreibe mit Work einen passenden Antwortentwurf. Du musst ihn nicht versenden.",
+      "paragraphs": [
+        "Work kann eine Mail zusammenfassen und einen Antwortentwurf vorbereiten. Passende Unterlagen aus OneDrive liefern den Hintergrund."
       ],
-      "goal": "",
-      "criteria": "",
-      "hints": [],
-      "bonus": "",
-      "paragraphs": [],
-      "type": "demo"
+      "steps": [
+        "Deine Unterlagen",
+        "Dein Auftrag",
+        "Das Ergebnis",
+        "Kurz prüfen"
+      ],
+      "goal": "Nutze die Lindenhof-Anfrage und schreibe mit Work einen passenden Antwortentwurf. Du musst ihn nicht versenden.",
+      "criteria": "Die Antwort geht auf die Anfrage ein.; Fehlende Informationen werden erfragt.",
+      "hints": [
+        "Entwirf eine kurze Antwort an Lindenhof. Frage nach den fehlenden Maßen und einem Termin zur Besichtigung. Noch nicht versenden."
+      ],
+      "bonus": ""
     },
     {
+      "name": "Internet & Browser nutzen",
+      "app": "chatgpt",
+      "title": "Lass Work Informationen im Internet sammeln.",
+      "explain": "Du gibst an, was du suchst. Work kann Informationen recherchieren und – wenn eingerichtet – mit dem Browser eine Website bedienen. Lass dir immer die Quellen zeigen.",
+      "example": "Ein Büro mit Lager auf ImmoScout24 suchen.",
+      "benefit": "Du bekommst eine Auswahl, die du selbst vergleichen kannst.",
+      "inputTitle": "Deine Suche",
+      "input": [
+        "Büro mit Lager in Hamburg und Umgebung",
+        "80 bis 180 m²",
+        "Bis 2.000 € Nettokaltmiete"
+      ],
+      "prompt": "Suche auf ImmoScout24 nach einem Büro mit Lager nach diesen Kriterien. Vergleiche bis zu drei Objekte und zeige die Links. Kontaktiere keine Anbieter.",
+      "outputTitle": "So könnte der Vergleich aussehen",
+      "output": [
+        "Objekt A: 120 m² · 1.650 € kalt · Lager vorhanden",
+        "Objekt B: 95 m² · 1.400 € kalt · Lager unklar",
+        "Objekt C: 170 m² · 1.950 € kalt · Nebenkosten fehlen"
+      ],
+      "check": "Öffne die Quellen selbst. Die hier gezeigten Objekte sind erfunden; bei deiner Suche verwendest du echte Links.",
+      "task": "Suche mit Work einen geeigneten Standort. Vergleiche bis zu drei Treffer – oder nutze die fiktiven Ersatzobjekte aus der Übungsdatei.",
+      "success": [
+        "Du kannst die Angaben an der Quelle prüfen.",
+        "Unbekannte Kosten bleiben als offen markiert."
+      ],
+      "file": "06-standortsuche.txt",
+      "kind": "browser",
       "id": 19,
-      "title": "Du bist dran: Finde die Grundlage",
-      "chapter": 4,
-      "chapterName": "Plugins & Verbindungen",
-      "lead": "",
-      "steps": [],
-      "goal": "Finde die passenden Lindenhof-Unterlagen im verbundenen Übungsbereich und erstelle eine kurze Quellenübersicht.",
-      "criteria": "Die richtigen Dateien sind identifiziert; Herkunft und Stand sind nachvollziehbar; fehlende Zugriffe werden offengelegt.",
-      "hints": [
-        "Suche nach eindeutigem Vorgangsnamen.",
-        "Grenze Quelle und Ordner ein.",
-        "„Suche im Übungsbereich nach Lindenhof. Nenne passende Dateien mit Fundstelle und Stand, soweit sichtbar. Sage ausdrücklich, wenn du eine Quelle nicht lesen kannst.“"
+      "type": "lesson",
+      "chapter": 6,
+      "chapterName": "Internet & Browser nutzen",
+      "lead": "Lass Work Informationen im Internet sammeln.",
+      "paragraphs": [
+        "Du gibst an, was du suchst. Work kann Informationen recherchieren und – wenn eingerichtet – mit dem Browser eine Website bedienen. Lass dir immer die Quellen zeigen."
       ],
-      "bonus": "Vergleiche zwei Fassungen und begründe, welche Information aktuell ist.",
-      "paragraphs": [],
-      "type": "challenge"
+      "steps": [
+        "Deine Unterlagen",
+        "Dein Auftrag",
+        "Das Ergebnis",
+        "Kurz prüfen"
+      ],
+      "goal": "Suche mit Work einen geeigneten Standort. Vergleiche bis zu drei Treffer – oder nutze die fiktiven Ersatzobjekte aus der Übungsdatei.",
+      "criteria": "Du kannst die Angaben an der Quelle prüfen.; Unbekannte Kosten bleiben als offen markiert.",
+      "hints": [
+        "Suche auf ImmoScout24 nach einem Büro mit Lager nach diesen Kriterien. Vergleiche bis zu drei Objekte und zeige die Links. Kontaktiere keine Anbieter."
+      ],
+      "bonus": ""
     },
     {
+      "name": "Internet & Browser nutzen",
+      "app": "chatgpt",
+      "title": "Ein Büro mit Lager auf ImmoScout24 suchen.",
+      "explain": "Du gibst an, was du suchst. Work kann Informationen recherchieren und – wenn eingerichtet – mit dem Browser eine Website bedienen. Lass dir immer die Quellen zeigen.",
+      "example": "Ein Büro mit Lager auf ImmoScout24 suchen.",
+      "benefit": "Du bekommst eine Auswahl, die du selbst vergleichen kannst.",
+      "inputTitle": "Deine Suche",
+      "input": [
+        "Büro mit Lager in Hamburg und Umgebung",
+        "80 bis 180 m²",
+        "Bis 2.000 € Nettokaltmiete"
+      ],
+      "prompt": "Suche auf ImmoScout24 nach einem Büro mit Lager nach diesen Kriterien. Vergleiche bis zu drei Objekte und zeige die Links. Kontaktiere keine Anbieter.",
+      "outputTitle": "So könnte der Vergleich aussehen",
+      "output": [
+        "Objekt A: 120 m² · 1.650 € kalt · Lager vorhanden",
+        "Objekt B: 95 m² · 1.400 € kalt · Lager unklar",
+        "Objekt C: 170 m² · 1.950 € kalt · Nebenkosten fehlen"
+      ],
+      "check": "Öffne die Quellen selbst. Die hier gezeigten Objekte sind erfunden; bei deiner Suche verwendest du echte Links.",
+      "task": "Suche mit Work einen geeigneten Standort. Vergleiche bis zu drei Treffer – oder nutze die fiktiven Ersatzobjekte aus der Übungsdatei.",
+      "success": [
+        "Du kannst die Angaben an der Quelle prüfen.",
+        "Unbekannte Kosten bleiben als offen markiert."
+      ],
+      "file": "06-standortsuche.txt",
+      "kind": "browser",
       "id": 20,
-      "title": "Lesen, Entwerfen, Ausführen",
-      "chapter": 4,
-      "chapterName": "Plugins & Verbindungen",
-      "lead": "Was darf die KI jetzt tatsächlich tun?",
-      "steps": [],
-      "goal": "",
-      "criteria": "",
-      "hints": [],
-      "bonus": "",
+      "type": "demo",
+      "chapter": 6,
+      "chapterName": "Internet & Browser nutzen",
+      "lead": "Ein Büro mit Lager auf ImmoScout24 suchen.",
       "paragraphs": [
-        "Lesen: Informationen finden und verstehen. Entwerfen: ein Ergebnis zur Prüfung vorbereiten. Ausführen: etwas speichern, senden oder einrichten.",
-        "Sag ausdrücklich, was jetzt passieren soll. Prüfe bei einer Freigabe Empfänger, Inhalt und Umfang."
+        "Du gibst an, was du suchst. Work kann Informationen recherchieren und – wenn eingerichtet – mit dem Browser eine Website bedienen. Lass dir immer die Quellen zeigen."
       ],
-      "type": "statement"
+      "steps": [
+        "Deine Unterlagen",
+        "Dein Auftrag",
+        "Das Ergebnis",
+        "Kurz prüfen"
+      ],
+      "goal": "Suche mit Work einen geeigneten Standort. Vergleiche bis zu drei Treffer – oder nutze die fiktiven Ersatzobjekte aus der Übungsdatei.",
+      "criteria": "Du kannst die Angaben an der Quelle prüfen.; Unbekannte Kosten bleiben als offen markiert.",
+      "hints": [
+        "Suche auf ImmoScout24 nach einem Büro mit Lager nach diesen Kriterien. Vergleiche bis zu drei Objekte und zeige die Links. Kontaktiere keine Anbieter."
+      ],
+      "bonus": ""
     },
     {
+      "name": "Internet & Browser nutzen",
+      "app": "chatgpt",
+      "title": "Jetzt probierst du es.",
+      "explain": "Du gibst an, was du suchst. Work kann Informationen recherchieren und – wenn eingerichtet – mit dem Browser eine Website bedienen. Lass dir immer die Quellen zeigen.",
+      "example": "Ein Büro mit Lager auf ImmoScout24 suchen.",
+      "benefit": "Du bekommst eine Auswahl, die du selbst vergleichen kannst.",
+      "inputTitle": "Deine Suche",
+      "input": [
+        "Büro mit Lager in Hamburg und Umgebung",
+        "80 bis 180 m²",
+        "Bis 2.000 € Nettokaltmiete"
+      ],
+      "prompt": "Suche auf ImmoScout24 nach einem Büro mit Lager nach diesen Kriterien. Vergleiche bis zu drei Objekte und zeige die Links. Kontaktiere keine Anbieter.",
+      "outputTitle": "So könnte der Vergleich aussehen",
+      "output": [
+        "Objekt A: 120 m² · 1.650 € kalt · Lager vorhanden",
+        "Objekt B: 95 m² · 1.400 € kalt · Lager unklar",
+        "Objekt C: 170 m² · 1.950 € kalt · Nebenkosten fehlen"
+      ],
+      "check": "Öffne die Quellen selbst. Die hier gezeigten Objekte sind erfunden; bei deiner Suche verwendest du echte Links.",
+      "task": "Suche mit Work einen geeigneten Standort. Vergleiche bis zu drei Treffer – oder nutze die fiktiven Ersatzobjekte aus der Übungsdatei.",
+      "success": [
+        "Du kannst die Angaben an der Quelle prüfen.",
+        "Unbekannte Kosten bleiben als offen markiert."
+      ],
+      "file": "06-standortsuche.txt",
+      "kind": "browser",
       "id": 21,
-      "title": "Vom Posteingang zum nächsten Schritt",
-      "chapter": 5,
-      "chapterName": "Mail & OneDrive",
-      "lead": "Verstehen. Unterlagen finden. Antwort vorbereiten.",
-      "steps": [],
-      "goal": "",
-      "criteria": "",
-      "hints": [],
-      "bonus": "",
+      "type": "challenge",
+      "chapter": 6,
+      "chapterName": "Internet & Browser nutzen",
+      "lead": "Suche mit Work einen geeigneten Standort. Vergleiche bis zu drei Treffer – oder nutze die fiktiven Ersatzobjekte aus der Übungsdatei.",
       "paragraphs": [
-        "Ein Kunde möchte ein Angebot, nennt aber weder einen vollständigen Leistungsumfang noch ein bestätigtes Ausführungsfenster."
+        "Du gibst an, was du suchst. Work kann Informationen recherchieren und – wenn eingerichtet – mit dem Browser eine Website bedienen. Lass dir immer die Quellen zeigen."
       ],
-      "type": "statement"
+      "steps": [
+        "Deine Unterlagen",
+        "Dein Auftrag",
+        "Das Ergebnis",
+        "Kurz prüfen"
+      ],
+      "goal": "Suche mit Work einen geeigneten Standort. Vergleiche bis zu drei Treffer – oder nutze die fiktiven Ersatzobjekte aus der Übungsdatei.",
+      "criteria": "Du kannst die Angaben an der Quelle prüfen.; Unbekannte Kosten bleiben als offen markiert.",
+      "hints": [
+        "Suche auf ImmoScout24 nach einem Büro mit Lager nach diesen Kriterien. Vergleiche bis zu drei Objekte und zeige die Links. Kontaktiere keine Anbieter."
+      ],
+      "bonus": ""
     },
     {
+      "name": "Excel einfacher nutzen",
+      "app": "excel",
+      "apps": [
+        "excel",
+        "chatgpt"
+      ],
+      "title": "Lass dir Tabellen erklären und auswerten.",
+      "explain": "Du kannst eine Excel-Datei in Work hochladen oder die eingerichtete ChatGPT-Integration direkt in Excel nutzen. Du beschreibst in Worten, was du herausfinden möchtest.",
+      "example": "Welches Materialangebot ist am günstigsten?",
+      "benefit": "Du vergleichst die Gesamtkosten, ohne die Rechnung selbst aufbauen zu müssen.",
+      "inputTitle": "Drei Angebote für 100 Stück",
+      "input": [
+        "A: 12,50 € je Stück + 80 € Lieferung",
+        "B: 12,90 € je Stück + 20 € Lieferung",
+        "C: 11,90 € je Stück + 160 € Lieferung"
+      ],
+      "prompt": "Vergleiche die drei Angebote für 100 Stück. Rechne die Lieferkosten dazu und zeige mir das günstigste Angebot. Alle Preise sind netto.",
+      "outputTitle": "Das Ergebnis inklusive Lieferung",
+      "output": [
+        "A: 1.330 €",
+        "B: 1.310 € – günstigstes Angebot",
+        "C: 1.350 €"
+      ],
+      "check": "Rechne eine Zeile nach: 100 × 12,90 € + 20 € = 1.310 €. Prüfe zusätzlich die Lieferzeit.",
+      "task": "Öffne den Materialvergleich. Finde mit KI das günstigste Angebot. Probiere danach den zweiten Weg: in Work oder direkt in Excel.",
+      "success": [
+        "Lieferkosten sind enthalten.",
+        "Du kannst eine Rechnung nachvollziehen."
+      ],
+      "file": "04-materialvergleich.xlsx",
+      "kind": "excel",
       "id": 22,
-      "title": "Beispiel: Die Antwort mit den richtigen Rückfragen",
-      "chapter": 5,
-      "chapterName": "Mail & OneDrive",
-      "lead": "",
-      "steps": [
-        "Auszug aus der fiktiven Anfrage.",
-        "Zugehöriger Projektbogen ergänzt gesicherte Fakten.",
-        "Drei Rückfragen werden sichtbar: Umfang, Zugang zum Gebäude, gewünschtes Zeitfenster.",
-        "Antwortentwurf mit Quellencheck; kein Versand in der Animation."
+      "type": "lesson",
+      "chapter": 7,
+      "chapterName": "Excel einfacher nutzen",
+      "lead": "Lass dir Tabellen erklären und auswerten.",
+      "paragraphs": [
+        "Du kannst eine Excel-Datei in Work hochladen oder die eingerichtete ChatGPT-Integration direkt in Excel nutzen. Du beschreibst in Worten, was du herausfinden möchtest."
       ],
-      "goal": "",
-      "criteria": "",
-      "hints": [],
-      "bonus": "",
-      "paragraphs": [],
-      "type": "demo"
+      "steps": [
+        "Deine Unterlagen",
+        "Dein Auftrag",
+        "Das Ergebnis",
+        "Kurz prüfen"
+      ],
+      "goal": "Öffne den Materialvergleich. Finde mit KI das günstigste Angebot. Probiere danach den zweiten Weg: in Work oder direkt in Excel.",
+      "criteria": "Lieferkosten sind enthalten.; Du kannst eine Rechnung nachvollziehen.",
+      "hints": [
+        "Vergleiche die drei Angebote für 100 Stück. Rechne die Lieferkosten dazu und zeige mir das günstigste Angebot. Alle Preise sind netto."
+      ],
+      "bonus": ""
     },
     {
+      "name": "Excel einfacher nutzen",
+      "app": "excel",
+      "apps": [
+        "excel",
+        "chatgpt"
+      ],
+      "title": "Welches Materialangebot ist am günstigsten?",
+      "explain": "Du kannst eine Excel-Datei in Work hochladen oder die eingerichtete ChatGPT-Integration direkt in Excel nutzen. Du beschreibst in Worten, was du herausfinden möchtest.",
+      "example": "Welches Materialangebot ist am günstigsten?",
+      "benefit": "Du vergleichst die Gesamtkosten, ohne die Rechnung selbst aufbauen zu müssen.",
+      "inputTitle": "Drei Angebote für 100 Stück",
+      "input": [
+        "A: 12,50 € je Stück + 80 € Lieferung",
+        "B: 12,90 € je Stück + 20 € Lieferung",
+        "C: 11,90 € je Stück + 160 € Lieferung"
+      ],
+      "prompt": "Vergleiche die drei Angebote für 100 Stück. Rechne die Lieferkosten dazu und zeige mir das günstigste Angebot. Alle Preise sind netto.",
+      "outputTitle": "Das Ergebnis inklusive Lieferung",
+      "output": [
+        "A: 1.330 €",
+        "B: 1.310 € – günstigstes Angebot",
+        "C: 1.350 €"
+      ],
+      "check": "Rechne eine Zeile nach: 100 × 12,90 € + 20 € = 1.310 €. Prüfe zusätzlich die Lieferzeit.",
+      "task": "Öffne den Materialvergleich. Finde mit KI das günstigste Angebot. Probiere danach den zweiten Weg: in Work oder direkt in Excel.",
+      "success": [
+        "Lieferkosten sind enthalten.",
+        "Du kannst eine Rechnung nachvollziehen."
+      ],
+      "file": "04-materialvergleich.xlsx",
+      "kind": "excel",
       "id": 23,
-      "title": "Du bist dran: Mach den Vorgang bearbeitbar",
-      "chapter": 5,
-      "chapterName": "Mail & OneDrive",
-      "lead": "",
-      "steps": [],
-      "goal": "Erstelle eine kurze Vorgangszusammenfassung und einen passenden Antwortentwurf aus den bereitgestellten Unterlagen.",
-      "criteria": "Anliegen korrekt wiedergegeben; Rückfragen auf tatsächliche Lücken begrenzt; keine erfundenen Preise, Termine oder Anlagen.",
-      "hints": [
-        "Welche Antwort braucht ihr, bevor ihr anbieten könnt?",
-        "Lass Fakten und Fragen zunächst getrennt sammeln.",
-        "„Fasse die Anfrage zusammen, nutze die zugehörigen Unterlagen und entwirf eine kurze Antwort. Stelle nur notwendige Rückfragen. Noch nicht versenden.“"
+      "type": "demo",
+      "chapter": 7,
+      "chapterName": "Excel einfacher nutzen",
+      "lead": "Welches Materialangebot ist am günstigsten?",
+      "paragraphs": [
+        "Du kannst eine Excel-Datei in Work hochladen oder die eingerichtete ChatGPT-Integration direkt in Excel nutzen. Du beschreibst in Worten, was du herausfinden möchtest."
       ],
-      "bonus": "Erstelle eine interne Übergabe mit nächstem Schritt und offener Zuständigkeit.",
-      "paragraphs": [],
-      "type": "challenge"
+      "steps": [
+        "Deine Unterlagen",
+        "Dein Auftrag",
+        "Das Ergebnis",
+        "Kurz prüfen"
+      ],
+      "goal": "Öffne den Materialvergleich. Finde mit KI das günstigste Angebot. Probiere danach den zweiten Weg: in Work oder direkt in Excel.",
+      "criteria": "Lieferkosten sind enthalten.; Du kannst eine Rechnung nachvollziehen.",
+      "hints": [
+        "Vergleiche die drei Angebote für 100 Stück. Rechne die Lieferkosten dazu und zeige mir das günstigste Angebot. Alle Preise sind netto."
+      ],
+      "bonus": ""
     },
     {
+      "name": "Excel einfacher nutzen",
+      "app": "excel",
+      "apps": [
+        "excel",
+        "chatgpt"
+      ],
+      "title": "Jetzt probierst du es.",
+      "explain": "Du kannst eine Excel-Datei in Work hochladen oder die eingerichtete ChatGPT-Integration direkt in Excel nutzen. Du beschreibst in Worten, was du herausfinden möchtest.",
+      "example": "Welches Materialangebot ist am günstigsten?",
+      "benefit": "Du vergleichst die Gesamtkosten, ohne die Rechnung selbst aufbauen zu müssen.",
+      "inputTitle": "Drei Angebote für 100 Stück",
+      "input": [
+        "A: 12,50 € je Stück + 80 € Lieferung",
+        "B: 12,90 € je Stück + 20 € Lieferung",
+        "C: 11,90 € je Stück + 160 € Lieferung"
+      ],
+      "prompt": "Vergleiche die drei Angebote für 100 Stück. Rechne die Lieferkosten dazu und zeige mir das günstigste Angebot. Alle Preise sind netto.",
+      "outputTitle": "Das Ergebnis inklusive Lieferung",
+      "output": [
+        "A: 1.330 €",
+        "B: 1.310 € – günstigstes Angebot",
+        "C: 1.350 €"
+      ],
+      "check": "Rechne eine Zeile nach: 100 × 12,90 € + 20 € = 1.310 €. Prüfe zusätzlich die Lieferzeit.",
+      "task": "Öffne den Materialvergleich. Finde mit KI das günstigste Angebot. Probiere danach den zweiten Weg: in Work oder direkt in Excel.",
+      "success": [
+        "Lieferkosten sind enthalten.",
+        "Du kannst eine Rechnung nachvollziehen."
+      ],
+      "file": "04-materialvergleich.xlsx",
+      "kind": "excel",
       "id": 24,
-      "title": "Bereit zum Versenden?",
-      "chapter": 5,
-      "chapterName": "Mail & OneDrive",
-      "lead": "Empfänger. Aussagen. Anhänge. Zusagen.",
-      "steps": [],
-      "goal": "",
-      "criteria": "",
-      "hints": [],
-      "bonus": "",
+      "type": "challenge",
+      "chapter": 7,
+      "chapterName": "Excel einfacher nutzen",
+      "lead": "Öffne den Materialvergleich. Finde mit KI das günstigste Angebot. Probiere danach den zweiten Weg: in Work oder direkt in Excel.",
       "paragraphs": [
-        "Den Entwurf gegen die Quelle prüfen. Ein Übungsentwurf muss nicht versendet werden, um das Lernziel zu erreichen. Ein absichtlich gewünschter Testversand braucht ein festgelegtes Testziel."
+        "Du kannst eine Excel-Datei in Work hochladen oder die eingerichtete ChatGPT-Integration direkt in Excel nutzen. Du beschreibst in Worten, was du herausfinden möchtest."
       ],
-      "type": "statement"
+      "steps": [
+        "Deine Unterlagen",
+        "Dein Auftrag",
+        "Das Ergebnis",
+        "Kurz prüfen"
+      ],
+      "goal": "Öffne den Materialvergleich. Finde mit KI das günstigste Angebot. Probiere danach den zweiten Weg: in Work oder direkt in Excel.",
+      "criteria": "Lieferkosten sind enthalten.; Du kannst eine Rechnung nachvollziehen.",
+      "hints": [
+        "Vergleiche die drei Angebote für 100 Stück. Rechne die Lieferkosten dazu und zeige mir das günstigste Angebot. Alle Preise sind netto."
+      ],
+      "bonus": ""
     },
     {
+      "name": "Dokumente ausfüllen",
+      "app": "word",
+      "apps": [
+        "word",
+        "chatgpt"
+      ],
+      "title": "Work kann Angaben in eine Vorlage übertragen.",
+      "explain": "Gib Work die Vorlage und die Informationen, die eingetragen werden sollen. Du bekommst ein ausgefülltes Dokument und prüfst es anschließend.",
+      "example": "Ein Projektbogen für Lindenhof.",
+      "benefit": "Du überträgst dieselben Angaben nicht mehr Feld für Feld von Hand.",
+      "inputTitle": "Was du mitgibst",
+      "input": [
+        "Leere Vorlage: Projektbogen.docx",
+        "Informationen: Lindenhof-Unterlagen"
+      ],
+      "prompt": "Fülle den Projektbogen mit den Lindenhof-Angaben aus. Wenn eine Information fehlt, schreibe „noch offen“. Gib mir eine bearbeitbare Datei.",
+      "outputTitle": "Der ausgefüllte Projektbogen",
+      "output": [
+        "Vorgang: LH-026",
+        "Ansprechpartnerin: Mara Sommer",
+        "Ausführungstermin: noch offen"
+      ],
+      "check": "Öffne die fertige Datei. Stimmen die Angaben, und ist alles gut lesbar?",
+      "task": "Lade den Projektbogen und die Lindenhof-Unterlagen in Work. Lass die Vorlage ausfüllen und öffne das Ergebnis.",
+      "success": [
+        "Die Angaben stimmen mit der Quelle überein.",
+        "Fehlende Angaben wurden nicht erfunden."
+      ],
+      "file": "05-projektbogen.docx",
+      "extraFile": "03-lindenhof.txt",
+      "kind": "document",
       "id": 25,
-      "title": "Gesucht: Platz für den nächsten Schritt",
-      "chapter": 6,
-      "chapterName": "Recherche & Browser",
-      "lead": "Büro plus Lager. Mit nachvollziehbarer Auswahl.",
-      "steps": [],
-      "goal": "",
-      "criteria": "",
-      "hints": [],
-      "bonus": "",
-      "paragraphs": [
-        "Suchauftrag: Hamburg und bis zu 30 km Umgebung; 80–180 m² Gesamtfläche; Büro und nutzbare Lagerfläche; maximal 2.000 Euro monatliche Nettokaltmiete; geeignete Anlieferung. Das sind Übungskriterien, keine Marktbehauptung."
-      ],
-      "type": "statement"
-    },
-    {
-      "id": 26,
-      "title": "Beispiel: Von Suchkriterien zur Vergleichsliste",
-      "chapter": 6,
-      "chapterName": "Recherche & Browser",
-      "lead": "",
-      "steps": [
-        "Kriterien werden in Muss / Wunsch / noch zu klären aufgeteilt.",
-        "Ein schematisches, eindeutig fiktives Inserat erscheint; keine nachgebaute echte ImmoScout-Anzeige.",
-        "Sichtbare Angaben werden übernommen, fehlende Nebenkosten als „nicht angegeben“ markiert.",
-        "Vergleich mit Link, Abrufdatum und offenen Fragen. „Keine passende Auswahl gefunden“ bleibt ein zulässiges Ergebnis."
-      ],
-      "goal": "",
-      "criteria": "",
-      "hints": [],
-      "bonus": "",
-      "paragraphs": [],
-      "type": "demo"
-    },
-    {
-      "id": 27,
-      "title": "Du bist dran: Finde einen Standort",
-      "chapter": 6,
-      "chapterName": "Recherche & Browser",
-      "lead": "",
-      "steps": [],
-      "goal": "Recherchiere über den Browser in Work auf ImmoScout und erstelle eine begründete Auswahl von bis zu drei geeigneten Objekten. Keine Anbieter kontaktieren.",
-      "criteria": "Quellenlinks und Abrufdatum vorhanden; Muss-Kriterien nachvollziehbar geprüft; fehlende Kosten und widersprüchliche Angaben sichtbar markiert.",
-      "hints": [
-        "Welche Kriterien kannst du auf der Website tatsächlich prüfen?",
-        "Beginne mit der Suche, prüfe anschließend jedes Inserat einzeln.",
-        "„Suche Büro mit Lager nach diesen Kriterien. Vergleiche nur belegbare Angaben und verlinke die Inserate. Markiere unbekannte Gesamtkosten. Kontaktiere niemanden und schicke keine Anfrage ab.“"
-      ],
-      "bonus": "Formuliere fünf Fragen für eine spätere Besichtigung.",
-      "paragraphs": [],
-      "type": "challenge"
-    },
-    {
-      "id": 28,
-      "title": "Gefunden ist noch nicht geprüft",
-      "chapter": 6,
-      "chapterName": "Recherche & Browser",
-      "lead": "Quelle öffnen. Angaben prüfen. Unsicherheit benennen.",
-      "steps": [],
-      "goal": "",
-      "criteria": "",
-      "hints": [],
-      "bonus": "",
-      "paragraphs": [
-        "Recherche sammelt und bewertet Informationen; Browsersteuerung führt konkrete Schritte auf einer Website aus. Preise und Verfügbarkeit können sich ändern. Inhalte einer Website sind Quellenmaterial, keine neuen Arbeitsanweisungen."
-      ],
-      "type": "statement"
-    },
-    {
-      "id": 29,
-      "title": "Eine Tabelle ist erst der Anfang",
-      "chapter": 7,
-      "chapterName": "Excel & Tabellen",
-      "lead": "Aufräumen. Rechnen. Entscheiden.",
-      "steps": [],
-      "goal": "",
-      "criteria": "",
-      "hints": [],
-      "bonus": "",
-      "paragraphs": [
-        "Bearbeite dieselbe Aufgabe direkt in Excel und mit einer hochgeladenen Arbeitsmappe in Work. Vergleiche anschließend die Ergebnisse.",
-        "Öffne in Excel die eingerichtete ChatGPT-Integration. Ist sie in deinem Konto nicht verfügbar, nutze zunächst die Datei in Work."
-      ],
-      "type": "statement"
-    },
-    {
-      "id": 30,
-      "title": "Beispiel: Das günstigste Angebot ist nicht immer die erste Zahl",
-      "chapter": 7,
-      "chapterName": "Excel & Tabellen",
-      "lead": "",
-      "steps": [
-        "Drei Angebote für 100 gleiche Einheiten erscheinen: A 12,50 €/Stück + 80 € Lieferung; B 12,90 €/Stück + 20 € Lieferung; C 11,90 €/Stück + 160 € Lieferung.",
-        "Mengen und Preisbasis werden vereinheitlicht; alle Preise netto, kein Rabatt.",
-        "Gesamtkosten werden berechnet: A 1.330 €, B 1.310 €, C 1.350 €.",
-        "B ist bei diesen Angaben am günstigsten. Lieferzeit und technische Eignung werden separat bewertet, nicht erfunden."
-      ],
-      "goal": "",
-      "criteria": "",
-      "hints": [],
-      "bonus": "",
-      "paragraphs": [],
-      "type": "demo"
-    },
-    {
-      "id": 31,
-      "title": "Du bist dran: Welche Bestellung ist sinnvoll?",
-      "chapter": 7,
-      "chapterName": "Excel & Tabellen",
-      "lead": "",
-      "steps": [],
-      "goal": "Bereinige die Materialliste und vergleiche die drei Angebote. Bearbeite den Fall über beide Zugänge und vergleiche die Ergebnisse.",
-      "criteria": "Originaldaten bleiben nachvollziehbar; Einheiten, Mengen und Lieferkosten stimmen; die Empfehlung ist mit Zahlen und offenen Bedingungen begründet.",
-      "hints": [
-        "Vergleichen alle Angebote dieselbe Menge?",
-        "Trenne Quelldaten, Berechnung und Empfehlung.",
-        "„Prüfe diese Angebote auf gleiche Mengen und Preisbasis. Berechne nachvollziehbare Gesamtpreise inklusive angegebener Lieferkosten. Markiere fehlende Angaben und prüfe die Rechnung mit einer zweiten Berechnung.“"
-      ],
-      "bonus": "Berechne, ob sich die Reihenfolge bei 200 Einheiten ändert, sofern Lieferkosten unverändert bleiben. Kennzeichne diese Annahme.",
-      "paragraphs": [],
-      "type": "challenge"
-    },
-    {
-      "id": 32,
-      "title": "Gute Tabelle, richtige Rechnung?",
-      "chapter": 7,
-      "chapterName": "Excel & Tabellen",
-      "lead": "Stichprobe statt blindem Vertrauen.",
-      "steps": [],
-      "goal": "",
-      "criteria": "",
-      "hints": [],
-      "bonus": "",
-      "paragraphs": [
-        "Eine Zeile manuell nachrechnen. Formeln, Datentypen, Filter und Summen prüfen. Darstellungsqualität ist kein Beleg für korrekte Zahlen."
-      ],
-      "type": "statement"
-    },
-    {
-      "id": 33,
-      "title": "Aus Unterlagen wird ein fertiges Dokument",
+      "type": "lesson",
       "chapter": 8,
-      "chapterName": "Dateien & Formulare",
-      "lead": "Übernehmen, was belegt ist. Offen lassen, was fehlt.",
-      "steps": [],
-      "goal": "",
-      "criteria": "",
-      "hints": [],
-      "bonus": "",
+      "chapterName": "Dokumente ausfüllen",
+      "lead": "Work kann Angaben in eine Vorlage übertragen.",
       "paragraphs": [
-        "Projektbogen, Übergabeprotokoll und Kundeninformation als Beispiele. DOCX und PDF unterscheiden: Ein bearbeitbares Ergebnis und eine gut lesbare Ausgabe können unterschiedliche Formate brauchen."
+        "Gib Work die Vorlage und die Informationen, die eingetragen werden sollen. Du bekommst ein ausgefülltes Dokument und prüfst es anschließend."
       ],
-      "type": "statement"
+      "steps": [
+        "Deine Unterlagen",
+        "Dein Auftrag",
+        "Das Ergebnis",
+        "Kurz prüfen"
+      ],
+      "goal": "Lade den Projektbogen und die Lindenhof-Unterlagen in Work. Lass die Vorlage ausfüllen und öffne das Ergebnis.",
+      "criteria": "Die Angaben stimmen mit der Quelle überein.; Fehlende Angaben wurden nicht erfunden.",
+      "hints": [
+        "Fülle den Projektbogen mit den Lindenhof-Angaben aus. Wenn eine Information fehlt, schreibe „noch offen“. Gib mir eine bearbeitbare Datei."
+      ],
+      "bonus": ""
+    },
+    {
+      "name": "Dokumente ausfüllen",
+      "app": "word",
+      "apps": [
+        "word",
+        "chatgpt"
+      ],
+      "title": "Ein Projektbogen für Lindenhof.",
+      "explain": "Gib Work die Vorlage und die Informationen, die eingetragen werden sollen. Du bekommst ein ausgefülltes Dokument und prüfst es anschließend.",
+      "example": "Ein Projektbogen für Lindenhof.",
+      "benefit": "Du überträgst dieselben Angaben nicht mehr Feld für Feld von Hand.",
+      "inputTitle": "Was du mitgibst",
+      "input": [
+        "Leere Vorlage: Projektbogen.docx",
+        "Informationen: Lindenhof-Unterlagen"
+      ],
+      "prompt": "Fülle den Projektbogen mit den Lindenhof-Angaben aus. Wenn eine Information fehlt, schreibe „noch offen“. Gib mir eine bearbeitbare Datei.",
+      "outputTitle": "Der ausgefüllte Projektbogen",
+      "output": [
+        "Vorgang: LH-026",
+        "Ansprechpartnerin: Mara Sommer",
+        "Ausführungstermin: noch offen"
+      ],
+      "check": "Öffne die fertige Datei. Stimmen die Angaben, und ist alles gut lesbar?",
+      "task": "Lade den Projektbogen und die Lindenhof-Unterlagen in Work. Lass die Vorlage ausfüllen und öffne das Ergebnis.",
+      "success": [
+        "Die Angaben stimmen mit der Quelle überein.",
+        "Fehlende Angaben wurden nicht erfunden."
+      ],
+      "file": "05-projektbogen.docx",
+      "extraFile": "03-lindenhof.txt",
+      "kind": "document",
+      "id": 26,
+      "type": "demo",
+      "chapter": 8,
+      "chapterName": "Dokumente ausfüllen",
+      "lead": "Ein Projektbogen für Lindenhof.",
+      "paragraphs": [
+        "Gib Work die Vorlage und die Informationen, die eingetragen werden sollen. Du bekommst ein ausgefülltes Dokument und prüfst es anschließend."
+      ],
+      "steps": [
+        "Deine Unterlagen",
+        "Dein Auftrag",
+        "Das Ergebnis",
+        "Kurz prüfen"
+      ],
+      "goal": "Lade den Projektbogen und die Lindenhof-Unterlagen in Work. Lass die Vorlage ausfüllen und öffne das Ergebnis.",
+      "criteria": "Die Angaben stimmen mit der Quelle überein.; Fehlende Angaben wurden nicht erfunden.",
+      "hints": [
+        "Fülle den Projektbogen mit den Lindenhof-Angaben aus. Wenn eine Information fehlt, schreibe „noch offen“. Gib mir eine bearbeitbare Datei."
+      ],
+      "bonus": ""
+    },
+    {
+      "name": "Dokumente ausfüllen",
+      "app": "word",
+      "apps": [
+        "word",
+        "chatgpt"
+      ],
+      "title": "Jetzt probierst du es.",
+      "explain": "Gib Work die Vorlage und die Informationen, die eingetragen werden sollen. Du bekommst ein ausgefülltes Dokument und prüfst es anschließend.",
+      "example": "Ein Projektbogen für Lindenhof.",
+      "benefit": "Du überträgst dieselben Angaben nicht mehr Feld für Feld von Hand.",
+      "inputTitle": "Was du mitgibst",
+      "input": [
+        "Leere Vorlage: Projektbogen.docx",
+        "Informationen: Lindenhof-Unterlagen"
+      ],
+      "prompt": "Fülle den Projektbogen mit den Lindenhof-Angaben aus. Wenn eine Information fehlt, schreibe „noch offen“. Gib mir eine bearbeitbare Datei.",
+      "outputTitle": "Der ausgefüllte Projektbogen",
+      "output": [
+        "Vorgang: LH-026",
+        "Ansprechpartnerin: Mara Sommer",
+        "Ausführungstermin: noch offen"
+      ],
+      "check": "Öffne die fertige Datei. Stimmen die Angaben, und ist alles gut lesbar?",
+      "task": "Lade den Projektbogen und die Lindenhof-Unterlagen in Work. Lass die Vorlage ausfüllen und öffne das Ergebnis.",
+      "success": [
+        "Die Angaben stimmen mit der Quelle überein.",
+        "Fehlende Angaben wurden nicht erfunden."
+      ],
+      "file": "05-projektbogen.docx",
+      "extraFile": "03-lindenhof.txt",
+      "kind": "document",
+      "id": 27,
+      "type": "challenge",
+      "chapter": 8,
+      "chapterName": "Dokumente ausfüllen",
+      "lead": "Lade den Projektbogen und die Lindenhof-Unterlagen in Work. Lass die Vorlage ausfüllen und öffne das Ergebnis.",
+      "paragraphs": [
+        "Gib Work die Vorlage und die Informationen, die eingetragen werden sollen. Du bekommst ein ausgefülltes Dokument und prüfst es anschließend."
+      ],
+      "steps": [
+        "Deine Unterlagen",
+        "Dein Auftrag",
+        "Das Ergebnis",
+        "Kurz prüfen"
+      ],
+      "goal": "Lade den Projektbogen und die Lindenhof-Unterlagen in Work. Lass die Vorlage ausfüllen und öffne das Ergebnis.",
+      "criteria": "Die Angaben stimmen mit der Quelle überein.; Fehlende Angaben wurden nicht erfunden.",
+      "hints": [
+        "Fülle den Projektbogen mit den Lindenhof-Angaben aus. Wenn eine Information fehlt, schreibe „noch offen“. Gib mir eine bearbeitbare Datei."
+      ],
+      "bonus": ""
+    },
+    {
+      "name": "Termine vorbereiten",
+      "app": "outlook",
+      "title": "Beschreibe den Termin, den du brauchst.",
+      "explain": "Work kann mit deiner Kalenderverbindung einen Termin vorbereiten. Nenne Anlass, Dauer und Beteiligte. Ein freier Platz in deinem Kalender heißt noch nicht, dass alle Zeit haben.",
+      "example": "Eine Baustellenbesprechung planen.",
+      "benefit": "Aus einer kurzen Beschreibung wird ein übersichtlicher Terminvorschlag.",
+      "inputTitle": "Dein Terminwunsch",
+      "input": [
+        "Baustellenbesprechung Lindenhof",
+        "45 Minuten · nächste Woche",
+        "Eigene Projektleitung und Kundin"
+      ],
+      "prompt": "Bereite einen 45-minütigen Termin für die Besichtigung vor. Schlage eine Zeit vor und zeige die Details. Noch keine Einladung versenden.",
+      "outputTitle": "Der Terminvorschlag",
+      "output": [
+        "Besichtigung Lindenhof · 45 Minuten",
+        "Agenda: Maße, Zugang und offene Fragen",
+        "Datum und Verfügbarkeit der Kundin: noch abstimmen"
+      ],
+      "check": "Prüfe Datum, Uhrzeit, Ort und Personen. Erst danach darf eine Einladung rausgehen.",
+      "task": "Bereite anhand des Terminbriefs eine Besichtigung vor. Prüfe die Details. Ein Testtermin bleibt in deinem eigenen Kalender.",
+      "success": [
+        "Datum, Dauer und Ort sind eindeutig.",
+        "Unbekannte Verfügbarkeiten sind gekennzeichnet."
+      ],
+      "file": "07-terminbrief.txt",
+      "kind": "calendar",
+      "id": 28,
+      "type": "lesson",
+      "chapter": 9,
+      "chapterName": "Termine vorbereiten",
+      "lead": "Beschreibe den Termin, den du brauchst.",
+      "paragraphs": [
+        "Work kann mit deiner Kalenderverbindung einen Termin vorbereiten. Nenne Anlass, Dauer und Beteiligte. Ein freier Platz in deinem Kalender heißt noch nicht, dass alle Zeit haben."
+      ],
+      "steps": [
+        "Deine Unterlagen",
+        "Dein Auftrag",
+        "Das Ergebnis",
+        "Kurz prüfen"
+      ],
+      "goal": "Bereite anhand des Terminbriefs eine Besichtigung vor. Prüfe die Details. Ein Testtermin bleibt in deinem eigenen Kalender.",
+      "criteria": "Datum, Dauer und Ort sind eindeutig.; Unbekannte Verfügbarkeiten sind gekennzeichnet.",
+      "hints": [
+        "Bereite einen 45-minütigen Termin für die Besichtigung vor. Schlage eine Zeit vor und zeige die Details. Noch keine Einladung versenden."
+      ],
+      "bonus": ""
+    },
+    {
+      "name": "Termine vorbereiten",
+      "app": "outlook",
+      "title": "Eine Baustellenbesprechung planen.",
+      "explain": "Work kann mit deiner Kalenderverbindung einen Termin vorbereiten. Nenne Anlass, Dauer und Beteiligte. Ein freier Platz in deinem Kalender heißt noch nicht, dass alle Zeit haben.",
+      "example": "Eine Baustellenbesprechung planen.",
+      "benefit": "Aus einer kurzen Beschreibung wird ein übersichtlicher Terminvorschlag.",
+      "inputTitle": "Dein Terminwunsch",
+      "input": [
+        "Baustellenbesprechung Lindenhof",
+        "45 Minuten · nächste Woche",
+        "Eigene Projektleitung und Kundin"
+      ],
+      "prompt": "Bereite einen 45-minütigen Termin für die Besichtigung vor. Schlage eine Zeit vor und zeige die Details. Noch keine Einladung versenden.",
+      "outputTitle": "Der Terminvorschlag",
+      "output": [
+        "Besichtigung Lindenhof · 45 Minuten",
+        "Agenda: Maße, Zugang und offene Fragen",
+        "Datum und Verfügbarkeit der Kundin: noch abstimmen"
+      ],
+      "check": "Prüfe Datum, Uhrzeit, Ort und Personen. Erst danach darf eine Einladung rausgehen.",
+      "task": "Bereite anhand des Terminbriefs eine Besichtigung vor. Prüfe die Details. Ein Testtermin bleibt in deinem eigenen Kalender.",
+      "success": [
+        "Datum, Dauer und Ort sind eindeutig.",
+        "Unbekannte Verfügbarkeiten sind gekennzeichnet."
+      ],
+      "file": "07-terminbrief.txt",
+      "kind": "calendar",
+      "id": 29,
+      "type": "demo",
+      "chapter": 9,
+      "chapterName": "Termine vorbereiten",
+      "lead": "Eine Baustellenbesprechung planen.",
+      "paragraphs": [
+        "Work kann mit deiner Kalenderverbindung einen Termin vorbereiten. Nenne Anlass, Dauer und Beteiligte. Ein freier Platz in deinem Kalender heißt noch nicht, dass alle Zeit haben."
+      ],
+      "steps": [
+        "Deine Unterlagen",
+        "Dein Auftrag",
+        "Das Ergebnis",
+        "Kurz prüfen"
+      ],
+      "goal": "Bereite anhand des Terminbriefs eine Besichtigung vor. Prüfe die Details. Ein Testtermin bleibt in deinem eigenen Kalender.",
+      "criteria": "Datum, Dauer und Ort sind eindeutig.; Unbekannte Verfügbarkeiten sind gekennzeichnet.",
+      "hints": [
+        "Bereite einen 45-minütigen Termin für die Besichtigung vor. Schlage eine Zeit vor und zeige die Details. Noch keine Einladung versenden."
+      ],
+      "bonus": ""
+    },
+    {
+      "name": "Termine vorbereiten",
+      "app": "outlook",
+      "title": "Jetzt probierst du es.",
+      "explain": "Work kann mit deiner Kalenderverbindung einen Termin vorbereiten. Nenne Anlass, Dauer und Beteiligte. Ein freier Platz in deinem Kalender heißt noch nicht, dass alle Zeit haben.",
+      "example": "Eine Baustellenbesprechung planen.",
+      "benefit": "Aus einer kurzen Beschreibung wird ein übersichtlicher Terminvorschlag.",
+      "inputTitle": "Dein Terminwunsch",
+      "input": [
+        "Baustellenbesprechung Lindenhof",
+        "45 Minuten · nächste Woche",
+        "Eigene Projektleitung und Kundin"
+      ],
+      "prompt": "Bereite einen 45-minütigen Termin für die Besichtigung vor. Schlage eine Zeit vor und zeige die Details. Noch keine Einladung versenden.",
+      "outputTitle": "Der Terminvorschlag",
+      "output": [
+        "Besichtigung Lindenhof · 45 Minuten",
+        "Agenda: Maße, Zugang und offene Fragen",
+        "Datum und Verfügbarkeit der Kundin: noch abstimmen"
+      ],
+      "check": "Prüfe Datum, Uhrzeit, Ort und Personen. Erst danach darf eine Einladung rausgehen.",
+      "task": "Bereite anhand des Terminbriefs eine Besichtigung vor. Prüfe die Details. Ein Testtermin bleibt in deinem eigenen Kalender.",
+      "success": [
+        "Datum, Dauer und Ort sind eindeutig.",
+        "Unbekannte Verfügbarkeiten sind gekennzeichnet."
+      ],
+      "file": "07-terminbrief.txt",
+      "kind": "calendar",
+      "id": 30,
+      "type": "challenge",
+      "chapter": 9,
+      "chapterName": "Termine vorbereiten",
+      "lead": "Bereite anhand des Terminbriefs eine Besichtigung vor. Prüfe die Details. Ein Testtermin bleibt in deinem eigenen Kalender.",
+      "paragraphs": [
+        "Work kann mit deiner Kalenderverbindung einen Termin vorbereiten. Nenne Anlass, Dauer und Beteiligte. Ein freier Platz in deinem Kalender heißt noch nicht, dass alle Zeit haben."
+      ],
+      "steps": [
+        "Deine Unterlagen",
+        "Dein Auftrag",
+        "Das Ergebnis",
+        "Kurz prüfen"
+      ],
+      "goal": "Bereite anhand des Terminbriefs eine Besichtigung vor. Prüfe die Details. Ein Testtermin bleibt in deinem eigenen Kalender.",
+      "criteria": "Datum, Dauer und Ort sind eindeutig.; Unbekannte Verfügbarkeiten sind gekennzeichnet.",
+      "hints": [
+        "Bereite einen 45-minütigen Termin für die Besichtigung vor. Schlage eine Zeit vor und zeige die Details. Noch keine Einladung versenden."
+      ],
+      "bonus": ""
+    },
+    {
+      "name": "Aufgaben später erledigen lassen",
+      "app": "chatgpt",
+      "title": "Du kannst Arbeit für später planen.",
+      "explain": "Eine Erinnerung weist dich auf etwas hin. Eine geplante KI-Aufgabe bearbeitet einen Auftrag zu einer bestimmten Zeit – wenn diese Funktion in deinem Konto verfügbar ist.",
+      "example": "Montags die offenen Aufgaben zusammenfassen.",
+      "benefit": "Du musst denselben Auftrag nicht jede Woche neu schreiben.",
+      "inputTitle": "Was regelmäßig anfällt",
+      "input": [
+        "Übungsprojekt Lindenhof öffnen",
+        "Offene Aufgaben sammeln",
+        "Eine kurze Zusammenfassung lesen"
+      ],
+      "prompt": "Fasse vier Wochen lang montags um 08:30 Uhr die offenen Aufgaben im Übungsprojekt Lindenhof zusammen. Zeitzone: Europe/Berlin. Zeige mir zuerst die Einrichtung.",
+      "outputTitle": "So ist die Aufgabe geplant",
+      "output": [
+        "Wann: montags, 08:30 Uhr · Europe/Berlin",
+        "Was: offene Punkte aus Lindenhof zusammenfassen",
+        "Wie lange: vier Wochen"
+      ],
+      "check": "Prüfe die gespeicherte Aufgabe. Nach dem Workshop deaktivierst du die Übung wieder.",
+      "task": "Formuliere eine Erinnerung und eine wiederkehrende Aufgabe. Richte eine davon ein, wenn dein Konto die Funktion unterstützt, und prüfe sie.",
+      "success": [
+        "Es ist klar, was wann passieren soll.",
+        "Du weißt, wo du die Aufgabe wieder ausschaltest."
+      ],
+      "file": "07-terminbrief.txt",
+      "kind": "schedule",
+      "id": 31,
+      "type": "lesson",
+      "chapter": 10,
+      "chapterName": "Aufgaben später erledigen lassen",
+      "lead": "Du kannst Arbeit für später planen.",
+      "paragraphs": [
+        "Eine Erinnerung weist dich auf etwas hin. Eine geplante KI-Aufgabe bearbeitet einen Auftrag zu einer bestimmten Zeit – wenn diese Funktion in deinem Konto verfügbar ist."
+      ],
+      "steps": [
+        "Deine Unterlagen",
+        "Dein Auftrag",
+        "Das Ergebnis",
+        "Kurz prüfen"
+      ],
+      "goal": "Formuliere eine Erinnerung und eine wiederkehrende Aufgabe. Richte eine davon ein, wenn dein Konto die Funktion unterstützt, und prüfe sie.",
+      "criteria": "Es ist klar, was wann passieren soll.; Du weißt, wo du die Aufgabe wieder ausschaltest.",
+      "hints": [
+        "Fasse vier Wochen lang montags um 08:30 Uhr die offenen Aufgaben im Übungsprojekt Lindenhof zusammen. Zeitzone: Europe/Berlin. Zeige mir zuerst die Einrichtung."
+      ],
+      "bonus": ""
+    },
+    {
+      "name": "Aufgaben später erledigen lassen",
+      "app": "chatgpt",
+      "title": "Montags die offenen Aufgaben zusammenfassen.",
+      "explain": "Eine Erinnerung weist dich auf etwas hin. Eine geplante KI-Aufgabe bearbeitet einen Auftrag zu einer bestimmten Zeit – wenn diese Funktion in deinem Konto verfügbar ist.",
+      "example": "Montags die offenen Aufgaben zusammenfassen.",
+      "benefit": "Du musst denselben Auftrag nicht jede Woche neu schreiben.",
+      "inputTitle": "Was regelmäßig anfällt",
+      "input": [
+        "Übungsprojekt Lindenhof öffnen",
+        "Offene Aufgaben sammeln",
+        "Eine kurze Zusammenfassung lesen"
+      ],
+      "prompt": "Fasse vier Wochen lang montags um 08:30 Uhr die offenen Aufgaben im Übungsprojekt Lindenhof zusammen. Zeitzone: Europe/Berlin. Zeige mir zuerst die Einrichtung.",
+      "outputTitle": "So ist die Aufgabe geplant",
+      "output": [
+        "Wann: montags, 08:30 Uhr · Europe/Berlin",
+        "Was: offene Punkte aus Lindenhof zusammenfassen",
+        "Wie lange: vier Wochen"
+      ],
+      "check": "Prüfe die gespeicherte Aufgabe. Nach dem Workshop deaktivierst du die Übung wieder.",
+      "task": "Formuliere eine Erinnerung und eine wiederkehrende Aufgabe. Richte eine davon ein, wenn dein Konto die Funktion unterstützt, und prüfe sie.",
+      "success": [
+        "Es ist klar, was wann passieren soll.",
+        "Du weißt, wo du die Aufgabe wieder ausschaltest."
+      ],
+      "file": "07-terminbrief.txt",
+      "kind": "schedule",
+      "id": 32,
+      "type": "demo",
+      "chapter": 10,
+      "chapterName": "Aufgaben später erledigen lassen",
+      "lead": "Montags die offenen Aufgaben zusammenfassen.",
+      "paragraphs": [
+        "Eine Erinnerung weist dich auf etwas hin. Eine geplante KI-Aufgabe bearbeitet einen Auftrag zu einer bestimmten Zeit – wenn diese Funktion in deinem Konto verfügbar ist."
+      ],
+      "steps": [
+        "Deine Unterlagen",
+        "Dein Auftrag",
+        "Das Ergebnis",
+        "Kurz prüfen"
+      ],
+      "goal": "Formuliere eine Erinnerung und eine wiederkehrende Aufgabe. Richte eine davon ein, wenn dein Konto die Funktion unterstützt, und prüfe sie.",
+      "criteria": "Es ist klar, was wann passieren soll.; Du weißt, wo du die Aufgabe wieder ausschaltest.",
+      "hints": [
+        "Fasse vier Wochen lang montags um 08:30 Uhr die offenen Aufgaben im Übungsprojekt Lindenhof zusammen. Zeitzone: Europe/Berlin. Zeige mir zuerst die Einrichtung."
+      ],
+      "bonus": ""
+    },
+    {
+      "name": "Aufgaben später erledigen lassen",
+      "app": "chatgpt",
+      "title": "Jetzt probierst du es.",
+      "explain": "Eine Erinnerung weist dich auf etwas hin. Eine geplante KI-Aufgabe bearbeitet einen Auftrag zu einer bestimmten Zeit – wenn diese Funktion in deinem Konto verfügbar ist.",
+      "example": "Montags die offenen Aufgaben zusammenfassen.",
+      "benefit": "Du musst denselben Auftrag nicht jede Woche neu schreiben.",
+      "inputTitle": "Was regelmäßig anfällt",
+      "input": [
+        "Übungsprojekt Lindenhof öffnen",
+        "Offene Aufgaben sammeln",
+        "Eine kurze Zusammenfassung lesen"
+      ],
+      "prompt": "Fasse vier Wochen lang montags um 08:30 Uhr die offenen Aufgaben im Übungsprojekt Lindenhof zusammen. Zeitzone: Europe/Berlin. Zeige mir zuerst die Einrichtung.",
+      "outputTitle": "So ist die Aufgabe geplant",
+      "output": [
+        "Wann: montags, 08:30 Uhr · Europe/Berlin",
+        "Was: offene Punkte aus Lindenhof zusammenfassen",
+        "Wie lange: vier Wochen"
+      ],
+      "check": "Prüfe die gespeicherte Aufgabe. Nach dem Workshop deaktivierst du die Übung wieder.",
+      "task": "Formuliere eine Erinnerung und eine wiederkehrende Aufgabe. Richte eine davon ein, wenn dein Konto die Funktion unterstützt, und prüfe sie.",
+      "success": [
+        "Es ist klar, was wann passieren soll.",
+        "Du weißt, wo du die Aufgabe wieder ausschaltest."
+      ],
+      "file": "07-terminbrief.txt",
+      "kind": "schedule",
+      "id": 33,
+      "type": "challenge",
+      "chapter": 10,
+      "chapterName": "Aufgaben später erledigen lassen",
+      "lead": "Formuliere eine Erinnerung und eine wiederkehrende Aufgabe. Richte eine davon ein, wenn dein Konto die Funktion unterstützt, und prüfe sie.",
+      "paragraphs": [
+        "Eine Erinnerung weist dich auf etwas hin. Eine geplante KI-Aufgabe bearbeitet einen Auftrag zu einer bestimmten Zeit – wenn diese Funktion in deinem Konto verfügbar ist."
+      ],
+      "steps": [
+        "Deine Unterlagen",
+        "Dein Auftrag",
+        "Das Ergebnis",
+        "Kurz prüfen"
+      ],
+      "goal": "Formuliere eine Erinnerung und eine wiederkehrende Aufgabe. Richte eine davon ein, wenn dein Konto die Funktion unterstützt, und prüfe sie.",
+      "criteria": "Es ist klar, was wann passieren soll.; Du weißt, wo du die Aufgabe wieder ausschaltest.",
+      "hints": [
+        "Fasse vier Wochen lang montags um 08:30 Uhr die offenen Aufgaben im Übungsprojekt Lindenhof zusammen. Zeitzone: Europe/Berlin. Zeige mir zuerst die Einrichtung."
+      ],
+      "bonus": ""
     },
     {
       "id": 34,
-      "title": "Beispiel: Ein Formular mit einer ehrlichen Lücke",
-      "chapter": 8,
-      "chapterName": "Dateien & Formulare",
-      "lead": "",
-      "steps": [
-        "Leerer Projektbogen mit Feldern für Vorgang, Ansprechpartner, Leistung und Ausführungstermin.",
-        "Passende Informationen aus der Anfrage werden zugeordnet.",
-        "Ausführungstermin bleibt „noch nicht bestätigt“.",
-        "Fertige Fassung plus kurze Liste offener Angaben; keine erfundene Unterschrift oder Freigabe."
-      ],
-      "goal": "",
-      "criteria": "",
-      "hints": [],
-      "bonus": "",
-      "paragraphs": [],
-      "type": "demo"
-    },
-    {
-      "id": 35,
-      "title": "Du bist dran: Mach das Dokument fertig",
-      "chapter": 8,
-      "chapterName": "Dateien & Formulare",
-      "lead": "",
-      "steps": [],
-      "goal": "Fülle den Projektbogen aus dem Lindenhof-Informationspaket und erstelle eine überarbeitbare Fassung. Prüfe anschließend die Darstellung.",
-      "criteria": "Angaben lassen sich Quellen zuordnen; fehlende Informationen bleiben sichtbar; Datei öffnet korrekt und ist lesbar.",
-      "hints": [
-        "Welche Felder sind belegt?",
-        "Lass vor dem Ausfüllen eine Zuordnung erstellen.",
-        "„Fülle die Vorlage ausschließlich mit belegten Angaben aus den Unterlagen. Markiere fehlende oder widersprüchliche Informationen. Bewahre die Struktur und liefere eine bearbeitbare Fassung.“"
-      ],
-      "bonus": "Erstelle eine kurze Kundeninformation aus demselben Material und prüfe beide Fassungen auf Widersprüche.",
-      "paragraphs": [],
-      "type": "challenge"
-    },
-    {
-      "id": 36,
-      "title": "Die Datei selbst ist Teil des Ergebnisses",
-      "chapter": 8,
-      "chapterName": "Dateien & Formulare",
-      "lead": "Öffnen. Lesen. Vergleichen.",
-      "steps": [],
-      "goal": "",
-      "criteria": "",
-      "hints": [],
-      "bonus": "",
+      "type": "outro",
+      "title": "Welche Aufgabe wird morgen einfacher?",
+      "lead": "Such dir eine Sache aus deinem Arbeitsalltag aus. Genau damit fängst du an.",
+      "chapter": 0,
+      "chapterName": "Zum Abschluss",
       "paragraphs": [
-        "Tabellen, Seitenumbrüche, Sonderzeichen, Zahlen und Feldzuordnungen prüfen. Ein Downloadlink allein belegt noch kein brauchbares Dokument."
-      ],
-      "type": "statement"
+        "Wenn du mehrere Themen kombinieren möchtest, probiere die freiwillige Abschlussaufgabe Parkblick."
+      ]
+    }
+  ],
+  "preparation": [
+    {
+      "group": "Mitbringen",
+      "items": [
+        "Laptop und Ladegerät sind dabei.",
+        "Ich kann mich ins WLAN einloggen. Mein Handy für Anmeldecodes ist griffbereit."
+      ]
     },
     {
-      "id": 37,
-      "title": "Ein Termin ist mehr als ein Datum",
-      "chapter": 9,
-      "chapterName": "Kalender & Scheduling",
-      "lead": "Zeit, Beteiligte, Ort und Vorbereitung.",
-      "steps": [],
-      "goal": "",
-      "criteria": "",
-      "hints": [],
-      "bonus": "",
-      "paragraphs": [
-        "Ein Kalendertermin blockiert Zeit. Eine Erinnerung macht dich auf etwas aufmerksam. Eine wiederkehrende KI-Aufgabe bearbeitet einen Auftrag nach einem Rhythmus.",
-        "Prüfe jeweils, welche Funktion in deinem Konto verfügbar ist und wo du das gespeicherte Ergebnis wiederfindest."
-      ],
-      "type": "statement"
+      "group": "Zugänge testen",
+      "items": [
+        "Ich kann mich mit meinem eigenen Konto anmelden und Work öffnen.",
+        "Meine Lizenz und die benötigten Funktionen wurden geprüft. Bei Fragen zur Einrichtung kontaktiere ich ITP."
+      ]
     },
     {
-      "id": 38,
-      "title": "Beispiel: Baustellenbesprechung vorbereiten",
-      "chapter": 9,
-      "chapterName": "Kalender & Scheduling",
-      "lead": "",
-      "steps": [
-        "Auftrag: „45 Minuten, nächste Woche, vor Ort, mit Bauleitung.“",
-        "Unbekannte Verfügbarkeit der Bauleitung wird als offen markiert; eigener freier Kalenderplatz genügt nicht.",
-        "Terminvorschlag mit vollständigem Datum, Uhrzeit, Zeitzone, Ort und Agenda.",
-        "Separat: wöchentlicher Auftrag zur Prüfung offener Übungsaufgaben; Ausführungszeit, Quelle und Benachrichtigung werden explizit formuliert."
-      ],
-      "goal": "",
-      "criteria": "",
-      "hints": [],
-      "bonus": "",
-      "paragraphs": [],
-      "type": "demo"
+      "group": "Microsoft 365 verbinden",
+      "items": [
+        "Outlook Mail: Work findet eine vorher ausgewählte Testmail.",
+        "Outlook Kalender: Work kann einen bekannten eigenen Termin anzeigen.",
+        "OneDrive: Work kann eine Testdatei im Übungsordner öffnen.",
+        "Excel: Ich kann eine Datei öffnen. Die ChatGPT-Integration direkt in Excel ist eingerichtet und einmal getestet."
+      ]
     },
     {
-      "id": 39,
-      "title": "Du bist dran: Termin plus Follow-up",
-      "chapter": 9,
-      "chapterName": "Kalender & Scheduling",
-      "lead": "",
-      "steps": [],
-      "goal": "Bereite einen Baustellentermin aus dem Terminbrief vor und formuliere eine einmalige Erinnerung sowie eine wiederkehrende Aufgabe. Richte verfügbare Funktionen als klar gekennzeichnete Übung ein und prüfe sie.",
-      "criteria": "Datum, Uhrzeit und Zeitzone eindeutig; Beteiligte und offene Verfügbarkeiten korrekt; wiederkehrende Aufgabe nennt Quelle, Rhythmus und gewünschte Benachrichtigung.",
-      "hints": [
-        "Was soll wann passieren?",
-        "Trenne Termin, Erinnerung und wiederkehrende Arbeit.",
-        "„Bereite aus diesen Angaben einen Terminvorschlag vor. Markiere unbekannte Verfügbarkeiten. Formuliere zusätzlich eine Erinnerung und einen wöchentlichen Prüfauftrag mit eindeutiger Zeitangabe. Zeige vor dem Einrichten die Details.“"
-      ],
-      "bonus": "Lege fest, wann die Wiederholung endet und wann keine Nachricht nötig ist.",
-      "paragraphs": [],
-      "type": "challenge"
+      "group": "Kurz ausprobieren",
+      "items": [
+        "Ich kann eine Datei in Work hochladen und eine erzeugte Datei herunterladen.",
+        "Der Browser in Work kann eine Website öffnen.",
+        "Die Funktion für geplante Aufgaben wurde geprüft. Falls sie fehlt, kläre ich das vorab mit ITP.",
+        "Ich kann die Seminarwebsite öffnen und das Übungspaket herunterladen."
+      ]
     },
     {
-      "id": 40,
-      "title": "Geplant heißt nicht überprüft",
-      "chapter": 9,
-      "chapterName": "Kalender & Scheduling",
-      "lead": "Was läuft wann – und wie beendest du es?",
-      "steps": [],
-      "goal": "",
-      "criteria": "",
-      "hints": [],
-      "bonus": "",
-      "paragraphs": [
-        "Gespeicherte Details am tatsächlichen Ort kontrollieren. Übungstermine und Wiederholungen nach Abschluss löschen oder deaktivieren. Eine behauptete Einrichtung im Chat ersetzt keine Bestätigung des tatsächlichen Systems."
-      ],
-      "type": "statement"
-    },
-    {
-      "id": 41,
-      "title": "Jetzt gehört der Ablauf dir",
-      "chapter": 10,
-      "chapterName": "Dein kompletter Workflow",
-      "lead": "Ein neuer Auftrag. Dein Weg zum Ergebnis.",
-      "steps": [],
-      "goal": "",
-      "criteria": "",
-      "hints": [],
-      "bonus": "",
-      "paragraphs": [
-        "Ein neuer Vorgang: Praxisumbau Parkblick. Alle benötigten Informationen findest du im Abschlussmaterial. Du entscheidest, welche Werkzeuge dir helfen."
-      ],
-      "type": "statement"
-    },
-    {
-      "id": 42,
-      "title": "Der Auftrag",
-      "chapter": 10,
-      "chapterName": "Dein kompletter Workflow",
-      "lead": "Mach aus dieser Anfrage einen bearbeitbaren Vorgang.",
-      "steps": [],
-      "goal": "Erstelle eine Zusammenfassung, offene Fragen, einen Kostenvergleich, einen Projektbogen und einen Antwortentwurf mit Terminvorschlag.",
-      "criteria": "Mindestens drei Fähigkeiten kombiniert; Aussagen und Zahlen belegt; offene Fragen und nötige Freigaben erkennbar.",
-      "hints": [
-        "Was braucht der nächste Bearbeiter?",
-        "Zerlege den Vorgang in überprüfbare Teilergebnisse.",
-        "Zerlege diesen Vorgang in sinnvolle Arbeitsschritte. Sage, welche Unterlagen du brauchst. Beginne mit dem ersten Schritt und frage nach, wenn wesentliche Angaben fehlen."
-      ],
-      "bonus": "",
-      "paragraphs": [
-        "Erstelle eine Zusammenfassung, offene Fragen, einen Kostenvergleich, einen Projektbogen und einen Antwortentwurf mit Terminvorschlag.",
-        "Nutze mindestens drei geübte Fähigkeiten. Reihenfolge und Lösungsweg bestimmst du."
-      ],
-      "type": "challenge"
-    },
-    {
-      "id": 43,
-      "title": "Zeig, was du geprüft hast",
-      "chapter": 10,
-      "chapterName": "Dein kompletter Workflow",
-      "lead": "Ergebnis. Quelle. Entscheidung.",
-      "steps": [],
-      "goal": "",
-      "criteria": "Ergebnisse passen zueinander; wichtige Aussagen und Zahlen sind belegt; offene Informationen und nötige Freigaben sind erkennbar.",
-      "hints": [],
-      "bonus": "Lass eine zweite Prüfung durchführen und entscheide selbst, welche Hinweise zutreffen.",
-      "paragraphs": [
-        "Passen deine Ergebnisse zueinander? Sind wichtige Aussagen und Zahlen belegt? Ist klar, was noch offen ist?",
-        "Vergleicht eure Ergebnisse zu zweit. Zeigt euch einen Fehler, den ihr entdeckt habt, und wie ihr ihn behoben habt."
-      ],
-      "type": "statement"
-    },
-    {
-      "id": 44,
-      "title": "Was machst du morgen anders?",
-      "chapter": 10,
-      "chapterName": "Dein kompletter Workflow",
-      "lead": "Eine Aufgabe. Ein erster Versuch. Ein klarer Check.",
-      "steps": [],
-      "goal": "",
-      "criteria": "",
-      "hints": [],
-      "bonus": "",
-      "paragraphs": [
-        "Vervollständige: Bei … nutze ich KI für … und prüfe anschließend …",
-        "Kontrolliere zum Abschluss deine Übungstermine und wiederkehrenden Aufgaben. Deaktiviere, was nicht weiterlaufen soll."
-      ],
-      "type": "statement"
+      "group": "Für die Organisation",
+      "items": [
+        "Beamer oder großer Bildschirm, Strom und stabiles WLAN sind bereit.",
+        "Die benötigten Kontofreigaben wurden vorab mit ITP geklärt.",
+        "Die Übungsdateien stehen bereit. Es werden keine echten Kundendaten benötigt."
+      ]
     }
   ]
 }

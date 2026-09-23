@@ -1,0 +1,31 @@
+CHECKLISTE VOR DEM KI-SEMINAR
+
+Bitte einige Tage vorher prüfen. Wenn etwas fehlt oder nicht funktioniert: ITP kontaktieren.
+
+MITBRINGEN
+[ ] Laptop und Ladegerät sind dabei.
+[ ] Ich kann mich ins WLAN einloggen. Mein Handy für Anmeldecodes ist griffbereit.
+
+ZUGÄNGE TESTEN
+[ ] Ich kann mich mit meinem eigenen Konto anmelden und Work öffnen.
+[ ] Meine Lizenz und die benötigten Funktionen wurden geprüft. Bei Fragen zur Einrichtung kontaktiere ich ITP.
+
+MICROSOFT 365 VERBINDEN
+[ ] Outlook Mail: Work findet eine vorher ausgewählte Testmail.
+[ ] Outlook Kalender: Work kann einen bekannten eigenen Termin anzeigen.
+[ ] OneDrive: Work kann eine Testdatei im Übungsordner öffnen.
+[ ] Excel: Ich kann eine Datei öffnen. Die ChatGPT-Integration direkt in Excel ist eingerichtet und einmal getestet.
+
+KURZ AUSPROBIEREN
+[ ] Ich kann eine Datei in Work hochladen und eine erzeugte Datei herunterladen.
+[ ] Der Browser in Work kann eine Website öffnen.
+[ ] Die Funktion für geplante Aufgaben wurde geprüft. Falls sie fehlt, kläre ich das vorab mit ITP.
+[ ] Ich kann die Seminarwebsite öffnen und das Übungspaket herunterladen.
+
+FÜR DIE ORGANISATION
+[ ] Beamer oder großer Bildschirm, Strom und stabiles WLAN sind bereit.
+[ ] Die benötigten Kontofreigaben wurden vorab mit ITP geklärt.
+[ ] Die Übungsdateien stehen bereit. Es werden keine echten Kundendaten benötigt.
+
+Du brauchst keine eigenen Kundenunterlagen und keine Vorkenntnisse. Alle Übungsdaten sind fiktiv.
+Passwörter nicht in diese Checkliste eintragen.

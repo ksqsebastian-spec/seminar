@@ -1,3 +1,5 @@
+> Historischer Entwurf. Die aktuelle vereinfachte Fassung mit 34 Folien wird in `scripts/content.py` gepflegt.
+
 # KI, die mitarbeitet.
 
 ## Verbindlicher Rahmen

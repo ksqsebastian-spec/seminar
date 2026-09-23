@@ -1,6 +1,6 @@
 # KI, die mitarbeitet
 
-Deutschsprachiger Praxisworkshop für KI im Arbeitsalltag von Handwerk und Bau. Eine Keynote-artige Website mit 44 Folien, neun schrittweisen Beispielen, zehn offenen Herausforderungen und einem vollständigen fiktiven Übungspaket.
+Deutschsprachiger Praxisworkshop für KI im Arbeitsalltag von Handwerk und Bau. Eine Keynote-artige Website mit 34 Folien, neun schrittweisen Beispielen, zehn offenen Herausforderungen und einem vollständigen fiktiven Übungspaket.
 
 ## Website
 
@@ -42,3 +42,7 @@ Erforderliche Secret-Bindings: `WORKSHOP_PASSWORD`, `SESSION_SECRET`. Beide niem
 Passwortschutz gilt für die ausgelieferte Website und direkte Download-URLs. Dieses Repository ist öffentlich; seine fiktiven Lehrinhalte und Übungsdateien sind dadurch öffentlich lesbar. Geheimnisse gehören ausschließlich in Secret-Bindings.
 
 Die automatisierten Tests prüfen geschützte Assets, Login, Cookies, abgelaufene/manipulierte Sitzungen, Cross-Origin-Schutz, Download-Dateien und die Inhaltsstruktur. Die tatsächlichen Work-Aktionen sind keine automatisierte Integration dieser Website.
+
+## Vereinfachte Fassung
+
+`python3 scripts/content.py` erzeugt die Inhalte: zehn Themen mit jeweils Erklärung, animiertem Beispiel und eigener Aufgabe. Die Vorbereitung ist über die Navigation sowie `/vorbereitung.html` erreichbar und druckbar. Einrichtungspartner: ITP. Produktlogos liegen lokal unter `public/logos`, mit Quellenangabe.

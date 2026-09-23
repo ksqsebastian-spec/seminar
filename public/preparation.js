@@ -1,0 +1,1 @@
+document.querySelector('#print').onclick=()=>window.print();for(const el of document.querySelectorAll('[data-prep]')){try{el.checked=localStorage.getItem('prep-'+el.dataset.prep)==='1'}catch{}el.onchange=()=>{try{localStorage.setItem('prep-'+el.dataset.prep,el.checked?'1':'0')}catch{}}}
