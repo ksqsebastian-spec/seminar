@@ -30,28 +30,28 @@
         {
           "title": "Gab es schon Kontakt?",
           "action": "Suche im eigenen Postfach, auch in gesendeten Nachrichten. Lies passende Treffer; eine Namensnennung allein ist noch keine Korrespondenz mit seinem Büro.",
-          "prompt": "Suche in meinem Postfach und meinen gesendeten Mails nach Korrespondenz mit Hadi Teherani. Prüfe auch die Schreibweise Hadi Tehrani. Zeige passende Treffer mit Absender, Empfänger, Datum und Betreff. Fasse nur gelesene Nachrichten zusammen. Wenn du nichts findest, sage das und nenne den durchsuchten Bereich.",
+          "prompt": "Suche in meinen empfangenen und gesendeten Mails nach Hadi Teherani oder Hadi Tehrani. Zeige passende Nachrichten und fasse sie kurz zusammen. Wenn du nichts findest, sage mir, wo du gesucht hast. Erfinde keine Korrespondenz.",
           "see": "Passende Korrespondenz oder ein klarer Hinweis: Im durchsuchten Bereich nichts gefunden.",
           "asset": ""
         },
         {
           "title": "Finde Kerims Kontakt.",
           "action": "Lass gespeicherte Kontakte durchsuchen. Falls der Zugriff fehlt, kann eine frühere Mail helfen. Bei mehreren Treffern wählst du die richtige Person.",
-          "prompt": "Finde den Kontakt unseres Seminarleiters Kerim in meinen gespeicherten Outlook-Kontakten. Zeige vollständigen Namen und E-Mail-Adresse. Bei mehreren Treffern frage nach. Falls du keinen Kontakt findest oder keinen Zugriff hast, sage das; erfinde keine Adresse.",
+          "prompt": "Suche Kerim in meinen Outlook-Kontakten. Zeige Name und E-Mail-Adresse. Frage mich bei mehreren Treffern. Wenn du keinen Kontakt findest, sage das. Erfinde keine Adresse.",
           "see": "Der richtige Kerim und seine Adresse sind geprüft. Fehlt der Kontakt, fragst du Kerim im Raum.",
           "asset": ""
         },
         {
           "title": "Mach eine Mission-PDF.",
           "action": "Lade zuerst 03-schrankbrief.txt aus den Übungsdateien in ChatGPT hoch. Erstelle daraus eine Seite und lade die PDF auf deinen Laptop herunter. Öffne sie vor dem Anhängen.",
-          "prompt": "Erstelle Mission_Hadi.pdf als einseitigen Projekt-Steckbrief: Titel „Ein Schrank für Hadi“, unsere Schrankidee aus dem hochgeladenen Schrankbrief, Maße als Übungsannahmen und drei offene Fragen. Lass Preise weg; die kalkulieren wir später. Kennzeichne die Zusammenarbeit als Seminar-Rollenspiel ohne Zusage. Gib mir die PDF zum Herunterladen.",
+          "prompt": "Erstelle aus dem hochgeladenen Schrankbrief eine Seite als Mission_Hadi.pdf: unsere Schrankidee, angenommene Maße und drei offene Fragen. Ohne Preise. Schreibe dazu: „Seminar-Rollenspiel, keine bestätigte Zusammenarbeit“. Gib mir die PDF zum Herunterladen.",
           "see": "Die heruntergeladene PDF lässt sich auf deinem Laptop öffnen.",
           "asset": ""
         },
         {
           "title": "Weihe Kerim ein.",
           "action": "Lass einen lockeren, kurzen Text schreiben und verbessere ihn. Echte Suchergebnisse und unser Rollenspiel bleiben unterscheidbar.",
-          "prompt": "Entwirf eine kurze, lustige Mail an Kerim mit dem Betreff „ÜBUNG – Kerim, wir haben Großes vor!“. Einstieg: „Kerim, wir arbeiten jetzt mit Hadi Teherani! Zumindest in unserem Seminar – der Schrank ist schon geplant, seine Zusage fehlt noch.“ Ergänze das tatsächliche Ergebnis der Korrespondenzsuche und verweise auf Mission_Hadi.pdf. Keine erfundene Korrespondenz oder Zusage. Noch nicht speichern oder senden.",
+          "prompt": "Entwirf eine kurze, lustige Mail an Kerim: „Wir arbeiten jetzt mit Hadi Teherani! Zumindest im Seminar – seine Zusage fehlt noch.“ Ergänze das echte Ergebnis unserer Mailsuche und erwähne Mission_Hadi.pdf. Betreff: „ÜBUNG – Wir haben Großes vor!“. Noch nicht senden.",
           "see": "Ein humorvoller Text, den du kürzen oder persönlicher machen lassen kannst.",
           "asset": ""
         },
@@ -231,16 +231,16 @@
         },
         {
           "title": "Füge Unterlagen hinzu.",
-          "action": "Füge den Schrankbrief und deinen recherchierten Steckbrief als Quellen hinzu.",
+          "action": "Öffne das neue Projekt. Klicke auf Dateien hinzufügen und wähle 03-schrankbrief.txt und deinen heruntergeladenen Recherche-Steckbrief.",
           "prompt": "",
           "see": "Beide Dateien gehören zum Projekt.",
           "asset": "project-overview.webp"
         },
         {
           "title": "Speichere eine Vorgabe.",
-          "action": "Speichere eine kurze Kommunikationsregel.",
+          "action": "Öffne im Projektmenü die Projekteinstellungen und dort die Hinweise. Füge den folgenden Text als Vorgabe ein und speichere ihn.",
           "prompt": "Für dieses Seminarprojekt: kurz und freundlich mit Sie schreiben. Annahmen kennzeichnen. Keine Anfrage oder Zusage von Hadi Teherani erfinden.",
-          "see": "Die Regel ist als Projektvorgabe wieder auffindbar.",
+          "see": "Die Regel steht in den gespeicherten Projekthinweisen.",
           "asset": "project-settings.webp"
         },
         {
@@ -317,7 +317,7 @@
         {
           "title": "Lass den Ordner anlegen.",
           "action": "ChatGPT führt die Ordneranlage über das eingerichtete Plugin aus. Öffne danach den Link.",
-          "prompt": "Lege in meinem OneDrive einen neuen Ordner „Seminar – Schrank für Hadi“ an. Falls der Name schon existiert, frage nach einem anderen Namen. Zeige den Ordnerlink.",
+          "prompt": "Lege in meinem OneDrive einen neuen Ordner „Seminar Schrank“ an. Falls der Name schon existiert, frage nach einem anderen Namen. Zeige den Ordnerlink.",
           "see": "Dein eigener Ordner ist tatsächlich vorhanden.",
           "asset": ""
         },
@@ -352,7 +352,7 @@
         {
           "title": "Lass beide Dateien ablegen.",
           "action": "ChatGPT speichert die Ergebnisse im eigenen OneDrive-Ordner.",
-          "prompt": "Speichere die geprüfte Word-Datei und PDF im Ordner „Seminar – Schrank für Hadi“. Nichts überschreiben. Zeige beide Dateien.",
+          "prompt": "Speichere die geprüfte Word-Datei und PDF im Ordner „Seminar Schrank“. Nichts überschreiben. Zeige beide Dateien.",
           "see": "Du kannst beide Dateien direkt in OneDrive öffnen.",
           "asset": ""
         }
@@ -548,9 +548,9 @@
         },
         {
           "title": "Arbeite direkt in Excel.",
-          "action": "Öffne dieselbe Datei in Excel. Wiederhole eine kleine Änderung mit der eingerichteten ChatGPT-Integration.",
-          "prompt": "",
-          "see": "Die Gruppe kennt Upload und direkte Excel-Integration.",
+          "action": "Öffne deine neue Datei in Excel und dort die eingerichtete ChatGPT-Seitenleiste. Füge den Text dort ein.",
+          "prompt": "Hebe die Zeile mit dem Angebotspreis farbig hervor. Verändere keine Werte oder Formeln.",
+          "see": "Die Angebotszeile ist in Excel farbig markiert. Die Zahlen sind unverändert.",
           "asset": ""
         }
       ],
@@ -641,7 +641,7 @@
         {
           "title": "Prüfe und exportiere.",
           "action": "Öffne das Dokument und kontrolliere Zahlen und Layout.",
-          "prompt": "Erzeuge zusätzlich eine PDF. Speichere Word und PDF in meinem OneDrive-Ordner „Seminar – Schrank für Hadi“. Zeige mir beide Dateien.",
+          "prompt": "Erzeuge zusätzlich eine PDF. Speichere Word und PDF in meinem OneDrive-Ordner „Seminar Schrank“. Zeige mir beide Dateien.",
           "see": "Beide Formate sind gespeichert und lesbar.",
           "asset": ""
         }
@@ -896,17 +896,17 @@
       ],
       "demos": [
         {
-          "title": "Lies die Änderung.",
-          "action": "Öffne den Abschlussauftrag. Es ist unsere Annahme, kein Kundenwunsch.",
-          "prompt": "",
-          "see": "Die Änderung betrifft die Arbeitszeit.",
+          "title": "Prüfe die zehn Arbeitsstunden.",
+          "action": "Öffne deine aktuelle Kalkulation in ChatGPT. Wenn bereits zehn Stunden eingetragen sind, lass den Wert stehen.",
+          "prompt": "Prüfe meine Kalkulation: Wir planen zehn Arbeitsstunden. Falls noch acht eingetragen sind, ändere sie auf zehn. Erhalte die Formeln und speichere eine neue Version. Zeige den aktuellen Angebotspreis.",
+          "see": "Die Kalkulation enthält zehn Arbeitsstunden und einen geprüften Angebotspreis.",
           "asset": ""
         },
         {
-          "title": "Zeige dein Paket.",
-          "action": "Öffne Projekt, OneDrive, Kalkulation, Angebot und Übungsentwurf.",
-          "prompt": "",
-          "see": "Alle Ergebnisse sind nachvollziehbar miteinander verbunden.",
+          "title": "Aktualisiere dein Paket.",
+          "action": "Bleibe im Projekt. Gib ChatGPT deine aktuelle Kalkulation und die zu aktualisierenden Dateien. Öffne die Ergebnisse danach selbst.",
+          "prompt": "Aktualisiere mit meiner geprüften Kalkulation das Angebot als Word und PDF sowie Mission_Hadi.pdf in Seminar Schrank. Aktualisiere auch den bestehenden Entwurf an Kerim und seinen PDF-Anhang. Nicht senden. Zeige die aktuellen Dateien und offene Fragen.",
+          "see": "Kalkulation, Angebot, Mission_Hadi.pdf und Kerims Entwurf enthalten denselben Stand.",
           "asset": ""
         }
       ],

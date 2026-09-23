@@ -28,6 +28,6 @@ Tatsächlicher Bedarf, Maße vor Ort, gewünschte Innenaufteilung, Oberfläche, 
 
 DEINE DATEIEN
 Projekt: Schrank für Hadi
-OneDrive-Ordner: Seminar – Schrank für Hadi
+OneDrive-Ordner: Seminar Schrank
 ChatGPT soll den Ordner anlegen, die hochgeladene Quelle ablegen, eine bearbeitbare Word-Fassung erstellen und zusätzlich eine PDF erzeugen.
 Das Angebot bleibt als unverbindlicher Seminarentwurf gekennzeichnet. Übungsmails an Kerims zuvor geprüfte Adresse speichern, nicht versenden.

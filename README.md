@@ -4,7 +4,7 @@ Deutschsprachiger Anfängerworkshop für Handwerk und Bau: zehn zusammenhängend
 
 Die Seminarleitung erklärt und demonstriert live. Teilnehmende arbeiten anschließend in ihrer eigenen Work- und Microsoft-365-Umgebung. Die Website verbindet keine Konten und führt keine KI-Aufträge aus.
 
-Jede Station hat vier Abschnitte: Verstehen, gemeinsam ansehen, selbst machen, Ergebnis prüfen. Zehn steuerbare Animationen zeigen das Prinzip jeder Station. Details und Beispielaufträge sind aufklappbar; eigene Aufgaben beginnen mit drei Schritten. Internetrecherche zu Person und öffentlichem Bürokontakt ist eine eigene Station. Die Browserübung zeigt echte Websiteaktionen: Baumarkt öffnen, Suche eingeben, Filter bedienen und Produkte prüfen. Verständnisfragen, ein Angebotsvergleich, eine Auftragshilfe und lokale Ergebnischecklisten bleiben verfügbar. Die Beameransicht vergrößert die Darstellung. Einrichtungspartner: ITP Consultants; Desktop-Installation: Kerim.
+Jedes Kapitel hat drei Abschnitte: Ziel und Ablauf, geführte Schritte, Ergebnis prüfen. Vorführung und eigenes Üben nutzen dieselben Anweisungen. Prompts sind direkt sichtbar und kopierbar. Logos und einfache Ablaufdiagramme verbinden die Werkzeuge. Die Beameransicht vergrößert die Darstellung. Einrichtungspartner: ITP Consultants; Desktop-Installation: Kerim.
 
 ## Entwicklung
 
@@ -47,3 +47,6 @@ Die automatisierten Tests prüfen geschützte Assets, Login, Cookies, abgelaufen
 Die Mailstation sucht zuerst echte frühere Korrespondenz, findet Kerims gespeicherten Kontakt und erstellt einen humorvollen, ungesendeten Entwurf an ihn. Die Teilnehmenden erzeugen Mission_Hadi.pdf zum Einstieg aus dem Schrankbrief und hängen die geprüfte Datei an.
 
 Die Kerim-Mail ersetzt „Eine Mail verstehen“ als erste Station. Mission_Hadi.pdf benötigt noch keine Recherche, Kalkulation, Projekt- oder OneDrive-Einrichtung. Die spätere doppelte Mailstation entfällt.
+
+## Vereinfachte Kapitel
+Jedes Kapitel zeigt Ziel, Ablauf mit Logos und das Ergebnis für das nächste Kapitel. Die Vorführung und das eigene Üben verwenden denselben Schritt-für-Schritt-Ablauf. Jeder Schritt zeigt Programm, konkrete Handlung, sichtbaren kopierbaren Prompt (oder Klickanweisung) und Erfolgskontrolle. `public/chapters.js` liefert die kurzen Kapiteltexte; `curriculum.json` die Arbeitsaufträge.
