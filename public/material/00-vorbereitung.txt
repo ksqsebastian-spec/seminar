@@ -1,30 +1,30 @@
 CHECKLISTE VOR DEM KI-SEMINAR
 
-Bitte einige Tage vorher prüfen. Wenn etwas fehlt oder nicht funktioniert: ITP kontaktieren.
+Bitte einige Tage vorher prüfen. Wenn etwas fehlt oder nicht funktioniert: ITP Consultants kontaktieren.
 
 MITBRINGEN
 [ ] Laptop und Ladegerät sind dabei.
 [ ] Ich kann mich ins WLAN einloggen. Mein Handy für Anmeldecodes ist griffbereit.
 
 ZUGÄNGE TESTEN
-[ ] Ich kann mich mit meinem eigenen Konto anmelden und Work öffnen.
-[ ] Meine Lizenz und die benötigten Funktionen wurden geprüft. Bei Fragen zur Einrichtung kontaktiere ich ITP.
+[ ] Die ChatGPT-Desktop-App ist auf meinem Laptop installiert. Ich kann mich mit meinem eigenen Konto anmelden und ChatGPT öffnen. Falls ich Hilfe bei der Installation brauche, wende ich mich an Kerim.
+[ ] Meine Lizenz und die benötigten Funktionen wurden geprüft. Bei Fragen zur Einrichtung kontaktiere ich ITP Consultants.
 
 MICROSOFT 365 VERBINDEN
-[ ] Outlook Mail: Work findet eine Testmail und kann einen ungesendeten Übungsentwurf an meine eigene Adresse speichern.
-[ ] Outlook Kalender: Work kann meinen Kalender lesen und einen eigenen Übungstermin ohne Gäste anlegen, verschieben und wieder löschen.
-[ ] OneDrive: Work kann eine Testdatei im eigenen Übungsordner öffnen und eine neue Datei dort speichern.
+[ ] Outlook Mail: ChatGPT findet eine Testmail und kann einen ungesendeten Übungsentwurf an meine eigene Adresse speichern.
+[ ] Outlook Kalender: ChatGPT kann meinen Kalender lesen und einen eigenen Übungstermin ohne Gäste anlegen, verschieben und wieder löschen.
+[ ] OneDrive: ChatGPT kann eine Testdatei im eigenen Übungsordner öffnen und eine neue Datei dort speichern.
 [ ] Excel: Ich kann eine Datei öffnen. Die ChatGPT-Integration direkt in Excel ist eingerichtet und einmal getestet.
 
 KURZ AUSPROBIEREN
-[ ] Ich kann eine Datei in Work hochladen und eine erzeugte Datei herunterladen.
-[ ] Der Browser in Work kann eine Website öffnen.
-[ ] Die Funktion für geplante Aufgaben wurde geprüft. Falls sie fehlt, kläre ich das vorab mit ITP.
+[ ] Ich kann eine Datei in ChatGPT hochladen und eine erzeugte Datei herunterladen.
+[ ] Der Browser in ChatGPT kann eine Website öffnen.
+[ ] Die Funktion für geplante Aufgaben wurde geprüft. Falls sie fehlt, kläre ich das vorab mit ITP Consultants.
 [ ] Ich kann die Seminarwebsite öffnen und das Übungspaket herunterladen.
 
 FÜR DIE ORGANISATION
 [ ] Beamer oder großer Bildschirm, Strom und stabiles WLAN sind bereit.
-[ ] Die benötigten Kontofreigaben wurden vorab mit ITP geklärt.
+[ ] Die benötigten Kontofreigaben wurden vorab mit ITP Consultants geklärt.
 [ ] Die Übungsdateien stehen bereit. Es werden keine echten Kundendaten benötigt.
 
 Du brauchst keine Vorkenntnisse. Die Übungsdateien sind fiktiv. Für die Mail-Übung kannst du eine passende eigene Mail von heute oder das fiktive Ersatzbeispiel verwenden.
