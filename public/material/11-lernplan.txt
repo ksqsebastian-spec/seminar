@@ -14,21 +14,21 @@ Prinzip ansehen, echte Vorführung durch Kerim, im eigenen Konto üben, Ergebnis
 
 ## Tag 1
 - 09:00 · Ankommen und Modell wählen · 15 min
-- 09:15 · Eine Mail verstehen. · 35 min
-- 09:50 · Wem bieten wir den Schrank an? · 45 min
-- 10:35 · Ein Projekt für den Schrank. · 40 min
-- 11:15 · Pause · 15 min
-- 11:30 · ChatGPT legt die Dateien ab. · 60 min
-- 12:30 · Mittagspause · 60 min
-- 13:30 · ChatGPT bedient den Browser. · 55 min
-- 14:25 · Pause · 15 min
-- 14:40 · Was kostet unser Schrank? · 65 min
+- 09:15 · Kerim, wir haben Großes vor! · 55 min
+- 10:10 · Wem bieten wir den Schrank an? · 45 min
+- 10:55 · Ein Projekt für den Schrank. · 40 min
+- 11:35 · Pause · 15 min
+- 11:50 · ChatGPT legt die Dateien ab. · 60 min
+- 12:50 · Mittagspause · 60 min
+- 13:50 · ChatGPT bedient den Browser. · 55 min
+- 14:45 · Pause · 15 min
+- 15:00 · Was kostet unser Schrank? · 45 min
 - 15:45 · Ergebnisse sichern · 15 min
 
 ## Tag 2
 - 09:00 · Wieder ankommen · 15 min
 - 09:15 · ChatGPT füllt das Angebot aus. · 60 min
-- 10:15 · Kerim, wir haben Großes vor! · 55 min
+- 10:15 · Eigene Fragen und Vertiefung · 55 min
 - 11:10 · Pause · 15 min
 - 11:25 · Schrankbesprechung an Weihnachten. · 60 min
 - 12:25 · Mittagspause · 60 min
@@ -37,32 +37,40 @@ Prinzip ansehen, echte Vorführung durch Kerim, im eigenen Konto üben, Ergebnis
 - 14:25 · Dein Angebot steht. · 65 min
 - 15:30 · Ergebnisse zeigen und Transfer · 30 min
 
-## 1. Eine Mail verstehen.
-Zum Aufwärmen nutzt du eine passende Mail von heute. Danach beginnt unser gemeinsames Rollenspiel: Unser fiktiver Betrieb Werkraum möchte Hadi Teherani einen maßgefertigten Büroschrank anbieten. Er hat ihn nicht bestellt und uns nicht geschrieben.
+## 1. Kerim, wir haben Großes vor!
+Wir prüfen, ob es im eigenen Postfach schon Korrespondenz mit Hadi Teherani oder seinem Büro gibt. Danach finden wir Kerims Kontakt und bereiten eine lockere interne Mail mit Mission_Hadi.pdf vor. Die angekündigte Zusammenarbeit ist unser Seminar-Rollenspiel, keine bestätigte Zusage.
 
 **Das lernen wir:**
-- ChatGPT und Modell öffnen
-- Outlook-Verbindung prüfen
-- Eine konkrete Mail von heute auswählen
-- Erklärung mit einer Nachfrage verbessern
+- Posteingang und gesendete Mails durchsuchen
+- Treffer lesen und keinen Treffer ehrlich benennen
+- Kerims Kontakt finden und E-Mail-Adresse prüfen
+- Eine einseitige PDF aus Projektangaben erstellen
+- Humorvollen Mailtext überarbeiten
+- Entwurf mit tatsächlichem Dateianhang in Outlook prüfen
 
 **Das zeigst du live:**
-1. Öffne ChatGPT. Öffne die Desktop-App und den dort als Work beschrifteten Bereich. Wähle GPT-6 Astra mit Low, sofern verfügbar. Kerim hilft bei abweichender Modellauswahl. Prüfe unter Plugins die Outlook-Verbindung.
-2. Wähle eine Mail von heute. Zeige eine passende Mail, die du für die Übung verwenden darfst. Nutze am Beamer eine vorbereitete Testmail.
-   Auftrag: Zeige meine heutigen Mails mit Absender und Betreff. Ich wähle danach eine aus.
-3. Lass sie erklären. Lies die Erklärung und vergleiche sie mit der Mail.
-   Auftrag: Erkläre mir diese Mail in drei einfachen Sätzen. Was soll ich als Nächstes tun?
-4. Verbessere die Erklärung. Bleibe in derselben Aufgabe. Danach öffnen wir den Schrankbrief aus dem Materialpaket.
-   Auftrag: Noch einfacher, bitte. Nenne nur meinen nächsten Schritt.
+1. Gab es schon Kontakt? Suche im eigenen Postfach, auch in gesendeten Nachrichten. Lies passende Treffer; eine Namensnennung allein ist noch keine Korrespondenz mit seinem Büro.
+   Auftrag: Suche in meinem Postfach und meinen gesendeten Mails nach Korrespondenz mit Hadi Teherani. Prüfe auch die Schreibweise Hadi Tehrani. Zeige passende Treffer mit Absender, Empfänger, Datum und Betreff. Fasse nur gelesene Nachrichten zusammen. Wenn du nichts findest, sage das und nenne den durchsuchten Bereich.
+2. Finde Kerims Kontakt. Lass gespeicherte Kontakte durchsuchen. Falls der Zugriff fehlt, kann eine frühere Mail helfen. Bei mehreren Treffern wählst du die richtige Person.
+   Auftrag: Finde den Kontakt unseres Seminarleiters Kerim in meinen gespeicherten Outlook-Kontakten. Zeige vollständigen Namen und E-Mail-Adresse. Bei mehreren Treffern frage nach. Falls du keinen Kontakt findest oder keinen Zugriff hast, sage das; erfinde keine Adresse.
+3. Mach eine Mission-PDF. Lade zuerst 03-schrankbrief.txt aus den Übungsdateien in ChatGPT hoch. Erstelle daraus eine Seite und lade die PDF auf deinen Laptop herunter. Öffne sie vor dem Anhängen.
+   Auftrag: Erstelle Mission_Hadi.pdf als einseitigen Projekt-Steckbrief: Titel „Ein Schrank für Hadi“, unsere Schrankidee aus dem hochgeladenen Schrankbrief, Maße als Übungsannahmen und drei offene Fragen. Lass Preise weg; die kalkulieren wir später. Kennzeichne die Zusammenarbeit als Seminar-Rollenspiel ohne Zusage. Gib mir die PDF zum Herunterladen.
+4. Weihe Kerim ein. Lass einen lockeren, kurzen Text schreiben und verbessere ihn. Echte Suchergebnisse und unser Rollenspiel bleiben unterscheidbar.
+   Auftrag: Entwirf eine kurze, lustige Mail an Kerim mit dem Betreff „ÜBUNG – Kerim, wir haben Großes vor!“. Einstieg: „Kerim, wir arbeiten jetzt mit Hadi Teherani! Zumindest in unserem Seminar – der Schrank ist schon geplant, seine Zusage fehlt noch.“ Ergänze das tatsächliche Ergebnis der Korrespondenzsuche und verweise auf Mission_Hadi.pdf. Keine erfundene Korrespondenz oder Zusage. Noch nicht speichern oder senden.
+5. Speichere den Entwurf mit Anhang. Verwende den geprüften Kontakt Kerim. Wenn der Kontakt noch offen ist, kläre ihn zuerst. Anhangsfunktion prüfen; falls nötig die PDF direkt in Outlook anhängen.
+   Auftrag: Speichere den überarbeiteten Text als Outlook-Entwurf an die zuvor geprüfte E-Mail-Adresse von Kerim. Hänge die in dieser Aufgabe erstellte und geprüfte Datei Mission_Hadi.pdf an. Keine anderen Empfänger. Nicht senden.
+6. Öffne und prüfe alles. Öffne den Entwurf in Outlook. Prüfe Kerims Adresse, den Rollenspiel-Hinweis und öffne den tatsächlichen Anhang.
 
-**Eigene Aufgabe:** Lass dir eine Mail von heute erklären. Öffne danach unseren Schrankbrief.
+**Eigene Aufgabe:** Suche nach Hadi-Korrespondenz, finde Kerim und entwirf ihm eine lockere Projektmail mit Mission_Hadi.pdf.
 
 **Ergebnis prüfen:**
-- Ich verstehe meine Mail.
-- Ich habe die Antwort einmal verbessert.
-- Ich weiß: Die Schrankidee stammt von unserem fiktiven Betrieb.
+- Die Korrespondenzsuche ist belegt oder als erfolglos im durchsuchten Bereich benannt.
+- Kerims Name und E-Mail-Adresse sind geprüft.
+- Die Zusammenarbeit ist als Seminar-Rollenspiel erkennbar.
+- Mission_Hadi.pdf hängt tatsächlich an und lässt sich öffnen.
+- Die Mail bleibt ungesendet.
 
-**Danach:** Jetzt recherchieren wir, wem wir unseren Schrank anbieten möchten.
+**Danach:** Jetzt recherchieren wir genauer, wem wir unseren Schrank anbieten möchten.
 
 ## 2. Wem bieten wir den Schrank an?
 Wir recherchieren den Architekten und Designer Hadi Teherani auf offiziellen Quellen. Die öffentlich genannte Büro-E-Mail ist ein Geschäftskontakt, keine bestätigte persönliche Adresse. Ob er einen Schrank braucht, wissen wir nicht.
@@ -248,44 +256,9 @@ ChatGPT erhält unsere leere Angebotsvorlage, den Schrankbrief und die Kalkulati
 - Annahmen und offene Angaben sind erkennbar.
 - DOCX und PDF liegen in meinem OneDrive.
 
-**Danach:** Die geprüften Angaben fließen in Mission_Hadi.pdf für Kerim ein.
+**Danach:** Aktualisiere später Mission_Hadi.pdf und den vorhandenen Entwurf an Kerim mit dem geprüften Angebotspreis.
 
-## 8. Kerim, wir haben Großes vor!
-Wir prüfen, ob es im eigenen Postfach schon Korrespondenz mit Hadi Teherani oder seinem Büro gibt. Danach finden wir Kerims Kontakt und bereiten eine lockere interne Mail mit Mission_Hadi.pdf vor. Die angekündigte Zusammenarbeit ist unser Seminar-Rollenspiel, keine bestätigte Zusage.
-
-**Das lernen wir:**
-- Posteingang und gesendete Mails durchsuchen
-- Treffer lesen und keinen Treffer ehrlich benennen
-- Kerims Kontakt finden und E-Mail-Adresse prüfen
-- Eine einseitige PDF aus Projektangaben erstellen
-- Humorvollen Mailtext überarbeiten
-- Entwurf mit tatsächlichem Dateianhang in Outlook prüfen
-
-**Das zeigst du live:**
-1. Gab es schon Kontakt? Suche im eigenen Postfach, auch in gesendeten Nachrichten. Lies passende Treffer; eine Namensnennung allein ist noch keine Korrespondenz mit seinem Büro.
-   Auftrag: Suche in meinem Postfach und meinen gesendeten Mails nach Korrespondenz mit Hadi Teherani. Prüfe auch die Schreibweise Hadi Tehrani und die recherchierte Büro-Adresse. Zeige passende Treffer mit Absender, Empfänger, Datum und Betreff. Fasse nur gelesene Nachrichten zusammen. Wenn du nichts findest, sage das und nenne den durchsuchten Bereich.
-2. Finde Kerims Kontakt. Lass gespeicherte Kontakte durchsuchen. Falls der Zugriff fehlt, kann eine frühere Mail helfen. Bei mehreren Treffern wählst du die richtige Person.
-   Auftrag: Finde den Kontakt unseres Seminarleiters Kerim in meinen gespeicherten Outlook-Kontakten. Zeige vollständigen Namen und E-Mail-Adresse. Bei mehreren Treffern frage nach. Falls du keinen Kontakt findest oder keinen Zugriff hast, sage das; erfinde keine Adresse.
-3. Mach eine Mission-PDF. Nutze den Schrankbrief und deine geprüfte Kalkulation. Erstelle eine Seite und öffne sie vor dem Anhängen.
-   Auftrag: Erstelle Mission_Hadi.pdf als einseitigen Projekt-Steckbrief: Titel „Ein Schrank für Hadi“, unsere Schrankidee, Maße als Übungsannahmen, aktueller Angebotspreis aus meiner Kalkulation mit klarer Netto-/Bruttoangabe und drei offene Fragen. Kennzeichne die Zusammenarbeit als Seminar-Rollenspiel ohne Zusage. Speichere die PDF in meinem OneDrive-Ordner Seminar Schrank.
-4. Weihe Kerim ein. Lass einen lockeren, kurzen Text schreiben und verbessere ihn. Echte Suchergebnisse und unser Rollenspiel bleiben unterscheidbar.
-   Auftrag: Entwirf eine kurze, lustige Mail an Kerim mit dem Betreff „ÜBUNG – Kerim, wir haben Großes vor!“. Einstieg: „Kerim, wir arbeiten jetzt mit Hadi Teherani! Zumindest in unserem Seminar – der Schrank ist schon geplant, seine Zusage fehlt noch.“ Ergänze das tatsächliche Ergebnis der Korrespondenzsuche und verweise auf Mission_Hadi.pdf. Keine erfundene Korrespondenz oder Zusage. Noch nicht speichern oder senden.
-5. Speichere den Entwurf mit Anhang. Verwende den geprüften Kontakt Kerim. Wenn der Kontakt noch offen ist, kläre ihn zuerst. Anhangsfunktion prüfen; falls nötig die PDF direkt in Outlook anhängen.
-   Auftrag: Speichere den überarbeiteten Text als Outlook-Entwurf an die zuvor geprüfte E-Mail-Adresse von Kerim. Hänge die geprüfte Datei Mission_Hadi.pdf aus Seminar Schrank an. Keine anderen Empfänger. Nicht senden.
-6. Öffne und prüfe alles. Öffne den Entwurf in Outlook. Prüfe Kerims Adresse, den Rollenspiel-Hinweis und öffne den tatsächlichen Anhang.
-
-**Eigene Aufgabe:** Suche nach Hadi-Korrespondenz, finde Kerim und entwirf ihm eine lockere Projektmail mit Mission_Hadi.pdf.
-
-**Ergebnis prüfen:**
-- Die Korrespondenzsuche ist belegt oder als erfolglos im durchsuchten Bereich benannt.
-- Kerims Name und E-Mail-Adresse sind geprüft.
-- Die Zusammenarbeit ist als Seminar-Rollenspiel erkennbar.
-- Mission_Hadi.pdf hängt tatsächlich an und lässt sich öffnen.
-- Die Mail bleibt ungesendet.
-
-**Danach:** Zum Abschluss wird es weihnachtlich.
-
-## 9. Schrankbesprechung an Weihnachten.
+## 8. Schrankbesprechung an Weihnachten.
 Unser Rollenspiel bekommt einen Weihnachtstermin: 25.12.2026 um 10:00 Uhr, Europe/Berlin, 30 Minuten. Es ist kein vereinbarter Termin mit Hadi Teherani. Wir legen ihn ohne Gäste im eigenen Kalender an, verschieben ihn und entfernen ihn wieder.
 
 **Das lernen wir:**
@@ -315,7 +288,7 @@ Unser Rollenspiel bekommt einen Weihnachtstermin: 25.12.2026 um 10:00 Uhr, Europ
 
 **Danach:** Jetzt planen wir eine spätere Entwurfserstellung.
 
-## 10. Den Entwurf später erstellen lassen.
+## 9. Den Entwurf später erstellen lassen.
 Wir planen, dass ChatGPT zu einem späteren Zeitpunkt einen Mailentwurf vorbereitet. Das ist kein zeitversetzter Versand. Ob eine geplante Aufgabe auf Projektdateien und Outlook zugreifen kann, wird im Konto geprüft. Wenn nicht, soll sie die fehlende Verbindung melden oder den Entwurf als Text bereitstellen.
 
 **Das lernen wir:**
@@ -345,7 +318,7 @@ Wir planen, dass ChatGPT zu einem späteren Zeitpunkt einen Mailentwurf vorberei
 
 **Danach:** Zum Schluss verbindest du alle Schritte selbst.
 
-## 11. Dein Angebot steht.
+## 10. Dein Angebot steht.
 Unser fiktiver Betrieb ändert die Annahme: zehn statt acht Arbeitsstunden. Aktualisiere die Kalkulation und das Angebot. Eine andere Person soll Quellen, Annahmen, Dateien und Entwurf wiederfinden können.
 
 **Das lernen wir:**

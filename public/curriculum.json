@@ -6,91 +6,109 @@
   "environment": "Du arbeitest in deinem eigenen ChatGPT und Microsoft 365. Unser Angebot ist ein Seminar-Rollenspiel. Es gibt keine Anfrage oder Zusage von Hadi Teherani.",
   "lessons": [
     {
-      "id": "posteingang",
-      "title": "Eine Mail verstehen.",
-      "short": "Der Arbeitstag beginnt.",
+      "id": "antwort",
+      "title": "Kerim, wir haben Großes vor!",
+      "short": "Korrespondenz suchen, Kontakt finden, Entwurf mit Anhang.",
       "tools": [
         "chatgpt",
         "outlook"
       ],
-      "minutes": 35,
-      "why": "Zum Aufwärmen nutzt du eine passende Mail von heute. Danach beginnt unser gemeinsames Rollenspiel: Unser fiktiver Betrieb Werkraum möchte Hadi Teherani einen maßgefertigten Büroschrank anbieten. Er hat ihn nicht bestellt und uns nicht geschrieben.",
-      "principle": "Erst verstehen. Dann loslegen.",
-      "story": "Zum Aufwärmen nutzt du eine passende Mail von heute. Danach beginnt unser gemeinsames Rollenspiel: Unser fiktiver Betrieb Werkraum möchte Hadi Teherani einen maßgefertigten Büroschrank anbieten. Er hat ihn nicht bestellt und uns nicht geschrieben.",
-      "outcome": "Eine erklärte Mail und unser gemeinsamer Schrankbrief.",
+      "minutes": 55,
+      "why": "Wir prüfen, ob es im eigenen Postfach schon Korrespondenz mit Hadi Teherani oder seinem Büro gibt. Danach finden wir Kerims Kontakt und bereiten eine lockere interne Mail mit Mission_Hadi.pdf vor. Die angekündigte Zusammenarbeit ist unser Seminar-Rollenspiel, keine bestätigte Zusage.",
+      "principle": "Erst suchen. Dann Kerim einweihen.",
+      "story": "Wir prüfen, ob es im eigenen Postfach schon Korrespondenz mit Hadi Teherani oder seinem Büro gibt. Danach finden wir Kerims Kontakt und bereiten eine lockere interne Mail mit Mission_Hadi.pdf vor. Die angekündigte Zusammenarbeit ist unser Seminar-Rollenspiel, keine bestätigte Zusage.",
+      "outcome": "Ein ungesendeter Outlook-Entwurf an den geprüften Kontakt Kerim mit Mission_Hadi.pdf.",
       "skills": [
-        "ChatGPT und Modell öffnen",
-        "Outlook-Verbindung prüfen",
-        "Eine konkrete Mail von heute auswählen",
-        "Erklärung mit einer Nachfrage verbessern"
+        "Posteingang und gesendete Mails durchsuchen",
+        "Treffer lesen und keinen Treffer ehrlich benennen",
+        "Kerims Kontakt finden und E-Mail-Adresse prüfen",
+        "Eine einseitige PDF aus Projektangaben erstellen",
+        "Humorvollen Mailtext überarbeiten",
+        "Entwurf mit tatsächlichem Dateianhang in Outlook prüfen"
       ],
       "demos": [
         {
-          "title": "Öffne ChatGPT.",
-          "action": "Öffne die Desktop-App und den dort als Work beschrifteten Bereich. Wähle GPT-6 Astra mit Low, sofern verfügbar. Kerim hilft bei abweichender Modellauswahl. Prüfe unter Plugins die Outlook-Verbindung.",
+          "title": "Gab es schon Kontakt?",
+          "action": "Suche im eigenen Postfach, auch in gesendeten Nachrichten. Lies passende Treffer; eine Namensnennung allein ist noch keine Korrespondenz mit seinem Büro.",
+          "prompt": "Suche in meinem Postfach und meinen gesendeten Mails nach Korrespondenz mit Hadi Teherani. Prüfe auch die Schreibweise Hadi Tehrani. Zeige passende Treffer mit Absender, Empfänger, Datum und Betreff. Fasse nur gelesene Nachrichten zusammen. Wenn du nichts findest, sage das und nenne den durchsuchten Bereich.",
+          "see": "Passende Korrespondenz oder ein klarer Hinweis: Im durchsuchten Bereich nichts gefunden.",
+          "asset": ""
+        },
+        {
+          "title": "Finde Kerims Kontakt.",
+          "action": "Lass gespeicherte Kontakte durchsuchen. Falls der Zugriff fehlt, kann eine frühere Mail helfen. Bei mehreren Treffern wählst du die richtige Person.",
+          "prompt": "Finde den Kontakt unseres Seminarleiters Kerim in meinen gespeicherten Outlook-Kontakten. Zeige vollständigen Namen und E-Mail-Adresse. Bei mehreren Treffern frage nach. Falls du keinen Kontakt findest oder keinen Zugriff hast, sage das; erfinde keine Adresse.",
+          "see": "Der richtige Kerim und seine Adresse sind geprüft. Fehlt der Kontakt, fragst du Kerim im Raum.",
+          "asset": ""
+        },
+        {
+          "title": "Mach eine Mission-PDF.",
+          "action": "Lade zuerst 03-schrankbrief.txt aus den Übungsdateien in ChatGPT hoch. Erstelle daraus eine Seite und lade die PDF auf deinen Laptop herunter. Öffne sie vor dem Anhängen.",
+          "prompt": "Erstelle Mission_Hadi.pdf als einseitigen Projekt-Steckbrief: Titel „Ein Schrank für Hadi“, unsere Schrankidee aus dem hochgeladenen Schrankbrief, Maße als Übungsannahmen und drei offene Fragen. Lass Preise weg; die kalkulieren wir später. Kennzeichne die Zusammenarbeit als Seminar-Rollenspiel ohne Zusage. Gib mir die PDF zum Herunterladen.",
+          "see": "Die heruntergeladene PDF lässt sich auf deinem Laptop öffnen.",
+          "asset": ""
+        },
+        {
+          "title": "Weihe Kerim ein.",
+          "action": "Lass einen lockeren, kurzen Text schreiben und verbessere ihn. Echte Suchergebnisse und unser Rollenspiel bleiben unterscheidbar.",
+          "prompt": "Entwirf eine kurze, lustige Mail an Kerim mit dem Betreff „ÜBUNG – Kerim, wir haben Großes vor!“. Einstieg: „Kerim, wir arbeiten jetzt mit Hadi Teherani! Zumindest in unserem Seminar – der Schrank ist schon geplant, seine Zusage fehlt noch.“ Ergänze das tatsächliche Ergebnis der Korrespondenzsuche und verweise auf Mission_Hadi.pdf. Keine erfundene Korrespondenz oder Zusage. Noch nicht speichern oder senden.",
+          "see": "Ein humorvoller Text, den du kürzen oder persönlicher machen lassen kannst.",
+          "asset": ""
+        },
+        {
+          "title": "Speichere den Entwurf mit Anhang.",
+          "action": "Verwende den geprüften Kontakt Kerim. Wenn der Kontakt noch offen ist, kläre ihn zuerst. Anhangsfunktion prüfen; falls nötig die PDF direkt in Outlook anhängen.",
+          "prompt": "Speichere den überarbeiteten Text als Outlook-Entwurf an die zuvor geprüfte E-Mail-Adresse von Kerim. Hänge die in dieser Aufgabe erstellte und geprüfte Datei Mission_Hadi.pdf an. Keine anderen Empfänger. Nicht senden.",
+          "see": "Der Entwurf ist in Outlook sichtbar, an Kerim adressiert und enthält die PDF.",
+          "asset": ""
+        },
+        {
+          "title": "Öffne und prüfe alles.",
+          "action": "Öffne den Entwurf in Outlook. Prüfe Kerims Adresse, den Rollenspiel-Hinweis und öffne den tatsächlichen Anhang.",
           "prompt": "",
-          "see": "Du findest Eingabefeld, Modell und Outlook-Verbindung.",
-          "asset": "work-original.png"
-        },
-        {
-          "title": "Wähle eine Mail von heute.",
-          "action": "Zeige eine passende Mail, die du für die Übung verwenden darfst. Nutze am Beamer eine vorbereitete Testmail.",
-          "prompt": "Zeige meine heutigen Mails mit Absender und Betreff. Ich wähle danach eine aus.",
-          "see": "Eine bestimmte Mail ist ausgewählt.",
-          "asset": ""
-        },
-        {
-          "title": "Lass sie erklären.",
-          "action": "Lies die Erklärung und vergleiche sie mit der Mail.",
-          "prompt": "Erkläre mir diese Mail in drei einfachen Sätzen. Was soll ich als Nächstes tun?",
-          "see": "Du verstehst den Wunsch des Absenders.",
-          "asset": ""
-        },
-        {
-          "title": "Verbessere die Erklärung.",
-          "action": "Bleibe in derselben Aufgabe. Danach öffnen wir den Schrankbrief aus dem Materialpaket.",
-          "prompt": "Noch einfacher, bitte. Nenne nur meinen nächsten Schritt.",
-          "see": "Du kannst mit einer Nachfrage korrigieren.",
+          "see": "Richtiger Empfänger, richtige PDF und weiterhin ungesendet.",
           "asset": ""
         }
       ],
-      "mission": "Lass dir eine Mail von heute erklären. Öffne danach unseren Schrankbrief.",
+      "mission": "Suche nach Hadi-Korrespondenz, finde Kerim und entwirf ihm eine lockere Projektmail mit Mission_Hadi.pdf.",
       "steps": [
-        "Wähle eine geeignete eigene Mail.",
-        "Lass sie erklären und frage einmal nach.",
-        "Öffne 03-schrankbrief.txt für den gemeinsamen Fall."
+        "Korrespondenz suchen und Kerims Kontakt prüfen.",
+        "Schrankbrief hochladen, Mission_Hadi.pdf erstellen und öffnen.",
+        "Mailtext verbessern, als Entwurf an Kerim speichern und PDF anhängen."
       ],
       "checks": [
-        "Ich verstehe meine Mail.",
-        "Ich habe die Antwort einmal verbessert.",
-        "Ich weiß: Die Schrankidee stammt von unserem fiktiven Betrieb."
+        "Die Korrespondenzsuche ist belegt oder als erfolglos im durchsuchten Bereich benannt.",
+        "Kerims Name und E-Mail-Adresse sind geprüft.",
+        "Die Zusammenarbeit ist als Seminar-Rollenspiel erkennbar.",
+        "Mission_Hadi.pdf hängt tatsächlich an und lässt sich öffnen.",
+        "Die Mail bleibt ungesendet."
       ],
       "hints": [
-        "Beginne mit „Was möchte der Absender von mir?“",
-        "Keine passende Mail? Verwende den internen Übungsauftrag im Schrankbrief.",
-        "Erfundene Zusagen streichen und mit der Quelle vergleichen."
+        "Kein Suchtreffer ist ein gültiges Ergebnis. Nicht behaupten, es habe niemals Kontakt gegeben.",
+        "Mehrere Kerims? Vollständigen Namen und Adresse vergleichen. Kein Kontakt? Kerim im Raum fragen.",
+        "Bei fehlender Anhangsfunktion die geprüfte PDF direkt in Outlook ergänzen."
       ],
       "question": {
-        "ask": "Hat Hadi Teherani bei uns einen Schrank bestellt?",
+        "ask": "ChatGPT findet keine passende Mail. Was schreiben wir?",
         "options": [
-          "Ja.",
-          "Nein, wir entwickeln erst eine Angebotsidee."
+          "Im durchsuchten Bereich wurde keine Korrespondenz gefunden.",
+          "Hadi hat uns mündlich zugesagt."
         ],
-        "correct": 1,
-        "explain": "Es ist unsere Seminaridee. Recherche darf kein Interesse oder einen Auftrag erfinden."
+        "correct": 0,
+        "explain": "Suchlücken sind keine Einladung, eine Vorgeschichte zu erfinden."
       },
       "files": [
         "03-schrankbrief.txt"
       ],
-      "bonus": "Lass einen ersten Antworttext auf deine eigene Mail entwerfen und passe ihn an. Nicht versenden.",
-      "carry": "Jetzt recherchieren wir, wem wir unseren Schrank anbieten möchten.",
+      "bonus": "Lass zwei Betreffzeilen schreiben: eine sachliche und eine augenzwinkernde. Wähle selbst.",
+      "carry": "Jetzt recherchieren wir genauer, wem wir unseren Schrank anbieten möchten.",
       "day": 1,
       "time": "09:15",
       "number": 1,
       "rhythm": {
         "explain": 5,
         "show": 10,
-        "do": 15,
+        "do": 35,
         "check": 5
       }
     },
@@ -175,7 +193,7 @@
       "bonus": "Finde ein öffentlich dokumentiertes Designprojekt und erkläre, warum es dich zu deiner Schrankidee inspiriert.",
       "carry": "Steckbrief und Schrankbrief gehören in unser neues Projekt.",
       "day": 1,
-      "time": "09:50",
+      "time": "10:10",
       "number": 2,
       "rhythm": {
         "explain": 5,
@@ -264,7 +282,7 @@
       "bonus": "Verlasse die Ansicht und finde Projekt, Datei und Aufgabe selbst wieder.",
       "carry": "Als Nächstes richten wir die Dateiablage ein.",
       "day": 1,
-      "time": "10:35",
+      "time": "10:55",
       "number": 3,
       "rhythm": {
         "explain": 5,
@@ -371,7 +389,7 @@
       "bonus": "Lass eine Kopie umbenennen und in einen eigenen Unterordner „Angebot“ verschieben.",
       "carry": "Jetzt recherchieren wir echte Produkte im Baumarkt.",
       "day": 1,
-      "time": "11:30",
+      "time": "11:50",
       "number": 4,
       "rhythm": {
         "explain": 5,
@@ -469,7 +487,7 @@
       "bonus": "Lass auf derselben Seite einen Zuschnittservice finden und die Bedingungen zeigen. Nichts buchen.",
       "carry": "Die geprüften Preise gehen in die Excel-Kalkulation.",
       "day": 1,
-      "time": "13:30",
+      "time": "13:50",
       "number": 5,
       "rhythm": {
         "explain": 5,
@@ -486,7 +504,7 @@
         "chatgpt",
         "excel"
       ],
-      "minutes": 65,
+      "minutes": 45,
       "why": "Die Arbeitsmappe enthält klar bezeichnete Übungswerte. Ersetze Materialpreise durch deine recherchierten Werte, sofern sie zur angenommenen Einheit passen. Übernimm Brutto-Preise nicht ungeprüft als Netto-Preise. Arbeitszeit, Aufschlag und Maße sind unsere Annahmen, kein Kundenwunsch.",
       "principle": "Menge mal Preis. Dann die übrigen Kosten.",
       "story": "Die Arbeitsmappe enthält klar bezeichnete Übungswerte. Ersetze Materialpreise durch deine recherchierten Werte, sofern sie zur angenommenen Einheit passen. Übernimm Brutto-Preise nicht ungeprüft als Netto-Preise. Arbeitszeit, Aufschlag und Maße sind unsere Annahmen, kein Kundenwunsch.",
@@ -568,12 +586,12 @@
       "bonus": "Vergleiche zwei Materialvarianten. Erkläre den Preisunterschied mit eigenen Worten.",
       "carry": "Die geprüfte Summe füllt unser Angebot.",
       "day": 1,
-      "time": "14:40",
+      "time": "15:00",
       "number": 6,
       "rhythm": {
         "explain": 5,
         "show": 10,
-        "do": 45,
+        "do": 25,
         "check": 5
       }
     },
@@ -660,7 +678,7 @@
         "04-schrankkalkulation.xlsx"
       ],
       "bonus": "Lass die Einleitung für einen sachlichen und einen etwas mutigeren Stil formulieren.",
-      "carry": "Die geprüften Angaben fließen in Mission_Hadi.pdf für Kerim ein.",
+      "carry": "Aktualisiere später Mission_Hadi.pdf und den vorhandenen Entwurf an Kerim mit dem geprüften Angebotspreis.",
       "day": 2,
       "time": "09:15",
       "number": 7,
@@ -668,115 +686,6 @@
         "explain": 5,
         "show": 10,
         "do": 40,
-        "check": 5
-      }
-    },
-    {
-      "id": "antwort",
-      "title": "Kerim, wir haben Großes vor!",
-      "short": "Korrespondenz suchen, Kontakt finden, Entwurf mit Anhang.",
-      "tools": [
-        "chatgpt",
-        "outlook",
-        "onedrive"
-      ],
-      "minutes": 55,
-      "why": "Wir prüfen, ob es im eigenen Postfach schon Korrespondenz mit Hadi Teherani oder seinem Büro gibt. Danach finden wir Kerims Kontakt und bereiten eine lockere interne Mail mit Mission_Hadi.pdf vor. Die angekündigte Zusammenarbeit ist unser Seminar-Rollenspiel, keine bestätigte Zusage.",
-      "principle": "Erst suchen. Dann Kerim einweihen.",
-      "story": "Wir prüfen, ob es im eigenen Postfach schon Korrespondenz mit Hadi Teherani oder seinem Büro gibt. Danach finden wir Kerims Kontakt und bereiten eine lockere interne Mail mit Mission_Hadi.pdf vor. Die angekündigte Zusammenarbeit ist unser Seminar-Rollenspiel, keine bestätigte Zusage.",
-      "outcome": "Ein ungesendeter Outlook-Entwurf an den geprüften Kontakt Kerim mit Mission_Hadi.pdf.",
-      "skills": [
-        "Posteingang und gesendete Mails durchsuchen",
-        "Treffer lesen und keinen Treffer ehrlich benennen",
-        "Kerims Kontakt finden und E-Mail-Adresse prüfen",
-        "Eine einseitige PDF aus Projektangaben erstellen",
-        "Humorvollen Mailtext überarbeiten",
-        "Entwurf mit tatsächlichem Dateianhang in Outlook prüfen"
-      ],
-      "demos": [
-        {
-          "title": "Gab es schon Kontakt?",
-          "action": "Suche im eigenen Postfach, auch in gesendeten Nachrichten. Lies passende Treffer; eine Namensnennung allein ist noch keine Korrespondenz mit seinem Büro.",
-          "prompt": "Suche in meinem Postfach und meinen gesendeten Mails nach Korrespondenz mit Hadi Teherani. Prüfe auch die Schreibweise Hadi Tehrani und die recherchierte Büro-Adresse. Zeige passende Treffer mit Absender, Empfänger, Datum und Betreff. Fasse nur gelesene Nachrichten zusammen. Wenn du nichts findest, sage das und nenne den durchsuchten Bereich.",
-          "see": "Passende Korrespondenz oder ein klarer Hinweis: Im durchsuchten Bereich nichts gefunden.",
-          "asset": ""
-        },
-        {
-          "title": "Finde Kerims Kontakt.",
-          "action": "Lass gespeicherte Kontakte durchsuchen. Falls der Zugriff fehlt, kann eine frühere Mail helfen. Bei mehreren Treffern wählst du die richtige Person.",
-          "prompt": "Finde den Kontakt unseres Seminarleiters Kerim in meinen gespeicherten Outlook-Kontakten. Zeige vollständigen Namen und E-Mail-Adresse. Bei mehreren Treffern frage nach. Falls du keinen Kontakt findest oder keinen Zugriff hast, sage das; erfinde keine Adresse.",
-          "see": "Der richtige Kerim und seine Adresse sind geprüft. Fehlt der Kontakt, fragst du Kerim im Raum.",
-          "asset": ""
-        },
-        {
-          "title": "Mach eine Mission-PDF.",
-          "action": "Nutze den Schrankbrief und deine geprüfte Kalkulation. Erstelle eine Seite und öffne sie vor dem Anhängen.",
-          "prompt": "Erstelle Mission_Hadi.pdf als einseitigen Projekt-Steckbrief: Titel „Ein Schrank für Hadi“, unsere Schrankidee, Maße als Übungsannahmen, aktueller Angebotspreis aus meiner Kalkulation mit klarer Netto-/Bruttoangabe und drei offene Fragen. Kennzeichne die Zusammenarbeit als Seminar-Rollenspiel ohne Zusage. Speichere die PDF in meinem OneDrive-Ordner Seminar Schrank.",
-          "see": "Die PDF liegt im eigenen Ordner und lässt sich öffnen.",
-          "asset": ""
-        },
-        {
-          "title": "Weihe Kerim ein.",
-          "action": "Lass einen lockeren, kurzen Text schreiben und verbessere ihn. Echte Suchergebnisse und unser Rollenspiel bleiben unterscheidbar.",
-          "prompt": "Entwirf eine kurze, lustige Mail an Kerim mit dem Betreff „ÜBUNG – Kerim, wir haben Großes vor!“. Einstieg: „Kerim, wir arbeiten jetzt mit Hadi Teherani! Zumindest in unserem Seminar – der Schrank ist schon geplant, seine Zusage fehlt noch.“ Ergänze das tatsächliche Ergebnis der Korrespondenzsuche und verweise auf Mission_Hadi.pdf. Keine erfundene Korrespondenz oder Zusage. Noch nicht speichern oder senden.",
-          "see": "Ein humorvoller Text, den du kürzen oder persönlicher machen lassen kannst.",
-          "asset": ""
-        },
-        {
-          "title": "Speichere den Entwurf mit Anhang.",
-          "action": "Verwende den geprüften Kontakt Kerim. Wenn der Kontakt noch offen ist, kläre ihn zuerst. Anhangsfunktion prüfen; falls nötig die PDF direkt in Outlook anhängen.",
-          "prompt": "Speichere den überarbeiteten Text als Outlook-Entwurf an die zuvor geprüfte E-Mail-Adresse von Kerim. Hänge die geprüfte Datei Mission_Hadi.pdf aus Seminar Schrank an. Keine anderen Empfänger. Nicht senden.",
-          "see": "Der Entwurf ist in Outlook sichtbar, an Kerim adressiert und enthält die PDF.",
-          "asset": ""
-        },
-        {
-          "title": "Öffne und prüfe alles.",
-          "action": "Öffne den Entwurf in Outlook. Prüfe Kerims Adresse, den Rollenspiel-Hinweis und öffne den tatsächlichen Anhang.",
-          "prompt": "",
-          "see": "Richtiger Empfänger, richtige PDF und weiterhin ungesendet.",
-          "asset": ""
-        }
-      ],
-      "mission": "Suche nach Hadi-Korrespondenz, finde Kerim und entwirf ihm eine lockere Projektmail mit Mission_Hadi.pdf.",
-      "steps": [
-        "Korrespondenz suchen und Kerims Kontakt prüfen.",
-        "Mission_Hadi.pdf aus deinen Projektdateien erstellen und öffnen.",
-        "Mailtext verbessern, als Entwurf an Kerim speichern und PDF anhängen."
-      ],
-      "checks": [
-        "Die Korrespondenzsuche ist belegt oder als erfolglos im durchsuchten Bereich benannt.",
-        "Kerims Name und E-Mail-Adresse sind geprüft.",
-        "Die Zusammenarbeit ist als Seminar-Rollenspiel erkennbar.",
-        "Mission_Hadi.pdf hängt tatsächlich an und lässt sich öffnen.",
-        "Die Mail bleibt ungesendet."
-      ],
-      "hints": [
-        "Kein Suchtreffer ist ein gültiges Ergebnis. Nicht behaupten, es habe niemals Kontakt gegeben.",
-        "Mehrere Kerims? Vollständigen Namen und Adresse vergleichen. Kein Kontakt? Kerim im Raum fragen.",
-        "Bei fehlender Anhangsfunktion die geprüfte PDF direkt in Outlook ergänzen."
-      ],
-      "question": {
-        "ask": "ChatGPT findet keine passende Mail. Was schreiben wir?",
-        "options": [
-          "Im durchsuchten Bereich wurde keine Korrespondenz gefunden.",
-          "Hadi hat uns mündlich zugesagt."
-        ],
-        "correct": 0,
-        "explain": "Suchlücken sind keine Einladung, eine Vorgeschichte zu erfinden."
-      },
-      "files": [
-        "03-schrankbrief.txt",
-        "04-schrankkalkulation.xlsx"
-      ],
-      "bonus": "Lass zwei Betreffzeilen schreiben: eine sachliche und eine augenzwinkernde. Wähle selbst.",
-      "carry": "Zum Abschluss wird es weihnachtlich.",
-      "day": 2,
-      "time": "10:15",
-      "number": 8,
-      "rhythm": {
-        "explain": 5,
-        "show": 10,
-        "do": 35,
         "check": 5
       }
     },
@@ -863,7 +772,7 @@
       "carry": "Jetzt planen wir eine spätere Entwurfserstellung.",
       "day": 2,
       "time": "11:25",
-      "number": 9,
+      "number": 8,
       "rhythm": {
         "explain": 5,
         "show": 10,
@@ -954,7 +863,7 @@
       "carry": "Zum Schluss verbindest du alle Schritte selbst.",
       "day": 2,
       "time": "13:25",
-      "number": 10,
+      "number": 9,
       "rhythm": {
         "explain": 5,
         "show": 10,
@@ -1034,7 +943,7 @@
       "carry": "Deine Ergebnisse bleiben in deinen eigenen Konten.",
       "day": 2,
       "time": "14:25",
-      "number": 11,
+      "number": 10,
       "rhythm": {
         "explain": 5,
         "show": 10,
@@ -1055,48 +964,48 @@
         ],
         [
           "09:15",
-          "Eine Mail verstehen.",
-          "35 min"
+          "Kerim, wir haben Großes vor!",
+          "55 min"
         ],
         [
-          "09:50",
+          "10:10",
           "Wem bieten wir den Schrank an?",
           "45 min"
         ],
         [
-          "10:35",
+          "10:55",
           "Ein Projekt für den Schrank.",
           "40 min"
         ],
         [
-          "11:15",
+          "11:35",
           "Pause",
           "15 min"
         ],
         [
-          "11:30",
+          "11:50",
           "ChatGPT legt die Dateien ab.",
           "60 min"
         ],
         [
-          "12:30",
+          "12:50",
           "Mittagspause",
           "60 min"
         ],
         [
-          "13:30",
+          "13:50",
           "ChatGPT bedient den Browser.",
           "55 min"
         ],
         [
-          "14:25",
+          "14:45",
           "Pause",
           "15 min"
         ],
         [
-          "14:40",
+          "15:00",
           "Was kostet unser Schrank?",
-          "65 min"
+          "45 min"
         ],
         [
           "15:45",
@@ -1121,7 +1030,7 @@
         ],
         [
           "10:15",
-          "Kerim, wir haben Großes vor!",
+          "Eigene Fragen und Vertiefung",
           "55 min"
         ],
         [
