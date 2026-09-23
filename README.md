@@ -1,12 +1,10 @@
-# KI, die mitarbeitet
+# Ein Arbeitstag mit KI
 
-Deutschsprachiger Praxisworkshop für KI im Arbeitsalltag von Handwerk und Bau. Eine Keynote-artige Website mit 34 Folien, neun schrittweisen Beispielen, zehn offenen Herausforderungen und einem vollständigen fiktiven Übungspaket.
+Deutschsprachiger Anfängerworkshop für Handwerk und Bau: zehn zusammenhängende Stationen am fiktiven Auftrag Lindenhof. Empfohlen sind zwei Seminartage, jeweils 09–16 Uhr einschließlich Pausen.
 
-## Website
+Die Seminarleitung erklärt und demonstriert live. Teilnehmende arbeiten anschließend in ihrer eigenen Work- und Microsoft-365-Umgebung. Die Website verbindet keine Konten und führt keine KI-Aufträge aus.
 
-Cloudflare Worker: `seminar`. Präsentationsmodus mit Pfeiltasten und Vollbild, Entdecken-Modus, Kapitelsuche, lokale Checklisten, optionale Hilfen und kopierbare Arbeitsaufträge.
-
-Die Seminarwebsite verbindet sich selbst nicht mit Microsoft 365. Die Teilnehmer bearbeiten Übungen in ihren eigenen Work- und Microsoft-365-Konten. Die Verfügbarkeit einzelner Plugins, Excel-Integration und geplanter Aktionen muss im jeweiligen Konto geprüft werden. Demos sind ausdrücklich fiktive Beispiele.
+Jede Station hat vier Abschnitte: Verstehen, gemeinsam ansehen, selbst machen, Ergebnis prüfen. Interaktive Erklärungen, Verständnisfragen, ein Angebotsvergleich, eine Auftragshilfe und lokale Ergebnischecklisten unterstützen das Lernen. Die Beameransicht vergrößert die Darstellung. Einrichtungspartner: ITP.
 
 ## Entwicklung
 
@@ -21,17 +19,18 @@ Die Vorschau entfernt nur lokal das Secure-Cookie-Attribut für HTTP. Der Produk
 
 ## Inhalte und Dateien
 
-- `STORYBOARD.md`: Inhaltskonzept und didaktische Planung.
-- `public/content.json`: strukturierte Teilnehmerinhalte.
-- `public/app.js`, `public/style.css`: Darstellung und Interaktion.
-- `public/material/`: Übungsdateien einschließlich XLSX, DOCX und ZIP.
-- `scripts/content.py`: erzeugt Teilnehmerinhalte aus dem Storyboard mit redaktionellen Anpassungen.
-- `scripts/materials.py`: erzeugt die Textdateien und Word-Vorlage; benötigt python-docx.
-- `scripts/spreadsheet.mjs`: erzeugt die Excel-Datei mit dem Codex-Artifact-Tool; `ARTIFACT_TOOL_MODULE` muss auf dessen ESM-Einstieg zeigen.
-- `scripts/build.mjs`: bündelt die statischen Dateien in einen Worker. Kein öffentlicher Asset-Bypass.
-- `src/worker.js`: Passwortprüfung, signierte 12-Stunden-Sitzung, Login-Limit und geschützte Auslieferung.
+- `CURRICULUM.md`: vollständiger Lernplan mit Lernzielen, Live-Vorführung, Übungen und Ergebniskriterien.
+- `scripts/curriculum.py`: erzeugt `public/curriculum.json`, Lernplan und Material-ZIP. Nach Inhaltsänderungen ausführen.
+- `public/day.js`, `public/day.css`: aktuelle Seminaroberfläche.
+- `public/toolkit.js`: nach Funktionen gegliedertes Werkzeugwissen.
+- `public/vorbereitung.html`: druckbare Vorbereitungsliste.
+- `public/material/`: fiktive Übungsdateien einschließlich XLSX, DOCX und ZIP.
+- `public/screens/SOURCES.md`: Quellen der Originalabbildungen.
+- `public/referenz.html`: frühere Folienfassung; die aktuelle Hauptseite ersetzt sie. Alte Folienlinks werden auf passende Stationen umgeleitet.
+- `scripts/build.mjs`: bündelt geschützte Assets in den Worker.
+- `src/worker.js`: Passwortschutz und Sitzungen.
 
-`public/content.json` ist ein Artefakt mit redaktionellen Anpassungen. Bei Änderungen am Storyboard den Generator ausführen und das Ergebnis prüfen. Die Beispielanimationen enthalten eigene Teilnehmertexte in `public/app.js`.
+Frühere Generatoren `content.py`, `materials.py`, `spreadsheet.mjs` und `walkthroughs.py` bleiben für vorhandene Ausgangsmaterialien erhalten. Nach deren Verwendung den aktuellen Lernplan und die Vorbereitung redaktionell prüfen.
 
 ## Veröffentlichung
 
@@ -43,10 +42,3 @@ Passwortschutz gilt für die ausgelieferte Website und direkte Download-URLs. Di
 
 Die automatisierten Tests prüfen geschützte Assets, Login, Cookies, abgelaufene/manipulierte Sitzungen, Cross-Origin-Schutz, Download-Dateien und die Inhaltsstruktur. Die tatsächlichen Work-Aktionen sind keine automatisierte Integration dieser Website.
 
-## Vereinfachte Fassung
-
-`python3 scripts/content.py` erzeugt die Inhalte: zehn Themen mit jeweils Erklärung, animiertem Beispiel und eigener Aufgabe. Die Vorbereitung ist über die Navigation sowie `/vorbereitung.html` erreichbar und druckbar. Einrichtungspartner: ITP. Produktlogos liegen lokal unter `public/logos`, mit Quellenangabe.
-
-## Visuelle Schrittführungen
-
-Die zehn Themen verwenden geführte Bildschirmabläufe aus `scripts/walkthroughs.py`, gerendert durch `public/walkthrough.js`. Die Projekt-Tour hat neun Schritte. Originalabbildungen und nachgestellte Übungsansichten werden unterschieden; Quellen stehen in `public/screens/SOURCES.md`. Die Lernnavigation führt zwischen Erklärung, geführtem Beispiel und eigener Aufgabe.

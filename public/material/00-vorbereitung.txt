@@ -11,9 +11,9 @@ ZUGÄNGE TESTEN
 [ ] Meine Lizenz und die benötigten Funktionen wurden geprüft. Bei Fragen zur Einrichtung kontaktiere ich ITP.
 
 MICROSOFT 365 VERBINDEN
-[ ] Outlook Mail: Work findet eine vorher ausgewählte Testmail.
-[ ] Outlook Kalender: Work kann einen bekannten eigenen Termin anzeigen.
-[ ] OneDrive: Work kann eine Testdatei im Übungsordner öffnen.
+[ ] Outlook Mail: Work findet eine Testmail und kann einen ungesendeten Übungsentwurf an meine eigene Adresse speichern.
+[ ] Outlook Kalender: Work kann meinen Kalender lesen und einen eigenen Übungstermin ohne Gäste anlegen, verschieben und wieder löschen.
+[ ] OneDrive: Work kann eine Testdatei im eigenen Übungsordner öffnen und eine neue Datei dort speichern.
 [ ] Excel: Ich kann eine Datei öffnen. Die ChatGPT-Integration direkt in Excel ist eingerichtet und einmal getestet.
 
 KURZ AUSPROBIEREN

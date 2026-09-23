@@ -1,0 +1,1058 @@
+{
+  "title": "Ein Arbeitstag. Mehr geschafft.",
+  "subtitle": "Du begleitest einen Kundenauftrag vom Posteingang bis zur Übergabe. Mit Work, deinen Programmen und deinen eigenen Entscheidungen.",
+  "case": "Lindenhof · Umbau",
+  "promise": "Am Ende kannst du eine Arbeitsaufgabe klar beschreiben, passende Quellen mitgeben, Ergebnisse prüfen und den nächsten Schritt selbst steuern.",
+  "environment": "Du arbeitest in deiner eigenen Work-Umgebung. Diese Website erklärt den Ablauf und stellt Übungsdateien bereit. Sie liest keine Mails, verbindet keine Konten und führt keine KI-Aufträge aus.",
+  "lessons": [
+    {
+      "id": "posteingang",
+      "time": "08:30",
+      "title": "Erst verstehen. Dann loslegen.",
+      "short": "Eine Mail kommt rein.",
+      "tools": [
+        "chatgpt",
+        "outlook"
+      ],
+      "minutes": 50,
+      "why": "Mara Sommer möchte zwei Büroräume umbauen lassen. Bevor du antwortest, brauchst du einen Überblick: Was ist gewünscht? Welche Angaben fehlen? Was ist jetzt deine Aufgabe?",
+      "principle": "Work braucht einen klaren Auftrag.",
+      "story": "Du musst keine besondere Sprache lernen. Nenne das Ziel, die passenden Informationen und das gewünschte Ergebnis. „Erkläre mir diese Mail in drei einfachen Sätzen“ ist schon ein guter Anfang. Ein Plugin ist dabei die Verbindung zu einem Programm, zum Beispiel Outlook.",
+      "outcome": "Eine verständliche Zusammenfassung und drei offene Fragen.",
+      "skills": [
+        "Chat und Work unterscheiden; eine Aufgabe starten und fortsetzen",
+        "Outlook-Verbindung und richtiges Konto erkennen",
+        "Mails nach Zeitraum, Absender oder Betreff finden und auswählen",
+        "Mail erklären lassen; Anhänge erkennen und gezielt lesen",
+        "Mit einer Nachfrage korrigieren, ohne neu anzufangen"
+      ],
+      "demos": [
+        {
+          "title": "Öffne Work.",
+          "action": "Zeige den Wechsel zu Work und das Eingabefeld. Erkläre: Hier beschreiben wir eine Aufgabe. Unter Plugins prüfen wir, ob Outlook verbunden ist.",
+          "prompt": "",
+          "see": "Die Gruppe findet Work und die eingerichtete Outlook-Verbindung.",
+          "asset": "work-original.png"
+        },
+        {
+          "title": "Finde die heutige Mail.",
+          "action": "Lass Absender und Betreff anzeigen. Wähle dann selbst eine konkrete Mail aus. Für die Vorführung nutzt du eine vorbereitete Testmail oder die Lindenhof-Datei.",
+          "prompt": "Zeige mir die Mails, die ich heute bekommen habe, mit Absender und Betreff. Ich wähle danach eine aus.",
+          "see": "Die Gruppe kann eine gefundene Mail eindeutig benennen.",
+          "asset": ""
+        },
+        {
+          "title": "Lass sie dir erklären.",
+          "action": "Öffne die gewählte Mail und lass dir den Wunsch des Absenders erklären. Ein Anhang wird nur dann gelesen, wenn er für die Aufgabe relevant ist.",
+          "prompt": "Erkläre mir die Mail von Mara Sommer zur Besichtigung in drei einfachen Sätzen. Was möchte sie von mir? Welche Angaben fehlen? Noch keine Antwort versenden.",
+          "see": "Zwei Büroräume, zwei Innentüren, Besichtigung gewünscht; Maße und Zugang sind offen.",
+          "asset": ""
+        },
+        {
+          "title": "Verbessere die Antwort.",
+          "action": "Zeige eine echte Folgefrage in derselben Aufgabe. Vergleiche die neue Antwort mit der Mail.",
+          "prompt": "Das ist mir noch zu kompliziert. Erkläre es ohne Fachwörter und nenne nur meinen nächsten Schritt.",
+          "see": "Die Antwort wird verständlicher. Keine neue Aufgabe ist nötig.",
+          "asset": ""
+        }
+      ],
+      "mission": "Wähle eine passende Mail, die du heute erhalten hast. Lass sie erklären und verbessere die Erklärung mit einer eigenen Nachfrage. Danach starten wir alle mit dem gemeinsamen Fall Lindenhof.",
+      "steps": [
+        "Öffne Work und wähle eine heutige Mail aus, die du für diese Übung verwenden darfst.",
+        "Lass dir sagen, was der Absender braucht und was noch fehlt.",
+        "Ändere Länge oder Sprache mit einer Nachfrage. Vergleiche die Erklärung mit der Originalmail.",
+        "Öffne anschließend die fiktive Lindenhof-Anfrage. Sie ist ab jetzt unser gemeinsamer Auftrag."
+      ],
+      "checks": [
+        "Ich kann den Inhalt meiner gewählten Mail mit eigenen Worten erklären.",
+        "Ich habe die Antwort einmal gezielt verbessert.",
+        "Ich kenne bei Lindenhof mindestens drei offene Angaben."
+      ],
+      "hints": [
+        "Beginne mit einer kleinen Frage: „Was möchte der Absender von mir?“",
+        "Nenne Absender und Betreff. Bei mehreren Treffern wähle zuerst die richtige Mail.",
+        "Keine passende Mail oder keine Verbindung? Lade 03-lindenhof.txt in Work hoch. Das Lernziel bleibt gleich."
+      ],
+      "question": {
+        "ask": "Work schreibt: „Die Besichtigung ist für Dienstag bestätigt.“ In der Mail steht nur ein Terminwunsch. Was tust du?",
+        "options": [
+          "Übernehmen, die Formulierung klingt sicher.",
+          "Die Stelle mit der Mail vergleichen und korrigieren lassen."
+        ],
+        "correct": 1,
+        "explain": "Eine sichere Formulierung ist kein Beleg. Du gibst Work die fehlende Grenze: Der Termin ist noch nicht bestätigt."
+      },
+      "files": [
+        "03-lindenhof.txt"
+      ],
+      "bonus": "Lass dir einen relevanten Mailanhang erklären. Sage ausdrücklich, welche Datei du meinst.",
+      "carry": "Die Lindenhof-Anfrage begleitet uns durch den ganzen Tag.",
+      "number": 1,
+      "day": 1,
+      "rhythm": {
+        "explain": 8,
+        "show": 12,
+        "do": 22,
+        "check": 8
+      }
+    },
+    {
+      "id": "projekt",
+      "time": "09:00",
+      "title": "Ein Zuhause für deinen Auftrag.",
+      "short": "Lindenhof wird ein Projekt.",
+      "tools": [
+        "chatgpt"
+      ],
+      "minutes": 50,
+      "why": "Zur Kundenanfrage kommen später Recherche, Tabellen und Antworten hinzu. Wenn alles in einzelnen Aufgaben verschwindet, musst du den Hintergrund immer wieder zusammensuchen.",
+      "principle": "Ein Projekt ist deine Arbeitsmappe.",
+      "story": "Die Mappe gehört zu einem Kundenauftrag. Darin liegen Unterlagen, Gespräche und gemeinsame Vorgaben. Ein Gespräch erledigt eine einzelne Aufgabe. Das Projekt hält mehrere solcher Aufgaben zusammen. Für einen anderen Kunden beginnst du eine neue Mappe.",
+      "outcome": "Dein eigenes Projekt „Lindenhof · Umbau“ mit Quelle, Vorgabe und erster Work-Aufgabe.",
+      "skills": [
+        "Projekt und einzelne Aufgabe unterscheiden",
+        "Projekt anlegen und sinnvoll benennen",
+        "Dateien als Projektquellen hinzufügen",
+        "Projekthinweise speichern und später ändern",
+        "Work-Aufgabe im richtigen Projekt starten und wiederfinden"
+      ],
+      "demos": [
+        {
+          "title": "Lege die Mappe an.",
+          "action": "Öffne die Seitenleiste und wähle Neues Projekt. Nenne es „Lindenhof · Umbau“. In der englischen Originalabbildung heißt der Eintrag New project.",
+          "prompt": "",
+          "see": "Das neue Projekt ist in der Seitenleiste sichtbar.",
+          "asset": "projects-sidebar.webp"
+        },
+        {
+          "title": "Füge die Kundenanfrage hinzu.",
+          "action": "Öffne die Dateien beziehungsweise Quellen des Projekts. Füge 03-lindenhof.txt hinzu. Zeige den Dateinamen anschließend in der Projektübersicht.",
+          "prompt": "",
+          "see": "Die Unterlage liegt im Projekt, nicht nur in einem beliebigen Einzelchat.",
+          "asset": "project-overview.webp"
+        },
+        {
+          "title": "Speichere gemeinsame Vorgaben.",
+          "action": "Öffne das Menü mit den drei Punkten und die Projekteinstellungen. Hinterlege die folgende Vorgabe. Erkläre, dass sie für diesen Auftrag gilt.",
+          "prompt": "Wir bearbeiten Lindenhof. Schreibe Kundenantworten freundlich und kurz, mit „Sie“. Erfinde keine Maße, Preise oder Termine. Kennzeichne fehlende Angaben als „noch offen“.",
+          "see": "Die Vorgabe ist gespeichert und lässt sich wieder öffnen.",
+          "asset": "project-settings.webp"
+        },
+        {
+          "title": "Starte Arbeit in der Mappe.",
+          "action": "Wähle im Projekt Work. Prüfe den Projektnamen und starte eine Zusammenfassung. Öffne danach kurz eine andere Ansicht und finde die Aufgabe im Projekt wieder.",
+          "prompt": "Fasse die Lindenhof-Unterlagen zusammen. Trenne bestätigte Angaben, widersprüchliche Angaben und offene Fragen. Nenne die jeweilige Quelle.",
+          "see": "Die alte Notiz nennt drei Türen; die aktuelle Anfrage nennt zwei. Der Widerspruch bleibt sichtbar.",
+          "asset": ""
+        }
+      ],
+      "mission": "Lege dein eigenes Projekt „Lindenhof · Umbau“ an. Füge die Anfrage hinzu, speichere eine Kommunikationsvorgabe und starte darin eine Zusammenfassung.",
+      "steps": [
+        "Erstelle das Projekt in deiner Work-Umgebung.",
+        "Füge 03-lindenhof.txt als Projektquelle hinzu.",
+        "Speichere deine Vorgabe für kurze, sachliche Kundenantworten.",
+        "Lass die Unterlagen zusammenfassen. Verlasse die Ansicht und finde Projekt und Aufgabe wieder."
+      ],
+      "checks": [
+        "Ich finde das Projekt, die Datei und die Vorgabe wieder.",
+        "Meine Aufgabe ist dem Projekt Lindenhof zugeordnet.",
+        "Die Zusammenfassung unterscheidet die alte Notiz von der aktuellen Anfrage."
+      ],
+      "hints": [
+        "Denk an einen normalen Projektordner. Als Namen reicht „Lindenhof · Umbau“.",
+        "Suche im Projekt nach Dateien oder Quellen. Bezeichnungen können je nach Oberfläche abweichen.",
+        "Nutze als erste Aufgabe: „Was wissen wir sicher? Was fehlt? Welche Angaben widersprechen sich?“"
+      ],
+      "question": {
+        "ask": "Morgen fragt ein ganz anderer Kunde nach einem Dachausbau. Wo beginnst du?",
+        "options": [
+          "Im Projekt Lindenhof – dort ist schon alles eingerichtet.",
+          "In einem eigenen Projekt für den neuen Auftrag."
+        ],
+        "correct": 1,
+        "explain": "Ein eigenes Projekt hält Quellen und Vorgaben auseinander. So vermischen sich die beiden Kundenaufträge nicht."
+      },
+      "files": [
+        "03-lindenhof.txt"
+      ],
+      "bonus": "Ändere eine Projekthinweis-Formulierung und prüfe die Wirkung in einer neuen Aufgabe.",
+      "carry": "Alle folgenden Work-Aufgaben gehören in dieses Projekt.",
+      "number": 2,
+      "day": 1,
+      "rhythm": {
+        "explain": 8,
+        "show": 12,
+        "do": 22,
+        "check": 8
+      }
+    },
+    {
+      "id": "dateien",
+      "time": "09:30",
+      "title": "Die richtige Datei. Am richtigen Ort.",
+      "short": "Unterlagen finden und bearbeiten.",
+      "tools": [
+        "onedrive",
+        "word",
+        "chatgpt"
+      ],
+      "minutes": 70,
+      "why": "Die Anfrage liegt im Projekt. Für die weitere Arbeit brauchst du eine kurze, bearbeitbare Übersicht – und einen Ordner, in dem du Ergebnisse wiederfindest.",
+      "principle": "Datei, Format und Speicherort sind drei verschiedene Dinge.",
+      "story": "Der Inhalt ist das, was in der Datei steht. Das Format bestimmt, wie du damit weiterarbeitest: Word zum Bearbeiten, PDF zum Weitergeben, Excel zum Rechnen. OneDrive ist ein Speicherort. Eine Datei in Work hochzuladen bedeutet nicht automatisch, dass sie auch in OneDrive gespeichert ist.",
+      "outcome": "Ein bearbeitbarer Projektbrief und eine PDF-Kopie im eigenen OneDrive-Übungsordner.",
+      "skills": [
+        "OneDrive-Verbindung prüfen; Ordner und Dateien suchen und öffnen",
+        "Lokale Datei hochladen, Ergebnis herunterladen und wieder öffnen",
+        "Inhalt gezielt ändern, Original erhalten und Versionen benennen",
+        "TXT als DOCX aufbereiten und DOCX als PDF ausgeben",
+        "Ergebnis in OneDrive hochladen; umbenennen oder verschieben; Speicherort prüfen"
+      ],
+      "demos": [
+        {
+          "title": "Finde die Projektunterlage.",
+          "action": "Lege einen eigenen Übungsordner in OneDrive an und lade die Anfrage hoch. Lass Work die Datei in genau diesem Ordner finden. Zeige Konto, Ordner und Dateinamen.",
+          "prompt": "Suche in meinem OneDrive-Übungsordner „Seminar Lindenhof“ nach 03-lindenhof.txt. Zeige mir die passende Datei, bevor du sie verwendest.",
+          "see": "Die gefundene Datei lässt sich öffnen.",
+          "asset": ""
+        },
+        {
+          "title": "Mach einen Projektbrief daraus.",
+          "action": "Nutze die Anfrage als Quelle. Erzeuge eine neue Word-Datei, damit das Original erhalten bleibt.",
+          "prompt": "Erstelle aus der Lindenhof-Anfrage einen einseitigen Projektbrief als DOCX. Gliedere in Auftrag, bestätigte Angaben und offene Fragen. Widersprüche nicht auflösen, sondern benennen. Dateiname: Lindenhof_Projektbrief_v1.docx.",
+          "see": "Eine bearbeitbare Datei ist verfügbar.",
+          "asset": ""
+        },
+        {
+          "title": "Ändere gezielt den Inhalt.",
+          "action": "Öffne die Datei und lasse einen Abschnitt ändern. Speichere die neue Fassung unter einem neuen Namen.",
+          "prompt": "Ergänze im Projektbrief den Abschnitt „Vor der Besichtigung klären“ mit Türmaßen, Zugang und Ansprechpartner vor Ort. Erhalte die übrigen Inhalte. Speichere als Lindenhof_Projektbrief_v2.docx.",
+          "see": "v1 bleibt erhalten, v2 enthält die Ergänzung.",
+          "asset": ""
+        },
+        {
+          "title": "Wechsle das Format.",
+          "action": "Bitte zusätzlich um eine PDF-Ausgabe. Öffne beide Dateien. Erkläre: Die Endung umzubenennen wäre noch keine echte Umwandlung.",
+          "prompt": "Erzeuge zusätzlich eine gut lesbare PDF aus Lindenhof_Projektbrief_v2.docx. Behalte die Word-Datei. Prüfe, dass keine Abschnitte fehlen.",
+          "see": "DOCX ist bearbeitbar; PDF hat den gleichen Inhalt und ein lesbares Layout.",
+          "asset": ""
+        },
+        {
+          "title": "Lege das Ergebnis ab.",
+          "action": "Lade die fertigen Dateien in den OneDrive-Übungsordner. Das geht über das eingerichtete Plugin oder direkt in OneDrive. Öffne sie dort und zeige den Speicherort.",
+          "prompt": "Speichere die fertige Word-Datei und PDF im OneDrive-Übungsordner „Seminar Lindenhof“. Überschreibe keine vorhandene Datei. Zeige mir die gespeicherten Dateien.",
+          "see": "Die Dateien sind in OneDrive vorhanden; ein Download allein genügt nicht.",
+          "asset": ""
+        }
+      ],
+      "mission": "Erstelle einen Projektbrief aus der Anfrage, verbessere einen Abschnitt und speichere ihn als Word-Datei und PDF in deinem OneDrive-Übungsordner.",
+      "steps": [
+        "Finde oder lade die Lindenhof-Anfrage. Prüfe, ob du die richtige Datei verwendest.",
+        "Lass einen Word-Projektbrief erstellen und öffne ihn.",
+        "Ändere einen Inhalt gezielt und speichere eine neue Version.",
+        "Erzeuge eine PDF-Kopie. Öffne beide Formate und vergleiche sie.",
+        "Speichere die Ergebnisse in deinem eigenen OneDrive-Übungsordner."
+      ],
+      "checks": [
+        "Meine Originalquelle ist erhalten.",
+        "Word und PDF lassen sich öffnen und enthalten dieselben bestätigten Angaben.",
+        "Ich kann den OneDrive-Speicherort zeigen."
+      ],
+      "hints": [
+        "Sag ausdrücklich „als bearbeitbare Word-Datei“ oder „als PDF“.",
+        "Bei einem unlesbaren PDF: bitte um weniger Spalten, größere Schrift und erneute Ausgabe.",
+        "Wenn das Plugin keine Datei speichern kann, lade sie herunter und in OneDrive hoch. Prüfe das Ergebnis dort."
+      ],
+      "question": {
+        "ask": "Du hast einen Projektbrief in Work heruntergeladen. Liegt er damit schon in OneDrive?",
+        "options": [
+          "Ja, jeder Download landet automatisch dort.",
+          "Nur wenn ich ihn dort gespeichert und wiedergefunden habe."
+        ],
+        "correct": 1,
+        "explain": "Ein Download landet meist zuerst auf deinem Computer. Speicherort und Dateiformat sind unabhängig voneinander."
+      },
+      "files": [
+        "03-lindenhof.txt"
+      ],
+      "bonus": "Benenne eine Kopie eindeutig um und verschiebe sie in einen Unterordner „Freigabe“. Öffentliche Freigabelinks gehören nicht zur Grundübung.",
+      "carry": "Der geprüfte Projektbrief wird später ausgefüllt und an einen Antwortentwurf angehängt.",
+      "number": 3,
+      "day": 1,
+      "rhythm": {
+        "explain": 8,
+        "show": 12,
+        "do": 42,
+        "check": 8
+      }
+    },
+    {
+      "id": "recherche",
+      "time": "10:30",
+      "title": "Erst nachsehen. Dann glauben.",
+      "short": "Informationen mit Quellen sammeln.",
+      "tools": [
+        "chatgpt"
+      ],
+      "minutes": 55,
+      "why": "Für Lindenhof fehlen noch technische Angaben. Du kannst vor der Besichtigung recherchieren, welche Informationen ein Anbieter für eine passende Innentür benötigt. Die Recherche ersetzt keine fachliche Freigabe.",
+      "principle": "Eine Antwort ist erst mit ihrer Quelle prüfbar.",
+      "story": "Bei Recherche sammelt Work Informationen. Bei Browserbedienung führt es Schritte auf einer Website aus. Du steuerst beides mit einem klaren Ziel. Gute Ergebnisse zeigen Links, trennen Fakten von Annahmen und lassen Unbekanntes offen.",
+      "outcome": "Eine kurze Recherche mit zwei überprüften Quellen und Fragen für die Besichtigung.",
+      "skills": [
+        "Suchziel, Umfang und gewünschte Quellen festlegen",
+        "Zwei Originalquellen öffnen und Aussagen vergleichen",
+        "Veröffentlichung, Aktualität und fehlende Angaben erkennen",
+        "Browser im nächsten Einzelschritt anweisen; bei Hängern stoppen und Stand klären",
+        "Recherche als Datei sichern und dem Projekt hinzufügen"
+      ],
+      "demos": [
+        {
+          "title": "Stelle eine begrenzte Recherchefrage.",
+          "action": "Lass Work bei Hersteller- oder Händlerquellen nachsehen. Halte die Aufgabe klein und fordere Links.",
+          "prompt": "Recherchiere anhand von zwei Hersteller- oder Händlerquellen, welche Angaben für die Auswahl einer Innentür benötigt werden. Erstelle Fragen für die Besichtigung bei Lindenhof. Zeige die Quellen. Triff keine technische Eignungsentscheidung.",
+          "see": "Die Antwort enthält prüfbare Links und offene Fragen.",
+          "asset": ""
+        },
+        {
+          "title": "Öffne die Quellen.",
+          "action": "Öffne mit der Gruppe einen Originaltreffer. Suche die konkrete Passage. Prüfe, ob die Aussage tatsächlich dort steht.",
+          "prompt": "Zeige mir bei der ersten Quelle die Stelle zu den benötigten Maßen. Wenn sie dort nicht steht, korrigiere die Zusammenfassung.",
+          "see": "Eine Aussage wird direkt an ihrer Quelle geprüft.",
+          "asset": ""
+        },
+        {
+          "title": "Führe den Browser in einem kleinen Schritt.",
+          "action": "Zeige die geöffnete Seite am Beamer. Gib einen einzelnen Folgeauftrag, der sich auf die sichtbare Seite bezieht.",
+          "prompt": "Suche auf dieser Seite nach den Maßangaben und erkläre mir die Tabelle. Keine Anfrage absenden und nichts bestellen.",
+          "see": "Die Gruppe erkennt den Unterschied zwischen Lesen und einer Handlung auf der Website.",
+          "asset": ""
+        },
+        {
+          "title": "Sichere nur die relevanten Ergebnisse.",
+          "action": "Speichere eine kurze Liste mit Quellenlinks und offenen Fragen im Projekt.",
+          "prompt": "Erstelle eine kurze Recherche-Notiz für Lindenhof mit den zwei Quellenlinks, Abrufdatum und offenen Fragen. Keine unbelegten Empfehlungen.",
+          "see": "Die Notiz ist wieder auffindbar und bleibt nachvollziehbar.",
+          "asset": ""
+        }
+      ],
+      "mission": "Finde mit Work zwei geeignete Originalquellen und leite daraus Fragen für die Besichtigung ab. Prüfe mindestens eine Aussage selbst auf der Website.",
+      "steps": [
+        "Formuliere eine begrenzte Recherchefrage.",
+        "Öffne zwei Quellen und prüfe eine konkrete Aussage.",
+        "Gib im Browser einen kleinen Folgeauftrag.",
+        "Speichere die nützlichen Ergebnisse samt Links im Projekt."
+      ],
+      "checks": [
+        "Ich kann die Originalquelle zu einer Aussage öffnen.",
+        "Meine Notiz trennt belegte Informationen von offenen Fragen.",
+        "Es wurde kein Anbieter kontaktiert und nichts bestellt."
+      ],
+      "hints": [
+        "Beginne mit „Welche Maße muss ich vor einer Türbestellung aufnehmen?“",
+        "Wenn eine Seite blockiert, nutze eine andere zugängliche Originalquelle. Sage, welche Information fehlt.",
+        "Wenn der Browser hängt: „Stopp. Was ist schon erledigt? Was brauchst du für den nächsten Schritt?“"
+      ],
+      "question": {
+        "ask": "Work nennt eine Eigenschaft, aber die verlinkte Seite bestätigt sie nicht. Was gehört in deine Notiz?",
+        "options": [
+          "Die Eigenschaft als Tatsache.",
+          "Die Eigenschaft als ungeklärt oder gar nicht."
+        ],
+        "correct": 1,
+        "explain": "Ein Link neben einer Aussage ist noch kein Beleg. Du prüfst, ob die Quelle genau diese Aussage stützt."
+      },
+      "files": [
+        "09-rechercheauftrag.txt"
+      ],
+      "bonus": "Als freies Browserbeispiel: Suche auf ImmoScout24 nach Büro und Lager. Vergleiche die Anzeigen, kontaktiere niemanden.",
+      "carry": "Die Recherchefragen fließen in den Projektbogen und die Besichtigungsagenda ein.",
+      "number": 4,
+      "day": 1,
+      "rhythm": {
+        "explain": 8,
+        "show": 12,
+        "do": 27,
+        "check": 8
+      }
+    },
+    {
+      "id": "excel",
+      "time": "11:30",
+      "title": "Zahlen verstehen. Entscheidungen prüfen.",
+      "short": "Drei Materialangebote vergleichen.",
+      "tools": [
+        "excel",
+        "chatgpt"
+      ],
+      "minutes": 70,
+      "why": "Für eine fiktive Montageposition liegen drei Angebote vor. Der niedrigste Stückpreis ist nicht unbedingt das günstigste Gesamtangebot. Deshalb vergleichen wir Menge, Preis und Lieferung gemeinsam.",
+      "principle": "Sag, was die Tabelle beantworten soll.",
+      "story": "Du kannst eine Arbeitsmappe in Work hochladen oder mit der eingerichteten ChatGPT-Erweiterung direkt in Excel arbeiten. In beiden Fällen musst du wissen, welche Werte und Annahmen verwendet werden. Die KI kann rechnen und erklären; du prüfst mindestens eine Zeile selbst.",
+      "outcome": "Ein nachvollziehbarer Vergleich für 100 und 200 Einheiten mit Formeln und offenen Bedingungen.",
+      "skills": [
+        "Arbeitsmappe hochladen oder direkt in Excel bearbeiten",
+        "Blätter erklären lassen und Rohdaten bereinigen, Original erhalten",
+        "Formeln ergänzen, Lieferkosten einbeziehen und Fehler erkennen",
+        "Menge ändern; Auswirkungen erklären; Ergebnis stichprobenartig prüfen",
+        "XLSX speichern; Vergleich bei Bedarf als PDF oder CSV ausgeben"
+      ],
+      "demos": [
+        {
+          "title": "Öffne die Arbeitsmappe.",
+          "action": "Zeige Angebote, Materialliste und Rechenbeispiel. Lass erklären, welche Spalten für den Vergleich gebraucht werden.",
+          "prompt": "Erkläre die Arbeitsmappe 04-materialvergleich.xlsx. Welche Angaben brauche ich, um die drei Angebote fair zu vergleichen? Ändere noch nichts.",
+          "see": "Menge, Stückpreis, Lieferung und Lieferzeit werden benannt.",
+          "asset": ""
+        },
+        {
+          "title": "Bereinige eine Kopie.",
+          "action": "Zeige die unterschiedlichen Schreibweisen und die als Text gespeicherte Menge. Lass das Original erhalten.",
+          "prompt": "Bereinige die Materialliste in einer Kopie: vereinheitliche die Bezeichnung Montageeinheit und die Einheit Stück. Prüfe die Mengen als Zahlen. Verändere die Originaldaten nicht.",
+          "see": "40 + 30 + 30 ergibt 100 Einheiten; andere Materialien bleiben getrennt.",
+          "asset": ""
+        },
+        {
+          "title": "Vergleiche die Gesamtkosten.",
+          "action": "Lass eine Formel für Menge mal Stückpreis plus Lieferung ergänzen. Rechne Angebot B gemeinsam nach.",
+          "prompt": "Vergleiche 100 Einheiten mit Formeln. Rechne die Lieferkosten dazu. Zeige Gesamtkosten netto, günstigstes Angebot und offene Lieferbedingungen.",
+          "see": "A: 1.330 €, B: 1.310 €, C: 1.350 €. B ist bei 100 Einheiten am günstigsten.",
+          "asset": ""
+        },
+        {
+          "title": "Ändere die Menge.",
+          "action": "Erhöhe auf 200. Benenne ausdrücklich die Annahme gleichbleibender Lieferkosten. Zeige, dass sich das Ergebnis ändern kann.",
+          "prompt": "Berechne zusätzlich 200 Einheiten. Nimm nur für dieses Rechenbeispiel unveränderte Lieferkosten an. Welches Angebot ist dann am günstigsten?",
+          "see": "A: 2.580 €, B: 2.600 €, C: 2.540 €. C ist rechnerisch günstiger; Lieferzeit und Eignung bleiben zu prüfen.",
+          "asset": ""
+        },
+        {
+          "title": "Zeige den zweiten Arbeitsweg.",
+          "action": "Öffne dieselbe Datei direkt in Excel mit der eingerichteten ChatGPT-Erweiterung. Wiederhole eine kleine Änderung und prüfe die Zellen.",
+          "prompt": "",
+          "see": "Die Gruppe kennt beide Wege und weiß, wo Änderungen gespeichert wurden.",
+          "asset": ""
+        }
+      ],
+      "mission": "Vergleiche die Angebote für 100 Einheiten und danach für 200. Erkläre einer anderen Person, warum sich der günstigste Anbieter verändert.",
+      "steps": [
+        "Öffne die Übungsmappe in Work oder direkt in Excel.",
+        "Bereinige die Materialliste in einer Kopie und ergänze nachvollziehbare Formeln.",
+        "Vergleiche 100 und 200 Einheiten einschließlich Lieferung.",
+        "Rechne eine Zeile selbst nach und speichere das Ergebnis. Probiere eine Änderung auch über den zweiten Weg."
+      ],
+      "checks": [
+        "Für 100 Einheiten ist B mit 1.310 € netto am günstigsten.",
+        "Für 200 Einheiten ist C mit 2.540 € netto am günstigsten, bei unveränderter Lieferung.",
+        "Formeln, Annahmen und offene Lieferbedingungen sind sichtbar."
+      ],
+      "hints": [
+        "Die Formel lautet Menge × Stückpreis + Lieferung.",
+        "Bei 100 Stück: 100 × 12,90 € + 20 € = 1.310 €.",
+        "Bei 200 Stück hat C 200 × 11,90 € + 160 € = 2.540 €. Der günstigste Preis beweist noch keine Eignung."
+      ],
+      "question": {
+        "ask": "C hat den niedrigsten Stückpreis. Ist C bei 100 Einheiten auch insgesamt am günstigsten?",
+        "options": [
+          "Ja, der Stückpreis reicht zum Vergleich.",
+          "Nein, mit Lieferung ist B günstiger."
+        ],
+        "correct": 1,
+        "explain": "C kostet insgesamt 1.350 €, B nur 1.310 €. Die Lieferkosten verändern den Vergleich."
+      },
+      "files": [
+        "04-materialvergleich.xlsx"
+      ],
+      "bonus": "Erzeuge eine PDF-Vergleichsübersicht oder eine CSV-Kopie. Prüfe: CSV enthält keine mehreren Tabellenblätter, Formatierungen oder Excel-Formeln wie die XLSX-Datei.",
+      "carry": "Der geprüfte Vergleich bleibt interne Entscheidungshilfe. Noch kein verbindliches Kundenangebot.",
+      "number": 5,
+      "day": 1,
+      "rhythm": {
+        "explain": 8,
+        "show": 12,
+        "do": 42,
+        "check": 8
+      }
+    },
+    {
+      "id": "dokument",
+      "time": "13:00",
+      "title": "Aus Unterlagen wird ein fertiges Dokument.",
+      "short": "Den Projektbogen ausfüllen.",
+      "tools": [
+        "word",
+        "chatgpt"
+      ],
+      "minutes": 60,
+      "why": "Du hast Kundenangaben, offene Fragen und recherchierte Informationen gesammelt. Jetzt sollen die passenden Angaben in den vorbereiteten Projektbogen. Du musst sie nicht Feld für Feld übertragen.",
+      "principle": "Die Vorlage gibt die Form vor. Die Quelle liefert die Fakten.",
+      "story": "Gib Work beides: die leere Vorlage und die geprüften Angaben. Sage, was unverändert bleiben soll. Fehlende Informationen bleiben offen. Anschließend öffnest du die fertige Datei und prüfst Inhalt und Layout – nicht nur die kurze Antwort in Work.",
+      "outcome": "Ein ausgefüllter Projektbogen als DOCX und geprüfte PDF-Kopie.",
+      "skills": [
+        "Vorlage und mehrere Quellen gemeinsam übergeben",
+        "Quellenkonflikte sichtbar lassen; keine Angaben erfinden",
+        "Inhalte ändern, Abschnitte ergänzen und Layout erhalten",
+        "Bearbeitbare Ausgabe plus PDF erzeugen und öffnen",
+        "Ergebnis im Projekt und im OneDrive-Übungsordner wiederfinden"
+      ],
+      "demos": [
+        {
+          "title": "Gib Vorlage und Informationen mit.",
+          "action": "Zeige die beiden Dateien. Erkläre, welche die Vorlage ist und welche die Fakten enthält.",
+          "prompt": "Fülle 05-projektbogen.docx mit den bestätigten Lindenhof-Angaben aus. Erhalte die Struktur. Fehlende Angaben heißen „noch offen“. Nenne widersprüchliche Quellen gesondert. Gib mir eine bearbeitbare DOCX.",
+          "see": "Vorgang LH-026 und Mara Sommer sind übernommen; Maße und Ausführungstermin bleiben offen.",
+          "asset": ""
+        },
+        {
+          "title": "Prüfe einen absichtlichen Stolperstein.",
+          "action": "Vergleiche die alte Notiz mit der neueren Anfrage. Zeige, dass drei Türen nicht stillschweigend übernommen werden dürfen.",
+          "prompt": "Prüfe die Türanzahl: Die ältere Notiz nennt drei, die aktuelle Anfrage zwei. Kennzeichne den Widerspruch und verwende für die aktuelle Zusammenfassung zwei, bis die Kundin bestätigt.",
+          "see": "Die Herkunft und Unsicherheit der Angabe bleiben erkennbar.",
+          "asset": ""
+        },
+        {
+          "title": "Ergänze die Besichtigungsfragen.",
+          "action": "Nutze die Recherche aus dem Vormittag. Ergänze nur die passenden Fragen.",
+          "prompt": "Ergänze am Ende drei Fragen für die Besichtigung aus unserer Recherche. Ändere die übrigen bestätigten Angaben nicht.",
+          "see": "Die Fragen passen zum konkreten Auftrag.",
+          "asset": ""
+        },
+        {
+          "title": "Öffne und sichere beide Formate.",
+          "action": "Lass eine PDF erzeugen. Öffne Word und PDF, prüfe Seitenumbrüche, Tabellen und offene Felder. Speichere die geprüften Fassungen in OneDrive.",
+          "prompt": "",
+          "see": "Die bearbeitbare Fassung und die PDF sind lesbar und wieder auffindbar.",
+          "asset": ""
+        }
+      ],
+      "mission": "Fülle den Projektbogen mit deinen Lindenhof-Unterlagen. Ergänze drei sinnvolle Besichtigungsfragen und speichere eine Word- und PDF-Fassung.",
+      "steps": [
+        "Lade die Vorlage und die bestätigten Projektinformationen hoch.",
+        "Lass die Felder ausfüllen und unbekannte Angaben markieren.",
+        "Prüfe besonders Türanzahl, Maße und Termine.",
+        "Öffne die fertige DOCX und die PDF und sichere beide im Übungsordner."
+      ],
+      "checks": [
+        "Kein Preis, Maß oder Termin wurde erfunden.",
+        "Der Konflikt zur Türanzahl ist nachvollziehbar.",
+        "Word und PDF sind lesbar und am richtigen Ort gespeichert."
+      ],
+      "hints": [
+        "Schreibe ausdrücklich „Erhalte die Vorlage; trage nur belegte Angaben ein“.",
+        "Lass dir vor dem Ausfüllen sagen, welche Felder überhaupt belegt sind.",
+        "Passt die Datei nicht? Nenne Seite, Feld und gewünschte Änderung. Lass nur diese Stelle überarbeiten."
+      ],
+      "question": {
+        "ask": "Im Projektbogen fehlt das Budget. Was soll Work eintragen?",
+        "options": [
+          "Ein plausibles Budget schätzen.",
+          "„Noch offen“ eintragen."
+        ],
+        "correct": 1,
+        "explain": "Eine plausible Zahl wäre eine erfundene Kundenangabe. Eine Schätzung ist nur sinnvoll, wenn sie ausdrücklich beauftragt und als Schätzung markiert wird."
+      },
+      "files": [
+        "05-projektbogen.docx",
+        "03-lindenhof.txt"
+      ],
+      "bonus": "Lass zusätzlich eine kurze, kundenfreundliche Zusammenfassung erstellen, ohne interne Rechenannahmen als Zusage auszugeben.",
+      "carry": "Die geprüfte PDF wird der Anhang für unseren Antwortentwurf.",
+      "number": 6,
+      "day": 2,
+      "rhythm": {
+        "explain": 8,
+        "show": 12,
+        "do": 32,
+        "check": 8
+      }
+    },
+    {
+      "id": "antwort",
+      "time": "14:00",
+      "title": "Eine Antwort, die zu dir passt.",
+      "short": "Entwurf mit Anhang vorbereiten.",
+      "tools": [
+        "outlook",
+        "chatgpt"
+      ],
+      "minutes": 50,
+      "why": "Jetzt kannst du Mara sinnvoll antworten. Du weißt, welche Angaben fehlen, und hast eine Übersicht vorbereitet. Du formulierst die Antwort zuerst in Work, überarbeitest sie und speicherst die fertige Fassung als Outlook-Entwurf.",
+      "principle": "Erst formulieren. Dann prüfen. Dann bewusst handeln.",
+      "story": "Ein Textvorschlag in Work ist noch kein gespeicherter Outlook-Entwurf. Und ein gespeicherter Entwurf ist noch keine gesendete Mail. Diese drei Zustände trennen wir sichtbar. Du entscheidest, ob, wann und an wen wirklich etwas versendet wird.",
+      "outcome": "Ein geprüfter Outlook-Entwurf mit passendem Betreff und einem geprüften PDF-Anhang.",
+      "skills": [
+        "Mit Quellen einen passenden Antworttext entwerfen",
+        "Ton, Länge und Inhalt in derselben Work-Aufgabe ändern",
+        "Antwort oder neue Mail als Outlook-Entwurf speichern",
+        "Anhang gezielt hinzufügen und im Entwurf öffnen",
+        "An, CC, Antwort-an-alle, Weiterleiten und Versandfolgen unterscheiden"
+      ],
+      "demos": [
+        {
+          "title": "Formuliere die Antwort.",
+          "action": "Kehre zur Anfrage zurück. Gib Work die bestätigten Informationen und das gewünschte Ziel.",
+          "prompt": "Entwirf eine freundliche Antwort an Mara Sommer. Bitte um Türmaße, Zugangsinformationen und zwei mögliche Besichtigungstermine. Sage noch keinen Preis oder Ausführungstermin zu. Zeige den Text zuerst hier.",
+          "see": "Der Text beantwortet die Anfrage und bittet um fehlende Informationen.",
+          "asset": ""
+        },
+        {
+          "title": "Lass ihn nach deinem Geschmack ändern.",
+          "action": "Ändere Länge oder Ton mit einer Folgefrage. Zeige vor und nach der Änderung.",
+          "prompt": "Kürzer und etwas lockerer, aber weiter mit „Sie“. Höchstens sechs Sätze. Keine neuen Zusagen.",
+          "see": "Der Inhalt bleibt korrekt, der Ton passt besser.",
+          "asset": ""
+        },
+        {
+          "title": "Speichere erst jetzt den Outlook-Entwurf.",
+          "action": "Bei einer echten Übungsmail nutze einen Antwortentwurf. Beim fiktiven Fall speichere einen klar als ÜBUNG markierten neuen Entwurf nur an deine eigene Adresse. Keine fiktiven Empfänger anschreiben.",
+          "prompt": "Speichere diesen Text als neuen Outlook-Entwurf an meine eigene E-Mail-Adresse. Betreff: ÜBUNG Lindenhof – Besichtigung vorbereiten. Noch nicht versenden.",
+          "see": "Der Entwurf erscheint im Outlook-Ordner Entwürfe.",
+          "asset": ""
+        },
+        {
+          "title": "Füge die geprüfte PDF hinzu.",
+          "action": "Wähle genau die geprüfte Datei. Das verfügbare Plugin unterstützt direkte Dateianhänge unter 3 MB. Öffne danach den Entwurf und den Anhang in Outlook.",
+          "prompt": "Hänge die geprüfte Projektbogen-PDF an genau diesen Übungsentwurf an. Keine andere Datei verwenden und noch nicht versenden.",
+          "see": "Empfänger, Text und richtiger Anhang sind im selben Entwurf sichtbar.",
+          "asset": ""
+        },
+        {
+          "title": "Zeige die letzte Entscheidung.",
+          "action": "Erkläre An, CC, Antwort-an-alle und Weiterleiten am konkreten Entwurf. Für die Grundübung bleibt er gespeichert. Optional demonstrierst du nach Kontrolle eine Testmail nur an dich selbst.",
+          "prompt": "",
+          "see": "Die Gruppe kann Entwurf und Versand unterscheiden.",
+          "asset": ""
+        }
+      ],
+      "mission": "Erstelle aus dem Lindenhof-Projekt eine kurze Antwort. Überarbeite sie einmal, speichere einen Übungsentwurf an dich selbst und füge die geprüfte PDF hinzu.",
+      "steps": [
+        "Formuliere eine Antwort mit den bestätigten Projektangaben.",
+        "Lass Länge oder Ton gezielt ändern.",
+        "Speichere die fertige Fassung als Übungsentwurf an deine eigene Adresse.",
+        "Füge die geprüfte PDF unter 3 MB hinzu. Öffne Entwurf und Anhang in Outlook."
+      ],
+      "checks": [
+        "Der Empfänger ist meine eigene Adresse; der Betreff ist als ÜBUNG markiert.",
+        "Keine unbelegten Zusagen stehen im Text.",
+        "Der richtige Anhang lässt sich öffnen; die Mail bleibt ungesendet."
+      ],
+      "hints": [
+        "Der erste Auftrag lautet nur „Zeige mir einen Antwortvorschlag“.",
+        "Ein bestehender Entwurf lässt sich nicht mit jedem Plugin direkt ändern. Überarbeite den Text vorher in Work oder anschließend selbst in Outlook.",
+        "Wenn Anhängen nicht unterstützt wird, füge die PDF selbst in Outlook hinzu. Prüfe sie trotzdem."
+      ],
+      "question": {
+        "ask": "Work schreibt einen guten Antworttext in den Chat. Ist die Mail schon im Outlook-Ordner Entwürfe?",
+        "options": [
+          "Ja, das passiert automatisch.",
+          "Nein, dazu muss ich sie ausdrücklich als Entwurf speichern lassen."
+        ],
+        "correct": 1,
+        "explain": "Text in Work, Entwurf in Outlook und gesendete Mail sind unterschiedliche Zustände. Du kontrollierst den gewünschten Zustand im Zielprogramm."
+      },
+      "files": [
+        "03-lindenhof.txt"
+      ],
+      "bonus": "Mit einer eigenen unkritischen Mail: Antwortentwurf statt neuer Mail erstellen. Antwort-an-alle nur verwenden, wenn wirklich alle Empfänger die Antwort brauchen.",
+      "carry": "Die Antwort ist vorbereitet. Jetzt planen wir die Besichtigung.",
+      "number": 7,
+      "day": 2,
+      "rhythm": {
+        "explain": 8,
+        "show": 12,
+        "do": 22,
+        "check": 8
+      }
+    },
+    {
+      "id": "kalender",
+      "time": "14:30",
+      "title": "Ein Termin, der wirklich passt.",
+      "short": "Besichtigung planen und ändern.",
+      "tools": [
+        "outlook",
+        "chatgpt"
+      ],
+      "minutes": 60,
+      "why": "Mara möchte eine Besichtigung. Du brauchst einen freien Zeitraum, 45 Minuten Dauer und eine klare Agenda. Ein freier Platz in deinem Kalender heißt noch nicht, dass die Kundin ebenfalls Zeit hat.",
+      "principle": "Ein Terminvorschlag ist noch keine Einladung.",
+      "story": "Wir prüfen zuerst den eigenen Kalender. Dann legen wir einen Übungstermin ohne weitere Personen an. Danach verschieben wir ihn und kontrollieren die Änderung. So lernst du den vollständigen Ablauf, ohne versehentlich jemanden einzuladen.",
+      "outcome": "Ein angelegter und verschobener Übungstermin; anschließend sauber entfernt.",
+      "skills": [
+        "Richtigen Kalender und Zeitzone bestimmen",
+        "Termine lesen und freie Zeitfenster suchen",
+        "Dauer, Ort, Agenda und Erinnerung festlegen",
+        "Termin im eigenen Kalender anlegen und wieder öffnen",
+        "Termin ändern; Einzeltermin und Serie unterscheiden; Einladung und Absage verstehen",
+        "Übungstermin entfernen und Ergebnis kontrollieren"
+      ],
+      "demos": [
+        {
+          "title": "Prüfe den richtigen Kalender.",
+          "action": "Zeige eigenes Konto und Kalender. Übersetze „nächste Woche“ in konkrete Daten und nenne Europe/Berlin.",
+          "prompt": "Zeige meine Termine am von mir gewählten Übungstag und finde ein freies Fenster von 45 Minuten zwischen 09:00 und 15:00 Uhr. Zeitzone Europe/Berlin. Noch keinen Termin anlegen.",
+          "see": "Ein überprüfter Vorschlag mit Datum und Uhrzeit liegt vor.",
+          "asset": ""
+        },
+        {
+          "title": "Lege einen eigenen Übungstermin an.",
+          "action": "Prüfe die Details. Gib dann bewusst den Auftrag zur Anlage. Keine weiteren Teilnehmer hinzufügen.",
+          "prompt": "Lege nach meiner Prüfung einen Termin „ÜBUNG Lindenhof“ in meinem eigenen Kalender an: 45 Minuten zum ausgewählten Zeitpunkt, ohne weitere Teilnehmer. Beschreibung: Maße, Zugang und offene Fragen klären.",
+          "see": "Der Termin ist im eigenen Kalender sichtbar, keine Einladung wurde verschickt.",
+          "asset": ""
+        },
+        {
+          "title": "Verschiebe ihn.",
+          "action": "Wähle einen anderen freien Zeitraum und ändere denselben Termin. Prüfe Start und Ende erneut.",
+          "prompt": "Verschiebe genau den Übungstermin Lindenhof auf das neue freie Zeitfenster. Behalte die Dauer von 45 Minuten. Zeige mir danach die gespeicherten Details.",
+          "see": "Es gibt einen verschobenen Termin, nicht zwei Duplikate.",
+          "asset": ""
+        },
+        {
+          "title": "Räume die Übung wieder auf.",
+          "action": "Entferne ausschließlich den eindeutig benannten Übungstermin. Erkläre: Bei einem realen Termin mit Gästen kann eine Absage Nachrichten auslösen.",
+          "prompt": "Entferne den von uns angelegten Termin „ÜBUNG Lindenhof“ ohne Teilnehmer aus meinem Kalender. Andere Termine unverändert lassen.",
+          "see": "Der Übungstermin ist entfernt, die übrigen Termine bleiben bestehen.",
+          "asset": ""
+        }
+      ],
+      "mission": "Finde ein freies Zeitfenster, lege dort einen eigenen Übungstermin an, verschiebe ihn und entferne ihn anschließend wieder.",
+      "steps": [
+        "Wähle konkrete Daten und prüfe deinen eigenen Kalender.",
+        "Lege nach Kontrolle einen Übungstermin ohne weitere Teilnehmer an.",
+        "Verschiebe denselben Termin und prüfe die Änderung in Outlook.",
+        "Entferne ausschließlich diesen Übungstermin und kontrolliere den Kalender."
+      ],
+      "checks": [
+        "Ich kann Datum, Zeitzone, Dauer und Kalender benennen.",
+        "Der verschobene Termin wurde nicht doppelt angelegt.",
+        "Der Übungstermin ist wieder entfernt; niemand wurde eingeladen."
+      ],
+      "hints": [
+        "Sag „in meinem eigenen Kalender, ohne weitere Teilnehmer“.",
+        "Nenne bei einer Änderung den exakten Titel und das bisherige Datum.",
+        "Bei einer Serie kläre zuerst: nur dieser Termin oder die ganze Serie? Für die Grundübung genügt ein Einzeltermin."
+      ],
+      "question": {
+        "ask": "Dein Kalender ist am Dienstag frei. Ist damit auch Mara verfügbar?",
+        "options": [
+          "Ja, Work würde einen Konflikt erkennen.",
+          "Nein, ihre Verfügbarkeit muss separat geklärt werden."
+        ],
+        "correct": 1,
+        "explain": "Work kennt nur die Kalender, auf die es zugreifen darf. Ein Vorschlag ist keine Zusage aller Beteiligten."
+      },
+      "files": [
+        "07-terminbrief.txt"
+      ],
+      "bonus": "Zeige eine vorhandene Besprechungseinladung und erkläre Zusagen, Vorläufig und Ablehnen. Ändere keine echte Einladung nur zu Übungszwecken.",
+      "carry": "Für die echte Besichtigung bleiben Verfügbarkeit und Zugang abzustimmen.",
+      "number": 8,
+      "day": 2,
+      "rhythm": {
+        "explain": 8,
+        "show": 12,
+        "do": 32,
+        "check": 8
+      }
+    },
+    {
+      "id": "spaeter",
+      "time": "15:30",
+      "title": "Morgen nicht wieder von vorn.",
+      "short": "Kontext und Aufgaben wiederverwenden.",
+      "tools": [
+        "chatgpt"
+      ],
+      "minutes": 40,
+      "why": "Die heutigen Ergebnisse sollen morgen noch helfen. Du hältst den Projektstand fest und planst eine kleine Erinnerung oder wiederkehrende Aufgabe, falls dein Konto die Funktion unterstützt.",
+      "principle": "Eine Erinnerung erinnert. Ein Arbeitsauftrag arbeitet.",
+      "story": "„Erinnere mich an die Unterlagen“ ist ein Hinweis. „Fasse montags die offenen Projektfragen zusammen“ ist eine wiederkehrende KI-Aufgabe. Beides braucht eine eindeutige Zeit. Eine geplante Aufgabe braucht außerdem zugängliche Quellen und einen klaren Endpunkt.",
+      "outcome": "Eine gespeicherte Übergabe und eine geprüfte, anschließend deaktivierte Übungsaufgabe.",
+      "skills": [
+        "Projektstand, Quellen und nächste Schritte wiederverwendbar sichern",
+        "Erinnerung und wiederkehrende KI-Aufgabe unterscheiden",
+        "Zeit, Zeitzone, Zeitraum und gewünschtes Ergebnis festlegen",
+        "Gespeicherte Aufgabe finden und Konfiguration prüfen",
+        "Aufgabe ändern oder deaktivieren; Verfügbarkeit im Konto prüfen"
+      ],
+      "demos": [
+        {
+          "title": "Sichere den Stand.",
+          "action": "Lass aus den Arbeitsergebnissen eine kurze Übergabe erstellen. Speichere sie im Projekt.",
+          "prompt": "Fasse unseren Lindenhof-Stand zusammen: erledigt, noch offen, nächste Schritte. Verweise auf die geprüften Dateien. Keine offenen Fragen als erledigt darstellen.",
+          "see": "Du kannst am nächsten Tag ohne lange Wiederholung einsteigen.",
+          "asset": ""
+        },
+        {
+          "title": "Formuliere zwei unterschiedliche Aufträge.",
+          "action": "Zeige eine Erinnerung und daneben eine wiederkehrende Zusammenfassung. Lass die Gruppe den Unterschied erklären.",
+          "prompt": "Zeige zuerst die Einrichtung: vier Wochen lang montags um 08:30 Uhr, Europe/Berlin, offene Fragen aus dem Projekt Lindenhof zusammenfassen. Keine Mails versenden.",
+          "see": "Zeit, Quelle, Ergebnis und Enddatum sind eindeutig.",
+          "asset": ""
+        },
+        {
+          "title": "Prüfe die gespeicherte Aufgabe.",
+          "action": "Richte eine kurze Übungsaufgabe nur ein, wenn sie im Konto verfügbar ist. Öffne sie in der Aufgabenverwaltung und prüfe Zeit, Wiederholung und Quelle.",
+          "prompt": "",
+          "see": "Ein Chattext allein ist noch kein Nachweis für eine gespeicherte Planung.",
+          "asset": ""
+        },
+        {
+          "title": "Deaktiviere die Übung.",
+          "action": "Zeige, wo eine Aufgabe beendet oder deaktiviert wird. Verlasse die Übung mit einem aufgeräumten Konto.",
+          "prompt": "",
+          "see": "Keine unbeabsichtigte Wiederholung bleibt aktiv.",
+          "asset": ""
+        }
+      ],
+      "mission": "Speichere eine kurze Projektübergabe. Formuliere eine Erinnerung und eine wiederkehrende Aufgabe. Richte eine als Übung ein, prüfe sie und deaktiviere sie wieder, sofern dein Konto das unterstützt.",
+      "steps": [
+        "Sichere erledigte Punkte, offene Fragen und nächste Schritte im Projekt.",
+        "Formuliere beide Varianten mit konkreter Zeit und Zeitzone.",
+        "Prüfe eine gespeicherte Übungsaufgabe in der Aufgabenverwaltung.",
+        "Deaktiviere sie wieder. Fehlt die Funktion, bespreche den fertigen Auftrag mit der Gruppe."
+      ],
+      "checks": [
+        "Meine Übergabe ist im Projekt wieder auffindbar.",
+        "Ich kann Erinnerung und wiederkehrenden Arbeitsauftrag unterscheiden.",
+        "Ich habe eine vorhandene Planung geprüft und beendet – oder die fehlende Funktion klar festgehalten."
+      ],
+      "hints": [
+        "Nenne bei einer Wiederholung immer, wie lange sie laufen soll.",
+        "Die Quelle muss zur Ausführungszeit erreichbar sein. Frage nach, wenn der Zugriff unklar ist.",
+        "Wenn die Funktion fehlt: ITP kann Konto und Freigaben prüfen. Ein Text im Chat ersetzt keine gespeicherte Aufgabe."
+      ],
+      "question": {
+        "ask": "Work beschreibt eine Montagsaufgabe. Reicht das als Beleg, dass sie wirklich eingerichtet ist?",
+        "options": [
+          "Ja, die Beschreibung ist die Bestätigung.",
+          "Nein, ich öffne die gespeicherte Aufgabe und prüfe die Einstellungen."
+        ],
+        "correct": 1,
+        "explain": "Du prüfst den Zustand dort, wo die Aufgabe verwaltet wird. Dasselbe Prinzip gilt für Mailentwürfe, Dateien und Termine."
+      },
+      "files": [
+        "07-terminbrief.txt"
+      ],
+      "bonus": "Ändere an einer eigenen Übungsaufgabe die Uhrzeit und kontrolliere die neue Einstellung, bevor du sie deaktivierst.",
+      "carry": "Dein Projekt ist auch nach dem Seminar wieder verwendbar.",
+      "number": 9,
+      "day": 2,
+      "rhythm": {
+        "explain": 8,
+        "show": 12,
+        "do": 12,
+        "check": 8
+      }
+    },
+    {
+      "id": "abschluss",
+      "time": "16:00",
+      "title": "Du übernimmst den Auftrag.",
+      "short": "Alles selbst verbinden.",
+      "tools": [
+        "chatgpt",
+        "excel",
+        "outlook",
+        "onedrive"
+      ],
+      "minutes": 60,
+      "why": "Zum Schluss kommt eine neue Nachricht im selben Projekt: Für die fiktive Montageposition werden nun 200 statt 100 Einheiten benötigt. Eine andere Person muss deinen Projektstand übernehmen können.",
+      "principle": "Du wählst die Werkzeuge passend zum Ziel.",
+      "story": "Jetzt gibt es keinen vorgegebenen Klickweg. Du entscheidest, welche Quellen du brauchst, welche Dateien sich ändern und welche Handlungen erst nach einer Kontrolle erfolgen sollen. Entscheidend ist ein nachvollziehbares Ergebnis, nicht ein bestimmter Wortlaut im Auftrag.",
+      "outcome": "Ein verständliches Übergabepaket für Lindenhof mit aktualisierter Rechnung, Dokument und Antwortentwurf.",
+      "skills": [
+        "Mehrere Werkzeuge zu einem Ablauf verbinden",
+        "Änderung von ursprünglichen Angaben trennen",
+        "Ergebnisse prüfen, Fehler korrigieren und Quellen nennen",
+        "Speicherorte und nächste Schritte nachvollziehbar übergeben",
+        "Eine eigene sinnvolle Anwendung für den nächsten Arbeitstag formulieren"
+      ],
+      "demos": [
+        {
+          "title": "Lies die neue Nachricht.",
+          "action": "Zeige nur den Änderungsauftrag. Lass die Gruppe selbst benennen, welche bisherigen Ergebnisse betroffen sind.",
+          "prompt": "",
+          "see": "Die Menge ändert sich; bestätigte Kundendaten und unbekannte Termine bleiben unverändert.",
+          "asset": ""
+        },
+        {
+          "title": "Vereinbart, woran man ein gutes Ergebnis erkennt.",
+          "action": "Zeige die vier Ergebnismerkmale, ohne den Lösungsweg vorzugeben: korrekte Rechnung, aktueller Projektstand, geprüfte Dateien, ungesendeter Entwurf.",
+          "prompt": "",
+          "see": "Alle kennen das Ziel. Danach wird eigenständig gearbeitet.",
+          "asset": ""
+        }
+      ],
+      "mission": "Aktualisiere Lindenhof für 200 Montageeinheiten. Erstelle ein nachvollziehbares Übergabepaket und einen ungesendeten Übungsentwurf an dich selbst. Wähle deinen eigenen Weg.",
+      "steps": [
+        "Lies 10-aenderung-und-uebergabe.txt und entscheide, was geändert werden muss.",
+        "Aktualisiere Vergleich und Projektunterlagen. Erhalte die bisherigen Versionen.",
+        "Speichere die geprüften Dateien in deinem OneDrive-Übungsordner.",
+        "Entwirf eine kurze Antwort an dich selbst und bereite die Übergabe vor. Lass eine andere Person dein Ergebnis nachvollziehen."
+      ],
+      "checks": [
+        "Der Vergleich für 200 Einheiten ergibt C = 2.540 € netto unter der genannten Annahme.",
+        "Die Dateien sind aktuell, prüfbar und eindeutig benannt.",
+        "Mein Entwurf ist ungesendet; keine Übungstermine oder Wiederholungen bleiben aktiv.",
+        "Eine andere Person versteht meinen Projektstand und die nächsten Schritte."
+      ],
+      "hints": [
+        "Beginne mit „Welche meiner bisherigen Ergebnisse sind von der neuen Menge betroffen?“",
+        "Bearbeite erst die Rechnung, dann die davon abhängigen Texte.",
+        "Wenn du festhängst: Fasse den aktuellen Stand zusammen und gib Work nur den nächsten kleinen Schritt."
+      ],
+      "question": {
+        "ask": "Was nimmst du als wichtigste Gewohnheit mit?",
+        "options": [
+          "Eine gute Formulierung sofort übernehmen.",
+          "Auftrag klar beschreiben, Ergebnis prüfen und bei Bedarf nachsteuern."
+        ],
+        "correct": 1,
+        "explain": "Du musst nicht jeden Klick auswendig kennen. Du brauchst ein klares Ziel, die richtigen Quellen und einen eigenen Kontrollblick."
+      },
+      "files": [
+        "10-aenderung-und-uebergabe.txt"
+      ],
+      "bonus": "Formuliere eine konkrete Aufgabe für deinen nächsten echten Arbeitstag: Ausgangslage, Ziel, Quelle, Ausgabe und Kontrollpunkt.",
+      "carry": "Deine fertigen Ergebnisse bleiben in deiner eigenen Umgebung.",
+      "number": 10,
+      "day": 2,
+      "rhythm": {
+        "explain": 8,
+        "show": 5,
+        "do": 37,
+        "check": 10
+      }
+    }
+  ],
+  "schedule": [
+    {
+      "day": 1,
+      "title": "Verstehen & vorbereiten",
+      "items": [
+        [
+          "09:00",
+          "Ankommen, Technik prüfen, Ziel klären",
+          "15 min"
+        ],
+        [
+          "09:15",
+          "1 · Mail verstehen",
+          "50 min"
+        ],
+        [
+          "10:05",
+          "2 · Projekt anlegen",
+          "50 min"
+        ],
+        [
+          "10:55",
+          "Pause",
+          "15 min"
+        ],
+        [
+          "11:10",
+          "3 · Dateien bearbeiten und ablegen",
+          "70 min"
+        ],
+        [
+          "12:20",
+          "Mittagspause",
+          "60 min"
+        ],
+        [
+          "13:20",
+          "4 · Recherchieren und Browser steuern",
+          "55 min"
+        ],
+        [
+          "14:15",
+          "Pause",
+          "15 min"
+        ],
+        [
+          "14:30",
+          "5 · Excel vergleichen und prüfen",
+          "70 min"
+        ],
+        [
+          "15:40",
+          "Ergebnisse sichern und offene Fragen klären",
+          "20 min"
+        ]
+      ]
+    },
+    {
+      "day": 2,
+      "title": "Fertigstellen & selbst übernehmen",
+      "items": [
+        [
+          "09:00",
+          "Wieder ankommen: Projekt selbst wiederfinden",
+          "15 min"
+        ],
+        [
+          "09:15",
+          "6 · Projektbogen ausfüllen",
+          "60 min"
+        ],
+        [
+          "10:15",
+          "7 · Antwort und Anhang vorbereiten",
+          "50 min"
+        ],
+        [
+          "11:05",
+          "Pause",
+          "15 min"
+        ],
+        [
+          "11:20",
+          "8 · Kalender vollständig üben",
+          "60 min"
+        ],
+        [
+          "12:20",
+          "Mittagspause",
+          "60 min"
+        ],
+        [
+          "13:20",
+          "9 · Übergabe und geplante Aufgaben",
+          "40 min"
+        ],
+        [
+          "14:00",
+          "Pause",
+          "15 min"
+        ],
+        [
+          "14:15",
+          "10 · Eigenständiger Abschlussauftrag",
+          "60 min"
+        ],
+        [
+          "15:15",
+          "Ergebnisse vorstellen, aufräumen und Transfer",
+          "45 min"
+        ]
+      ]
+    }
+  ],
+  "glossary": {
+    "Auftrag": "Das, was Work für dich erledigen soll. Du beschreibst es in deinen Worten.",
+    "Projekt": "Eine Arbeitsmappe für zusammengehörige Aufgaben, Dateien und Vorgaben.",
+    "Plugin": "Eine Verbindung oder Erweiterung, mit der Work ein anderes Programm nutzen kann.",
+    "Quelle": "Die Datei, Mail oder Website, auf der eine Aussage beruht.",
+    "Entwurf": "Eine vorbereitete Mail, die noch nicht versendet wurde.",
+    "Hochladen": "Eine Datei von deinem Computer in eine Anwendung geben.",
+    "Herunterladen": "Eine Datei aus einer Anwendung auf deinen Computer holen.",
+    "DOCX": "Eine Word-Datei, die du weiter bearbeiten kannst.",
+    "PDF": "Ein Format zum Lesen und Weitergeben; Layout und Inhalte trotzdem prüfen.",
+    "XLSX": "Eine Excel-Arbeitsmappe mit Tabellenblättern, Formeln und Formatierung.",
+    "CSV": "Eine einfache Datentabelle. Sie bewahrt keine komplette Excel-Arbeitsmappe.",
+    "Freigabe": "Deine bewusste Entscheidung, dass eine bestimmte Handlung ausgeführt werden darf."
+  }
+}
