@@ -1,333 +1,374 @@
-# Ein Arbeitstag mit KI – Lernplan
+# Ein Schrank für Hadi
 
-Du begleitest einen Kundenauftrag vom Posteingang bis zur Übergabe. Mit ChatGPT, deinen Programmen und deinen eigenen Entscheidungen.
+Echte Recherche. Unser fiktives Angebot. Dein ChatGPT.
 
-Du arbeitest in deiner eigenen ChatGPT-Umgebung. Diese Website erklärt den Ablauf und stellt Übungsdateien bereit. Sie liest keine Mails, verbindet keine Konten und führt keine KI-Aufträge aus.
+Du arbeitest in deinem eigenen ChatGPT und Microsoft 365. Unser Angebot ist ein Seminar-Rollenspiel. Es gibt keine Anfrage oder Zusage von Hadi Teherani.
 
-Empfehlung: zwei Tage, jeweils 09:00–16:00 Uhr. Die Zeiten 08:30–16:00 an den Stationen gehören zum fiktiven Arbeitstag, nicht zum Seminarplan.
+Hadi Teherani ist die reale Person. Schrank, Betrieb, Maße, Preise und Weihnachtstermin sind unser Seminar-Rollenspiel. Wir recherchieren öffentliche Geschäftskontakte; Übungsentwürfe gehen an die eigene Adresse und bleiben ungesendet.
 
 ## Lernziel
-Am Ende kannst du eine Arbeitsaufgabe klar beschreiben, passende Quellen mitgeben, Ergebnisse prüfen und den nächsten Schritt selbst steuern.
+Du recherchierst, bedienst Websites, bearbeitest Dateien und bereitest ein vollständiges Angebot vor.
 
 ## Ablauf pro Station
-8 Minuten Prinzip verstehen; etwa 12 Minuten Vorführung in der echten ChatGPT-Umgebung; eigene Aufgabe; Ergebnis zeigen und prüfen. Die Abschlussstation arbeitet mit mehr Eigenzeit.
+Prinzip ansehen, echte Vorführung durch Kerim, im eigenen Konto üben, Ergebnis prüfen.
 
-## Tag 1 – Verstehen & vorbereiten
-- 09:00 · Ankommen, Technik prüfen, Ziel klären · 15 min
-- 09:15 · 1 · Mail verstehen · 50 min
-- 10:05 · 2 · Projekt anlegen · 50 min
-- 10:55 · Pause · 15 min
-- 11:10 · 3 · Dateien bearbeiten und ablegen · 70 min
-- 12:20 · Mittagspause · 60 min
-- 13:20 · 4 · Recherchieren und Browser steuern · 55 min
-- 14:15 · Pause · 15 min
-- 14:30 · 5 · Excel vergleichen und prüfen · 70 min
-- 15:40 · Ergebnisse sichern und offene Fragen klären · 20 min
+## Tag 1
+- 09:00 · Ankommen und Modell wählen · 15 min
+- 09:15 · Eine Mail verstehen. · 35 min
+- 09:50 · Wem bieten wir den Schrank an? · 45 min
+- 10:35 · Ein Projekt für den Schrank. · 40 min
+- 11:15 · Pause · 15 min
+- 11:30 · ChatGPT legt die Dateien ab. · 60 min
+- 12:30 · Mittagspause · 60 min
+- 13:30 · ChatGPT bedient den Browser. · 55 min
+- 14:25 · Pause · 15 min
+- 14:40 · Was kostet unser Schrank? · 65 min
+- 15:45 · Ergebnisse sichern · 15 min
 
-## Tag 2 – Fertigstellen & selbst übernehmen
-- 09:00 · Wieder ankommen: Projekt selbst wiederfinden · 15 min
-- 09:15 · 6 · Projektbogen ausfüllen · 60 min
-- 10:15 · 7 · Antwort und Anhang vorbereiten · 50 min
-- 11:05 · Pause · 15 min
-- 11:20 · 8 · Kalender vollständig üben · 60 min
-- 12:20 · Mittagspause · 60 min
-- 13:20 · 9 · Übergabe und geplante Aufgaben · 40 min
-- 14:00 · Pause · 15 min
-- 14:15 · 10 · Eigenständiger Abschlussauftrag · 60 min
-- 15:15 · Ergebnisse vorstellen, aufräumen und Transfer · 45 min
+## Tag 2
+- 09:00 · Wieder ankommen · 15 min
+- 09:15 · ChatGPT füllt das Angebot aus. · 60 min
+- 10:15 · Ein Schrank für Hadi. · 55 min
+- 11:10 · Pause · 15 min
+- 11:25 · Schrankbesprechung an Weihnachten. · 60 min
+- 12:25 · Mittagspause · 60 min
+- 13:25 · Den Entwurf später erstellen lassen. · 45 min
+- 14:10 · Pause · 15 min
+- 14:25 · Dein Angebot steht. · 65 min
+- 15:30 · Ergebnisse zeigen und Transfer · 30 min
 
-## 1. Erst verstehen. Dann loslegen.
-Mara Sommer möchte zwei Büroräume umbauen lassen. Bevor du antwortest, brauchst du einen Überblick: Was ist gewünscht? Welche Angaben fehlen? Was ist jetzt deine Aufgabe?
-
-**Das lernen wir:**
-- ChatGPT öffnen; Modell wählen; eine Aufgabe starten und fortsetzen
-- Outlook-Verbindung und richtiges Konto erkennen
-- Mails nach Zeitraum, Absender oder Betreff finden und auswählen
-- Mail erklären lassen; Anhänge erkennen und gezielt lesen
-- Mit einer Nachfrage korrigieren, ohne neu anzufangen
-
-**Das zeigst du live in deiner Umgebung:**
-1. Öffne ChatGPT und wähle dein Modell. Öffne die ChatGPT-Desktop-App. Für die Aufgaben verwenden wir den Bereich, der in der App als Work beschriftet ist. Klicke auf den Modellnamen neben dem Eingabefeld. Unsere Empfehlung für das Seminar: GPT-6 Astra, Denkaufwand Low (niedrig), sofern verfügbar. Ein Modell ist die KI, die deinen Auftrag bearbeitet. Low ist die Denkstufe, kein anderes Modell. Wenn Astra fehlt, lass Kerim die passende verfügbare Alternative zeigen. Prüfe anschließend unter Plugins die Outlook-Verbindung.
-2. Finde die heutige Mail. Lass Absender und Betreff anzeigen. Wähle dann selbst eine konkrete Mail aus. Für die Vorführung nutzt du eine vorbereitete Testmail oder die Lindenhof-Datei.
-   Auftrag: Zeige mir die Mails, die ich heute bekommen habe, mit Absender und Betreff. Ich wähle danach eine aus.
-3. Lass sie dir erklären. Öffne die gewählte Mail und lass dir den Wunsch des Absenders erklären. Ein Anhang wird nur dann gelesen, wenn er für die Aufgabe relevant ist.
-   Auftrag: Erkläre mir die Mail von Mara Sommer zur Besichtigung in drei einfachen Sätzen. Was möchte sie von mir? Welche Angaben fehlen? Noch keine Antwort versenden.
-4. Verbessere die Antwort. Zeige eine echte Folgefrage in derselben Aufgabe. Vergleiche die neue Antwort mit der Mail.
-   Auftrag: Das ist mir noch zu kompliziert. Erkläre es ohne Fachwörter und nenne nur meinen nächsten Schritt.
-
-**Eigene Aufgabe:** Wähle eine passende Mail, die du heute erhalten hast. Lass sie erklären und verbessere die Erklärung mit einer eigenen Nachfrage. Danach starten wir alle mit dem gemeinsamen Fall Lindenhof.
-
-**Ergebnis prüfen:**
-- Ich kann den Inhalt meiner gewählten Mail mit eigenen Worten erklären.
-- Ich habe die Antwort einmal gezielt verbessert.
-- Ich kenne bei Lindenhof mindestens drei offene Angaben.
-
-**Für den nächsten Schritt:** Die Lindenhof-Anfrage begleitet uns durch den ganzen Tag.
-
-## 2. Ein Zuhause für deinen Auftrag.
-Zur Kundenanfrage kommen später Recherche, Tabellen und Antworten hinzu. Wenn alles in einzelnen Aufgaben verschwindet, musst du den Hintergrund immer wieder zusammensuchen.
+## 1. Eine Mail verstehen.
+Zum Aufwärmen nutzt du eine passende Mail von heute. Danach beginnt unser gemeinsames Rollenspiel: Unser fiktiver Betrieb Werkraum möchte Hadi Teherani einen maßgefertigten Büroschrank anbieten. Er hat ihn nicht bestellt und uns nicht geschrieben.
 
 **Das lernen wir:**
-- Projekt und einzelne Aufgabe unterscheiden
-- Projekt anlegen und sinnvoll benennen
-- Dateien als Projektquellen hinzufügen
-- Projekthinweise speichern und später ändern
-- ChatGPT-Aufgabe im richtigen Projekt starten und wiederfinden
+- ChatGPT und Modell öffnen
+- Outlook-Verbindung prüfen
+- Eine konkrete Mail von heute auswählen
+- Erklärung mit einer Nachfrage verbessern
 
-**Das zeigst du live in deiner Umgebung:**
-1. Lege die Mappe an. Öffne die Seitenleiste und wähle Neues Projekt. Nenne es „Lindenhof · Umbau“. In der englischen Originalabbildung heißt der Eintrag New project.
-2. Füge die Kundenanfrage hinzu. Öffne die Dateien beziehungsweise Quellen des Projekts. Füge 03-lindenhof.txt hinzu. Zeige den Dateinamen anschließend in der Projektübersicht.
-3. Speichere gemeinsame Vorgaben. Öffne das Menü mit den drei Punkten und die Projekteinstellungen. Hinterlege die folgende Vorgabe. Erkläre, dass sie für diesen Auftrag gilt.
-   Auftrag: Wir bearbeiten Lindenhof. Schreibe Kundenantworten freundlich und kurz, mit „Sie“. Erfinde keine Maße, Preise oder Termine. Kennzeichne fehlende Angaben als „noch offen“.
-4. Starte Arbeit in der Mappe. Wähle im Projekt ChatGPT. Prüfe den Projektnamen und starte eine Zusammenfassung. Öffne danach kurz eine andere Ansicht und finde die Aufgabe im Projekt wieder.
-   Auftrag: Fasse die Lindenhof-Unterlagen zusammen. Trenne bestätigte Angaben, widersprüchliche Angaben und offene Fragen. Nenne die jeweilige Quelle.
+**Das zeigst du live:**
+1. Öffne ChatGPT. Öffne die Desktop-App und den dort als Work beschrifteten Bereich. Wähle GPT-6 Astra mit Low, sofern verfügbar. Kerim hilft bei abweichender Modellauswahl. Prüfe unter Plugins die Outlook-Verbindung.
+2. Wähle eine Mail von heute. Zeige eine passende Mail, die du für die Übung verwenden darfst. Nutze am Beamer eine vorbereitete Testmail.
+   Auftrag: Zeige meine heutigen Mails mit Absender und Betreff. Ich wähle danach eine aus.
+3. Lass sie erklären. Lies die Erklärung und vergleiche sie mit der Mail.
+   Auftrag: Erkläre mir diese Mail in drei einfachen Sätzen. Was soll ich als Nächstes tun?
+4. Verbessere die Erklärung. Bleibe in derselben Aufgabe. Danach öffnen wir den Schrankbrief aus dem Materialpaket.
+   Auftrag: Noch einfacher, bitte. Nenne nur meinen nächsten Schritt.
 
-**Eigene Aufgabe:** Lege dein eigenes Projekt „Lindenhof · Umbau“ an. Füge die Anfrage hinzu, speichere eine Kommunikationsvorgabe und starte darin eine Zusammenfassung.
+**Eigene Aufgabe:** Lass dir eine Mail von heute erklären. Öffne danach unseren Schrankbrief.
 
 **Ergebnis prüfen:**
-- Ich finde das Projekt, die Datei und die Vorgabe wieder.
-- Meine Aufgabe ist dem Projekt Lindenhof zugeordnet.
-- Die Zusammenfassung unterscheidet die alte Notiz von der aktuellen Anfrage.
+- Ich verstehe meine Mail.
+- Ich habe die Antwort einmal verbessert.
+- Ich weiß: Die Schrankidee stammt von unserem fiktiven Betrieb.
 
-**Für den nächsten Schritt:** Alle folgenden ChatGPT-Aufgaben gehören in dieses Projekt.
+**Danach:** Jetzt recherchieren wir, wem wir unseren Schrank anbieten möchten.
 
-## 3. Die richtige Datei. Am richtigen Ort.
-Die Anfrage liegt im Projekt. Für die weitere Arbeit brauchst du eine kurze, bearbeitbare Übersicht – und einen Ordner, in dem du Ergebnisse wiederfindest.
+## 2. Wem bieten wir den Schrank an?
+Wir recherchieren den Architekten und Designer Hadi Teherani auf offiziellen Quellen. Die öffentlich genannte Büro-E-Mail ist ein Geschäftskontakt, keine bestätigte persönliche Adresse. Ob er einen Schrank braucht, wissen wir nicht.
 
 **Das lernen wir:**
-- OneDrive-Verbindung prüfen; ChatGPT einen eigenen Ordner anlegen lassen; Dateien suchen und öffnen
-- Lokale Datei hochladen, Ergebnis herunterladen und wieder öffnen
-- Inhalt gezielt ändern, Original erhalten und Versionen benennen
-- TXT als DOCX aufbereiten und DOCX als PDF ausgeben
-- Ergebnis in OneDrive hochladen; umbenennen oder verschieben; Speicherort prüfen
+- Recherchefrage eingrenzen
+- Offizielle Quellen finden
+- Drei relevante Fakten mit Links belegen
+- Öffentliche Büro-E-Mail von persönlicher Adresse unterscheiden
+- Fakten und eigene Verkaufsidee trennen
 
-**Das zeigst du live in deiner Umgebung:**
-1. Lass ChatGPT deinen Ordner anlegen. Beauftrage ChatGPT direkt, über die OneDrive-Verbindung einen eigenen Übungsordner anzulegen. Öffne anschließend den angelegten Ordner und prüfe das Konto.
-   Auftrag: Lege in meinem OneDrive einen neuen Ordner „Seminar Lindenhof“ für meine Seminarübungen an. Falls dieser Name schon vergeben ist, frage mich nach einem anderen Namen. Zeige mir anschließend den Link zum neu angelegten Ordner.
-2. Lass ChatGPT die Anfrage ablegen. Lade 03-lindenhof.txt vom Seminarpaket in ChatGPT hoch. Beauftrage ChatGPT, diese Datei im gerade angelegten Ordner zu speichern. Öffne die gespeicherte Datei in OneDrive.
-   Auftrag: Speichere die hier hochgeladene Datei 03-lindenhof.txt unverändert in dem OneDrive-Ordner, den du gerade für meine Seminarübungen angelegt hast. Überschreibe keine vorhandene Datei. Zeige mir danach den Speicherort und die Datei.
-3. Mach einen Projektbrief daraus. Nutze die Anfrage als Quelle. Erzeuge eine neue Word-Datei, damit das Original erhalten bleibt.
-   Auftrag: Erstelle aus der Lindenhof-Anfrage einen einseitigen Projektbrief als DOCX. Gliedere in Auftrag, bestätigte Angaben und offene Fragen. Widersprüche nicht auflösen, sondern benennen. Dateiname: Lindenhof_Projektbrief_v1.docx.
-4. Ändere gezielt den Inhalt. Öffne die Datei und lasse einen Abschnitt ändern. Speichere die neue Fassung unter einem neuen Namen.
-   Auftrag: Ergänze im Projektbrief den Abschnitt „Vor der Besichtigung klären“ mit Türmaßen, Zugang und Ansprechpartner vor Ort. Erhalte die übrigen Inhalte. Speichere als Lindenhof_Projektbrief_v2.docx.
-5. Wechsle das Format. Bitte zusätzlich um eine PDF-Ausgabe. Öffne beide Dateien. Erkläre: Die Endung umzubenennen wäre noch keine echte Umwandlung.
-   Auftrag: Erzeuge zusätzlich eine gut lesbare PDF aus Lindenhof_Projektbrief_v2.docx. Behalte die Word-Datei. Prüfe, dass keine Abschnitte fehlen.
-6. Lege das Ergebnis ab. Lade die fertigen Dateien in den OneDrive-Übungsordner. Das geht über das eingerichtete Plugin oder direkt in OneDrive. Öffne sie dort und zeige den Speicherort.
-   Auftrag: Speichere die fertige Word-Datei und PDF im OneDrive-Übungsordner „Seminar Lindenhof“. Überschreibe keine vorhandene Datei. Zeige mir die gespeicherten Dateien.
+**Das zeigst du live:**
+1. Stelle eine einfache Frage. Lass drei kurze Fakten recherchieren. Öffne mindestens eine Quelle.
+   Auftrag: Wer ist Hadi Teherani? Nenne drei kurze Fakten aus offiziellen Quellen mit Links.
+2. Finde den Bürokontakt. Prüfe Kontaktseite oder offizielles Impressum. Keine persönliche Mailadresse erraten.
+   Auftrag: Finde auf einer offiziellen Website die öffentliche geschäftliche E-Mail-Adresse seines Designbüros. Zeige die Quelle und wessen Adresse es ist.
+3. Entwickle unsere Idee. Eine passende Idee ist eine Hypothese, kein bekannter Kundenwunsch.
+   Auftrag: Wir sind eine fiktive Tischlerei und möchten einen maßgefertigten Büroschrank anbieten. Formuliere eine mögliche Idee in zwei Sätzen. Trenne Fakten von Vermutungen.
+4. Sichere den Steckbrief. Speichere Fakten, Bürokontakt, Quellen und Abrufdatum.
+   Auftrag: Erstelle einen kurzen Steckbrief als TXT: drei Fakten, öffentlicher Bürokontakt mit Quelle, unsere Schrankidee und offene Fragen.
 
-**Eigene Aufgabe:** Erstelle einen Projektbrief aus der Anfrage, verbessere einen Abschnitt und speichere ihn als Word-Datei und PDF in deinem OneDrive-Übungsordner.
+**Eigene Aufgabe:** Recherchiere Hadi Teherani und finde eine öffentliche geschäftliche Kontaktadresse.
 
 **Ergebnis prüfen:**
-- ChatGPT hat meinen eigenen OneDrive-Übungsordner angelegt; ich kann ihn öffnen.
-- Meine Originalquelle ist erhalten.
-- Word und PDF lassen sich öffnen und enthalten dieselben bestätigten Angaben.
-- Ich kann den OneDrive-Speicherort zeigen.
+- Ich kann die Quellen öffnen.
+- Ich kenne den Unterschied zwischen Büro-Adresse und persönlicher Mail.
+- Unsere Schrankidee ist als Vorschlag erkennbar.
 
-**Für den nächsten Schritt:** Der geprüfte Projektbrief wird später ausgefüllt und an einen Antwortentwurf angehängt.
+**Danach:** Steckbrief und Schrankbrief gehören in unser neues Projekt.
 
-## 4. Erst nachsehen. Dann glauben.
-Für Lindenhof fehlen noch technische Angaben. Du kannst vor der Besichtigung recherchieren, welche Informationen ein Anbieter für eine passende Innentür benötigt. Die Recherche ersetzt keine fachliche Freigabe.
+## 3. Ein Projekt für den Schrank.
+Das Projekt hält Recherche, Vorgaben und Aufgaben zusammen. Wir nennen es „Schrank für Hadi“. Es ist unser Seminarprojekt, kein bestehender Auftrag von Hadi Teherani.
 
 **Das lernen wir:**
-- Suchziel, Umfang und gewünschte Quellen festlegen
-- Zwei Originalquellen öffnen und Aussagen vergleichen
-- Veröffentlichung, Aktualität und fehlende Angaben erkennen
-- Browser im nächsten Einzelschritt anweisen; bei Hängern stoppen und Stand klären
-- Recherche als Datei sichern und dem Projekt hinzufügen
+- Projekt erstellen und benennen
+- Quellen hinzufügen
+- Gemeinsame Vorgaben speichern
+- Aufgabe im Projekt starten
+- Projekt wiederfinden
 
-**Das zeigst du live in deiner Umgebung:**
-1. Stelle eine begrenzte Recherchefrage. Lass ChatGPT bei Hersteller- oder Händlerquellen nachsehen. Halte die Aufgabe klein und fordere Links.
-   Auftrag: Recherchiere anhand von zwei Hersteller- oder Händlerquellen, welche Angaben für die Auswahl einer Innentür benötigt werden. Erstelle Fragen für die Besichtigung bei Lindenhof. Zeige die Quellen. Triff keine technische Eignungsentscheidung.
-2. Öffne die Quellen. Öffne mit der Gruppe einen Originaltreffer. Suche die konkrete Passage. Prüfe, ob die Aussage tatsächlich dort steht.
-   Auftrag: Zeige mir bei der ersten Quelle die Stelle zu den benötigten Maßen. Wenn sie dort nicht steht, korrigiere die Zusammenfassung.
-3. Führe den Browser in einem kleinen Schritt. Zeige die geöffnete Seite am Beamer. Gib einen einzelnen Folgeauftrag, der sich auf die sichtbare Seite bezieht.
-   Auftrag: Suche auf dieser Seite nach den Maßangaben und erkläre mir die Tabelle. Keine Anfrage absenden und nichts bestellen.
-4. Sichere nur die relevanten Ergebnisse. Speichere eine kurze Liste mit Quellenlinks und offenen Fragen im Projekt.
-   Auftrag: Erstelle eine kurze Recherche-Notiz für Lindenhof mit den zwei Quellenlinks, Abrufdatum und offenen Fragen. Keine unbelegten Empfehlungen.
+**Das zeigst du live:**
+1. Lege das Projekt an. Öffne die Seitenleiste und Neues Projekt. Nenne es „Schrank für Hadi“. Die Originalabbildung kann anders beschriftet sein.
+2. Füge Unterlagen hinzu. Füge den Schrankbrief und deinen recherchierten Steckbrief als Quellen hinzu.
+3. Speichere eine Vorgabe. Speichere eine kurze Kommunikationsregel.
+   Auftrag: Für dieses Seminarprojekt: kurz und freundlich mit Sie schreiben. Annahmen kennzeichnen. Keine Anfrage oder Zusage von Hadi Teherani erfinden.
+4. Starte eine Aufgabe darin. Öffne eine neue Aufgabe im Projekt und nutze die Quellen.
+   Auftrag: Fasse unsere Schrankidee und die offenen Fragen kurz zusammen.
 
-**Eigene Aufgabe:** Finde mit ChatGPT zwei geeignete Originalquellen und leite daraus Fragen für die Besichtigung ab. Prüfe mindestens eine Aussage selbst auf der Website.
+**Eigene Aufgabe:** Erstelle „Schrank für Hadi“ und füge deine Unterlagen hinzu.
 
 **Ergebnis prüfen:**
-- Ich kann die Originalquelle zu einer Aussage öffnen.
-- Meine Notiz trennt belegte Informationen von offenen Fragen.
-- Es wurde kein Anbieter kontaktiert und nichts bestellt.
+- Ich finde mein Projekt wieder.
+- Meine Quellen sind hinzugefügt.
+- Die Zusammenfassung erfindet keinen Kundenauftrag.
 
-**Für den nächsten Schritt:** Die Recherchefragen fließen in den Projektbogen und die Besichtigungsagenda ein.
+**Danach:** Als Nächstes richten wir die Dateiablage ein.
 
-## 5. Zahlen verstehen. Entscheidungen prüfen.
-Für eine fiktive Montageposition liegen drei Angebote vor. Der niedrigste Stückpreis ist nicht unbedingt das günstigste Gesamtangebot. Deshalb vergleichen wir Menge, Preis und Lieferung gemeinsam.
+## 4. ChatGPT legt die Dateien ab.
+ChatGPT legt den eigenen OneDrive-Ordner an. Du gibst die Ausgangsdatei in ChatGPT und lässt sie dort speichern. Anschließend entsteht eine bearbeitbare Word-Datei und zusätzlich eine PDF. Eine neue Dateiendung allein ändert das Format nicht.
 
 **Das lernen wir:**
-- Arbeitsmappe hochladen oder direkt in Excel bearbeiten
-- Blätter erklären lassen und Rohdaten bereinigen, Original erhalten
-- Formeln ergänzen, Lieferkosten einbeziehen und Fehler erkennen
-- Menge ändern; Auswirkungen erklären; Ergebnis stichprobenartig prüfen
-- XLSX speichern; Vergleich bei Bedarf als PDF oder CSV ausgeben
+- ChatGPT einen OneDrive-Ordner anlegen lassen
+- Lokale Datei in ChatGPT hochladen
+- ChatGPT die Datei in OneDrive speichern lassen
+- TXT in eine bearbeitbare DOCX umwandeln
+- Inhalt ändern und zusätzlich eine PDF erstellen
+- Dateien am Speicherort öffnen
 
-**Das zeigst du live in deiner Umgebung:**
-1. Öffne die Arbeitsmappe. Zeige Angebote, Materialliste und Rechenbeispiel. Lass erklären, welche Spalten für den Vergleich gebraucht werden.
-   Auftrag: Erkläre die Arbeitsmappe 04-materialvergleich.xlsx. Welche Angaben brauche ich, um die drei Angebote fair zu vergleichen? Ändere noch nichts.
-2. Bereinige eine Kopie. Zeige die unterschiedlichen Schreibweisen und die als Text gespeicherte Menge. Lass das Original erhalten.
-   Auftrag: Bereinige die Materialliste in einer Kopie: vereinheitliche die Bezeichnung Montageeinheit und die Einheit Stück. Prüfe die Mengen als Zahlen. Verändere die Originaldaten nicht.
-3. Vergleiche die Gesamtkosten. Lass eine Formel für Menge mal Stückpreis plus Lieferung ergänzen. Rechne Angebot B gemeinsam nach.
-   Auftrag: Vergleiche 100 Einheiten mit Formeln. Rechne die Lieferkosten dazu. Zeige Gesamtkosten netto, günstigstes Angebot und offene Lieferbedingungen.
-4. Ändere die Menge. Erhöhe auf 200. Benenne ausdrücklich die Annahme gleichbleibender Lieferkosten. Zeige, dass sich das Ergebnis ändern kann.
-   Auftrag: Berechne zusätzlich 200 Einheiten. Nimm nur für dieses Rechenbeispiel unveränderte Lieferkosten an. Welches Angebot ist dann am günstigsten?
-5. Zeige den zweiten Arbeitsweg. Öffne dieselbe Datei direkt in Excel mit der eingerichteten ChatGPT-Erweiterung. Wiederhole eine kleine Änderung und prüfe die Zellen.
+**Das zeigst du live:**
+1. Lass den Ordner anlegen. ChatGPT führt die Ordneranlage über das eingerichtete Plugin aus. Öffne danach den Link.
+   Auftrag: Lege in meinem OneDrive einen neuen Ordner „Seminar – Schrank für Hadi“ an. Falls der Name schon existiert, frage nach einem anderen Namen. Zeige den Ordnerlink.
+2. Lade die Quelle hoch. Lade 03-schrankbrief.txt in ChatGPT hoch. Lass ChatGPT die Datei im neuen Ordner ablegen.
+   Auftrag: Speichere die hochgeladene Datei 03-schrankbrief.txt unverändert im gerade angelegten OneDrive-Ordner. Zeige mir die gespeicherte Datei.
+3. Mach eine Word-Datei daraus. Bitte um eine echte Formatumwandlung, keine bloße Umbenennung.
+   Auftrag: Erstelle aus dem Schrankbrief eine übersichtliche, bearbeitbare Word-Datei namens Schrankbrief_v1.docx. Erhalte das Original.
+4. Ändere einen Inhalt. Passe den Entwurf an, ohne die bisherigen Dateien zu überschreiben.
+   Auftrag: Ergänze unter offene Fragen: Welche Oberfläche und welche Innenaufteilung wären gewünscht? Speichere als Schrankbrief_v2.docx.
+5. Erzeuge zusätzlich eine PDF. Öffne beide Formate und vergleiche die Inhalte.
+   Auftrag: Erzeuge zusätzlich Schrankbrief_v2.pdf. Behalte die Word-Datei.
+6. Lass beide Dateien ablegen. ChatGPT speichert die Ergebnisse im eigenen OneDrive-Ordner.
+   Auftrag: Speichere die geprüfte Word-Datei und PDF im Ordner „Seminar – Schrank für Hadi“. Nichts überschreiben. Zeige beide Dateien.
 
-**Eigene Aufgabe:** Vergleiche die Angebote für 100 Einheiten und danach für 200. Erkläre einer anderen Person, warum sich der günstigste Anbieter verändert.
+**Eigene Aufgabe:** Lass ChatGPT deinen Ordner anlegen und den Schrankbrief als TXT, Word und PDF darin speichern.
 
 **Ergebnis prüfen:**
-- Für 100 Einheiten ist B mit 1.310 € netto am günstigsten.
-- Für 200 Einheiten ist C mit 2.540 € netto am günstigsten, bei unveränderter Lieferung.
-- Formeln, Annahmen und offene Lieferbedingungen sind sichtbar.
+- ChatGPT hat meinen eigenen Ordner angelegt.
+- Die Ausgangsdatei ist dort gespeichert.
+- DOCX und PDF lassen sich öffnen.
+- Meine Originaldatei bleibt erhalten.
 
-**Für den nächsten Schritt:** Der geprüfte Vergleich bleibt interne Entscheidungshilfe. Noch kein verbindliches Kundenangebot.
+**Danach:** Jetzt recherchieren wir echte Produkte im Baumarkt.
 
-## 6. Aus Unterlagen wird ein fertiges Dokument.
-Du hast Kundenangaben, offene Fragen und recherchierte Informationen gesammelt. Jetzt sollen die passenden Angaben in den vorbereiteten Projektbogen. Du musst sie nicht Feld für Feld übertragen.
+## 5. ChatGPT bedient den Browser.
+Jetzt liest ChatGPT nicht nur Suchergebnisse. Es öffnet eine echte Baumarktseite im In-App-Browser, tippt in die Suche, bedient einen passenden Filter und öffnet ein Produkt. Du siehst die Schritte und prüfst das Ergebnis. Unser Schrankentwurf ist keine fertige technische Konstruktion.
 
 **Das lernen wir:**
-- Vorlage und mehrere Quellen gemeinsam übergeben
-- Quellenkonflikte sichtbar lassen; keine Angaben erfinden
-- Inhalte ändern, Abschnitte ergänzen und Layout erhalten
-- Bearbeitbare Ausgabe plus PDF erzeugen und öffnen
-- Ergebnis im Projekt und im OneDrive-Übungsordner wiederfinden
+- Echte Website im In-App-Browser öffnen lassen
+- ChatGPT die Website-Suche bedienen lassen
+- Einen sichtbaren Filter anwenden lassen
+- Produkt öffnen und Angaben prüfen
+- Brutto und netto sowie Lieferung unterscheiden
+- Bei Hängern stoppen und einen einzelnen Schritt neu beauftragen
 
-**Das zeigst du live in deiner Umgebung:**
-1. Gib Vorlage und Informationen mit. Zeige die beiden Dateien. Erkläre, welche die Vorlage ist und welche die Fakten enthält.
-   Auftrag: Fülle 05-projektbogen.docx mit den bestätigten Lindenhof-Angaben aus. Erhalte die Struktur. Fehlende Angaben heißen „noch offen“. Nenne widersprüchliche Quellen gesondert. Gib mir eine bearbeitbare DOCX.
-2. Prüfe einen absichtlichen Stolperstein. Vergleiche die alte Notiz mit der neueren Anfrage. Zeige, dass drei Türen nicht stillschweigend übernommen werden dürfen.
-   Auftrag: Prüfe die Türanzahl: Die ältere Notiz nennt drei, die aktuelle Anfrage zwei. Kennzeichne den Widerspruch und verwende für die aktuelle Zusammenfassung zwei, bis die Kundin bestätigt.
-3. Ergänze die Besichtigungsfragen. Nutze die Recherche aus dem Vormittag. Ergänze nur die passenden Fragen.
-   Auftrag: Ergänze am Ende drei Fragen für die Besichtigung aus unserer Recherche. Ändere die übrigen bestätigten Angaben nicht.
-4. Öffne und sichere beide Formate. Lass eine PDF erzeugen. Öffne Word und PDF, prüfe Seitenumbrüche, Tabellen und offene Felder. Speichere die geprüften Fassungen in OneDrive.
+**Das zeigst du live:**
+1. Öffne einen echten Baumarkt. Zeige den In-App-Browser und die Website neben der Aufgabe.
+   Auftrag: Öffne hornbach.de im In-App-Browser. Wir suchen Material für unseren Büroschrank.
+2. Lass ChatGPT suchen. Der Auftrag betrifft das Suchfeld auf der Website.
+   Auftrag: Nutze das Suchfeld auf dieser Website und suche nach Möbelbauplatte Eiche.
+3. Lass einen Filter bedienen. Wähle einen tatsächlich sichtbaren Filter. Keine nicht vorhandene Option behaupten.
+   Auftrag: Zeige mir die verfügbaren Filter. Wende den Filter für Eiche an, falls vorhanden; sonst frage mich, welchen sichtbaren Filter wir nehmen.
+4. Öffne ein Produkt. Prüfe Preis, Einheit und Maße direkt an der Produktseite.
+   Auftrag: Öffne eine passende Platte. Zeige Preis, Maße, Preisbasis und Quellenlink. Nichts in den Warenkorb legen.
+5. Vergleiche eine Alternative. Sichere zwei Quellen für unsere Kalkulationsübung. Nicht automatisch gleiche Qualität annehmen.
+   Auftrag: Finde eine zweite Platte. Vergleiche Maße, Material, Preis und Lieferkosten. Markiere Unterschiede und fehlende Angaben. Sichere die Links mit Abrufdatum.
 
-**Eigene Aufgabe:** Fülle den Projektbogen mit deinen Lindenhof-Unterlagen. Ergänze drei sinnvolle Besichtigungsfragen und speichere eine Word- und PDF-Fassung.
+**Eigene Aufgabe:** Lass ChatGPT in einem echten Baumarkt suchen, filtern und zwei Produktseiten öffnen.
 
 **Ergebnis prüfen:**
-- Kein Preis, Maß oder Termin wurde erfunden.
-- Der Konflikt zur Türanzahl ist nachvollziehbar.
-- Word und PDF sind lesbar und am richtigen Ort gespeichert.
+- Ich habe ChatGPT eine Website bedienen sehen.
+- Ein sichtbarer Filter wurde angewendet oder sein Fehlen benannt.
+- Ich habe Maße und Preisbasis selbst auf den Produktseiten geprüft.
+- Es wurde nichts bestellt.
 
-**Für den nächsten Schritt:** Die geprüfte PDF wird der Anhang für unseren Antwortentwurf.
+**Danach:** Die geprüften Preise gehen in die Excel-Kalkulation.
 
-## 7. Eine Antwort, die zu dir passt.
-Jetzt kannst du Mara sinnvoll antworten. Du weißt, welche Angaben fehlen, und hast eine Übersicht vorbereitet. Du formulierst die Antwort zuerst in ChatGPT, überarbeitest sie und speicherst die fertige Fassung als Outlook-Entwurf.
+## 6. Was kostet unser Schrank?
+Die Arbeitsmappe enthält klar bezeichnete Übungswerte. Ersetze Materialpreise durch deine recherchierten Werte, sofern sie zur angenommenen Einheit passen. Übernimm Brutto-Preise nicht ungeprüft als Netto-Preise. Arbeitszeit, Aufschlag und Maße sind unsere Annahmen, kein Kundenwunsch.
 
 **Das lernen wir:**
-- Mit Quellen einen passenden Antworttext entwerfen
-- Ton, Länge und Inhalt in derselben ChatGPT-Aufgabe ändern
-- Antwort oder neue Mail als Outlook-Entwurf speichern
-- Anhang gezielt hinzufügen und im Entwurf öffnen
-- An, CC, Antwort-an-alle, Weiterleiten und Versandfolgen unterscheiden
+- Arbeitsmappe in ChatGPT hochladen
+- Recherchepreise mit Quelle und Datum eintragen
+- Brutto und netto unterscheiden
+- Formeln für Positionen und Gesamtsumme erklären lassen
+- Eine Zeile selbst nachrechnen
+- Dieselbe Datei mit ChatGPT direkt in Excel bearbeiten
 
-**Das zeigst du live in deiner Umgebung:**
-1. Formuliere die Antwort. Kehre zur Anfrage zurück. Gib ChatGPT die bestätigten Informationen und das gewünschte Ziel.
-   Auftrag: Entwirf eine freundliche Antwort an Mara Sommer. Bitte um Türmaße, Zugangsinformationen und zwei mögliche Besichtigungstermine. Sage noch keinen Preis oder Ausführungstermin zu. Zeige den Text zuerst hier.
-2. Lass ihn nach deinem Geschmack ändern. Ändere Länge oder Ton mit einer Folgefrage. Zeige vor und nach der Änderung.
-   Auftrag: Kürzer und etwas lockerer, aber weiter mit „Sie“. Höchstens sechs Sätze. Keine neuen Zusagen.
-3. Speichere erst jetzt den Outlook-Entwurf. Bei einer echten Übungsmail nutze einen Antwortentwurf. Beim fiktiven Fall speichere einen klar als ÜBUNG markierten neuen Entwurf nur an deine eigene Adresse. Keine fiktiven Empfänger anschreiben.
-   Auftrag: Speichere diesen Text als neuen Outlook-Entwurf an meine eigene E-Mail-Adresse. Betreff: ÜBUNG Lindenhof – Besichtigung vorbereiten. Noch nicht versenden.
-4. Füge die geprüfte PDF hinzu. Wähle genau die geprüfte Datei. Das verfügbare Plugin unterstützt direkte Dateianhänge unter 3 MB. Öffne danach den Entwurf und den Anhang in Outlook.
-   Auftrag: Hänge die geprüfte Projektbogen-PDF an genau diesen Übungsentwurf an. Keine andere Datei verwenden und noch nicht versenden.
-5. Zeige die letzte Entscheidung. Erkläre An, CC, Antwort-an-alle und Weiterleiten am konkreten Entwurf. Für die Grundübung bleibt er gespeichert. Optional demonstrierst du nach Kontrolle eine Testmail nur an dich selbst.
+**Das zeigst du live:**
+1. Öffne die Kalkulation. Zeige die Eingaben und welche Werte nur Annahmen sind.
+   Auftrag: Erkläre mir die hochgeladene Schrankkalkulation. Welche Werte sind Übungsannahmen?
+2. Trage einen echten Preis ein. Verwende nur passende Einheiten. Quelle, Datum und Preisbasis festhalten.
+   Auftrag: Übernimm den geprüften Materialpreis aus unserer Recherche. Halte Quelle, Abrufdatum und Brutto/Netto fest. Frage nach, wenn Maße oder Einheiten nicht zusammenpassen.
+3. Lass Formeln erklären. Prüfe eine Position mit der Gruppe.
+   Auftrag: Erkläre die Formel für Menge mal Einzelpreis und rechne eine Zeile vor. Zeige anschließend den Angebotspreis mit dem Übungsaufschlag.
+4. Ändere die Arbeitszeit. Zeige, dass die Summe über die Formel reagiert.
+   Auftrag: Ändere unsere angenommene Arbeitszeit von 8 auf 10 Stunden. Erhalte die Formeln und speichere eine neue Version.
+5. Arbeite direkt in Excel. Öffne dieselbe Datei in Excel. Wiederhole eine kleine Änderung mit der eingerichteten ChatGPT-Integration.
 
-**Eigene Aufgabe:** Erstelle aus dem Lindenhof-Projekt eine kurze Antwort. Überarbeite sie einmal, speichere einen Übungsentwurf an dich selbst und füge die geprüfte PDF hinzu.
+**Eigene Aufgabe:** Ergänze einen recherchierten Materialpreis und prüfe die Schrankkalkulation.
 
 **Ergebnis prüfen:**
-- Der Empfänger ist meine eigene Adresse; der Betreff ist als ÜBUNG markiert.
-- Keine unbelegten Zusagen stehen im Text.
-- Der richtige Anhang lässt sich öffnen; die Mail bleibt ungesendet.
+- Quelle und Preisbasis sind erkennbar.
+- Eine Position ist nachgerechnet.
+- Die Gesamtsumme reagiert auf Änderungen.
+- Ich finde die gespeicherte Excel-Datei.
 
-**Für den nächsten Schritt:** Die Antwort ist vorbereitet. Jetzt planen wir die Besichtigung.
+**Danach:** Die geprüfte Summe füllt unser Angebot.
 
-## 8. Ein Termin, der wirklich passt.
-Mara möchte eine Besichtigung. Du brauchst einen freien Zeitraum, 45 Minuten Dauer und eine klare Agenda. Ein freier Platz in deinem Kalender heißt noch nicht, dass die Kundin ebenfalls Zeit hat.
+## 7. ChatGPT füllt das Angebot aus.
+ChatGPT erhält unsere leere Angebotsvorlage, den Schrankbrief und die Kalkulation. Es füllt das Dokument, erhält die Struktur und lässt Unbekanntes offen. Das Ergebnis ist ein unverbindlicher Seminarentwurf.
 
 **Das lernen wir:**
-- Richtigen Kalender und Zeitzone bestimmen
-- Termine lesen und freie Zeitfenster suchen
-- Dauer, Ort, Agenda und Erinnerung festlegen
-- Termin im eigenen Kalender anlegen und wieder öffnen
-- Termin ändern; Einzeltermin und Serie unterscheiden; Einladung und Absage verstehen
-- Übungstermin entfernen und Ergebnis kontrollieren
+- DOCX-Vorlage hochladen
+- Mehrere Quellen zuordnen
+- Felder und Positionen ausfüllen lassen
+- Unbekannte Angaben offenlassen
+- Formulierungen gezielt ändern
+- DOCX und PDF in OneDrive speichern
 
-**Das zeigst du live in deiner Umgebung:**
-1. Prüfe den richtigen Kalender. Zeige eigenes Konto und Kalender. Übersetze „nächste Woche“ in konkrete Daten und nenne Europe/Berlin.
-   Auftrag: Zeige meine Termine am von mir gewählten Übungstag und finde ein freies Fenster von 45 Minuten zwischen 09:00 und 15:00 Uhr. Zeitzone Europe/Berlin. Noch keinen Termin anlegen.
-2. Lege einen eigenen Übungstermin an. Prüfe die Details. Gib dann bewusst den Auftrag zur Anlage. Keine weiteren Teilnehmer hinzufügen.
-   Auftrag: Lege nach meiner Prüfung einen Termin „ÜBUNG Lindenhof“ in meinem eigenen Kalender an: 45 Minuten zum ausgewählten Zeitpunkt, ohne weitere Teilnehmer. Beschreibung: Maße, Zugang und offene Fragen klären.
-3. Verschiebe ihn. Wähle einen anderen freien Zeitraum und ändere denselben Termin. Prüfe Start und Ende erneut.
-   Auftrag: Verschiebe genau den Übungstermin Lindenhof auf das neue freie Zeitfenster. Behalte die Dauer von 45 Minuten. Zeige mir danach die gespeicherten Details.
-4. Räume die Übung wieder auf. Entferne ausschließlich den eindeutig benannten Übungstermin. Erkläre: Bei einem realen Termin mit Gästen kann eine Absage Nachrichten auslösen.
-   Auftrag: Entferne den von uns angelegten Termin „ÜBUNG Lindenhof“ ohne Teilnehmer aus meinem Kalender. Andere Termine unverändert lassen.
+**Das zeigst du live:**
+1. Gib die Vorlage dazu. Lade Vorlage, Schrankbrief und geprüfte Kalkulation in dieselbe Projektaufgabe.
+2. Lass die Felder ausfüllen. Die Vorlage gibt die Form vor. Die Dateien liefern die Angaben.
+   Auftrag: Fülle 05-angebotsvorlage.docx mit unserem Schrankbrief und der geprüften Kalkulation aus. Adressiere den Vorschlag an das recherchierte Büro von Hadi Teherani. Erhalte die Vorlage. Unbekannte Daten als offen markieren. Als unverbindlichen Seminarentwurf kennzeichnen.
+3. Verbessere den Text. Ändere nur den gewünschten Abschnitt.
+   Auftrag: Formuliere die Leistungsbeschreibung kürzer. Beschreibe unseren maßgefertigten Büroschrank als Vorschlag. Keine Bestellung, Kundenwünsche oder Lieferzusage erfinden.
+4. Prüfe und exportiere. Öffne das Dokument und kontrolliere Zahlen und Layout.
+   Auftrag: Erzeuge zusätzlich eine PDF. Speichere Word und PDF in meinem OneDrive-Ordner „Seminar – Schrank für Hadi“. Zeige mir beide Dateien.
 
-**Eigene Aufgabe:** Finde ein freies Zeitfenster, lege dort einen eigenen Übungstermin an, verschiebe ihn und entferne ihn anschließend wieder.
+**Eigene Aufgabe:** Lass die Angebotsvorlage ausfüllen und speichere Word und PDF.
 
 **Ergebnis prüfen:**
-- Ich kann Datum, Zeitzone, Dauer und Kalender benennen.
-- Der verschobene Termin wurde nicht doppelt angelegt.
-- Der Übungstermin ist wieder entfernt; niemand wurde eingeladen.
+- Die Vorlage ist ausgefüllt und bleibt bearbeitbar.
+- Der Preis entspricht meiner Kalkulation.
+- Annahmen und offene Angaben sind erkennbar.
+- DOCX und PDF liegen in meinem OneDrive.
 
-**Für den nächsten Schritt:** Für die echte Besichtigung bleiben Verfügbarkeit und Zugang abzustimmen.
+**Danach:** Die Angebots-PDF kommt an den Mailentwurf.
 
-## 9. Morgen nicht wieder von vorn.
-Die heutigen Ergebnisse sollen morgen noch helfen. Du hältst den Projektstand fest und planst eine kleine Erinnerung oder wiederkehrende Aufgabe, falls dein Konto die Funktion unterstützt.
+## 8. Ein Schrank für Hadi.
+Wir formulieren ein Anschreiben an das recherchierte Büro. Der öffentliche Kontakt bleibt in der Recherche; der Übungsentwurf wird an die eigene Adresse gespeichert. So üben wir die vollständige Vorbereitung ohne externe Kontaktaufnahme.
 
 **Das lernen wir:**
-- Projektstand, Quellen und nächste Schritte wiederverwendbar sichern
-- Erinnerung und wiederkehrende KI-Aufgabe unterscheiden
-- Zeit, Zeitzone, Zeitraum und gewünschtes Ergebnis festlegen
-- Gespeicherte Aufgabe finden und Konfiguration prüfen
-- Aufgabe ändern oder deaktivieren; Verfügbarkeit im Konto prüfen
+- Bezug auf belegbare Recherche herstellen
+- Mailtext entwerfen und überarbeiten
+- Entwurf in Outlook speichern
+- Datei als Anhang hinzufügen
+- Empfänger, Text und tatsächlichen Anhang prüfen
 
-**Das zeigst du live in deiner Umgebung:**
-1. Sichere den Stand. Lass aus den Arbeitsergebnissen eine kurze Übergabe erstellen. Speichere sie im Projekt.
-   Auftrag: Fasse unseren Lindenhof-Stand zusammen: erledigt, noch offen, nächste Schritte. Verweise auf die geprüften Dateien. Keine offenen Fragen als erledigt darstellen.
-2. Formuliere zwei unterschiedliche Aufträge. Zeige eine Erinnerung und daneben eine wiederkehrende Zusammenfassung. Lass die Gruppe den Unterschied erklären.
-   Auftrag: Zeige zuerst die Einrichtung: vier Wochen lang montags um 08:30 Uhr, Europe/Berlin, offene Fragen aus dem Projekt Lindenhof zusammenfassen. Keine Mails versenden.
-3. Prüfe die gespeicherte Aufgabe. Richte eine kurze Übungsaufgabe nur ein, wenn sie im Konto verfügbar ist. Öffne sie in der Aufgabenverwaltung und prüfe Zeit, Wiederholung und Quelle.
-4. Deaktiviere die Übung. Zeige, wo eine Aufgabe beendet oder deaktiviert wird. Verlasse die Übung mit einem aufgeräumten Konto.
+**Das zeigst du live:**
+1. Entwirf das Anschreiben. Lass einen kurzen Text auf Basis der Recherche schreiben.
+   Auftrag: Entwirf ein kurzes Anschreiben an das Büro von Hadi Teherani. Wir möchten unseren maßgefertigten Büroschrank vorstellen. Beziehe dich nur auf belegbare Recherche. Keine bestehende Geschäftsbeziehung behaupten.
+2. Mach es persönlicher. Passe Ton, Länge und Einstieg an.
+   Auftrag: Etwas lockerer und halb so lang. Bleibe höflich mit Sie. Unsere Schrankidee ist ein Vorschlag.
+3. Speichere ihn in Outlook. Für den Test nimmst du deine eigene Adresse, nicht den recherchierten Bürokontakt.
+   Auftrag: Speichere den Text als Outlook-Entwurf an meine eigene E-Mail-Adresse. Betreff: ÜBUNG – Ein Schrank für Hadi. Nicht senden.
+4. Hänge das Angebot an. Füge die gespeicherte PDF hinzu. Die konkrete Anhangsfunktion muss im Konto verfügbar sein; sonst den Anhang direkt in Outlook ergänzen.
+   Auftrag: Füge die geprüfte Angebots-PDF aus meinem OneDrive zum Übungsentwurf hinzu. Keine vorhandenen Anhänge ersetzen. Nicht senden.
+5. Öffne den Entwurf. Kontrolliere Empfänger, Betreff, Text und Anhang in Outlook.
 
-**Eigene Aufgabe:** Speichere eine kurze Projektübergabe. Formuliere eine Erinnerung und eine wiederkehrende Aufgabe. Richte eine als Übung ein, prüfe sie und deaktiviere sie wieder, sofern dein Konto das unterstützt.
+**Eigene Aufgabe:** Entwirf das Anschreiben und speichere es mit PDF als Übung an dich selbst.
 
 **Ergebnis prüfen:**
-- Meine Übergabe ist im Projekt wieder auffindbar.
-- Ich kann Erinnerung und wiederkehrenden Arbeitsauftrag unterscheiden.
-- Ich habe eine vorhandene Planung geprüft und beendet – oder die fehlende Funktion klar festgehalten.
+- Der Text erfindet keine Beziehung oder Anfrage.
+- Empfänger ist meine eigene Adresse.
+- Die richtige PDF ist angehängt.
+- Die Mail wurde nicht versendet.
 
-**Für den nächsten Schritt:** Dein Projekt ist auch nach dem Seminar wieder verwendbar.
+**Danach:** Zum Abschluss wird es weihnachtlich.
 
-## 10. Du übernimmst den Auftrag.
-Zum Schluss kommt eine neue Nachricht im selben Projekt: Für die fiktive Montageposition werden nun 200 statt 100 Einheiten benötigt. Eine andere Person muss deinen Projektstand übernehmen können.
+## 9. Schrankbesprechung an Weihnachten.
+Unser Rollenspiel bekommt einen Weihnachtstermin: 25.12.2026 um 10:00 Uhr, Europe/Berlin, 30 Minuten. Es ist kein vereinbarter Termin mit Hadi Teherani. Wir legen ihn ohne Gäste im eigenen Kalender an, verschieben ihn und entfernen ihn wieder.
 
 **Das lernen wir:**
-- Mehrere Werkzeuge zu einem Ablauf verbinden
-- Änderung von ursprünglichen Angaben trennen
-- Ergebnisse prüfen, Fehler korrigieren und Quellen nennen
-- Speicherorte und nächste Schritte nachvollziehbar übergeben
-- Eine eigene sinnvolle Anwendung für den nächsten Arbeitstag formulieren
+- Kalender und Zeitzone prüfen
+- Konkretes Datum und Dauer nennen
+- Termin ohne externe Gäste anlegen
+- Denselben Termin verschieben
+- Nur den eigenen Übungstermin löschen
 
-**Das zeigst du live in deiner Umgebung:**
-1. Lies die neue Nachricht. Zeige nur den Änderungsauftrag. Lass die Gruppe selbst benennen, welche bisherigen Ergebnisse betroffen sind.
-2. Vereinbart, woran man ein gutes Ergebnis erkennt. Zeige die vier Ergebnismerkmale, ohne den Lösungsweg vorzugeben: korrekte Rechnung, aktueller Projektstand, geprüfte Dateien, ungesendeter Entwurf.
+**Das zeigst du live:**
+1. Zeige den Weihnachtstag. Lass den 25. Dezember im eigenen Kalender anzeigen.
+   Auftrag: Zeige meinen Kalender für den 25.12.2026 in Europe/Berlin.
+2. Lege unseren Testtermin an. Der Titel macht die Übung erkennbar. Es werden keine Gäste eingeladen.
+   Auftrag: Lege am 25.12.2026 von 10:00 bis 10:30 Uhr, Europe/Berlin, in meinem eigenen Kalender „ÜBUNG – Schrank für Hadi“ an. Keine Gäste und keine Einladungen. Beschreibung: Unser fiktives Seminarprojekt.
+3. Verschiebe ihn. Ändere denselben Termin statt einen zweiten zu erstellen.
+   Auftrag: Verschiebe genau diesen Übungstermin auf 11:00 bis 11:30 Uhr am selben Tag.
+4. Räume wieder auf. Lass nur diesen Übungstermin entfernen und kontrolliere den Kalender.
+   Auftrag: Entferne nur den eben angelegten Termin „ÜBUNG – Schrank für Hadi“ am 25.12.2026.
 
-**Eigene Aufgabe:** Aktualisiere Lindenhof für 200 Montageeinheiten. Erstelle ein nachvollziehbares Übergabepaket und einen ungesendeten Übungsentwurf an dich selbst. Wähle deinen eigenen Weg.
+**Eigene Aufgabe:** Lege den Weihnachtstermin ohne Gäste an, verschiebe ihn und lösche ihn wieder.
 
 **Ergebnis prüfen:**
-- Der Vergleich für 200 Einheiten ergibt C = 2.540 € netto unter der genannten Annahme.
-- Die Dateien sind aktuell, prüfbar und eindeutig benannt.
-- Mein Entwurf ist ungesendet; keine Übungstermine oder Wiederholungen bleiben aktiv.
-- Eine andere Person versteht meinen Projektstand und die nächsten Schritte.
+- Datum und Zeitzone stimmen.
+- Es wurden keine Gäste eingeladen.
+- Ich habe denselben Termin verschoben.
+- Der Übungstermin ist wieder entfernt.
 
-**Für den nächsten Schritt:** Deine fertigen Ergebnisse bleiben in deiner eigenen Umgebung.
+**Danach:** Jetzt planen wir eine spätere Entwurfserstellung.
 
-## Funktionsumfang und Grenzen
-Der Kern behandelt die für diesen Arbeitstag benötigten Funktionen. Kontakteverwaltung, Massenaktionen, öffentliche Freigabelinks und Organisationsadministration gehören nicht zum Anfängerprogramm. Vor dem Seminar prüft ITP die tatsächlich verfügbaren Konten, Plugins, Schreibrechte und Excel-/Planungsfunktionen.
+## 10. Den Entwurf später erstellen lassen.
+Wir planen, dass ChatGPT zu einem späteren Zeitpunkt einen Mailentwurf vorbereitet. Das ist kein zeitversetzter Versand. Ob eine geplante Aufgabe auf Projektdateien und Outlook zugreifen kann, wird im Konto geprüft. Wenn nicht, soll sie die fehlende Verbindung melden oder den Entwurf als Text bereitstellen.
 
-## Belege zum Produktstand
-- ChatGPT, Projektkontext und Kontoabhängigkeit: https://help.openai.com/en/articles/20001275/
-- Dateien erstellen und bearbeiten: https://help.openai.com/en/articles/20001278-creating-and-editing-documents-spreadsheets-and-presentations-with-chatgpt-work
-- Projekte: https://help.openai.com/en/articles/10169521-projects-in-chatgpt
-- Mail-, Kalender- und OneDrive-Aktionen: verfügbare Outlook-Email-, Outlook-Calendar- und SharePoint/OneDrive-Plugin-Schnittstellen, geprüft am 23.09.2026. Verfügbarkeit kann je Konto abweichen.
+**Das lernen wir:**
+- Projektstand wiederverwenden
+- Geplante Aufgabe von Kalender und Mailversand unterscheiden
+- Zeitpunkt und Zeitzone setzen
+- Zugriff auf Dateien und Outlook prüfen
+- Aufgabe wiederfinden und deaktivieren
+
+**Das zeigst du live:**
+1. Sichere den aktuellen Stand. Lass Angebot, Quellen und offene Punkte kurz zusammenfassen.
+   Auftrag: Fasse den Stand unseres Schrankprojekts zusammen. Welche Datei ist die aktuelle Angebots-PDF? Was ist noch offen?
+2. Plane die Entwurfserstellung. Nimm zum Test einen Zeitpunkt einige Minuten später. Die Aufgabe darf nichts senden.
+   Auftrag: Plane für einen von mir bestätigten Zeitpunkt in Europe/Berlin: Erstelle einen kurzen Mailentwurf zu unserem Schrankangebot an das Büro von Hadi Teherani. Speichere ihn, wenn Outlook verfügbar ist, als ÜBUNG an meine eigene Adresse. Nichts versenden. Fehlen Dateien oder Berechtigungen, melde das.
+3. Prüfe den gespeicherten Auftrag. Öffne die geplante Aufgabe. Kontrolliere Zeitpunkt, Zeitzone und erlaubte Aktion.
+   Auftrag: Zeige mir die gespeicherte Aufgabe und ihren genauen Auftrag.
+4. Prüfe das Ergebnis und räume auf. Wenn die Testzeit erreicht ist, öffne den Entwurf oder die Rückmeldung. Deaktiviere die Übungsaufgabe danach.
+   Auftrag: Zeige mir das Ergebnis der Übungsaufgabe. Deaktiviere anschließend nur diese Übungsaufgabe.
+
+**Eigene Aufgabe:** Plane einen späteren Mailentwurf. Prüfe den Auftrag und deaktiviere die Übung danach.
+
+**Ergebnis prüfen:**
+- Die Aufgabe enthält keinen Sendeauftrag.
+- Zeitpunkt und Zeitzone sind richtig.
+- Ich weiß, was ohne Outlook-Zugriff passiert.
+- Die Übungsaufgabe ist danach deaktiviert.
+
+**Danach:** Zum Schluss verbindest du alle Schritte selbst.
+
+## 11. Dein Angebot steht.
+Unser fiktiver Betrieb ändert die Annahme: zehn statt acht Arbeitsstunden. Aktualisiere die Kalkulation und das Angebot. Eine andere Person soll Quellen, Annahmen, Dateien und Entwurf wiederfinden können.
+
+**Das lernen wir:**
+- Änderung durch alle Dateien verfolgen
+- Originale erhalten
+- Ergebnisse in OneDrive ablegen
+- Mailanhang aktualisieren
+- Quellen und offene Fragen übergeben
+
+**Das zeigst du live:**
+1. Lies die Änderung. Öffne den Abschlussauftrag. Es ist unsere Annahme, kein Kundenwunsch.
+2. Zeige dein Paket. Öffne Projekt, OneDrive, Kalkulation, Angebot und Übungsentwurf.
+
+**Eigene Aufgabe:** Aktualisiere dein Angebot für zehn Arbeitsstunden und zeige das fertige Paket.
+
+**Ergebnis prüfen:**
+- Die Dateien verwenden denselben geprüften Preis.
+- Quellen und Annahmen sind unterscheidbar.
+- Der Entwurf enthält die aktuelle PDF und ist ungesendet.
+- Übungstermin und geplante Aufgabe sind aufgeräumt.
+
+**Danach:** Deine Ergebnisse bleiben in deinen eigenen Konten.
+
+## Quellen und Verfügbarkeit
+- Offizielle Recherche zum Büro: https://www.haditeherani.com/
+- Offizielle Vita als mögliche Quelle: https://www.haditeherani.com/sites/default/files/2025-02/211208_HT%20Vita%20dt.pdf
+- Echte Browserübung: https://www.hornbach.de/
+- ChatGPT und verbundene Programme: https://help.openai.com/en/articles/20001275/
+- Modellwahl: https://help.openai.com/en/articles/20001516
+Die konkreten Websites, Preise, Filter und Konto-Funktionen werden im Seminar geprüft. Blockierte Seiten oder fehlende Berechtigungen werden benannt. Öffentliche Kontaktdaten werden nicht als persönliche E-Mail ausgegeben. Die geplante Aufgabe erstellt nur einen Entwurf; externe Empfänger werden nicht angeschrieben.

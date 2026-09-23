@@ -13,7 +13,7 @@ ZUGÄNGE TESTEN
 MICROSOFT 365 VERBINDEN
 [ ] Outlook Mail: ChatGPT findet eine Testmail und kann einen ungesendeten Übungsentwurf an meine eigene Adresse speichern.
 [ ] Outlook Kalender: ChatGPT kann meinen Kalender lesen und einen eigenen Übungstermin ohne Gäste anlegen, verschieben und wieder löschen.
-[ ] OneDrive: ChatGPT kann eine Testdatei im eigenen Übungsordner öffnen und eine neue Datei dort speichern.
+[ ] OneDrive: ChatGPT kann einen eigenen OneDrive-Übungsordner anlegen, eine Testdatei darin öffnen und eine neue Datei dort speichern.
 [ ] Excel: Ich kann eine Datei öffnen. Die ChatGPT-Integration direkt in Excel ist eingerichtet und einmal getestet.
 
 KURZ AUSPROBIEREN

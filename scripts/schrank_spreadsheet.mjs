@@ -1,0 +1,21 @@
+import fs from 'node:fs/promises';
+import {Workbook,SpreadsheetFile} from '@oai/artifact-tool';
+const wb=Workbook.create(),s=wb.worksheets.add('Kalkulation');s.showGridLines=false;
+s.getRange('A1:E20').format={font:{name:'Arial',size:11},columnWidth:23,rowHeight:28};
+s.getRange('A1:E1').merge();s.getRange('A1').values=[['Unser Büroschrank · Kalkulation']];s.getRange('A1').format.font={size:20,bold:true};
+s.getRange('A2:E2').merge();s.getRange('A2').values=[['Fiktive Startwerte. Ersetze Materialpreise durch deine geprüfte Recherche.']];
+s.getRange('A4:E8').values=[['Position','Menge','Einheit','Preis netto','Gesamt netto'],['Materialplatten',8,'Stück',45,null],['Beschläge',1,'Satz',120,null],['Arbeitszeit',8,'Stunden',65,null],['Transport',1,'Pauschale',80,null]];
+s.getRange('E5').formulas=[['=B5*D5']];s.getRange('E5:E8').fillDown();
+s.getRange('A10').values=[['Kosten']];s.getRange('E10').formulas=[['=SUM(E5:E8)']];
+s.getRange('A11:B11').values=[['Aufschlag',.2]];s.getRange('E11').formulas=[['=E10*B11']];
+s.getRange('A12').values=[['Angebot netto']];s.getRange('E12').formulas=[['=E10+E11']];
+s.getRange('A13:B13').values=[['USt. (Übung)',.19]];s.getRange('E13').formulas=[['=E12*B13']];
+s.getRange('A14').values=[['Angebot brutto']];s.getRange('E14').formulas=[['=E12+E13']];
+s.getRange('B11').setNumberFormat('0%');s.getRange('B13').setNumberFormat('0%');s.getRange('D5:E14').setNumberFormat('#,##0.00 "€"');
+s.getRange('B5:D8').format.fill='#f1e8ff';s.getRange('B11').format.fill='#f1e8ff';s.getRange('B13').format.fill='#f1e8ff';s.getRange('A4:E4').format={fill:'#17151b',font:{color:'#ffffff',bold:true}};s.getRange('A14:E14').format.fill='#ddf3b5';
+for(const [row,text] of [[16,'Recherche: Produktlink, Abrufdatum und Preisbasis im Projekt sichern.'],[17,'Bruttopreis vor Übernahme in Spalte D auf die passende Nettobasis bringen.'],[18,'Übungsmenge ist keine Zuschnittplanung. Maße und technische Eignung prüfen.'],[19,'Szenario: B7 von 8 auf 10 ändern. Alle Formeln bleiben erhalten.']]){s.getRange(`A${row}:E${row}`).merge();s.getRange(`A${row}`).values=[[text]];}
+s.freezePanes.freezeRows(4);await fs.mkdir('.qa/schrank-sheets',{recursive:true});
+const image=await wb.render({sheetName:s.name,range:'A1:E19',scale:1.5});await fs.writeFile('.qa/schrank-sheets/Kalkulation.png',new Uint8Array(await image.arrayBuffer()));
+console.log((await wb.inspect({kind:'table',range:'Kalkulation!A10:E14',include:'values,formulas',tableMaxRows:5,tableMaxCols:5})).ndjson);
+console.log((await wb.inspect({kind:'match',searchTerm:'#REF!|#DIV/0!|#VALUE!|#NAME\\?|#NUM!',options:{useRegex:true,maxResults:10}})).ndjson);
+await (await SpreadsheetFile.exportXlsx(wb)).save('public/material/04-schrankkalkulation.xlsx');

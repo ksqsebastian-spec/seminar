@@ -1,8 +1,7 @@
-LINDENHOF – RECHERCHEAUFTRAG
+LINDENHOF – EIN BLICK IN DEN BROWSER
 
-Fiktiver Kundenauftrag, echte Recherche.
-Finde anhand von zwei Hersteller- oder Händlerquellen heraus, welche Angaben vor der Auswahl einer Innentür benötigt werden. Leite daraus Fragen für die Besichtigung ab.
+Finde einen Baumarkt in einer Stadt deiner Wahl. Lass ChatGPT die offizielle Filialseite im In-App-Browser öffnen. Frage: Wann hat diese Filiale heute geöffnet?
 
-Prüfe mindestens eine Aussage an der Originalquelle. Notiere Link und Abrufdatum. Keine technische Eignung zusagen, keine Bestellung und keine Kontaktaufnahme.
+Prüfe Filiale, Wochentag und Sonderöffnungszeiten selbst auf der Seite. Gib dann einen Folgeauftrag: Zeige mir hier die Adresse.
 
-Wenn eine Website nicht zugänglich ist, suche eine andere Originalquelle und benenne die Lücke.
+Sichere Filiale, Adresse, Öffnungszeiten mit Datum und Quellenlink als kurze Notiz im Projekt. Nichts bestellen oder buchen. Bei einer blockierten Seite eine andere zugängliche Filiale wählen.

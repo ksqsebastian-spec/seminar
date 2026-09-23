@@ -1,10 +1,16 @@
-LINDENHOF – ÄNDERUNG UND ÜBERGABE
-Alle Angaben fiktiv.
+UNSER SCHRANKANGEBOT – ABSCHLUSSAUFTRAG
 
-Für die Montageposition aus dem Materialvergleich werden nun 200 statt 100 Einheiten benötigt. Die Lieferkosten bleiben nur für dieses Rechenbeispiel unverändert. Türanzahl und übrige Kundenangaben ändern sich dadurch nicht.
+Die Arbeitszeit beträgt in unserer neuen Annahme zehn statt acht Stunden.
+Keine Änderung durch Hadi Teherani: Es ist weiterhin unser Rollenspiel.
 
-Erstelle ein Übergabepaket: aktualisierter Vergleich mit Formeln; aktueller Projektbogen als DOCX und PDF; Quellen und offene Fragen; ungesendeter Übungsentwurf an die eigene Adresse mit passendem Anhang.
+Aktualisiere die Excel-Kalkulation mit Formeln. Erhalte die ursprüngliche Version.
+Fülle die Angebotsvorlage mit dem aktuellen Preis und den geprüften Angaben.
+Erzeuge DOCX und PDF und lass ChatGPT sie in deinem OneDrive-Ordner speichern.
+Aktualisiere den Übungsentwurf an die eigene Adresse und den PDF-Anhang. Nicht versenden.
+Zeige jemandem Quellen, Annahmen, Kalkulation, Dateien und offenen nächsten Schritt.
+Räume Übungstermin und geplante Aufgabe wieder auf.
 
-Speichere in deinem OneDrive-Übungsordner neue Versionen. Erhalte die Ausgangsdateien. Eine andere Person soll nachvollziehen können, was geprüft wurde und was noch offen ist.
-
-Keine verbindliche Preis- oder Terminzusage. Entferne zum Schluss eigene Übungstermine und deaktiviere geplante Übungsaufgaben.
+Kontrollwerte nur bei unveränderten fiktiven Startpreisen:
+8 Stunden: Kosten 1.080,00 EUR netto; mit 20 % Aufschlag 1.296,00 EUR netto; mit 19 % Übungs-USt 1.542,24 EUR brutto.
+10 Stunden: Kosten 1.210,00 EUR netto; mit 20 % Aufschlag 1.452,00 EUR netto; mit 19 % Übungs-USt 1.727,88 EUR brutto.
+Recherchierte Materialpreise können diese Summen ändern.
