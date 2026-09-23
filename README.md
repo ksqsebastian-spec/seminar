@@ -50,3 +50,5 @@ Die Kerim-Mail ersetzt „Eine Mail verstehen“ als erste Station. Mission_Hadi
 
 ## Vereinfachte Kapitel
 Jedes Kapitel zeigt Ziel, Ablauf mit Logos und das Ergebnis für das nächste Kapitel. Die Vorführung und das eigene Üben verwenden denselben Schritt-für-Schritt-Ablauf. Jeder Schritt zeigt Programm, konkrete Handlung, sichtbaren kopierbaren Prompt (oder Klickanweisung) und Erfolgskontrolle. `public/chapters.js` liefert die kurzen Kapiteltexte; `curriculum.json` die Arbeitsaufträge.
+
+Vorführung und Mitmachen verwenden einen einzigen Schritt-Ablauf. Nach dem letzten Schritt folgt direkt die Ergebniskontrolle. Alte Links zur separaten Übungsansicht werden weitergeleitet.
