@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.dev.vars
+.env*
+.DS_Store
+.qa/
+
+src/assets.js
+
+design/*.png
+*.inspect.ndjson

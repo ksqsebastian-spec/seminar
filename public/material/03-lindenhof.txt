@@ -1,0 +1,31 @@
+BAUVORHABEN LINDENHOF – FIKTIVE ÜBUNGSDATEN
+Alle Namen, Adressen und Vorgänge in diesem Dokument sind erfunden.
+
+AKTUELLE KUNDENANFRAGE – Stand 23.09.2026
+Von: Mara Sommer <mara.sommer@lindenhof.example>
+An: Werkraum Ausbau <buero@werkraum.example>
+Wir möchten zwei Büroräume modernisieren: Trennwände prüfen und zwei neue Innentüren montieren. Bitte sagen Sie uns, welche Informationen Sie für ein Angebot benötigen. Wir wünschen eine Besichtigung vor der Kalkulation. Zugang zum Gebäude müssen wir noch mit der Hausverwaltung klären. Ein Ausführungstermin ist noch nicht bestätigt.
+
+PROJEKTBRIEF – Stand 23.09.2026
+Vorgang: LH-026
+Kunde: Lindenhof Büroservice, fiktiv
+Ansprechpartnerin: Mara Sommer
+Objekt: Musterweg 12, 20000 Musterstadt, fiktive Adresse
+Anfrage: zwei Büroräume, Trennwände und zwei Innentüren
+Türmaße: nicht mitgeteilt
+Wandaufbau und Schallschutzanforderungen: nicht mitgeteilt
+Zugang und Ansprechpartner vor Ort: zu klären
+Budget: nicht mitgeteilt
+Termine: Besichtigung gewünscht, Ausführung nicht bestätigt
+
+ÄLTERE INTERNE NOTIZ – Stand 18.09.2026
+Telefonisch wurde zunächst von drei Türen gesprochen. Eine Ausführung im Oktober wäre eventuell wünschenswert. Keine Zusage.
+Die aktuelle Kundenanfrage vom 23.09.2026 nennt zwei Türen. Abweichung vor verbindlicher Kalkulation klären.
+
+KOMMUNIKATIONSREGELN
+Sachlich und kundenfreundlich schreiben. Kunden in E-Mails siezen.
+Keine Preise, Kapazitäten oder Termine verbindlich zusagen, die nicht bestätigt sind.
+Fehlende Angaben markieren. Vorschläge ausdrücklich als Vorschlag kennzeichnen.
+
+AUFGABEN
+Organisiere ein Projekt, finde relevante Quellen und erstelle eine Zusammenfassung mit offenen Fragen. Entwirf eine Antwort, ohne sie zu versenden. Nutze bei Bedarf einen eigenen Übungsordner in OneDrive. Dieses Paket kann als Datei verwendet werden, ohne fiktive Nachrichten an reale Empfänger zu schicken.

@@ -1,0 +1,778 @@
+{
+  "chapters": [
+    "Dein neuer Arbeitsalltag",
+    "In Work ankommen",
+    "Gute Arbeitsaufträge",
+    "Projekte & Kontext",
+    "Plugins & Verbindungen",
+    "Mail & OneDrive",
+    "Recherche & Browser",
+    "Excel & Tabellen",
+    "Dateien & Formulare",
+    "Kalender & Scheduling",
+    "Dein kompletter Workflow"
+  ],
+  "slides": [
+    {
+      "id": 1,
+      "title": "KI, die mitarbeitet.",
+      "chapter": 0,
+      "chapterName": "Dein neuer Arbeitsalltag",
+      "lead": "Weniger suchen. Klarer entscheiden. Arbeit fertig bekommen.",
+      "steps": [],
+      "goal": "",
+      "criteria": "",
+      "hints": [],
+      "bonus": "",
+      "paragraphs": [],
+      "type": "statement"
+    },
+    {
+      "id": 2,
+      "title": "Was würdest du heute gern abgeben?",
+      "chapter": 0,
+      "chapterName": "Dein neuer Arbeitsalltag",
+      "lead": "Eine nervige Aufgabe reicht.",
+      "steps": [],
+      "goal": "",
+      "criteria": "",
+      "hints": [],
+      "bonus": "",
+      "paragraphs": [
+        "Welche Aufgabe kostet dich regelmäßig Zeit? Denk an eine Sache, die du heute gern einfacher erledigen würdest."
+      ],
+      "type": "statement"
+    },
+    {
+      "id": 3,
+      "title": "Unsere Werkstatt für heute",
+      "chapter": 0,
+      "chapterName": "Dein neuer Arbeitsalltag",
+      "lead": "Ein fiktiver Betrieb. Echte Aufgaben. Deine Entscheidungen.",
+      "steps": [],
+      "goal": "",
+      "criteria": "",
+      "hints": [],
+      "bonus": "",
+      "paragraphs": [
+        "Willkommen bei Werkraum Ausbau. Unser fiktiver Handwerksbetrieb modernisiert Büroräume, kauft Material ein und sucht einen neuen Standort.",
+        "Alle Übungsdaten sind erfunden. Du arbeitest mit vorbereiteten Unterlagen in deinen verbundenen Konten."
+      ],
+      "type": "statement"
+    },
+    {
+      "id": 4,
+      "title": "Drei Gewohnheiten, die bleiben",
+      "chapter": 0,
+      "chapterName": "Dein neuer Arbeitsalltag",
+      "lead": "Klar beauftragen. Gemeinsam verbessern. Ergebnis prüfen.",
+      "steps": [],
+      "goal": "",
+      "criteria": "",
+      "hints": [],
+      "bonus": "",
+      "paragraphs": [
+        "Die erste Antwort ist ein Arbeitsstand. Sag, was fehlt. Zeig die Quelle. Prüfe, ob das Ergebnis wirklich zur Aufgabe passt."
+      ],
+      "type": "statement"
+    },
+    {
+      "id": 5,
+      "title": "Aus einem Gedanken wird eine Aufgabe",
+      "chapter": 1,
+      "chapterName": "In Work ankommen",
+      "lead": "Beschreib, was am Ende fertig sein soll.",
+      "steps": [],
+      "goal": "",
+      "criteria": "",
+      "hints": [],
+      "bonus": "",
+      "paragraphs": [
+        "Beginne mit dem gewünschten Ergebnis. Füge die passenden Dateien hinzu und arbeite im selben Vorgang weiter.",
+        "Probier es aus: Aufgabe starten, Material hinzufügen, Ergebnis ansehen und eine Verbesserung anfordern."
+      ],
+      "type": "statement"
+    },
+    {
+      "id": 6,
+      "title": "Beispiel: Montag, 08:12 Uhr",
+      "chapter": 1,
+      "chapterName": "In Work ankommen",
+      "lead": "Fünf Notizen. Ein brauchbarer Start.",
+      "steps": [
+        "Notizzettel: „Lieferung unklar; Lindenhof fragt nach Termin; Angebot prüfen; Team informieren; Formular fehlt.“",
+        "Auftrag: „Ordne diese Notizen in nächste Schritte. Markiere fehlende Informationen. Erfinde keine Termine.“",
+        "Ergebnis: Aufgabe / nächster Schritt / benötigte Information.",
+        "„Lieferung unklar“ erhält die Rückfrage „Welcher Lieferant und welcher Vorgang?“."
+      ],
+      "goal": "",
+      "criteria": "",
+      "hints": [],
+      "bonus": "",
+      "paragraphs": [],
+      "type": "demo"
+    },
+    {
+      "id": 7,
+      "title": "Du bist dran: Bring Ordnung rein",
+      "chapter": 1,
+      "chapterName": "In Work ankommen",
+      "lead": "",
+      "steps": [],
+      "goal": "Erstelle aus `01-tagesnotizen.txt` einen Arbeitsplan, mit dem eine andere Person weiterarbeiten könnte.",
+      "criteria": "Alle fünf Themen sind enthalten; die nächsten Schritte sind konkret; unbekannte Zuständigkeiten und Zeiten sind als offen markiert.",
+      "hints": [
+        "Was ist Information, was ist Aufgabe?",
+        "Lass eine erste Struktur erstellen und überarbeite sie.",
+        "„Mach aus diesen Notizen eine übersichtliche Aufgabenliste. Trenne bekannte Fakten von offenen Fragen. Schlage eine Reihenfolge vor und begründe sie kurz.“"
+      ],
+      "bonus": "Lass dir eine kompakte Version für eine kurze Teambesprechung erstellen.",
+      "paragraphs": [],
+      "type": "challenge"
+    },
+    {
+      "id": 8,
+      "title": "Woran erkennst du ein brauchbares Ergebnis?",
+      "chapter": 1,
+      "chapterName": "In Work ankommen",
+      "lead": "Kann jemand damit weiterarbeiten?",
+      "steps": [],
+      "goal": "",
+      "criteria": "",
+      "hints": [],
+      "bonus": "",
+      "paragraphs": [
+        "Check: vollständig, konkret, ohne erfundene Zusagen. Zwei unterschiedliche Lösungen können beide gut sein."
+      ],
+      "type": "statement"
+    },
+    {
+      "id": 9,
+      "title": "Sag mehr als „Mach mal“",
+      "chapter": 2,
+      "chapterName": "Gute Arbeitsaufträge",
+      "lead": "Ziel. Kontext. Material. Grenzen. Ergebnis.",
+      "steps": [],
+      "goal": "",
+      "criteria": "",
+      "hints": [],
+      "bonus": "",
+      "paragraphs": [
+        "Kein auswendig zu lernender Spezialprompt. Fünf einfache Fragen: Was soll fertig sein? Für wen? Auf welcher Grundlage? Was darf nicht passieren? In welcher Form brauche ich es?"
+      ],
+      "type": "statement"
+    },
+    {
+      "id": 10,
+      "title": "Beispiel: Die viel zu freundliche Zusage",
+      "chapter": 2,
+      "chapterName": "Gute Arbeitsaufträge",
+      "lead": "",
+      "steps": [
+        "Auftrag: „Beantworte die Kundenanfrage.“",
+        "Absichtlich mangelhafter Entwurf: „Wir garantieren die Fertigstellung bis Freitag.“",
+        "Korrektur: „Ein Termin ist noch nicht bestätigt. Entferne die Zusage und frage nach dem gewünschten Zeitfenster. Maximal 120 Wörter.“",
+        "Überarbeiteter Entwurf mit klarer Rückfrage statt Zusage."
+      ],
+      "goal": "",
+      "criteria": "",
+      "hints": [],
+      "bonus": "",
+      "paragraphs": [],
+      "type": "demo"
+    },
+    {
+      "id": 11,
+      "title": "Du bist dran: Rettet diesen Entwurf",
+      "chapter": 2,
+      "chapterName": "Gute Arbeitsaufträge",
+      "lead": "",
+      "steps": [],
+      "goal": "Verbessere `02-fehlerhafter-entwurf.txt` anhand der Kundenanfrage.",
+      "criteria": "Keine unbelegte Termin- oder Preiszusage; die zwei fehlenden Angaben werden erfragt; Ton und Länge passen zu einer Kundenmail.",
+      "hints": [
+        "Welche Behauptung steht nicht in der Quelle?",
+        "Benenne den Fehler und das gewünschte Verhalten.",
+        "„Vergleiche Entwurf und Anfrage. Markiere unbelegte Aussagen und schreibe eine sachliche Antwort. Frage fehlende Angaben ab, statt sie zu ergänzen.“"
+      ],
+      "bonus": "Lass erklären, welche Änderungen nötig waren und welche Quelle sie begründet.",
+      "paragraphs": [],
+      "type": "challenge"
+    },
+    {
+      "id": 12,
+      "title": "Wenn es hakt: kleiner, klarer, überprüfbar",
+      "chapter": 2,
+      "chapterName": "Gute Arbeitsaufträge",
+      "lead": "Fehler benennen. Grundlage zeigen. Einen Schritt erneut versuchen.",
+      "steps": [],
+      "goal": "",
+      "criteria": "",
+      "hints": [],
+      "bonus": "",
+      "paragraphs": [
+        "Drei Fälle: falscher Inhalt → Fundstelle zeigen; falsch gelesene Datei → betroffene Seite oder Zeile prüfen; festhängender Browser → letzten sichtbaren Zustand beschreiben und nächsten Schritt eingrenzen. Vor Wiederholungen prüfen, ob eine Handlung bereits ausgeführt wurde, besonders bei Versand oder Terminen."
+      ],
+      "type": "statement"
+    },
+    {
+      "id": 13,
+      "title": "Nicht jeden Morgen von vorn",
+      "chapter": 3,
+      "chapterName": "Projekte & Kontext",
+      "lead": "Ein Vorgang. Ein gemeinsamer Arbeitskontext.",
+      "steps": [],
+      "goal": "",
+      "criteria": "",
+      "hints": [],
+      "bonus": "",
+      "paragraphs": [
+        "Ein Projekt bündelt zusammengehörige Arbeit. Lege dort die Unterlagen und Vorgaben ab, die du für einen Vorgang wiederholt brauchst.",
+        "Prüfe bei einer neuen Aufgabe, welche Informationen Work tatsächlich zur Verfügung stehen. Kontext muss aktuell bleiben."
+      ],
+      "type": "statement"
+    },
+    {
+      "id": 14,
+      "title": "Beispiel: Bauvorhaben Lindenhof",
+      "chapter": 3,
+      "chapterName": "Projekte & Kontext",
+      "lead": "",
+      "steps": [
+        "Verstreute Informationen: Kundenanfrage, Projektbogen, Kommunikationsregeln.",
+        "Projekt „Lindenhof – Büroausbau“ entsteht als schematische Darstellung.",
+        "Vorgabe: „Kundenfreundlich und sachlich. Keine Preise oder Termine verbindlich zusagen. Fehlende Angaben markieren.“",
+        "Neuer Auftrag greift die Vorgaben auf; Ergebnis wird dennoch geprüft."
+      ],
+      "goal": "",
+      "criteria": "",
+      "hints": [],
+      "bonus": "",
+      "paragraphs": [],
+      "type": "demo"
+    },
+    {
+      "id": 15,
+      "title": "Du bist dran: Richte deinen Arbeitskontext ein",
+      "chapter": 3,
+      "chapterName": "Projekte & Kontext",
+      "lead": "",
+      "steps": [],
+      "goal": "Organisiere die vorbereiteten Lindenhof-Unterlagen so, dass du im nächsten Schritt eine Kundenantwort erarbeiten kannst.",
+      "criteria": "Der Vorgang ist eindeutig benannt; relevante Quellen sind auffindbar; drei sinnvolle Arbeitsregeln sind formuliert.",
+      "hints": [
+        "Was gilt für jede Aufgabe dieses Vorgangs?",
+        "Trenne Vorgaben von veränderlichen Fakten.",
+        "„Formuliere aus diesem Projektbrief drei kurze Arbeitsregeln und eine Übersicht der offenen Angaben. Kennzeichne Vorschläge als Vorschläge.“"
+      ],
+      "bonus": "Starte eine neue Aufgabe im Projekt und prüfe ausdrücklich, welcher Kontext verfügbar ist.",
+      "paragraphs": [],
+      "type": "challenge"
+    },
+    {
+      "id": 16,
+      "title": "Kontext pflegen gehört dazu",
+      "chapter": 3,
+      "chapterName": "Projekte & Kontext",
+      "lead": "Aktuell schlägt ausführlich.",
+      "steps": [],
+      "goal": "",
+      "criteria": "",
+      "hints": [],
+      "bonus": "",
+      "paragraphs": [
+        "Veraltete Stände erkennen, widersprüchliche Vorgaben korrigieren, gültige Quellen kennzeichnen. Nicht davon ausgehen, dass jede frühere Unterhaltung automatisch verfügbar ist."
+      ],
+      "type": "statement"
+    },
+    {
+      "id": 17,
+      "title": "Verbinden, damit Informationen erreichbar werden",
+      "chapter": 4,
+      "chapterName": "Plugins & Verbindungen",
+      "lead": "Welche Quelle braucht diese Aufgabe?",
+      "steps": [],
+      "goal": "",
+      "criteria": "",
+      "hints": [],
+      "bonus": "",
+      "paragraphs": [
+        "Verbinde die Quelle, die deine Aufgabe braucht: Outlook Mail für Nachrichten, OneDrive für Dateien und Kalender für Termine.",
+        "Öffne Plugins in Work und prüfe die verfügbaren Microsoft-365-Verbindungen. Welche Aktionen möglich sind, siehst du an der eingerichteten Verbindung."
+      ],
+      "type": "statement"
+    },
+    {
+      "id": 18,
+      "title": "Beispiel: Welche Unterlage gilt?",
+      "chapter": 4,
+      "chapterName": "Plugins & Verbindungen",
+      "lead": "",
+      "steps": [
+        "Frage: „Welche Unterlagen fehlen für Lindenhof?“",
+        "Quellen: Kundenanfrage und Projektbogen aus dem Übungsbereich.",
+        "Gegenüberstellung: vorhanden / fehlt / widersprüchlich.",
+        "Quellverweise werden hervorgehoben; die veraltete Notiz bleibt als veraltet markiert."
+      ],
+      "goal": "",
+      "criteria": "",
+      "hints": [],
+      "bonus": "",
+      "paragraphs": [],
+      "type": "demo"
+    },
+    {
+      "id": 19,
+      "title": "Du bist dran: Finde die Grundlage",
+      "chapter": 4,
+      "chapterName": "Plugins & Verbindungen",
+      "lead": "",
+      "steps": [],
+      "goal": "Finde die passenden Lindenhof-Unterlagen im verbundenen Übungsbereich und erstelle eine kurze Quellenübersicht.",
+      "criteria": "Die richtigen Dateien sind identifiziert; Herkunft und Stand sind nachvollziehbar; fehlende Zugriffe werden offengelegt.",
+      "hints": [
+        "Suche nach eindeutigem Vorgangsnamen.",
+        "Grenze Quelle und Ordner ein.",
+        "„Suche im Übungsbereich nach Lindenhof. Nenne passende Dateien mit Fundstelle und Stand, soweit sichtbar. Sage ausdrücklich, wenn du eine Quelle nicht lesen kannst.“"
+      ],
+      "bonus": "Vergleiche zwei Fassungen und begründe, welche Information aktuell ist.",
+      "paragraphs": [],
+      "type": "challenge"
+    },
+    {
+      "id": 20,
+      "title": "Lesen, Entwerfen, Ausführen",
+      "chapter": 4,
+      "chapterName": "Plugins & Verbindungen",
+      "lead": "Was darf die KI jetzt tatsächlich tun?",
+      "steps": [],
+      "goal": "",
+      "criteria": "",
+      "hints": [],
+      "bonus": "",
+      "paragraphs": [
+        "Lesen: Informationen finden und verstehen. Entwerfen: ein Ergebnis zur Prüfung vorbereiten. Ausführen: etwas speichern, senden oder einrichten.",
+        "Sag ausdrücklich, was jetzt passieren soll. Prüfe bei einer Freigabe Empfänger, Inhalt und Umfang."
+      ],
+      "type": "statement"
+    },
+    {
+      "id": 21,
+      "title": "Vom Posteingang zum nächsten Schritt",
+      "chapter": 5,
+      "chapterName": "Mail & OneDrive",
+      "lead": "Verstehen. Unterlagen finden. Antwort vorbereiten.",
+      "steps": [],
+      "goal": "",
+      "criteria": "",
+      "hints": [],
+      "bonus": "",
+      "paragraphs": [
+        "Ein Kunde möchte ein Angebot, nennt aber weder einen vollständigen Leistungsumfang noch ein bestätigtes Ausführungsfenster."
+      ],
+      "type": "statement"
+    },
+    {
+      "id": 22,
+      "title": "Beispiel: Die Antwort mit den richtigen Rückfragen",
+      "chapter": 5,
+      "chapterName": "Mail & OneDrive",
+      "lead": "",
+      "steps": [
+        "Auszug aus der fiktiven Anfrage.",
+        "Zugehöriger Projektbogen ergänzt gesicherte Fakten.",
+        "Drei Rückfragen werden sichtbar: Umfang, Zugang zum Gebäude, gewünschtes Zeitfenster.",
+        "Antwortentwurf mit Quellencheck; kein Versand in der Animation."
+      ],
+      "goal": "",
+      "criteria": "",
+      "hints": [],
+      "bonus": "",
+      "paragraphs": [],
+      "type": "demo"
+    },
+    {
+      "id": 23,
+      "title": "Du bist dran: Mach den Vorgang bearbeitbar",
+      "chapter": 5,
+      "chapterName": "Mail & OneDrive",
+      "lead": "",
+      "steps": [],
+      "goal": "Erstelle eine kurze Vorgangszusammenfassung und einen passenden Antwortentwurf aus den bereitgestellten Unterlagen.",
+      "criteria": "Anliegen korrekt wiedergegeben; Rückfragen auf tatsächliche Lücken begrenzt; keine erfundenen Preise, Termine oder Anlagen.",
+      "hints": [
+        "Welche Antwort braucht ihr, bevor ihr anbieten könnt?",
+        "Lass Fakten und Fragen zunächst getrennt sammeln.",
+        "„Fasse die Anfrage zusammen, nutze die zugehörigen Unterlagen und entwirf eine kurze Antwort. Stelle nur notwendige Rückfragen. Noch nicht versenden.“"
+      ],
+      "bonus": "Erstelle eine interne Übergabe mit nächstem Schritt und offener Zuständigkeit.",
+      "paragraphs": [],
+      "type": "challenge"
+    },
+    {
+      "id": 24,
+      "title": "Bereit zum Versenden?",
+      "chapter": 5,
+      "chapterName": "Mail & OneDrive",
+      "lead": "Empfänger. Aussagen. Anhänge. Zusagen.",
+      "steps": [],
+      "goal": "",
+      "criteria": "",
+      "hints": [],
+      "bonus": "",
+      "paragraphs": [
+        "Den Entwurf gegen die Quelle prüfen. Ein Übungsentwurf muss nicht versendet werden, um das Lernziel zu erreichen. Ein absichtlich gewünschter Testversand braucht ein festgelegtes Testziel."
+      ],
+      "type": "statement"
+    },
+    {
+      "id": 25,
+      "title": "Gesucht: Platz für den nächsten Schritt",
+      "chapter": 6,
+      "chapterName": "Recherche & Browser",
+      "lead": "Büro plus Lager. Mit nachvollziehbarer Auswahl.",
+      "steps": [],
+      "goal": "",
+      "criteria": "",
+      "hints": [],
+      "bonus": "",
+      "paragraphs": [
+        "Suchauftrag: Hamburg und bis zu 30 km Umgebung; 80–180 m² Gesamtfläche; Büro und nutzbare Lagerfläche; maximal 2.000 Euro monatliche Nettokaltmiete; geeignete Anlieferung. Das sind Übungskriterien, keine Marktbehauptung."
+      ],
+      "type": "statement"
+    },
+    {
+      "id": 26,
+      "title": "Beispiel: Von Suchkriterien zur Vergleichsliste",
+      "chapter": 6,
+      "chapterName": "Recherche & Browser",
+      "lead": "",
+      "steps": [
+        "Kriterien werden in Muss / Wunsch / noch zu klären aufgeteilt.",
+        "Ein schematisches, eindeutig fiktives Inserat erscheint; keine nachgebaute echte ImmoScout-Anzeige.",
+        "Sichtbare Angaben werden übernommen, fehlende Nebenkosten als „nicht angegeben“ markiert.",
+        "Vergleich mit Link, Abrufdatum und offenen Fragen. „Keine passende Auswahl gefunden“ bleibt ein zulässiges Ergebnis."
+      ],
+      "goal": "",
+      "criteria": "",
+      "hints": [],
+      "bonus": "",
+      "paragraphs": [],
+      "type": "demo"
+    },
+    {
+      "id": 27,
+      "title": "Du bist dran: Finde einen Standort",
+      "chapter": 6,
+      "chapterName": "Recherche & Browser",
+      "lead": "",
+      "steps": [],
+      "goal": "Recherchiere über den Browser in Work auf ImmoScout und erstelle eine begründete Auswahl von bis zu drei geeigneten Objekten. Keine Anbieter kontaktieren.",
+      "criteria": "Quellenlinks und Abrufdatum vorhanden; Muss-Kriterien nachvollziehbar geprüft; fehlende Kosten und widersprüchliche Angaben sichtbar markiert.",
+      "hints": [
+        "Welche Kriterien kannst du auf der Website tatsächlich prüfen?",
+        "Beginne mit der Suche, prüfe anschließend jedes Inserat einzeln.",
+        "„Suche Büro mit Lager nach diesen Kriterien. Vergleiche nur belegbare Angaben und verlinke die Inserate. Markiere unbekannte Gesamtkosten. Kontaktiere niemanden und schicke keine Anfrage ab.“"
+      ],
+      "bonus": "Formuliere fünf Fragen für eine spätere Besichtigung.",
+      "paragraphs": [],
+      "type": "challenge"
+    },
+    {
+      "id": 28,
+      "title": "Gefunden ist noch nicht geprüft",
+      "chapter": 6,
+      "chapterName": "Recherche & Browser",
+      "lead": "Quelle öffnen. Angaben prüfen. Unsicherheit benennen.",
+      "steps": [],
+      "goal": "",
+      "criteria": "",
+      "hints": [],
+      "bonus": "",
+      "paragraphs": [
+        "Recherche sammelt und bewertet Informationen; Browsersteuerung führt konkrete Schritte auf einer Website aus. Preise und Verfügbarkeit können sich ändern. Inhalte einer Website sind Quellenmaterial, keine neuen Arbeitsanweisungen."
+      ],
+      "type": "statement"
+    },
+    {
+      "id": 29,
+      "title": "Eine Tabelle ist erst der Anfang",
+      "chapter": 7,
+      "chapterName": "Excel & Tabellen",
+      "lead": "Aufräumen. Rechnen. Entscheiden.",
+      "steps": [],
+      "goal": "",
+      "criteria": "",
+      "hints": [],
+      "bonus": "",
+      "paragraphs": [
+        "Bearbeite dieselbe Aufgabe direkt in Excel und mit einer hochgeladenen Arbeitsmappe in Work. Vergleiche anschließend die Ergebnisse.",
+        "Öffne in Excel die eingerichtete ChatGPT-Integration. Ist sie in deinem Konto nicht verfügbar, nutze zunächst die Datei in Work."
+      ],
+      "type": "statement"
+    },
+    {
+      "id": 30,
+      "title": "Beispiel: Das günstigste Angebot ist nicht immer die erste Zahl",
+      "chapter": 7,
+      "chapterName": "Excel & Tabellen",
+      "lead": "",
+      "steps": [
+        "Drei Angebote für 100 gleiche Einheiten erscheinen: A 12,50 €/Stück + 80 € Lieferung; B 12,90 €/Stück + 20 € Lieferung; C 11,90 €/Stück + 160 € Lieferung.",
+        "Mengen und Preisbasis werden vereinheitlicht; alle Preise netto, kein Rabatt.",
+        "Gesamtkosten werden berechnet: A 1.330 €, B 1.310 €, C 1.350 €.",
+        "B ist bei diesen Angaben am günstigsten. Lieferzeit und technische Eignung werden separat bewertet, nicht erfunden."
+      ],
+      "goal": "",
+      "criteria": "",
+      "hints": [],
+      "bonus": "",
+      "paragraphs": [],
+      "type": "demo"
+    },
+    {
+      "id": 31,
+      "title": "Du bist dran: Welche Bestellung ist sinnvoll?",
+      "chapter": 7,
+      "chapterName": "Excel & Tabellen",
+      "lead": "",
+      "steps": [],
+      "goal": "Bereinige die Materialliste und vergleiche die drei Angebote. Bearbeite den Fall über beide Zugänge und vergleiche die Ergebnisse.",
+      "criteria": "Originaldaten bleiben nachvollziehbar; Einheiten, Mengen und Lieferkosten stimmen; die Empfehlung ist mit Zahlen und offenen Bedingungen begründet.",
+      "hints": [
+        "Vergleichen alle Angebote dieselbe Menge?",
+        "Trenne Quelldaten, Berechnung und Empfehlung.",
+        "„Prüfe diese Angebote auf gleiche Mengen und Preisbasis. Berechne nachvollziehbare Gesamtpreise inklusive angegebener Lieferkosten. Markiere fehlende Angaben und prüfe die Rechnung mit einer zweiten Berechnung.“"
+      ],
+      "bonus": "Berechne, ob sich die Reihenfolge bei 200 Einheiten ändert, sofern Lieferkosten unverändert bleiben. Kennzeichne diese Annahme.",
+      "paragraphs": [],
+      "type": "challenge"
+    },
+    {
+      "id": 32,
+      "title": "Gute Tabelle, richtige Rechnung?",
+      "chapter": 7,
+      "chapterName": "Excel & Tabellen",
+      "lead": "Stichprobe statt blindem Vertrauen.",
+      "steps": [],
+      "goal": "",
+      "criteria": "",
+      "hints": [],
+      "bonus": "",
+      "paragraphs": [
+        "Eine Zeile manuell nachrechnen. Formeln, Datentypen, Filter und Summen prüfen. Darstellungsqualität ist kein Beleg für korrekte Zahlen."
+      ],
+      "type": "statement"
+    },
+    {
+      "id": 33,
+      "title": "Aus Unterlagen wird ein fertiges Dokument",
+      "chapter": 8,
+      "chapterName": "Dateien & Formulare",
+      "lead": "Übernehmen, was belegt ist. Offen lassen, was fehlt.",
+      "steps": [],
+      "goal": "",
+      "criteria": "",
+      "hints": [],
+      "bonus": "",
+      "paragraphs": [
+        "Projektbogen, Übergabeprotokoll und Kundeninformation als Beispiele. DOCX und PDF unterscheiden: Ein bearbeitbares Ergebnis und eine gut lesbare Ausgabe können unterschiedliche Formate brauchen."
+      ],
+      "type": "statement"
+    },
+    {
+      "id": 34,
+      "title": "Beispiel: Ein Formular mit einer ehrlichen Lücke",
+      "chapter": 8,
+      "chapterName": "Dateien & Formulare",
+      "lead": "",
+      "steps": [
+        "Leerer Projektbogen mit Feldern für Vorgang, Ansprechpartner, Leistung und Ausführungstermin.",
+        "Passende Informationen aus der Anfrage werden zugeordnet.",
+        "Ausführungstermin bleibt „noch nicht bestätigt“.",
+        "Fertige Fassung plus kurze Liste offener Angaben; keine erfundene Unterschrift oder Freigabe."
+      ],
+      "goal": "",
+      "criteria": "",
+      "hints": [],
+      "bonus": "",
+      "paragraphs": [],
+      "type": "demo"
+    },
+    {
+      "id": 35,
+      "title": "Du bist dran: Mach das Dokument fertig",
+      "chapter": 8,
+      "chapterName": "Dateien & Formulare",
+      "lead": "",
+      "steps": [],
+      "goal": "Fülle den Projektbogen aus dem Lindenhof-Informationspaket und erstelle eine überarbeitbare Fassung. Prüfe anschließend die Darstellung.",
+      "criteria": "Angaben lassen sich Quellen zuordnen; fehlende Informationen bleiben sichtbar; Datei öffnet korrekt und ist lesbar.",
+      "hints": [
+        "Welche Felder sind belegt?",
+        "Lass vor dem Ausfüllen eine Zuordnung erstellen.",
+        "„Fülle die Vorlage ausschließlich mit belegten Angaben aus den Unterlagen. Markiere fehlende oder widersprüchliche Informationen. Bewahre die Struktur und liefere eine bearbeitbare Fassung.“"
+      ],
+      "bonus": "Erstelle eine kurze Kundeninformation aus demselben Material und prüfe beide Fassungen auf Widersprüche.",
+      "paragraphs": [],
+      "type": "challenge"
+    },
+    {
+      "id": 36,
+      "title": "Die Datei selbst ist Teil des Ergebnisses",
+      "chapter": 8,
+      "chapterName": "Dateien & Formulare",
+      "lead": "Öffnen. Lesen. Vergleichen.",
+      "steps": [],
+      "goal": "",
+      "criteria": "",
+      "hints": [],
+      "bonus": "",
+      "paragraphs": [
+        "Tabellen, Seitenumbrüche, Sonderzeichen, Zahlen und Feldzuordnungen prüfen. Ein Downloadlink allein belegt noch kein brauchbares Dokument."
+      ],
+      "type": "statement"
+    },
+    {
+      "id": 37,
+      "title": "Ein Termin ist mehr als ein Datum",
+      "chapter": 9,
+      "chapterName": "Kalender & Scheduling",
+      "lead": "Zeit, Beteiligte, Ort und Vorbereitung.",
+      "steps": [],
+      "goal": "",
+      "criteria": "",
+      "hints": [],
+      "bonus": "",
+      "paragraphs": [
+        "Ein Kalendertermin blockiert Zeit. Eine Erinnerung macht dich auf etwas aufmerksam. Eine wiederkehrende KI-Aufgabe bearbeitet einen Auftrag nach einem Rhythmus.",
+        "Prüfe jeweils, welche Funktion in deinem Konto verfügbar ist und wo du das gespeicherte Ergebnis wiederfindest."
+      ],
+      "type": "statement"
+    },
+    {
+      "id": 38,
+      "title": "Beispiel: Baustellenbesprechung vorbereiten",
+      "chapter": 9,
+      "chapterName": "Kalender & Scheduling",
+      "lead": "",
+      "steps": [
+        "Auftrag: „45 Minuten, nächste Woche, vor Ort, mit Bauleitung.“",
+        "Unbekannte Verfügbarkeit der Bauleitung wird als offen markiert; eigener freier Kalenderplatz genügt nicht.",
+        "Terminvorschlag mit vollständigem Datum, Uhrzeit, Zeitzone, Ort und Agenda.",
+        "Separat: wöchentlicher Auftrag zur Prüfung offener Übungsaufgaben; Ausführungszeit, Quelle und Benachrichtigung werden explizit formuliert."
+      ],
+      "goal": "",
+      "criteria": "",
+      "hints": [],
+      "bonus": "",
+      "paragraphs": [],
+      "type": "demo"
+    },
+    {
+      "id": 39,
+      "title": "Du bist dran: Termin plus Follow-up",
+      "chapter": 9,
+      "chapterName": "Kalender & Scheduling",
+      "lead": "",
+      "steps": [],
+      "goal": "Bereite einen Baustellentermin aus dem Terminbrief vor und formuliere eine einmalige Erinnerung sowie eine wiederkehrende Aufgabe. Richte verfügbare Funktionen als klar gekennzeichnete Übung ein und prüfe sie.",
+      "criteria": "Datum, Uhrzeit und Zeitzone eindeutig; Beteiligte und offene Verfügbarkeiten korrekt; wiederkehrende Aufgabe nennt Quelle, Rhythmus und gewünschte Benachrichtigung.",
+      "hints": [
+        "Was soll wann passieren?",
+        "Trenne Termin, Erinnerung und wiederkehrende Arbeit.",
+        "„Bereite aus diesen Angaben einen Terminvorschlag vor. Markiere unbekannte Verfügbarkeiten. Formuliere zusätzlich eine Erinnerung und einen wöchentlichen Prüfauftrag mit eindeutiger Zeitangabe. Zeige vor dem Einrichten die Details.“"
+      ],
+      "bonus": "Lege fest, wann die Wiederholung endet und wann keine Nachricht nötig ist.",
+      "paragraphs": [],
+      "type": "challenge"
+    },
+    {
+      "id": 40,
+      "title": "Geplant heißt nicht überprüft",
+      "chapter": 9,
+      "chapterName": "Kalender & Scheduling",
+      "lead": "Was läuft wann – und wie beendest du es?",
+      "steps": [],
+      "goal": "",
+      "criteria": "",
+      "hints": [],
+      "bonus": "",
+      "paragraphs": [
+        "Gespeicherte Details am tatsächlichen Ort kontrollieren. Übungstermine und Wiederholungen nach Abschluss löschen oder deaktivieren. Eine behauptete Einrichtung im Chat ersetzt keine Bestätigung des tatsächlichen Systems."
+      ],
+      "type": "statement"
+    },
+    {
+      "id": 41,
+      "title": "Jetzt gehört der Ablauf dir",
+      "chapter": 10,
+      "chapterName": "Dein kompletter Workflow",
+      "lead": "Ein neuer Auftrag. Dein Weg zum Ergebnis.",
+      "steps": [],
+      "goal": "",
+      "criteria": "",
+      "hints": [],
+      "bonus": "",
+      "paragraphs": [
+        "Ein neuer Vorgang: Praxisumbau Parkblick. Alle benötigten Informationen findest du im Abschlussmaterial. Du entscheidest, welche Werkzeuge dir helfen."
+      ],
+      "type": "statement"
+    },
+    {
+      "id": 42,
+      "title": "Der Auftrag",
+      "chapter": 10,
+      "chapterName": "Dein kompletter Workflow",
+      "lead": "Mach aus dieser Anfrage einen bearbeitbaren Vorgang.",
+      "steps": [],
+      "goal": "Erstelle eine Zusammenfassung, offene Fragen, einen Kostenvergleich, einen Projektbogen und einen Antwortentwurf mit Terminvorschlag.",
+      "criteria": "Mindestens drei Fähigkeiten kombiniert; Aussagen und Zahlen belegt; offene Fragen und nötige Freigaben erkennbar.",
+      "hints": [
+        "Was braucht der nächste Bearbeiter?",
+        "Zerlege den Vorgang in überprüfbare Teilergebnisse.",
+        "Zerlege diesen Vorgang in sinnvolle Arbeitsschritte. Sage, welche Unterlagen du brauchst. Beginne mit dem ersten Schritt und frage nach, wenn wesentliche Angaben fehlen."
+      ],
+      "bonus": "",
+      "paragraphs": [
+        "Erstelle eine Zusammenfassung, offene Fragen, einen Kostenvergleich, einen Projektbogen und einen Antwortentwurf mit Terminvorschlag.",
+        "Nutze mindestens drei geübte Fähigkeiten. Reihenfolge und Lösungsweg bestimmst du."
+      ],
+      "type": "challenge"
+    },
+    {
+      "id": 43,
+      "title": "Zeig, was du geprüft hast",
+      "chapter": 10,
+      "chapterName": "Dein kompletter Workflow",
+      "lead": "Ergebnis. Quelle. Entscheidung.",
+      "steps": [],
+      "goal": "",
+      "criteria": "Ergebnisse passen zueinander; wichtige Aussagen und Zahlen sind belegt; offene Informationen und nötige Freigaben sind erkennbar.",
+      "hints": [],
+      "bonus": "Lass eine zweite Prüfung durchführen und entscheide selbst, welche Hinweise zutreffen.",
+      "paragraphs": [
+        "Passen deine Ergebnisse zueinander? Sind wichtige Aussagen und Zahlen belegt? Ist klar, was noch offen ist?",
+        "Vergleicht eure Ergebnisse zu zweit. Zeigt euch einen Fehler, den ihr entdeckt habt, und wie ihr ihn behoben habt."
+      ],
+      "type": "statement"
+    },
+    {
+      "id": 44,
+      "title": "Was machst du morgen anders?",
+      "chapter": 10,
+      "chapterName": "Dein kompletter Workflow",
+      "lead": "Eine Aufgabe. Ein erster Versuch. Ein klarer Check.",
+      "steps": [],
+      "goal": "",
+      "criteria": "",
+      "hints": [],
+      "bonus": "",
+      "paragraphs": [
+        "Vervollständige: Bei … nutze ich KI für … und prüfe anschließend …",
+        "Kontrolliere zum Abschluss deine Übungstermine und wiederkehrenden Aufgaben. Deaktiviere, was nicht weiterlaufen soll."
+      ],
+      "type": "statement"
+    }
+  ]
+}
