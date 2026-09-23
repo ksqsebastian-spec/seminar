@@ -1,9 +1,9 @@
 {
   "title": "Ein Arbeitstag. Mehr geschafft.",
-  "subtitle": "Du begleitest einen Kundenauftrag vom Posteingang bis zur Übergabe. Mit Work, deinen Programmen und deinen eigenen Entscheidungen.",
+  "subtitle": "Du begleitest einen Kundenauftrag vom Posteingang bis zur Übergabe. Mit ChatGPT, deinen Programmen und deinen eigenen Entscheidungen.",
   "case": "Lindenhof · Umbau",
   "promise": "Am Ende kannst du eine Arbeitsaufgabe klar beschreiben, passende Quellen mitgeben, Ergebnisse prüfen und den nächsten Schritt selbst steuern.",
-  "environment": "Du arbeitest in deiner eigenen Work-Umgebung. Diese Website erklärt den Ablauf und stellt Übungsdateien bereit. Sie liest keine Mails, verbindet keine Konten und führt keine KI-Aufträge aus.",
+  "environment": "Du arbeitest in deiner eigenen ChatGPT-Umgebung. Diese Website erklärt den Ablauf und stellt Übungsdateien bereit. Sie liest keine Mails, verbindet keine Konten und führt keine KI-Aufträge aus.",
   "lessons": [
     {
       "id": "posteingang",
@@ -16,11 +16,11 @@
       ],
       "minutes": 50,
       "why": "Mara Sommer möchte zwei Büroräume umbauen lassen. Bevor du antwortest, brauchst du einen Überblick: Was ist gewünscht? Welche Angaben fehlen? Was ist jetzt deine Aufgabe?",
-      "principle": "Work braucht einen klaren Auftrag.",
+      "principle": "ChatGPT braucht einen klaren Auftrag.",
       "story": "Du musst keine besondere Sprache lernen. Nenne das Ziel, die passenden Informationen und das gewünschte Ergebnis. „Erkläre mir diese Mail in drei einfachen Sätzen“ ist schon ein guter Anfang. Ein Plugin ist dabei die Verbindung zu einem Programm, zum Beispiel Outlook.",
       "outcome": "Eine verständliche Zusammenfassung und drei offene Fragen.",
       "skills": [
-        "Chat und Work unterscheiden; eine Aufgabe starten und fortsetzen",
+        "ChatGPT öffnen; Modell wählen; eine Aufgabe starten und fortsetzen",
         "Outlook-Verbindung und richtiges Konto erkennen",
         "Mails nach Zeitraum, Absender oder Betreff finden und auswählen",
         "Mail erklären lassen; Anhänge erkennen und gezielt lesen",
@@ -28,10 +28,10 @@
       ],
       "demos": [
         {
-          "title": "Öffne Work.",
-          "action": "Zeige den Wechsel zu Work und das Eingabefeld. Erkläre: Hier beschreiben wir eine Aufgabe. Unter Plugins prüfen wir, ob Outlook verbunden ist.",
+          "title": "Öffne ChatGPT und wähle dein Modell.",
+          "action": "Öffne die ChatGPT-Desktop-App. Für die Aufgaben verwenden wir den Bereich, der in der App als Work beschriftet ist. Klicke auf den Modellnamen neben dem Eingabefeld. Unsere Empfehlung für das Seminar: GPT-6 Astra, Denkaufwand Low (niedrig), sofern verfügbar. Ein Modell ist die KI, die deinen Auftrag bearbeitet. Low ist die Denkstufe, kein anderes Modell. Wenn Astra fehlt, lass Kerim die passende verfügbare Alternative zeigen. Prüfe anschließend unter Plugins die Outlook-Verbindung.",
           "prompt": "",
-          "see": "Die Gruppe findet Work und die eingerichtete Outlook-Verbindung.",
+          "see": "Alle finden die Modellauswahl und kennen ihr ausgewähltes Modell. Die verfügbaren Optionen hängen vom Konto ab.",
           "asset": "work-original.png"
         },
         {
@@ -58,7 +58,7 @@
       ],
       "mission": "Wähle eine passende Mail, die du heute erhalten hast. Lass sie erklären und verbessere die Erklärung mit einer eigenen Nachfrage. Danach starten wir alle mit dem gemeinsamen Fall Lindenhof.",
       "steps": [
-        "Öffne Work und wähle eine heutige Mail aus, die du für diese Übung verwenden darfst.",
+        "Öffne ChatGPT und wähle eine heutige Mail aus, die du für diese Übung verwenden darfst.",
         "Lass dir sagen, was der Absender braucht und was noch fehlt.",
         "Ändere Länge oder Sprache mit einer Nachfrage. Vergleiche die Erklärung mit der Originalmail.",
         "Öffne anschließend die fiktive Lindenhof-Anfrage. Sie ist ab jetzt unser gemeinsamer Auftrag."
@@ -71,16 +71,16 @@
       "hints": [
         "Beginne mit einer kleinen Frage: „Was möchte der Absender von mir?“",
         "Nenne Absender und Betreff. Bei mehreren Treffern wähle zuerst die richtige Mail.",
-        "Keine passende Mail oder keine Verbindung? Lade 03-lindenhof.txt in Work hoch. Das Lernziel bleibt gleich."
+        "Keine passende Mail oder keine Verbindung? Lade 03-lindenhof.txt in ChatGPT hoch. Das Lernziel bleibt gleich."
       ],
       "question": {
-        "ask": "Work schreibt: „Die Besichtigung ist für Dienstag bestätigt.“ In der Mail steht nur ein Terminwunsch. Was tust du?",
+        "ask": "ChatGPT schreibt: „Die Besichtigung ist für Dienstag bestätigt.“ In der Mail steht nur ein Terminwunsch. Was tust du?",
         "options": [
           "Übernehmen, die Formulierung klingt sicher.",
           "Die Stelle mit der Mail vergleichen und korrigieren lassen."
         ],
         "correct": 1,
-        "explain": "Eine sichere Formulierung ist kein Beleg. Du gibst Work die fehlende Grenze: Der Termin ist noch nicht bestätigt."
+        "explain": "Eine sichere Formulierung ist kein Beleg. Du gibst ChatGPT die fehlende Grenze: Der Termin ist noch nicht bestätigt."
       },
       "files": [
         "03-lindenhof.txt"
@@ -108,13 +108,13 @@
       "why": "Zur Kundenanfrage kommen später Recherche, Tabellen und Antworten hinzu. Wenn alles in einzelnen Aufgaben verschwindet, musst du den Hintergrund immer wieder zusammensuchen.",
       "principle": "Ein Projekt ist deine Arbeitsmappe.",
       "story": "Die Mappe gehört zu einem Kundenauftrag. Darin liegen Unterlagen, Gespräche und gemeinsame Vorgaben. Ein Gespräch erledigt eine einzelne Aufgabe. Das Projekt hält mehrere solcher Aufgaben zusammen. Für einen anderen Kunden beginnst du eine neue Mappe.",
-      "outcome": "Dein eigenes Projekt „Lindenhof · Umbau“ mit Quelle, Vorgabe und erster Work-Aufgabe.",
+      "outcome": "Dein eigenes Projekt „Lindenhof · Umbau“ mit Quelle, Vorgabe und erster ChatGPT-Aufgabe.",
       "skills": [
         "Projekt und einzelne Aufgabe unterscheiden",
         "Projekt anlegen und sinnvoll benennen",
         "Dateien als Projektquellen hinzufügen",
         "Projekthinweise speichern und später ändern",
-        "Work-Aufgabe im richtigen Projekt starten und wiederfinden"
+        "ChatGPT-Aufgabe im richtigen Projekt starten und wiederfinden"
       ],
       "demos": [
         {
@@ -140,7 +140,7 @@
         },
         {
           "title": "Starte Arbeit in der Mappe.",
-          "action": "Wähle im Projekt Work. Prüfe den Projektnamen und starte eine Zusammenfassung. Öffne danach kurz eine andere Ansicht und finde die Aufgabe im Projekt wieder.",
+          "action": "Wähle im Projekt ChatGPT. Prüfe den Projektnamen und starte eine Zusammenfassung. Öffne danach kurz eine andere Ansicht und finde die Aufgabe im Projekt wieder.",
           "prompt": "Fasse die Lindenhof-Unterlagen zusammen. Trenne bestätigte Angaben, widersprüchliche Angaben und offene Fragen. Nenne die jeweilige Quelle.",
           "see": "Die alte Notiz nennt drei Türen; die aktuelle Anfrage nennt zwei. Der Widerspruch bleibt sichtbar.",
           "asset": ""
@@ -148,7 +148,7 @@
       ],
       "mission": "Lege dein eigenes Projekt „Lindenhof · Umbau“ an. Füge die Anfrage hinzu, speichere eine Kommunikationsvorgabe und starte darin eine Zusammenfassung.",
       "steps": [
-        "Erstelle das Projekt in deiner Work-Umgebung.",
+        "Erstelle das Projekt in deiner ChatGPT-Umgebung.",
         "Füge 03-lindenhof.txt als Projektquelle hinzu.",
         "Speichere deine Vorgabe für kurze, sachliche Kundenantworten.",
         "Lass die Unterlagen zusammenfassen. Verlasse die Ansicht und finde Projekt und Aufgabe wieder."
@@ -176,7 +176,7 @@
         "03-lindenhof.txt"
       ],
       "bonus": "Ändere eine Projekthinweis-Formulierung und prüfe die Wirkung in einer neuen Aufgabe.",
-      "carry": "Alle folgenden Work-Aufgaben gehören in dieses Projekt.",
+      "carry": "Alle folgenden ChatGPT-Aufgaben gehören in dieses Projekt.",
       "number": 2,
       "day": 1,
       "rhythm": {
@@ -199,7 +199,7 @@
       "minutes": 70,
       "why": "Die Anfrage liegt im Projekt. Für die weitere Arbeit brauchst du eine kurze, bearbeitbare Übersicht – und einen Ordner, in dem du Ergebnisse wiederfindest.",
       "principle": "Datei, Format und Speicherort sind drei verschiedene Dinge.",
-      "story": "Der Inhalt ist das, was in der Datei steht. Das Format bestimmt, wie du damit weiterarbeitest: Word zum Bearbeiten, PDF zum Weitergeben, Excel zum Rechnen. OneDrive ist ein Speicherort. Eine Datei in Work hochzuladen bedeutet nicht automatisch, dass sie auch in OneDrive gespeichert ist.",
+      "story": "Der Inhalt ist das, was in der Datei steht. Das Format bestimmt, wie du damit weiterarbeitest: Word zum Bearbeiten, PDF zum Weitergeben, Excel zum Rechnen. OneDrive ist ein Speicherort. Eine Datei in ChatGPT hochzuladen bedeutet nicht automatisch, dass sie auch in OneDrive gespeichert ist.",
       "outcome": "Ein bearbeitbarer Projektbrief und eine PDF-Kopie im eigenen OneDrive-Übungsordner.",
       "skills": [
         "OneDrive-Verbindung prüfen; ChatGPT einen eigenen Ordner anlegen lassen; Dateien suchen und öffnen",
@@ -273,7 +273,7 @@
         "Wenn das Plugin keine Datei speichern kann, lade sie herunter und in OneDrive hoch. Prüfe das Ergebnis dort."
       ],
       "question": {
-        "ask": "Du hast einen Projektbrief in Work heruntergeladen. Liegt er damit schon in OneDrive?",
+        "ask": "Du hast einen Projektbrief in ChatGPT heruntergeladen. Liegt er damit schon in OneDrive?",
         "options": [
           "Ja, jeder Download landet automatisch dort.",
           "Nur wenn ich ihn dort gespeichert und wiedergefunden habe."
@@ -306,7 +306,7 @@
       "minutes": 55,
       "why": "Für Lindenhof fehlen noch technische Angaben. Du kannst vor der Besichtigung recherchieren, welche Informationen ein Anbieter für eine passende Innentür benötigt. Die Recherche ersetzt keine fachliche Freigabe.",
       "principle": "Eine Antwort ist erst mit ihrer Quelle prüfbar.",
-      "story": "Bei Recherche sammelt Work Informationen. Bei Browserbedienung führt es Schritte auf einer Website aus. Du steuerst beides mit einem klaren Ziel. Gute Ergebnisse zeigen Links, trennen Fakten von Annahmen und lassen Unbekanntes offen.",
+      "story": "Bei Recherche sammelt ChatGPT Informationen. Bei Browserbedienung führt es Schritte auf einer Website aus. Du steuerst beides mit einem klaren Ziel. Gute Ergebnisse zeigen Links, trennen Fakten von Annahmen und lassen Unbekanntes offen.",
       "outcome": "Eine kurze Recherche mit zwei überprüften Quellen und Fragen für die Besichtigung.",
       "skills": [
         "Suchziel, Umfang und gewünschte Quellen festlegen",
@@ -318,7 +318,7 @@
       "demos": [
         {
           "title": "Stelle eine begrenzte Recherchefrage.",
-          "action": "Lass Work bei Hersteller- oder Händlerquellen nachsehen. Halte die Aufgabe klein und fordere Links.",
+          "action": "Lass ChatGPT bei Hersteller- oder Händlerquellen nachsehen. Halte die Aufgabe klein und fordere Links.",
           "prompt": "Recherchiere anhand von zwei Hersteller- oder Händlerquellen, welche Angaben für die Auswahl einer Innentür benötigt werden. Erstelle Fragen für die Besichtigung bei Lindenhof. Zeige die Quellen. Triff keine technische Eignungsentscheidung.",
           "see": "Die Antwort enthält prüfbare Links und offene Fragen.",
           "asset": ""
@@ -345,7 +345,7 @@
           "asset": ""
         }
       ],
-      "mission": "Finde mit Work zwei geeignete Originalquellen und leite daraus Fragen für die Besichtigung ab. Prüfe mindestens eine Aussage selbst auf der Website.",
+      "mission": "Finde mit ChatGPT zwei geeignete Originalquellen und leite daraus Fragen für die Besichtigung ab. Prüfe mindestens eine Aussage selbst auf der Website.",
       "steps": [
         "Formuliere eine begrenzte Recherchefrage.",
         "Öffne zwei Quellen und prüfe eine konkrete Aussage.",
@@ -363,7 +363,7 @@
         "Wenn der Browser hängt: „Stopp. Was ist schon erledigt? Was brauchst du für den nächsten Schritt?“"
       ],
       "question": {
-        "ask": "Work nennt eine Eigenschaft, aber die verlinkte Seite bestätigt sie nicht. Was gehört in deine Notiz?",
+        "ask": "ChatGPT nennt eine Eigenschaft, aber die verlinkte Seite bestätigt sie nicht. Was gehört in deine Notiz?",
         "options": [
           "Die Eigenschaft als Tatsache.",
           "Die Eigenschaft als ungeklärt oder gar nicht."
@@ -397,7 +397,7 @@
       "minutes": 70,
       "why": "Für eine fiktive Montageposition liegen drei Angebote vor. Der niedrigste Stückpreis ist nicht unbedingt das günstigste Gesamtangebot. Deshalb vergleichen wir Menge, Preis und Lieferung gemeinsam.",
       "principle": "Sag, was die Tabelle beantworten soll.",
-      "story": "Du kannst eine Arbeitsmappe in Work hochladen oder mit der eingerichteten ChatGPT-Erweiterung direkt in Excel arbeiten. In beiden Fällen musst du wissen, welche Werte und Annahmen verwendet werden. Die KI kann rechnen und erklären; du prüfst mindestens eine Zeile selbst.",
+      "story": "Du kannst eine Arbeitsmappe in ChatGPT hochladen oder mit der eingerichteten ChatGPT-Erweiterung direkt in Excel arbeiten. In beiden Fällen musst du wissen, welche Werte und Annahmen verwendet werden. Die KI kann rechnen und erklären; du prüfst mindestens eine Zeile selbst.",
       "outcome": "Ein nachvollziehbarer Vergleich für 100 und 200 Einheiten mit Formeln und offenen Bedingungen.",
       "skills": [
         "Arbeitsmappe hochladen oder direkt in Excel bearbeiten",
@@ -445,7 +445,7 @@
       ],
       "mission": "Vergleiche die Angebote für 100 Einheiten und danach für 200. Erkläre einer anderen Person, warum sich der günstigste Anbieter verändert.",
       "steps": [
-        "Öffne die Übungsmappe in Work oder direkt in Excel.",
+        "Öffne die Übungsmappe in ChatGPT oder direkt in Excel.",
         "Bereinige die Materialliste in einer Kopie und ergänze nachvollziehbare Formeln.",
         "Vergleiche 100 und 200 Einheiten einschließlich Lieferung.",
         "Rechne eine Zeile selbst nach und speichere das Ergebnis. Probiere eine Änderung auch über den zweiten Weg."
@@ -495,7 +495,7 @@
       "minutes": 60,
       "why": "Du hast Kundenangaben, offene Fragen und recherchierte Informationen gesammelt. Jetzt sollen die passenden Angaben in den vorbereiteten Projektbogen. Du musst sie nicht Feld für Feld übertragen.",
       "principle": "Die Vorlage gibt die Form vor. Die Quelle liefert die Fakten.",
-      "story": "Gib Work beides: die leere Vorlage und die geprüften Angaben. Sage, was unverändert bleiben soll. Fehlende Informationen bleiben offen. Anschließend öffnest du die fertige Datei und prüfst Inhalt und Layout – nicht nur die kurze Antwort in Work.",
+      "story": "Gib ChatGPT beides: die leere Vorlage und die geprüften Angaben. Sage, was unverändert bleiben soll. Fehlende Informationen bleiben offen. Anschließend öffnest du die fertige Datei und prüfst Inhalt und Layout – nicht nur die kurze Antwort in ChatGPT.",
       "outcome": "Ein ausgefüllter Projektbogen als DOCX und geprüfte PDF-Kopie.",
       "skills": [
         "Vorlage und mehrere Quellen gemeinsam übergeben",
@@ -552,7 +552,7 @@
         "Passt die Datei nicht? Nenne Seite, Feld und gewünschte Änderung. Lass nur diese Stelle überarbeiten."
       ],
       "question": {
-        "ask": "Im Projektbogen fehlt das Budget. Was soll Work eintragen?",
+        "ask": "Im Projektbogen fehlt das Budget. Was soll ChatGPT eintragen?",
         "options": [
           "Ein plausibles Budget schätzen.",
           "„Noch offen“ eintragen."
@@ -585,13 +585,13 @@
         "chatgpt"
       ],
       "minutes": 50,
-      "why": "Jetzt kannst du Mara sinnvoll antworten. Du weißt, welche Angaben fehlen, und hast eine Übersicht vorbereitet. Du formulierst die Antwort zuerst in Work, überarbeitest sie und speicherst die fertige Fassung als Outlook-Entwurf.",
+      "why": "Jetzt kannst du Mara sinnvoll antworten. Du weißt, welche Angaben fehlen, und hast eine Übersicht vorbereitet. Du formulierst die Antwort zuerst in ChatGPT, überarbeitest sie und speicherst die fertige Fassung als Outlook-Entwurf.",
       "principle": "Erst formulieren. Dann prüfen. Dann bewusst handeln.",
-      "story": "Ein Textvorschlag in Work ist noch kein gespeicherter Outlook-Entwurf. Und ein gespeicherter Entwurf ist noch keine gesendete Mail. Diese drei Zustände trennen wir sichtbar. Du entscheidest, ob, wann und an wen wirklich etwas versendet wird.",
+      "story": "Ein Textvorschlag in ChatGPT ist noch kein gespeicherter Outlook-Entwurf. Und ein gespeicherter Entwurf ist noch keine gesendete Mail. Diese drei Zustände trennen wir sichtbar. Du entscheidest, ob, wann und an wen wirklich etwas versendet wird.",
       "outcome": "Ein geprüfter Outlook-Entwurf mit passendem Betreff und einem geprüften PDF-Anhang.",
       "skills": [
         "Mit Quellen einen passenden Antworttext entwerfen",
-        "Ton, Länge und Inhalt in derselben Work-Aufgabe ändern",
+        "Ton, Länge und Inhalt in derselben ChatGPT-Aufgabe ändern",
         "Antwort oder neue Mail als Outlook-Entwurf speichern",
         "Anhang gezielt hinzufügen und im Entwurf öffnen",
         "An, CC, Antwort-an-alle, Weiterleiten und Versandfolgen unterscheiden"
@@ -599,7 +599,7 @@
       "demos": [
         {
           "title": "Formuliere die Antwort.",
-          "action": "Kehre zur Anfrage zurück. Gib Work die bestätigten Informationen und das gewünschte Ziel.",
+          "action": "Kehre zur Anfrage zurück. Gib ChatGPT die bestätigten Informationen und das gewünschte Ziel.",
           "prompt": "Entwirf eine freundliche Antwort an Mara Sommer. Bitte um Türmaße, Zugangsinformationen und zwei mögliche Besichtigungstermine. Sage noch keinen Preis oder Ausführungstermin zu. Zeige den Text zuerst hier.",
           "see": "Der Text beantwortet die Anfrage und bittet um fehlende Informationen.",
           "asset": ""
@@ -647,17 +647,17 @@
       ],
       "hints": [
         "Der erste Auftrag lautet nur „Zeige mir einen Antwortvorschlag“.",
-        "Ein bestehender Entwurf lässt sich nicht mit jedem Plugin direkt ändern. Überarbeite den Text vorher in Work oder anschließend selbst in Outlook.",
+        "Ein bestehender Entwurf lässt sich nicht mit jedem Plugin direkt ändern. Überarbeite den Text vorher in ChatGPT oder anschließend selbst in Outlook.",
         "Wenn Anhängen nicht unterstützt wird, füge die PDF selbst in Outlook hinzu. Prüfe sie trotzdem."
       ],
       "question": {
-        "ask": "Work schreibt einen guten Antworttext in den Chat. Ist die Mail schon im Outlook-Ordner Entwürfe?",
+        "ask": "ChatGPT schreibt einen guten Antworttext in den Chat. Ist die Mail schon im Outlook-Ordner Entwürfe?",
         "options": [
           "Ja, das passiert automatisch.",
           "Nein, dazu muss ich sie ausdrücklich als Entwurf speichern lassen."
         ],
         "correct": 1,
-        "explain": "Text in Work, Entwurf in Outlook und gesendete Mail sind unterschiedliche Zustände. Du kontrollierst den gewünschten Zustand im Zielprogramm."
+        "explain": "Text in ChatGPT, Entwurf in Outlook und gesendete Mail sind unterschiedliche Zustände. Du kontrollierst den gewünschten Zustand im Zielprogramm."
       },
       "files": [
         "03-lindenhof.txt"
@@ -745,11 +745,11 @@
       "question": {
         "ask": "Dein Kalender ist am Dienstag frei. Ist damit auch Mara verfügbar?",
         "options": [
-          "Ja, Work würde einen Konflikt erkennen.",
+          "Ja, ChatGPT würde einen Konflikt erkennen.",
           "Nein, ihre Verfügbarkeit muss separat geklärt werden."
         ],
         "correct": 1,
-        "explain": "Work kennt nur die Kalender, auf die es zugreifen darf. Ein Vorschlag ist keine Zusage aller Beteiligten."
+        "explain": "ChatGPT kennt nur die Kalender, auf die es zugreifen darf. Ein Vorschlag ist keine Zusage aller Beteiligten."
       },
       "files": [
         "07-terminbrief.txt"
@@ -833,7 +833,7 @@
         "Wenn die Funktion fehlt: ITP kann Konto und Freigaben prüfen. Ein Text im Chat ersetzt keine gespeicherte Aufgabe."
       ],
       "question": {
-        "ask": "Work beschreibt eine Montagsaufgabe. Reicht das als Beleg, dass sie wirklich eingerichtet ist?",
+        "ask": "ChatGPT beschreibt eine Montagsaufgabe. Reicht das als Beleg, dass sie wirklich eingerichtet ist?",
         "options": [
           "Ja, die Beschreibung ist die Bestätigung.",
           "Nein, ich öffne die gespeicherte Aufgabe und prüfe die Einstellungen."
@@ -910,7 +910,7 @@
       "hints": [
         "Beginne mit „Welche meiner bisherigen Ergebnisse sind von der neuen Menge betroffen?“",
         "Bearbeite erst die Rechnung, dann die davon abhängigen Texte.",
-        "Wenn du festhängst: Fasse den aktuellen Stand zusammen und gib Work nur den nächsten kleinen Schritt."
+        "Wenn du festhängst: Fasse den aktuellen Stand zusammen und gib ChatGPT nur den nächsten kleinen Schritt."
       ],
       "question": {
         "ask": "Was nimmst du als wichtigste Gewohnheit mit?",
@@ -1051,9 +1051,9 @@
     }
   ],
   "glossary": {
-    "Auftrag": "Das, was Work für dich erledigen soll. Du beschreibst es in deinen Worten.",
+    "Auftrag": "Das, was ChatGPT für dich erledigen soll. Du beschreibst es in deinen Worten.",
     "Projekt": "Eine Arbeitsmappe für zusammengehörige Aufgaben, Dateien und Vorgaben.",
-    "Plugin": "Eine Verbindung oder Erweiterung, mit der Work ein anderes Programm nutzen kann.",
+    "Plugin": "Eine Verbindung oder Erweiterung, mit der ChatGPT ein anderes Programm nutzen kann.",
     "Quelle": "Die Datei, Mail oder Website, auf der eine Aussage beruht.",
     "Entwurf": "Eine vorbereitete Mail, die noch nicht versendet wurde.",
     "Hochladen": "Eine Datei von deinem Computer in eine Anwendung geben.",

@@ -1,6 +1,6 @@
 // Verified exposed plugin actions, phrased as user tasks rather than API names.
 export const toolkit=[
-{name:'Work & Projekte',app:'chatgpt',intro:'Hier organisierst du den Auftrag, gibst Kontext mit und steuerst nach. Prüfe Funktionen und Bezeichnungen in deiner eigenen Oberfläche.',items:[
+{name:'ChatGPT & Projekte',app:'chatgpt',intro:'Hier organisierst du den Auftrag, gibst Kontext mit und steuerst nach. Prüfe Funktionen und Bezeichnungen in deiner eigenen Oberfläche.',items:[
 ['Auftrag starten','Nenne Ziel, Quelle, Ausgabe und Kontrollpunkt.','Fasse diese Anfrage in drei einfachen Sätzen zusammen. Nenne offene Angaben.','Die Antwort passt zur ausgewählten Quelle.'],
 ['Im Gespräch nachsteuern','Ändere die vorhandene Antwort mit einer Folgefrage.','Bitte kürzer und ohne Fachwörter. Ändere die bestätigten Fakten nicht.','Inhalt bleibt richtig, Sprache passt.'],
 ['Projekt anlegen','Ein Projekt pro zusammengehörigem Auftrag.','Lege selbst „Lindenhof · Umbau“ über Neues Projekt an.','Projekt ist in der Seitenleiste sichtbar.'],
@@ -13,17 +13,17 @@ export const toolkit=[
 ['Finden und auswählen','Suche nach Datum, Absender, Betreff oder Anhang. Wähle bei mehreren Treffern erst die richtige Mail.','Zeige meine heutigen Mails mit Absender und Betreff.','Richtige Mail und richtiges Konto.'],
 ['Lesen und erklären','Lass Inhalt, gewünschte Handlung und offene Fragen trennen.','Was möchte Mara von mir, und welche Angaben fehlen?','Mit Originalmail vergleichen.'],
 ['Anhänge lesen','Benenne die konkrete Datei, statt pauschal alle Anhänge zu verwenden.','Erkläre mir den Anhang Projektbrief.pdf aus dieser Mail.','Dateiname, Inhalt und Bezug zur Mail stimmen.'],
-['Antworttext verbessern','Erst in Work formulieren und überarbeiten.','Kürzer, freundlich und mit Sie. Keine neuen Zusagen.','Fakten und Ton prüfen.'],
+['Antworttext verbessern','Erst in ChatGPT formulieren und überarbeiten.','Kürzer, freundlich und mit Sie. Keine neuen Zusagen.','Fakten und Ton prüfen.'],
 ['Entwurf speichern','Neuer Entwurf oder Antwortentwurf auf eine konkrete Mail. Ein Chattext ist noch kein Outlook-Entwurf.','Speichere den geprüften Text als Übungsentwurf an meine eigene Adresse. Noch nicht senden.','Im Outlook-Ordner Entwürfe öffnen.'],
 ['Datei anhängen','Direkte Plugin-Anhänge unter 3 MB. Bei fehlender Funktion selbst in Outlook anhängen.','Hänge diese geprüfte PDF an genau diesen Entwurf an.','Richtigen Anhang im Entwurf öffnen.'],
 ['Antwort-an-alle und Weiterleiten','Prüfe alle Empfänger. Weiterleiten kann Inhalte und Anhänge an neue Personen geben.','Zeige zuerst, wer die Antwort erhalten würde. Noch nicht versenden.','An und CC sind passend; kein ungewollter Empfänger.','Vertiefung'],
 ['Senden und später senden','Beides sind echte Handlungen. Eine geplante Mail kann ohne weiteres Zutun versendet werden.','Zeige Empfänger, Text, Anhang und Versandzeit zur Kontrolle.','Erst nach explizitem Auftrag ausführen; Übung höchstens an eigene Adresse.','Vertiefung'],
 ['Ordnen','Gelesen/ungelesen markieren, Kategorie setzen oder in einen eigenen Übungsordner verschieben.','Verschiebe nur meine ausgewählte Übungsmail in den Ordner Seminar.','Im Zielordner prüfen.','Vertiefung']
 ]},
-{name:'OneDrive',app:'onedrive',intro:'Die Verbindung kann als OneDrive oder über SharePoint angeboten werden. Ein Plugin sucht und speichert Dateien; Work bearbeitet den Inhalt. Der verfügbare Zugriff muss zum Zielordner passen.',items:[
+{name:'OneDrive',app:'onedrive',intro:'Die Verbindung kann als OneDrive oder über SharePoint angeboten werden. Ein Plugin sucht und speichert Dateien; ChatGPT bearbeitet den Inhalt. Der verfügbare Zugriff muss zum Zielordner passen.',items:[
 ['Ordner anlegen','Eigener Übungsordner, eindeutig benannt.','Lege in meinem OneDrive einen Ordner Seminar Lindenhof an.','Ordner im richtigen Konto öffnen.'],
 ['Suchen und öffnen','Dateiname plus Ordner schränkt die Suche sinnvoll ein.','Finde 03-lindenhof.txt in meinem Übungsordner.','Datei öffnen, Datum und Inhalt vergleichen.'],
-['Hochladen und speichern','Eine lokale oder von Work erzeugte Datei gezielt ablegen.','Speichere die geprüfte PDF in Seminar Lindenhof. Nichts überschreiben.','Gespeicherte Datei in OneDrive öffnen.'],
+['Hochladen und speichern','Eine lokale oder von ChatGPT erzeugte Datei gezielt ablegen.','Speichere die geprüfte PDF in Seminar Lindenhof. Nichts überschreiben.','Gespeicherte Datei in OneDrive öffnen.'],
 ['Umbenennen und verschieben','Eindeutigen Quellnamen und Zielordner nennen.','Benenne nur die neue Kopie in Lindenhof_Projektbrief_v2.docx um.','Neuer Name, richtiger Ordner, Original erhalten.'],
 ['Kopieren und Versionen','Vor größeren Änderungen eine Kopie verwenden. Ersetzen kann den vollständigen Dateiinhalt überschreiben.','Erstelle zuerst eine Kopie. Bearbeite nur diese Kopie.','Original und neue Fassung sind unterscheidbar.'],
 ['Freigaben prüfen','Zugriff für benannte Personen und öffentliche Links sind nicht dasselbe.','Zeige die vorhandenen Freigaben dieser Übungsdatei. Ändere noch nichts.','Keine unbeabsichtigte öffentliche Freigabe.','Vertiefung'],

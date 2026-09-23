@@ -1,8 +1,8 @@
 # Ein Arbeitstag mit KI – Lernplan
 
-Du begleitest einen Kundenauftrag vom Posteingang bis zur Übergabe. Mit Work, deinen Programmen und deinen eigenen Entscheidungen.
+Du begleitest einen Kundenauftrag vom Posteingang bis zur Übergabe. Mit ChatGPT, deinen Programmen und deinen eigenen Entscheidungen.
 
-Du arbeitest in deiner eigenen Work-Umgebung. Diese Website erklärt den Ablauf und stellt Übungsdateien bereit. Sie liest keine Mails, verbindet keine Konten und führt keine KI-Aufträge aus.
+Du arbeitest in deiner eigenen ChatGPT-Umgebung. Diese Website erklärt den Ablauf und stellt Übungsdateien bereit. Sie liest keine Mails, verbindet keine Konten und führt keine KI-Aufträge aus.
 
 Empfehlung: zwei Tage, jeweils 09:00–16:00 Uhr. Die Zeiten 08:30–16:00 an den Stationen gehören zum fiktiven Arbeitstag, nicht zum Seminarplan.
 
@@ -10,7 +10,7 @@ Empfehlung: zwei Tage, jeweils 09:00–16:00 Uhr. Die Zeiten 08:30–16:00 an de
 Am Ende kannst du eine Arbeitsaufgabe klar beschreiben, passende Quellen mitgeben, Ergebnisse prüfen und den nächsten Schritt selbst steuern.
 
 ## Ablauf pro Station
-8 Minuten Prinzip verstehen; etwa 12 Minuten Vorführung in der echten Work-Umgebung; eigene Aufgabe; Ergebnis zeigen und prüfen. Die Abschlussstation arbeitet mit mehr Eigenzeit.
+8 Minuten Prinzip verstehen; etwa 12 Minuten Vorführung in der echten ChatGPT-Umgebung; eigene Aufgabe; Ergebnis zeigen und prüfen. Die Abschlussstation arbeitet mit mehr Eigenzeit.
 
 ## Tag 1 – Verstehen & vorbereiten
 - 09:00 · Ankommen, Technik prüfen, Ziel klären · 15 min
@@ -40,14 +40,14 @@ Am Ende kannst du eine Arbeitsaufgabe klar beschreiben, passende Quellen mitgebe
 Mara Sommer möchte zwei Büroräume umbauen lassen. Bevor du antwortest, brauchst du einen Überblick: Was ist gewünscht? Welche Angaben fehlen? Was ist jetzt deine Aufgabe?
 
 **Das lernen wir:**
-- Chat und Work unterscheiden; eine Aufgabe starten und fortsetzen
+- ChatGPT öffnen; Modell wählen; eine Aufgabe starten und fortsetzen
 - Outlook-Verbindung und richtiges Konto erkennen
 - Mails nach Zeitraum, Absender oder Betreff finden und auswählen
 - Mail erklären lassen; Anhänge erkennen und gezielt lesen
 - Mit einer Nachfrage korrigieren, ohne neu anzufangen
 
 **Das zeigst du live in deiner Umgebung:**
-1. Öffne Work. Zeige den Wechsel zu Work und das Eingabefeld. Erkläre: Hier beschreiben wir eine Aufgabe. Unter Plugins prüfen wir, ob Outlook verbunden ist.
+1. Öffne ChatGPT und wähle dein Modell. Öffne die ChatGPT-Desktop-App. Für die Aufgaben verwenden wir den Bereich, der in der App als Work beschriftet ist. Klicke auf den Modellnamen neben dem Eingabefeld. Unsere Empfehlung für das Seminar: GPT-6 Astra, Denkaufwand Low (niedrig), sofern verfügbar. Ein Modell ist die KI, die deinen Auftrag bearbeitet. Low ist die Denkstufe, kein anderes Modell. Wenn Astra fehlt, lass Kerim die passende verfügbare Alternative zeigen. Prüfe anschließend unter Plugins die Outlook-Verbindung.
 2. Finde die heutige Mail. Lass Absender und Betreff anzeigen. Wähle dann selbst eine konkrete Mail aus. Für die Vorführung nutzt du eine vorbereitete Testmail oder die Lindenhof-Datei.
    Auftrag: Zeige mir die Mails, die ich heute bekommen habe, mit Absender und Betreff. Ich wähle danach eine aus.
 3. Lass sie dir erklären. Öffne die gewählte Mail und lass dir den Wunsch des Absenders erklären. Ein Anhang wird nur dann gelesen, wenn er für die Aufgabe relevant ist.
@@ -72,14 +72,14 @@ Zur Kundenanfrage kommen später Recherche, Tabellen und Antworten hinzu. Wenn a
 - Projekt anlegen und sinnvoll benennen
 - Dateien als Projektquellen hinzufügen
 - Projekthinweise speichern und später ändern
-- Work-Aufgabe im richtigen Projekt starten und wiederfinden
+- ChatGPT-Aufgabe im richtigen Projekt starten und wiederfinden
 
 **Das zeigst du live in deiner Umgebung:**
 1. Lege die Mappe an. Öffne die Seitenleiste und wähle Neues Projekt. Nenne es „Lindenhof · Umbau“. In der englischen Originalabbildung heißt der Eintrag New project.
 2. Füge die Kundenanfrage hinzu. Öffne die Dateien beziehungsweise Quellen des Projekts. Füge 03-lindenhof.txt hinzu. Zeige den Dateinamen anschließend in der Projektübersicht.
 3. Speichere gemeinsame Vorgaben. Öffne das Menü mit den drei Punkten und die Projekteinstellungen. Hinterlege die folgende Vorgabe. Erkläre, dass sie für diesen Auftrag gilt.
    Auftrag: Wir bearbeiten Lindenhof. Schreibe Kundenantworten freundlich und kurz, mit „Sie“. Erfinde keine Maße, Preise oder Termine. Kennzeichne fehlende Angaben als „noch offen“.
-4. Starte Arbeit in der Mappe. Wähle im Projekt Work. Prüfe den Projektnamen und starte eine Zusammenfassung. Öffne danach kurz eine andere Ansicht und finde die Aufgabe im Projekt wieder.
+4. Starte Arbeit in der Mappe. Wähle im Projekt ChatGPT. Prüfe den Projektnamen und starte eine Zusammenfassung. Öffne danach kurz eine andere Ansicht und finde die Aufgabe im Projekt wieder.
    Auftrag: Fasse die Lindenhof-Unterlagen zusammen. Trenne bestätigte Angaben, widersprüchliche Angaben und offene Fragen. Nenne die jeweilige Quelle.
 
 **Eigene Aufgabe:** Lege dein eigenes Projekt „Lindenhof · Umbau“ an. Füge die Anfrage hinzu, speichere eine Kommunikationsvorgabe und starte darin eine Zusammenfassung.
@@ -89,7 +89,7 @@ Zur Kundenanfrage kommen später Recherche, Tabellen und Antworten hinzu. Wenn a
 - Meine Aufgabe ist dem Projekt Lindenhof zugeordnet.
 - Die Zusammenfassung unterscheidet die alte Notiz von der aktuellen Anfrage.
 
-**Für den nächsten Schritt:** Alle folgenden Work-Aufgaben gehören in dieses Projekt.
+**Für den nächsten Schritt:** Alle folgenden ChatGPT-Aufgaben gehören in dieses Projekt.
 
 ## 3. Die richtige Datei. Am richtigen Ort.
 Die Anfrage liegt im Projekt. Für die weitere Arbeit brauchst du eine kurze, bearbeitbare Übersicht – und einen Ordner, in dem du Ergebnisse wiederfindest.
@@ -136,7 +136,7 @@ Für Lindenhof fehlen noch technische Angaben. Du kannst vor der Besichtigung re
 - Recherche als Datei sichern und dem Projekt hinzufügen
 
 **Das zeigst du live in deiner Umgebung:**
-1. Stelle eine begrenzte Recherchefrage. Lass Work bei Hersteller- oder Händlerquellen nachsehen. Halte die Aufgabe klein und fordere Links.
+1. Stelle eine begrenzte Recherchefrage. Lass ChatGPT bei Hersteller- oder Händlerquellen nachsehen. Halte die Aufgabe klein und fordere Links.
    Auftrag: Recherchiere anhand von zwei Hersteller- oder Händlerquellen, welche Angaben für die Auswahl einer Innentür benötigt werden. Erstelle Fragen für die Besichtigung bei Lindenhof. Zeige die Quellen. Triff keine technische Eignungsentscheidung.
 2. Öffne die Quellen. Öffne mit der Gruppe einen Originaltreffer. Suche die konkrete Passage. Prüfe, ob die Aussage tatsächlich dort steht.
    Auftrag: Zeige mir bei der ersten Quelle die Stelle zu den benötigten Maßen. Wenn sie dort nicht steht, korrigiere die Zusammenfassung.
@@ -145,7 +145,7 @@ Für Lindenhof fehlen noch technische Angaben. Du kannst vor der Besichtigung re
 4. Sichere nur die relevanten Ergebnisse. Speichere eine kurze Liste mit Quellenlinks und offenen Fragen im Projekt.
    Auftrag: Erstelle eine kurze Recherche-Notiz für Lindenhof mit den zwei Quellenlinks, Abrufdatum und offenen Fragen. Keine unbelegten Empfehlungen.
 
-**Eigene Aufgabe:** Finde mit Work zwei geeignete Originalquellen und leite daraus Fragen für die Besichtigung ab. Prüfe mindestens eine Aussage selbst auf der Website.
+**Eigene Aufgabe:** Finde mit ChatGPT zwei geeignete Originalquellen und leite daraus Fragen für die Besichtigung ab. Prüfe mindestens eine Aussage selbst auf der Website.
 
 **Ergebnis prüfen:**
 - Ich kann die Originalquelle zu einer Aussage öffnen.
@@ -213,17 +213,17 @@ Du hast Kundenangaben, offene Fragen und recherchierte Informationen gesammelt. 
 **Für den nächsten Schritt:** Die geprüfte PDF wird der Anhang für unseren Antwortentwurf.
 
 ## 7. Eine Antwort, die zu dir passt.
-Jetzt kannst du Mara sinnvoll antworten. Du weißt, welche Angaben fehlen, und hast eine Übersicht vorbereitet. Du formulierst die Antwort zuerst in Work, überarbeitest sie und speicherst die fertige Fassung als Outlook-Entwurf.
+Jetzt kannst du Mara sinnvoll antworten. Du weißt, welche Angaben fehlen, und hast eine Übersicht vorbereitet. Du formulierst die Antwort zuerst in ChatGPT, überarbeitest sie und speicherst die fertige Fassung als Outlook-Entwurf.
 
 **Das lernen wir:**
 - Mit Quellen einen passenden Antworttext entwerfen
-- Ton, Länge und Inhalt in derselben Work-Aufgabe ändern
+- Ton, Länge und Inhalt in derselben ChatGPT-Aufgabe ändern
 - Antwort oder neue Mail als Outlook-Entwurf speichern
 - Anhang gezielt hinzufügen und im Entwurf öffnen
 - An, CC, Antwort-an-alle, Weiterleiten und Versandfolgen unterscheiden
 
 **Das zeigst du live in deiner Umgebung:**
-1. Formuliere die Antwort. Kehre zur Anfrage zurück. Gib Work die bestätigten Informationen und das gewünschte Ziel.
+1. Formuliere die Antwort. Kehre zur Anfrage zurück. Gib ChatGPT die bestätigten Informationen und das gewünschte Ziel.
    Auftrag: Entwirf eine freundliche Antwort an Mara Sommer. Bitte um Türmaße, Zugangsinformationen und zwei mögliche Besichtigungstermine. Sage noch keinen Preis oder Ausführungstermin zu. Zeige den Text zuerst hier.
 2. Lass ihn nach deinem Geschmack ändern. Ändere Länge oder Ton mit einer Folgefrage. Zeige vor und nach der Änderung.
    Auftrag: Kürzer und etwas lockerer, aber weiter mit „Sie“. Höchstens sechs Sätze. Keine neuen Zusagen.
@@ -327,7 +327,7 @@ Zum Schluss kommt eine neue Nachricht im selben Projekt: Für die fiktive Montag
 Der Kern behandelt die für diesen Arbeitstag benötigten Funktionen. Kontakteverwaltung, Massenaktionen, öffentliche Freigabelinks und Organisationsadministration gehören nicht zum Anfängerprogramm. Vor dem Seminar prüft ITP die tatsächlich verfügbaren Konten, Plugins, Schreibrechte und Excel-/Planungsfunktionen.
 
 ## Belege zum Produktstand
-- Work, Projektkontext und Kontoabhängigkeit: https://help.openai.com/en/articles/20001275/
+- ChatGPT, Projektkontext und Kontoabhängigkeit: https://help.openai.com/en/articles/20001275/
 - Dateien erstellen und bearbeiten: https://help.openai.com/en/articles/20001278-creating-and-editing-documents-spreadsheets-and-presentations-with-chatgpt-work
 - Projekte: https://help.openai.com/en/articles/10169521-projects-in-chatgpt
 - Mail-, Kalender- und OneDrive-Aktionen: verfügbare Outlook-Email-, Outlook-Calendar- und SharePoint/OneDrive-Plugin-Schnittstellen, geprüft am 23.09.2026. Verfügbarkeit kann je Konto abweichen.
