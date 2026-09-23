@@ -6,7 +6,7 @@
     "Bessere Antworten bekommen",
     "Projekte verstehen",
     "Plugins verstehen",
-    "Mails & Dateien nutzen",
+    "Mails verstehen & beantworten",
     "Internet & Browser nutzen",
     "Excel einfacher nutzen",
     "Dokumente ausfüllen",
@@ -40,7 +40,7 @@
       "chapter": 0,
       "chapterName": "So läuft es ab",
       "paragraphs": [
-        "Wir arbeiten mit erfundenen Daten aus einem Handwerksbetrieb. Eigene Kundenunterlagen brauchst du nicht."
+        "Wir starten mit erfundenen Daten aus einem Handwerksbetrieb. Bei der Mail-Übung kannst du eine passende eigene Mail von heute verwenden oder unser fiktives Beispiel nutzen."
       ]
     },
     {
@@ -632,42 +632,89 @@
       "bonus": ""
     },
     {
-      "name": "Mails & Dateien nutzen",
+      "name": "Mails verstehen & beantworten",
       "app": "outlook",
       "apps": [
         "outlook",
-        "onedrive",
         "chatgpt"
       ],
-      "title": "Aus einer Kundenmail wird eine passende Antwort.",
-      "explain": "Work kann eine Mail zusammenfassen und einen Antwortentwurf vorbereiten. Passende Unterlagen aus OneDrive liefern den Hintergrund.",
-      "example": "Lindenhof möchte ein Angebot.",
-      "benefit": "Du siehst schnell, was der Kunde will und was du noch fragen musst.",
-      "inputTitle": "Die Kundenmail",
+      "title": "Von deiner heutigen Mail zur passenden Antwort.",
+      "explain": "Wähle eine Mail, die du heute bekommen hast. Lass sie dir einfach erklären, eine Antwort formulieren und danach anpassen. Die fertige Fassung speicherst du als Outlook-Entwurf.",
+      "example": "Eine heutige Mail. Eine verständliche Antwort.",
+      "benefit": "Du verstehst, was gebraucht wird, und überarbeitest die Antwort direkt mit Work.",
+      "inputTitle": "Heute im Posteingang",
       "input": [
-        "„Wir möchten zwei Büroräume modernisieren. Können Sie uns ein Angebot erstellen?“",
-        "Die Maße und ein Besichtigungstermin fehlen noch."
+        "Von Mara Sommer · Betreff: Besichtigung Lindenhof",
+        "„Könnten Sie uns sagen, welche Unterlagen Sie vor der Besichtigung benötigen?“"
       ],
-      "prompt": "Entwirf eine kurze Antwort an Lindenhof. Frage nach den fehlenden Maßen und einem Termin zur Besichtigung. Noch nicht versenden.",
+      "prompt": "Zeige mir die Mails, die ich heute bekommen habe, mit Absender und Betreff. Ich wähle danach eine aus.",
       "outputTitle": "Dein Antwortentwurf",
       "output": [
-        "Vielen Dank für Ihre Anfrage. Für ein passendes Angebot benötigen wir noch die Maße und möchten die Räume besichtigen. Welche Termine würden Ihnen dafür passen?"
+        "Danke für Ihre Nachricht. Bitte schicken Sie uns vorab einen Grundriss und Fotos der Räume. Wenn etwas davon fehlt, sagen Sie uns kurz Bescheid."
       ],
-      "check": "Lies Empfänger und Inhalt selbst durch. Erst danach entscheidest du über den Versand.",
-      "task": "Nutze die Lindenhof-Anfrage und schreibe mit Work einen passenden Antwortentwurf. Du musst ihn nicht versenden.",
+      "check": "Öffne den Entwurf in Outlook. Prüfe Empfänger, Inhalt und gegebenenfalls den Anhang. In dieser Übung bleibt die Antwort als Entwurf gespeichert.",
+      "task": "Wähle eine Mail von heute aus deinem eigenen Posteingang. Lass Work sie erklären, eine Antwort formulieren und anschließend überarbeiten. Speichere die fertige Fassung als Outlook-Entwurf.",
       "success": [
-        "Die Antwort geht auf die Anfrage ein.",
-        "Fehlende Informationen werden erfragt."
+        "Du kannst sagen, was der Absender von dir braucht.",
+        "Der überarbeitete Entwurf ist in Outlook gespeichert und von dir geprüft."
       ],
       "file": "03-lindenhof.txt",
-      "kind": "mail",
+      "kind": "mail-workflow",
+      "taskSteps": [
+        "Finden: Lass dir heutige Mails zeigen und wähle eine aus.",
+        "Verstehen: Was will der Absender? Was muss ich tun?",
+        "Entwerfen: Gib Work die nötigen Antwortinformationen und lass einen Antworttext formulieren.",
+        "Anpassen: Lass den Text kürzen oder den Ton ändern. Speichere ihn dann als Outlook-Entwurf und öffne ihn dort."
+      ],
+      "taskNote": "Wähle eine Mail, die du im Workshop verwenden darfst. Falls heute keine passende dabei ist, nutze die fiktive Lindenhof-Anfrage.",
+      "attachment": "Optional: Lade eine passende Übungsdatei unter 3 MB in Work hoch. Bitte: „Hänge diese Datei an denselben Antwortentwurf an. Noch nicht versenden.“ Prüfe den Anhang anschließend in Outlook.",
+      "mailStages": [
+        {
+          "label": "Mail auswählen",
+          "heading": "Such dir eine heutige Mail aus.",
+          "prompt": "Zeige mir die Mails, die ich heute bekommen habe, mit Absender und Betreff. Ich wähle danach eine aus.",
+          "resultTitle": "Du wählst diese Mail",
+          "result": [
+            "Mara Sommer · Besichtigung Lindenhof",
+            "„Welche Unterlagen benötigen Sie vor der Besichtigung?“"
+          ]
+        },
+        {
+          "label": "Einfach erklären",
+          "heading": "Was will der Absender von dir?",
+          "prompt": "Erkläre mir die Mail von Mara Sommer zur Besichtigung in einfachen Worten. Was möchte sie von mir, und was muss ich als Nächstes tun?",
+          "resultTitle": "Einfach gesagt",
+          "result": [
+            "Mara möchte wissen, welche Unterlagen sie vorbereiten soll.",
+            "Du musst ihr sagen, welche Informationen du vor der Besichtigung brauchst."
+          ]
+        },
+        {
+          "label": "Antwort entwerfen",
+          "heading": "Lass eine erste Antwort formulieren.",
+          "prompt": "Wir brauchen vorab einen Grundriss und Fotos der Räume. Formuliere dazu eine freundliche Antwort hier in Work. Noch nicht versenden.",
+          "resultTitle": "Erster Antwortvorschlag in Work",
+          "result": [
+            "Vielen Dank für Ihre Nachricht. Zur Vorbereitung der Besichtigung bitten wir Sie, uns einen Grundriss sowie Fotos der betreffenden Räume zu schicken. Falls Ihnen diese Unterlagen nicht vollständig vorliegen, geben Sie uns bitte kurz Bescheid."
+          ]
+        },
+        {
+          "label": "Entwurf anpassen",
+          "heading": "Passe die Antwort an und speichere sie.",
+          "prompt": "Mach die Antwort kürzer und etwas lockerer, aber bleib bei „Sie“. Speichere die überarbeitete Fassung als Antwortentwurf in Outlook. Noch nicht versenden.",
+          "resultTitle": "Fertige Fassung als Outlook-Entwurf",
+          "result": [
+            "Danke für Ihre Nachricht. Bitte schicken Sie uns vorab einen Grundriss und Fotos der Räume. Wenn etwas davon fehlt, sagen Sie uns kurz Bescheid."
+          ]
+        }
+      ],
       "id": 16,
       "type": "lesson",
       "chapter": 5,
-      "chapterName": "Mails & Dateien nutzen",
-      "lead": "Aus einer Kundenmail wird eine passende Antwort.",
+      "chapterName": "Mails verstehen & beantworten",
+      "lead": "Von deiner heutigen Mail zur passenden Antwort.",
       "paragraphs": [
-        "Work kann eine Mail zusammenfassen und einen Antwortentwurf vorbereiten. Passende Unterlagen aus OneDrive liefern den Hintergrund."
+        "Wähle eine Mail, die du heute bekommen hast. Lass sie dir einfach erklären, eine Antwort formulieren und danach anpassen. Die fertige Fassung speicherst du als Outlook-Entwurf."
       ],
       "steps": [
         "Deine Unterlagen",
@@ -675,50 +722,97 @@
         "Das Ergebnis",
         "Kurz prüfen"
       ],
-      "goal": "Nutze die Lindenhof-Anfrage und schreibe mit Work einen passenden Antwortentwurf. Du musst ihn nicht versenden.",
-      "criteria": "Die Antwort geht auf die Anfrage ein.; Fehlende Informationen werden erfragt.",
+      "goal": "Wähle eine Mail von heute aus deinem eigenen Posteingang. Lass Work sie erklären, eine Antwort formulieren und anschließend überarbeiten. Speichere die fertige Fassung als Outlook-Entwurf.",
+      "criteria": "Du kannst sagen, was der Absender von dir braucht.; Der überarbeitete Entwurf ist in Outlook gespeichert und von dir geprüft.",
       "hints": [
-        "Entwirf eine kurze Antwort an Lindenhof. Frage nach den fehlenden Maßen und einem Termin zur Besichtigung. Noch nicht versenden."
+        "Zeige mir die Mails, die ich heute bekommen habe, mit Absender und Betreff. Ich wähle danach eine aus."
       ],
       "bonus": ""
     },
     {
-      "name": "Mails & Dateien nutzen",
+      "name": "Mails verstehen & beantworten",
       "app": "outlook",
       "apps": [
         "outlook",
-        "onedrive",
         "chatgpt"
       ],
-      "title": "Lindenhof möchte ein Angebot.",
-      "explain": "Work kann eine Mail zusammenfassen und einen Antwortentwurf vorbereiten. Passende Unterlagen aus OneDrive liefern den Hintergrund.",
-      "example": "Lindenhof möchte ein Angebot.",
-      "benefit": "Du siehst schnell, was der Kunde will und was du noch fragen musst.",
-      "inputTitle": "Die Kundenmail",
+      "title": "Eine heutige Mail. Eine verständliche Antwort.",
+      "explain": "Wähle eine Mail, die du heute bekommen hast. Lass sie dir einfach erklären, eine Antwort formulieren und danach anpassen. Die fertige Fassung speicherst du als Outlook-Entwurf.",
+      "example": "Eine heutige Mail. Eine verständliche Antwort.",
+      "benefit": "Du verstehst, was gebraucht wird, und überarbeitest die Antwort direkt mit Work.",
+      "inputTitle": "Heute im Posteingang",
       "input": [
-        "„Wir möchten zwei Büroräume modernisieren. Können Sie uns ein Angebot erstellen?“",
-        "Die Maße und ein Besichtigungstermin fehlen noch."
+        "Von Mara Sommer · Betreff: Besichtigung Lindenhof",
+        "„Könnten Sie uns sagen, welche Unterlagen Sie vor der Besichtigung benötigen?“"
       ],
-      "prompt": "Entwirf eine kurze Antwort an Lindenhof. Frage nach den fehlenden Maßen und einem Termin zur Besichtigung. Noch nicht versenden.",
+      "prompt": "Zeige mir die Mails, die ich heute bekommen habe, mit Absender und Betreff. Ich wähle danach eine aus.",
       "outputTitle": "Dein Antwortentwurf",
       "output": [
-        "Vielen Dank für Ihre Anfrage. Für ein passendes Angebot benötigen wir noch die Maße und möchten die Räume besichtigen. Welche Termine würden Ihnen dafür passen?"
+        "Danke für Ihre Nachricht. Bitte schicken Sie uns vorab einen Grundriss und Fotos der Räume. Wenn etwas davon fehlt, sagen Sie uns kurz Bescheid."
       ],
-      "check": "Lies Empfänger und Inhalt selbst durch. Erst danach entscheidest du über den Versand.",
-      "task": "Nutze die Lindenhof-Anfrage und schreibe mit Work einen passenden Antwortentwurf. Du musst ihn nicht versenden.",
+      "check": "Öffne den Entwurf in Outlook. Prüfe Empfänger, Inhalt und gegebenenfalls den Anhang. In dieser Übung bleibt die Antwort als Entwurf gespeichert.",
+      "task": "Wähle eine Mail von heute aus deinem eigenen Posteingang. Lass Work sie erklären, eine Antwort formulieren und anschließend überarbeiten. Speichere die fertige Fassung als Outlook-Entwurf.",
       "success": [
-        "Die Antwort geht auf die Anfrage ein.",
-        "Fehlende Informationen werden erfragt."
+        "Du kannst sagen, was der Absender von dir braucht.",
+        "Der überarbeitete Entwurf ist in Outlook gespeichert und von dir geprüft."
       ],
       "file": "03-lindenhof.txt",
-      "kind": "mail",
+      "kind": "mail-workflow",
+      "taskSteps": [
+        "Finden: Lass dir heutige Mails zeigen und wähle eine aus.",
+        "Verstehen: Was will der Absender? Was muss ich tun?",
+        "Entwerfen: Gib Work die nötigen Antwortinformationen und lass einen Antworttext formulieren.",
+        "Anpassen: Lass den Text kürzen oder den Ton ändern. Speichere ihn dann als Outlook-Entwurf und öffne ihn dort."
+      ],
+      "taskNote": "Wähle eine Mail, die du im Workshop verwenden darfst. Falls heute keine passende dabei ist, nutze die fiktive Lindenhof-Anfrage.",
+      "attachment": "Optional: Lade eine passende Übungsdatei unter 3 MB in Work hoch. Bitte: „Hänge diese Datei an denselben Antwortentwurf an. Noch nicht versenden.“ Prüfe den Anhang anschließend in Outlook.",
+      "mailStages": [
+        {
+          "label": "Mail auswählen",
+          "heading": "Such dir eine heutige Mail aus.",
+          "prompt": "Zeige mir die Mails, die ich heute bekommen habe, mit Absender und Betreff. Ich wähle danach eine aus.",
+          "resultTitle": "Du wählst diese Mail",
+          "result": [
+            "Mara Sommer · Besichtigung Lindenhof",
+            "„Welche Unterlagen benötigen Sie vor der Besichtigung?“"
+          ]
+        },
+        {
+          "label": "Einfach erklären",
+          "heading": "Was will der Absender von dir?",
+          "prompt": "Erkläre mir die Mail von Mara Sommer zur Besichtigung in einfachen Worten. Was möchte sie von mir, und was muss ich als Nächstes tun?",
+          "resultTitle": "Einfach gesagt",
+          "result": [
+            "Mara möchte wissen, welche Unterlagen sie vorbereiten soll.",
+            "Du musst ihr sagen, welche Informationen du vor der Besichtigung brauchst."
+          ]
+        },
+        {
+          "label": "Antwort entwerfen",
+          "heading": "Lass eine erste Antwort formulieren.",
+          "prompt": "Wir brauchen vorab einen Grundriss und Fotos der Räume. Formuliere dazu eine freundliche Antwort hier in Work. Noch nicht versenden.",
+          "resultTitle": "Erster Antwortvorschlag in Work",
+          "result": [
+            "Vielen Dank für Ihre Nachricht. Zur Vorbereitung der Besichtigung bitten wir Sie, uns einen Grundriss sowie Fotos der betreffenden Räume zu schicken. Falls Ihnen diese Unterlagen nicht vollständig vorliegen, geben Sie uns bitte kurz Bescheid."
+          ]
+        },
+        {
+          "label": "Entwurf anpassen",
+          "heading": "Passe die Antwort an und speichere sie.",
+          "prompt": "Mach die Antwort kürzer und etwas lockerer, aber bleib bei „Sie“. Speichere die überarbeitete Fassung als Antwortentwurf in Outlook. Noch nicht versenden.",
+          "resultTitle": "Fertige Fassung als Outlook-Entwurf",
+          "result": [
+            "Danke für Ihre Nachricht. Bitte schicken Sie uns vorab einen Grundriss und Fotos der Räume. Wenn etwas davon fehlt, sagen Sie uns kurz Bescheid."
+          ]
+        }
+      ],
       "id": 17,
       "type": "demo",
       "chapter": 5,
-      "chapterName": "Mails & Dateien nutzen",
-      "lead": "Lindenhof möchte ein Angebot.",
+      "chapterName": "Mails verstehen & beantworten",
+      "lead": "Eine heutige Mail. Eine verständliche Antwort.",
       "paragraphs": [
-        "Work kann eine Mail zusammenfassen und einen Antwortentwurf vorbereiten. Passende Unterlagen aus OneDrive liefern den Hintergrund."
+        "Wähle eine Mail, die du heute bekommen hast. Lass sie dir einfach erklären, eine Antwort formulieren und danach anpassen. Die fertige Fassung speicherst du als Outlook-Entwurf."
       ],
       "steps": [
         "Deine Unterlagen",
@@ -726,50 +820,97 @@
         "Das Ergebnis",
         "Kurz prüfen"
       ],
-      "goal": "Nutze die Lindenhof-Anfrage und schreibe mit Work einen passenden Antwortentwurf. Du musst ihn nicht versenden.",
-      "criteria": "Die Antwort geht auf die Anfrage ein.; Fehlende Informationen werden erfragt.",
+      "goal": "Wähle eine Mail von heute aus deinem eigenen Posteingang. Lass Work sie erklären, eine Antwort formulieren und anschließend überarbeiten. Speichere die fertige Fassung als Outlook-Entwurf.",
+      "criteria": "Du kannst sagen, was der Absender von dir braucht.; Der überarbeitete Entwurf ist in Outlook gespeichert und von dir geprüft.",
       "hints": [
-        "Entwirf eine kurze Antwort an Lindenhof. Frage nach den fehlenden Maßen und einem Termin zur Besichtigung. Noch nicht versenden."
+        "Zeige mir die Mails, die ich heute bekommen habe, mit Absender und Betreff. Ich wähle danach eine aus."
       ],
       "bonus": ""
     },
     {
-      "name": "Mails & Dateien nutzen",
+      "name": "Mails verstehen & beantworten",
       "app": "outlook",
       "apps": [
         "outlook",
-        "onedrive",
         "chatgpt"
       ],
       "title": "Jetzt probierst du es.",
-      "explain": "Work kann eine Mail zusammenfassen und einen Antwortentwurf vorbereiten. Passende Unterlagen aus OneDrive liefern den Hintergrund.",
-      "example": "Lindenhof möchte ein Angebot.",
-      "benefit": "Du siehst schnell, was der Kunde will und was du noch fragen musst.",
-      "inputTitle": "Die Kundenmail",
+      "explain": "Wähle eine Mail, die du heute bekommen hast. Lass sie dir einfach erklären, eine Antwort formulieren und danach anpassen. Die fertige Fassung speicherst du als Outlook-Entwurf.",
+      "example": "Eine heutige Mail. Eine verständliche Antwort.",
+      "benefit": "Du verstehst, was gebraucht wird, und überarbeitest die Antwort direkt mit Work.",
+      "inputTitle": "Heute im Posteingang",
       "input": [
-        "„Wir möchten zwei Büroräume modernisieren. Können Sie uns ein Angebot erstellen?“",
-        "Die Maße und ein Besichtigungstermin fehlen noch."
+        "Von Mara Sommer · Betreff: Besichtigung Lindenhof",
+        "„Könnten Sie uns sagen, welche Unterlagen Sie vor der Besichtigung benötigen?“"
       ],
-      "prompt": "Entwirf eine kurze Antwort an Lindenhof. Frage nach den fehlenden Maßen und einem Termin zur Besichtigung. Noch nicht versenden.",
+      "prompt": "Zeige mir die Mails, die ich heute bekommen habe, mit Absender und Betreff. Ich wähle danach eine aus.",
       "outputTitle": "Dein Antwortentwurf",
       "output": [
-        "Vielen Dank für Ihre Anfrage. Für ein passendes Angebot benötigen wir noch die Maße und möchten die Räume besichtigen. Welche Termine würden Ihnen dafür passen?"
+        "Danke für Ihre Nachricht. Bitte schicken Sie uns vorab einen Grundriss und Fotos der Räume. Wenn etwas davon fehlt, sagen Sie uns kurz Bescheid."
       ],
-      "check": "Lies Empfänger und Inhalt selbst durch. Erst danach entscheidest du über den Versand.",
-      "task": "Nutze die Lindenhof-Anfrage und schreibe mit Work einen passenden Antwortentwurf. Du musst ihn nicht versenden.",
+      "check": "Öffne den Entwurf in Outlook. Prüfe Empfänger, Inhalt und gegebenenfalls den Anhang. In dieser Übung bleibt die Antwort als Entwurf gespeichert.",
+      "task": "Wähle eine Mail von heute aus deinem eigenen Posteingang. Lass Work sie erklären, eine Antwort formulieren und anschließend überarbeiten. Speichere die fertige Fassung als Outlook-Entwurf.",
       "success": [
-        "Die Antwort geht auf die Anfrage ein.",
-        "Fehlende Informationen werden erfragt."
+        "Du kannst sagen, was der Absender von dir braucht.",
+        "Der überarbeitete Entwurf ist in Outlook gespeichert und von dir geprüft."
       ],
       "file": "03-lindenhof.txt",
-      "kind": "mail",
+      "kind": "mail-workflow",
+      "taskSteps": [
+        "Finden: Lass dir heutige Mails zeigen und wähle eine aus.",
+        "Verstehen: Was will der Absender? Was muss ich tun?",
+        "Entwerfen: Gib Work die nötigen Antwortinformationen und lass einen Antworttext formulieren.",
+        "Anpassen: Lass den Text kürzen oder den Ton ändern. Speichere ihn dann als Outlook-Entwurf und öffne ihn dort."
+      ],
+      "taskNote": "Wähle eine Mail, die du im Workshop verwenden darfst. Falls heute keine passende dabei ist, nutze die fiktive Lindenhof-Anfrage.",
+      "attachment": "Optional: Lade eine passende Übungsdatei unter 3 MB in Work hoch. Bitte: „Hänge diese Datei an denselben Antwortentwurf an. Noch nicht versenden.“ Prüfe den Anhang anschließend in Outlook.",
+      "mailStages": [
+        {
+          "label": "Mail auswählen",
+          "heading": "Such dir eine heutige Mail aus.",
+          "prompt": "Zeige mir die Mails, die ich heute bekommen habe, mit Absender und Betreff. Ich wähle danach eine aus.",
+          "resultTitle": "Du wählst diese Mail",
+          "result": [
+            "Mara Sommer · Besichtigung Lindenhof",
+            "„Welche Unterlagen benötigen Sie vor der Besichtigung?“"
+          ]
+        },
+        {
+          "label": "Einfach erklären",
+          "heading": "Was will der Absender von dir?",
+          "prompt": "Erkläre mir die Mail von Mara Sommer zur Besichtigung in einfachen Worten. Was möchte sie von mir, und was muss ich als Nächstes tun?",
+          "resultTitle": "Einfach gesagt",
+          "result": [
+            "Mara möchte wissen, welche Unterlagen sie vorbereiten soll.",
+            "Du musst ihr sagen, welche Informationen du vor der Besichtigung brauchst."
+          ]
+        },
+        {
+          "label": "Antwort entwerfen",
+          "heading": "Lass eine erste Antwort formulieren.",
+          "prompt": "Wir brauchen vorab einen Grundriss und Fotos der Räume. Formuliere dazu eine freundliche Antwort hier in Work. Noch nicht versenden.",
+          "resultTitle": "Erster Antwortvorschlag in Work",
+          "result": [
+            "Vielen Dank für Ihre Nachricht. Zur Vorbereitung der Besichtigung bitten wir Sie, uns einen Grundriss sowie Fotos der betreffenden Räume zu schicken. Falls Ihnen diese Unterlagen nicht vollständig vorliegen, geben Sie uns bitte kurz Bescheid."
+          ]
+        },
+        {
+          "label": "Entwurf anpassen",
+          "heading": "Passe die Antwort an und speichere sie.",
+          "prompt": "Mach die Antwort kürzer und etwas lockerer, aber bleib bei „Sie“. Speichere die überarbeitete Fassung als Antwortentwurf in Outlook. Noch nicht versenden.",
+          "resultTitle": "Fertige Fassung als Outlook-Entwurf",
+          "result": [
+            "Danke für Ihre Nachricht. Bitte schicken Sie uns vorab einen Grundriss und Fotos der Räume. Wenn etwas davon fehlt, sagen Sie uns kurz Bescheid."
+          ]
+        }
+      ],
       "id": 18,
       "type": "challenge",
       "chapter": 5,
-      "chapterName": "Mails & Dateien nutzen",
-      "lead": "Nutze die Lindenhof-Anfrage und schreibe mit Work einen passenden Antwortentwurf. Du musst ihn nicht versenden.",
+      "chapterName": "Mails verstehen & beantworten",
+      "lead": "Wähle eine Mail von heute aus deinem eigenen Posteingang. Lass Work sie erklären, eine Antwort formulieren und anschließend überarbeiten. Speichere die fertige Fassung als Outlook-Entwurf.",
       "paragraphs": [
-        "Work kann eine Mail zusammenfassen und einen Antwortentwurf vorbereiten. Passende Unterlagen aus OneDrive liefern den Hintergrund."
+        "Wähle eine Mail, die du heute bekommen hast. Lass sie dir einfach erklären, eine Antwort formulieren und danach anpassen. Die fertige Fassung speicherst du als Outlook-Entwurf."
       ],
       "steps": [
         "Deine Unterlagen",
@@ -777,10 +918,10 @@
         "Das Ergebnis",
         "Kurz prüfen"
       ],
-      "goal": "Nutze die Lindenhof-Anfrage und schreibe mit Work einen passenden Antwortentwurf. Du musst ihn nicht versenden.",
-      "criteria": "Die Antwort geht auf die Anfrage ein.; Fehlende Informationen werden erfragt.",
+      "goal": "Wähle eine Mail von heute aus deinem eigenen Posteingang. Lass Work sie erklären, eine Antwort formulieren und anschließend überarbeiten. Speichere die fertige Fassung als Outlook-Entwurf.",
+      "criteria": "Du kannst sagen, was der Absender von dir braucht.; Der überarbeitete Entwurf ist in Outlook gespeichert und von dir geprüft.",
       "hints": [
-        "Entwirf eine kurze Antwort an Lindenhof. Frage nach den fehlenden Maßen und einem Termin zur Besichtigung. Noch nicht versenden."
+        "Zeige mir die Mails, die ich heute bekommen habe, mit Absender und Betreff. Ich wähle danach eine aus."
       ],
       "bonus": ""
     },

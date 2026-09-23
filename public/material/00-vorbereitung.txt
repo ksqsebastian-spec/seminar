@@ -27,5 +27,5 @@ FÜR DIE ORGANISATION
 [ ] Die benötigten Kontofreigaben wurden vorab mit ITP geklärt.
 [ ] Die Übungsdateien stehen bereit. Es werden keine echten Kundendaten benötigt.
 
-Du brauchst keine eigenen Kundenunterlagen und keine Vorkenntnisse. Alle Übungsdaten sind fiktiv.
+Du brauchst keine Vorkenntnisse. Die Übungsdateien sind fiktiv. Für die Mail-Übung kannst du eine passende eigene Mail von heute oder das fiktive Ersatzbeispiel verwenden.
 Passwörter nicht in diese Checkliste eintragen.
