@@ -202,7 +202,7 @@
       "story": "Der Inhalt ist das, was in der Datei steht. Das Format bestimmt, wie du damit weiterarbeitest: Word zum Bearbeiten, PDF zum Weitergeben, Excel zum Rechnen. OneDrive ist ein Speicherort. Eine Datei in Work hochzuladen bedeutet nicht automatisch, dass sie auch in OneDrive gespeichert ist.",
       "outcome": "Ein bearbeitbarer Projektbrief und eine PDF-Kopie im eigenen OneDrive-Übungsordner.",
       "skills": [
-        "OneDrive-Verbindung prüfen; Ordner und Dateien suchen und öffnen",
+        "OneDrive-Verbindung prüfen; ChatGPT einen eigenen Ordner anlegen lassen; Dateien suchen und öffnen",
         "Lokale Datei hochladen, Ergebnis herunterladen und wieder öffnen",
         "Inhalt gezielt ändern, Original erhalten und Versionen benennen",
         "TXT als DOCX aufbereiten und DOCX als PDF ausgeben",
@@ -210,10 +210,17 @@
       ],
       "demos": [
         {
-          "title": "Finde die Projektunterlage.",
-          "action": "Lege einen eigenen Übungsordner in OneDrive an und lade die Anfrage hoch. Lass Work die Datei in genau diesem Ordner finden. Zeige Konto, Ordner und Dateinamen.",
-          "prompt": "Suche in meinem OneDrive-Übungsordner „Seminar Lindenhof“ nach 03-lindenhof.txt. Zeige mir die passende Datei, bevor du sie verwendest.",
-          "see": "Die gefundene Datei lässt sich öffnen.",
+          "title": "Lass ChatGPT deinen Ordner anlegen.",
+          "action": "Beauftrage ChatGPT direkt, über die OneDrive-Verbindung einen eigenen Übungsordner anzulegen. Öffne anschließend den angelegten Ordner und prüfe das Konto.",
+          "prompt": "Lege in meinem OneDrive einen neuen Ordner „Seminar Lindenhof“ für meine Seminarübungen an. Falls dieser Name schon vergeben ist, frage mich nach einem anderen Namen. Zeige mir anschließend den Link zum neu angelegten Ordner.",
+          "see": "Der von ChatGPT angelegte Ordner lässt sich in deinem eigenen OneDrive öffnen.",
+          "asset": ""
+        },
+        {
+          "title": "Lass ChatGPT die Anfrage ablegen.",
+          "action": "Lade 03-lindenhof.txt vom Seminarpaket in ChatGPT hoch. Beauftrage ChatGPT, diese Datei im gerade angelegten Ordner zu speichern. Öffne die gespeicherte Datei in OneDrive.",
+          "prompt": "Speichere die hier hochgeladene Datei 03-lindenhof.txt unverändert in dem OneDrive-Ordner, den du gerade für meine Seminarübungen angelegt hast. Überschreibe keine vorhandene Datei. Zeige mir danach den Speicherort und die Datei.",
+          "see": "Die Anfrage liegt im neuen Ordner und lässt sich dort öffnen.",
           "asset": ""
         },
         {
@@ -247,13 +254,15 @@
       ],
       "mission": "Erstelle einen Projektbrief aus der Anfrage, verbessere einen Abschnitt und speichere ihn als Word-Datei und PDF in deinem OneDrive-Übungsordner.",
       "steps": [
-        "Finde oder lade die Lindenhof-Anfrage. Prüfe, ob du die richtige Datei verwendest.",
+        "Lass ChatGPT in deinem OneDrive einen eigenen Übungsordner anlegen. Öffne den Ordner zur Kontrolle.",
+        "Lade die Lindenhof-Anfrage in ChatGPT hoch und lass sie im neuen Ordner speichern. Öffne die Datei dort.",
         "Lass einen Word-Projektbrief erstellen und öffne ihn.",
         "Ändere einen Inhalt gezielt und speichere eine neue Version.",
         "Erzeuge eine PDF-Kopie. Öffne beide Formate und vergleiche sie.",
         "Speichere die Ergebnisse in deinem eigenen OneDrive-Übungsordner."
       ],
       "checks": [
+        "ChatGPT hat meinen eigenen OneDrive-Übungsordner angelegt; ich kann ihn öffnen.",
         "Meine Originalquelle ist erhalten.",
         "Word und PDF lassen sich öffnen und enthalten dieselben bestätigten Angaben.",
         "Ich kann den OneDrive-Speicherort zeigen."

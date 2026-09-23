@@ -95,27 +95,30 @@ Zur Kundenanfrage kommen später Recherche, Tabellen und Antworten hinzu. Wenn a
 Die Anfrage liegt im Projekt. Für die weitere Arbeit brauchst du eine kurze, bearbeitbare Übersicht – und einen Ordner, in dem du Ergebnisse wiederfindest.
 
 **Das lernen wir:**
-- OneDrive-Verbindung prüfen; Ordner und Dateien suchen und öffnen
+- OneDrive-Verbindung prüfen; ChatGPT einen eigenen Ordner anlegen lassen; Dateien suchen und öffnen
 - Lokale Datei hochladen, Ergebnis herunterladen und wieder öffnen
 - Inhalt gezielt ändern, Original erhalten und Versionen benennen
 - TXT als DOCX aufbereiten und DOCX als PDF ausgeben
 - Ergebnis in OneDrive hochladen; umbenennen oder verschieben; Speicherort prüfen
 
 **Das zeigst du live in deiner Umgebung:**
-1. Finde die Projektunterlage. Lege einen eigenen Übungsordner in OneDrive an und lade die Anfrage hoch. Lass Work die Datei in genau diesem Ordner finden. Zeige Konto, Ordner und Dateinamen.
-   Auftrag: Suche in meinem OneDrive-Übungsordner „Seminar Lindenhof“ nach 03-lindenhof.txt. Zeige mir die passende Datei, bevor du sie verwendest.
-2. Mach einen Projektbrief daraus. Nutze die Anfrage als Quelle. Erzeuge eine neue Word-Datei, damit das Original erhalten bleibt.
+1. Lass ChatGPT deinen Ordner anlegen. Beauftrage ChatGPT direkt, über die OneDrive-Verbindung einen eigenen Übungsordner anzulegen. Öffne anschließend den angelegten Ordner und prüfe das Konto.
+   Auftrag: Lege in meinem OneDrive einen neuen Ordner „Seminar Lindenhof“ für meine Seminarübungen an. Falls dieser Name schon vergeben ist, frage mich nach einem anderen Namen. Zeige mir anschließend den Link zum neu angelegten Ordner.
+2. Lass ChatGPT die Anfrage ablegen. Lade 03-lindenhof.txt vom Seminarpaket in ChatGPT hoch. Beauftrage ChatGPT, diese Datei im gerade angelegten Ordner zu speichern. Öffne die gespeicherte Datei in OneDrive.
+   Auftrag: Speichere die hier hochgeladene Datei 03-lindenhof.txt unverändert in dem OneDrive-Ordner, den du gerade für meine Seminarübungen angelegt hast. Überschreibe keine vorhandene Datei. Zeige mir danach den Speicherort und die Datei.
+3. Mach einen Projektbrief daraus. Nutze die Anfrage als Quelle. Erzeuge eine neue Word-Datei, damit das Original erhalten bleibt.
    Auftrag: Erstelle aus der Lindenhof-Anfrage einen einseitigen Projektbrief als DOCX. Gliedere in Auftrag, bestätigte Angaben und offene Fragen. Widersprüche nicht auflösen, sondern benennen. Dateiname: Lindenhof_Projektbrief_v1.docx.
-3. Ändere gezielt den Inhalt. Öffne die Datei und lasse einen Abschnitt ändern. Speichere die neue Fassung unter einem neuen Namen.
+4. Ändere gezielt den Inhalt. Öffne die Datei und lasse einen Abschnitt ändern. Speichere die neue Fassung unter einem neuen Namen.
    Auftrag: Ergänze im Projektbrief den Abschnitt „Vor der Besichtigung klären“ mit Türmaßen, Zugang und Ansprechpartner vor Ort. Erhalte die übrigen Inhalte. Speichere als Lindenhof_Projektbrief_v2.docx.
-4. Wechsle das Format. Bitte zusätzlich um eine PDF-Ausgabe. Öffne beide Dateien. Erkläre: Die Endung umzubenennen wäre noch keine echte Umwandlung.
+5. Wechsle das Format. Bitte zusätzlich um eine PDF-Ausgabe. Öffne beide Dateien. Erkläre: Die Endung umzubenennen wäre noch keine echte Umwandlung.
    Auftrag: Erzeuge zusätzlich eine gut lesbare PDF aus Lindenhof_Projektbrief_v2.docx. Behalte die Word-Datei. Prüfe, dass keine Abschnitte fehlen.
-5. Lege das Ergebnis ab. Lade die fertigen Dateien in den OneDrive-Übungsordner. Das geht über das eingerichtete Plugin oder direkt in OneDrive. Öffne sie dort und zeige den Speicherort.
+6. Lege das Ergebnis ab. Lade die fertigen Dateien in den OneDrive-Übungsordner. Das geht über das eingerichtete Plugin oder direkt in OneDrive. Öffne sie dort und zeige den Speicherort.
    Auftrag: Speichere die fertige Word-Datei und PDF im OneDrive-Übungsordner „Seminar Lindenhof“. Überschreibe keine vorhandene Datei. Zeige mir die gespeicherten Dateien.
 
 **Eigene Aufgabe:** Erstelle einen Projektbrief aus der Anfrage, verbessere einen Abschnitt und speichere ihn als Word-Datei und PDF in deinem OneDrive-Übungsordner.
 
 **Ergebnis prüfen:**
+- ChatGPT hat meinen eigenen OneDrive-Übungsordner angelegt; ich kann ihn öffnen.
 - Meine Originalquelle ist erhalten.
 - Word und PDF lassen sich öffnen und enthalten dieselben bestätigten Angaben.
 - Ich kann den OneDrive-Speicherort zeigen.
