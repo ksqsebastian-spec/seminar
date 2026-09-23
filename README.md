@@ -46,3 +46,7 @@ Die automatisierten Tests prüfen geschützte Assets, Login, Cookies, abgelaufen
 ## Vereinfachte Fassung
 
 `python3 scripts/content.py` erzeugt die Inhalte: zehn Themen mit jeweils Erklärung, animiertem Beispiel und eigener Aufgabe. Die Vorbereitung ist über die Navigation sowie `/vorbereitung.html` erreichbar und druckbar. Einrichtungspartner: ITP. Produktlogos liegen lokal unter `public/logos`, mit Quellenangabe.
+
+## Visuelle Schrittführungen
+
+Die zehn Themen verwenden geführte Bildschirmabläufe aus `scripts/walkthroughs.py`, gerendert durch `public/walkthrough.js`. Die Projekt-Tour hat neun Schritte. Originalabbildungen und nachgestellte Übungsansichten werden unterschieden; Quellen stehen in `public/screens/SOURCES.md`. Die Lernnavigation führt zwischen Erklärung, geführtem Beispiel und eigener Aufgabe.

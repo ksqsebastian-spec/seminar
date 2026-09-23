@@ -9,3 +9,6 @@ src/assets.js
 
 design/*.png
 *.inspect.ndjson
+
+__pycache__/
+*.pyc
