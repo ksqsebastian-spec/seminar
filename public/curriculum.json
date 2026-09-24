@@ -30,14 +30,14 @@
         {
           "title": "Gab es schon Kontakt?",
           "action": "Suche im eigenen Postfach, auch in gesendeten Nachrichten. Lies passende Treffer; eine Namensnennung allein ist noch keine Korrespondenz mit seinem Büro.",
-          "prompt": "Suche in meinen empfangenen und gesendeten Mails nach Hadi Teherani oder Hadi Tehrani. Zeige passende Nachrichten und fasse sie kurz zusammen. Wenn du nichts findest, sage mir, wo du gesucht hast. Erfinde keine Korrespondenz.",
+          "prompt": "Nutze dafür das Outlook-Plugin. Suche in meinen empfangenen und gesendeten Mails nach Hadi Teherani oder Hadi Tehrani. Zeige passende Nachrichten und fasse sie kurz zusammen. Wenn du nichts findest, sage mir, wo du gesucht hast. Erfinde keine Korrespondenz.",
           "see": "Passende Korrespondenz oder ein klarer Hinweis: Im durchsuchten Bereich nichts gefunden.",
           "asset": ""
         },
         {
           "title": "Finde Kerims Kontakt.",
           "action": "Lass gespeicherte Kontakte durchsuchen. Falls der Zugriff fehlt, kann eine frühere Mail helfen. Bei mehreren Treffern wählst du die richtige Person.",
-          "prompt": "Suche Kerim in meinen Outlook-Kontakten. Zeige Name und E-Mail-Adresse. Frage mich bei mehreren Treffern. Wenn du keinen Kontakt findest, sage das. Erfinde keine Adresse.",
+          "prompt": "Nutze dafür das Outlook-Plugin. Suche Kerim in meinen Outlook-Kontakten. Zeige Name und E-Mail-Adresse. Frage mich bei mehreren Treffern. Wenn du keinen Kontakt findest, sage das. Erfinde keine Adresse.",
           "see": "Der richtige Kerim und seine Adresse sind geprüft. Fehlt der Kontakt, fragst du Kerim im Raum.",
           "asset": ""
         },
@@ -58,7 +58,7 @@
         {
           "title": "Speichere den Entwurf mit Anhang.",
           "action": "Verwende den geprüften Kontakt Kerim. Wenn der Kontakt noch offen ist, kläre ihn zuerst. Anhangsfunktion prüfen; falls nötig die PDF direkt in Outlook anhängen.",
-          "prompt": "Speichere den überarbeiteten Text als Outlook-Entwurf an die zuvor geprüfte E-Mail-Adresse von Kerim. Hänge die in dieser Aufgabe erstellte und geprüfte Datei Mission_Hadi.pdf an. Keine anderen Empfänger. Nicht senden.",
+          "prompt": "Nutze dafür das Outlook-Plugin. Speichere den überarbeiteten Text als Outlook-Entwurf an die zuvor geprüfte E-Mail-Adresse von Kerim. Hänge die in dieser Aufgabe erstellte und geprüfte Datei Mission_Hadi.pdf an. Keine anderen Empfänger. Nicht senden.",
           "see": "Der Entwurf ist in Outlook sichtbar, an Kerim adressiert und enthält die PDF.",
           "asset": ""
         },
@@ -317,14 +317,14 @@
         {
           "title": "Lass den Ordner anlegen.",
           "action": "ChatGPT führt die Ordneranlage über das eingerichtete Plugin aus. Öffne danach den Link.",
-          "prompt": "Lege in meinem OneDrive einen neuen Ordner „Seminar Schrank“ an. Falls der Name schon existiert, frage nach einem anderen Namen. Zeige den Ordnerlink.",
+          "prompt": "Nutze dafür das OneDrive-Plugin. Lege in meinem OneDrive einen neuen Ordner „Seminar Schrank“ an. Falls der Name schon existiert, frage nach einem anderen Namen. Zeige den Ordnerlink.",
           "see": "Dein eigener Ordner ist tatsächlich vorhanden.",
           "asset": ""
         },
         {
           "title": "Lade die Quelle hoch.",
           "action": "Lade 03-schrankbrief.txt in ChatGPT hoch. Lass ChatGPT die Datei im neuen Ordner ablegen.",
-          "prompt": "Speichere die hochgeladene Datei 03-schrankbrief.txt unverändert im gerade angelegten OneDrive-Ordner. Zeige mir die gespeicherte Datei.",
+          "prompt": "Nutze dafür das OneDrive-Plugin. Speichere die hochgeladene Datei 03-schrankbrief.txt unverändert im gerade angelegten OneDrive-Ordner. Zeige mir die gespeicherte Datei.",
           "see": "Die Quelle liegt in OneDrive und lässt sich öffnen.",
           "asset": ""
         },
@@ -352,7 +352,7 @@
         {
           "title": "Lass beide Dateien ablegen.",
           "action": "ChatGPT speichert die Ergebnisse im eigenen OneDrive-Ordner.",
-          "prompt": "Speichere die geprüfte Word-Datei und PDF im Ordner „Seminar Schrank“. Nichts überschreiben. Zeige beide Dateien.",
+          "prompt": "Nutze dafür das OneDrive-Plugin. Speichere die geprüfte Word-Datei und PDF im Ordner „Seminar Schrank“. Nichts überschreiben. Zeige beide Dateien.",
           "see": "Du kannst beide Dateien direkt in OneDrive öffnen.",
           "asset": ""
         }
@@ -641,7 +641,7 @@
         {
           "title": "Prüfe und exportiere.",
           "action": "Öffne das Dokument und kontrolliere Zahlen und Layout.",
-          "prompt": "Erzeuge zusätzlich eine PDF. Speichere Word und PDF in meinem OneDrive-Ordner „Seminar Schrank“. Zeige mir beide Dateien.",
+          "prompt": "Erzeuge zusätzlich eine PDF. Nutze zum Speichern das OneDrive-Plugin. Speichere Word und PDF in meinem OneDrive-Ordner „Seminar Schrank“. Zeige mir beide Dateien.",
           "see": "Beide Formate sind gespeichert und lesbar.",
           "asset": ""
         }
@@ -719,14 +719,14 @@
         {
           "title": "Suche drei Teppiche.",
           "action": "Öffne eine neue Aufgabe im Projekt „Schrank für Hadi“. Kopiere den Text in ChatGPT. Prüfe, ob für die Suche Kleinanzeigen verwendet wird.",
-          "prompt": "Nutze Kleinanzeigen: Finde drei schlichte Teppiche für unser fiktives Büro in Hamburg, maximal 200 Euro und ungefähr 200 × 300 cm. Zeige Preis, Maße, Zustand, Ort und Anzeigenlink. Fehlende Angaben bitte offenlassen. Nichts kaufen und niemanden anschreiben.",
+          "prompt": "Nutze dafür das Kleinanzeigen-Plugin. Finde drei schlichte Teppiche für unser fiktives Büro in Hamburg, maximal 200 Euro und ungefähr 200 × 300 cm. Zeige Preis, Maße, Zustand, Ort und Anzeigenlink. Fehlende Angaben bitte offenlassen. Nichts kaufen und niemanden anschreiben.",
           "see": "Drei echte Anzeigen oder ein klarer Hinweis, welche Suchkriterien zu eng sind.",
           "asset": ""
         },
         {
           "title": "Verfeinere deine Auswahl.",
           "action": "Bleibe im selben Gespräch. Wir machen die Auswahl heller und ruhiger. Wenn du andere Farben möchtest, ändere den Prompt.",
-          "prompt": "Suche mit Kleinanzeigen nach helleren, möglichst einfarbigen Alternativen. Budget und Ort bleiben gleich. Zeige bis zu drei passende Anzeigen und begründe kurz deine Auswahl. Nichts kaufen oder anschreiben.",
+          "prompt": "Nutze dafür das Kleinanzeigen-Plugin. Suche nach helleren, möglichst einfarbigen Alternativen. Budget und Ort bleiben gleich. Zeige bis zu drei passende Anzeigen und begründe kurz deine Auswahl. Nichts kaufen oder anschreiben.",
           "see": "Die neue Auswahl berücksichtigt deinen zusätzlichen Wunsch.",
           "asset": ""
         },
@@ -809,28 +809,28 @@
         {
           "title": "Zeige den Weihnachtstag.",
           "action": "Lass den 25. Dezember im eigenen Kalender anzeigen.",
-          "prompt": "Zeige meinen Kalender für den 25.12.2026 in Europe/Berlin.",
+          "prompt": "Nutze dafür das Outlook-Plugin. Zeige meinen Kalender für den 25.12.2026 in Europe/Berlin.",
           "see": "Du siehst den richtigen Tag und das richtige Konto.",
           "asset": ""
         },
         {
           "title": "Lege unseren Testtermin an.",
           "action": "Der Titel macht die Übung erkennbar. Es werden keine Gäste eingeladen.",
-          "prompt": "Lege am 25.12.2026 von 10:00 bis 10:30 Uhr, Europe/Berlin, in meinem eigenen Kalender „ÜBUNG – Schrank für Hadi“ an. Keine Gäste und keine Einladungen. Beschreibung: Unser fiktives Seminarprojekt.",
+          "prompt": "Nutze dafür das Outlook-Plugin. Lege am 25.12.2026 von 10:00 bis 10:30 Uhr, Europe/Berlin, in meinem eigenen Kalender „ÜBUNG – Schrank für Hadi“ an. Keine Gäste und keine Einladungen. Beschreibung: Unser fiktives Seminarprojekt.",
           "see": "Der Testtermin ist im eigenen Kalender sichtbar.",
           "asset": ""
         },
         {
           "title": "Verschiebe ihn.",
           "action": "Ändere denselben Termin statt einen zweiten zu erstellen.",
-          "prompt": "Verschiebe genau diesen Übungstermin auf 11:00 bis 11:30 Uhr am selben Tag.",
+          "prompt": "Nutze dafür das Outlook-Plugin. Verschiebe genau diesen Übungstermin auf 11:00 bis 11:30 Uhr am selben Tag.",
           "see": "Ein Termin, neue Uhrzeit.",
           "asset": ""
         },
         {
           "title": "Räume wieder auf.",
           "action": "Lass nur diesen Übungstermin entfernen und kontrolliere den Kalender.",
-          "prompt": "Entferne nur den eben angelegten Termin „ÜBUNG – Schrank für Hadi“ am 25.12.2026.",
+          "prompt": "Nutze dafür das Outlook-Plugin. Entferne nur den eben angelegten Termin „ÜBUNG – Schrank für Hadi“ am 25.12.2026.",
           "see": "Der Übungstermin ist weg. Andere Termine bleiben erhalten.",
           "asset": ""
         }
@@ -907,7 +907,7 @@
         {
           "title": "Plane die Entwurfserstellung.",
           "action": "Nimm zum Test einen Zeitpunkt einige Minuten später. Die Aufgabe darf nichts senden.",
-          "prompt": "Plane für einen von mir bestätigten Zeitpunkt in Europe/Berlin: Erstelle einen kurzen Folgeentwurf an Kerim zu unserem Schrankprojekt. Nutze nur den zuvor geprüften Kontakt und den gesicherten Projektstand. Kennzeichne das Seminar-Rollenspiel. Speichere ihn, wenn Outlook verfügbar ist, als ÜBUNG-Entwurf an Kerim. Ist seine geprüfte Adresse nicht verfügbar, frage nach und erfinde keine. Nichts versenden. Fehlen Dateien oder Berechtigungen, melde das.",
+          "prompt": "Plane für einen von mir bestätigten Zeitpunkt in Europe/Berlin: Erstelle einen kurzen Folgeentwurf an Kerim zu unserem Schrankprojekt. Nutze nur den zuvor geprüften Kontakt und den gesicherten Projektstand. Kennzeichne das Seminar-Rollenspiel. Nutze dafür das Outlook-Plugin und speichere ihn, wenn es verfügbar ist, als ÜBUNG-Entwurf an Kerim. Ist seine geprüfte Adresse nicht verfügbar, frage nach und erfinde keine. Nichts versenden. Fehlen Dateien oder Berechtigungen, melde das.",
           "see": "Die geplante Aufgabe enthält Uhrzeit, Kontext und die Grenze „nicht senden“.",
           "asset": ""
         },
@@ -1001,7 +1001,7 @@
         {
           "title": "Aktualisiere dein Paket.",
           "action": "Bleibe im Projekt. Gib ChatGPT deine aktuelle Kalkulation und die zu aktualisierenden Dateien. Öffne die Ergebnisse danach selbst.",
-          "prompt": "Aktualisiere mit meiner geprüften Kalkulation das Angebot als Word und PDF sowie Mission_Hadi.pdf in Seminar Schrank. Aktualisiere auch den bestehenden Entwurf an Kerim und seinen PDF-Anhang. Nicht senden. Zeige die aktuellen Dateien und offene Fragen.",
+          "prompt": "Nutze das OneDrive-Plugin für die Dateiablage und das Outlook-Plugin für den Mailentwurf. Aktualisiere mit meiner geprüften Kalkulation das Angebot als Word und PDF sowie Mission_Hadi.pdf in Seminar Schrank. Aktualisiere auch den bestehenden Entwurf an Kerim und seinen PDF-Anhang. Nicht senden. Zeige die aktuellen Dateien und offene Fragen.",
           "see": "Kalkulation, Angebot, Mission_Hadi.pdf und Kerims Entwurf enthalten denselben Stand.",
           "asset": ""
         }

@@ -49,3 +49,9 @@ export const toolkit=[
 ['Direkt in Excel arbeiten','Die eingerichtete ChatGPT-Erweiterung nutzt die geöffnete Arbeitsmappe.','Erkläre zuerst die geplante Änderung der ausgewählten Tabelle.','Geänderte Zellen und Speicherung prüfen.'],
 ['XLSX und CSV','CSV ist eine einfache Tabelle; mehrere Blätter, Gestaltung und Formeln werden nicht wie in XLSX erhalten.','Exportiere nur die Ergebnistabelle als CSV und behalte die XLSX.','Richtige Tabelle, Trennzeichen und Zahlen prüfen.','Vertiefung']
 ]}];
+
+// Reinforce naming the connected service in every plugin example.
+for (const tool of toolkit) {
+ const plugin = {outlook: "Outlook", onedrive: "OneDrive"}[tool.app];
+ if (plugin) for (const item of tool.items) item[2] = `Nutze dafür das ${plugin}-Plugin. ${item[2]}`;
+}

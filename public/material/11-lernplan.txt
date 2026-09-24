@@ -12,31 +12,18 @@ Du recherchierst, bedienst Websites, bearbeitest Dateien und bereitest ein volls
 ## Ablauf pro Station
 Prinzip ansehen, echte Vorführung durch Kerim, im eigenen Konto üben, Ergebnis prüfen.
 
-## Tag 1
-- 09:00 · Ankommen und Modell wählen · 15 min
-- 09:15 · Kerim, wir haben Großes vor! · 55 min
-- 10:10 · Wem bieten wir den Schrank an? · 45 min
-- 10:55 · Ein Projekt für den Schrank. · 40 min
-- 11:35 · Pause · 15 min
-- 11:50 · ChatGPT legt die Dateien ab. · 60 min
-- 12:50 · Mittagspause · 60 min
-- 13:50 · ChatGPT bedient den Browser. · 55 min
-- 14:45 · Pause · 15 min
-- 15:00 · Was kostet unser Schrank? · 45 min
-- 15:45 · Ergebnisse sichern · 15 min
-
-## Tag 2
-- 09:00 · Wieder ankommen · 15 min
-- 09:15 · ChatGPT füllt das Angebot aus. · 60 min
-- 10:15 · Ein Teppich fürs Büro. · 35 min
-- 10:50 · Eigene Fragen und Vertiefung · 20 min
-- 11:10 · Pause · 15 min
-- 11:25 · Schrankbesprechung an Weihnachten. · 60 min
-- 12:25 · Mittagspause · 60 min
-- 13:25 · Den Entwurf später erstellen lassen. · 45 min
-- 14:10 · Pause · 15 min
-- 14:25 · Dein Angebot steht. · 65 min
-- 15:30 · Ergebnisse zeigen und Transfer · 30 min
+## Kapitelübersicht
+- Kerim, wir haben Großes vor!
+- Wem bieten wir den Schrank an?
+- Ein Projekt für den Schrank.
+- ChatGPT legt die Dateien ab.
+- ChatGPT bedient den Browser.
+- Was kostet unser Schrank?
+- ChatGPT füllt das Angebot aus.
+- Ein Teppich fürs Büro.
+- Schrankbesprechung an Weihnachten.
+- Den Entwurf später erstellen lassen.
+- Dein Angebot steht.
 
 ## 1. Kerim, wir haben Großes vor!
 Wir prüfen, ob es im eigenen Postfach schon Korrespondenz mit Hadi Teherani oder seinem Büro gibt. Danach finden wir Kerims Kontakt und bereiten eine lockere interne Mail mit Mission_Hadi.pdf vor. Die angekündigte Zusammenarbeit ist unser Seminar-Rollenspiel, keine bestätigte Zusage.
@@ -51,15 +38,15 @@ Wir prüfen, ob es im eigenen Postfach schon Korrespondenz mit Hadi Teherani ode
 
 **Das zeigst du live:**
 1. Gab es schon Kontakt? Suche im eigenen Postfach, auch in gesendeten Nachrichten. Lies passende Treffer; eine Namensnennung allein ist noch keine Korrespondenz mit seinem Büro.
-   Auftrag: Suche in meinen empfangenen und gesendeten Mails nach Hadi Teherani oder Hadi Tehrani. Zeige passende Nachrichten und fasse sie kurz zusammen. Wenn du nichts findest, sage mir, wo du gesucht hast. Erfinde keine Korrespondenz.
+   Auftrag: Nutze dafür das Outlook-Plugin. Suche in meinen empfangenen und gesendeten Mails nach Hadi Teherani oder Hadi Tehrani. Zeige passende Nachrichten und fasse sie kurz zusammen. Wenn du nichts findest, sage mir, wo du gesucht hast. Erfinde keine Korrespondenz.
 2. Finde Kerims Kontakt. Lass gespeicherte Kontakte durchsuchen. Falls der Zugriff fehlt, kann eine frühere Mail helfen. Bei mehreren Treffern wählst du die richtige Person.
-   Auftrag: Suche Kerim in meinen Outlook-Kontakten. Zeige Name und E-Mail-Adresse. Frage mich bei mehreren Treffern. Wenn du keinen Kontakt findest, sage das. Erfinde keine Adresse.
+   Auftrag: Nutze dafür das Outlook-Plugin. Suche Kerim in meinen Outlook-Kontakten. Zeige Name und E-Mail-Adresse. Frage mich bei mehreren Treffern. Wenn du keinen Kontakt findest, sage das. Erfinde keine Adresse.
 3. Mach eine Mission-PDF. Lade zuerst 03-schrankbrief.txt aus den Übungsdateien in ChatGPT hoch. Erstelle daraus eine Seite und lade die PDF auf deinen Laptop herunter. Öffne sie vor dem Anhängen.
    Auftrag: Erstelle aus dem hochgeladenen Schrankbrief eine Seite als Mission_Hadi.pdf: unsere Schrankidee, angenommene Maße und drei offene Fragen. Ohne Preise. Schreibe dazu: „Seminar-Rollenspiel, keine bestätigte Zusammenarbeit“. Gib mir die PDF zum Herunterladen.
 4. Weihe Kerim ein. Lass einen lockeren, kurzen Text schreiben und verbessere ihn. Echte Suchergebnisse und unser Rollenspiel bleiben unterscheidbar.
    Auftrag: Entwirf eine kurze, lustige Mail an Kerim: „Wir arbeiten jetzt mit Hadi Teherani! Zumindest im Seminar – seine Zusage fehlt noch.“ Ergänze das echte Ergebnis unserer Mailsuche und erwähne Mission_Hadi.pdf. Betreff: „ÜBUNG – Wir haben Großes vor!“. Noch nicht senden.
 5. Speichere den Entwurf mit Anhang. Verwende den geprüften Kontakt Kerim. Wenn der Kontakt noch offen ist, kläre ihn zuerst. Anhangsfunktion prüfen; falls nötig die PDF direkt in Outlook anhängen.
-   Auftrag: Speichere den überarbeiteten Text als Outlook-Entwurf an die zuvor geprüfte E-Mail-Adresse von Kerim. Hänge die in dieser Aufgabe erstellte und geprüfte Datei Mission_Hadi.pdf an. Keine anderen Empfänger. Nicht senden.
+   Auftrag: Nutze dafür das Outlook-Plugin. Speichere den überarbeiteten Text als Outlook-Entwurf an die zuvor geprüfte E-Mail-Adresse von Kerim. Hänge die in dieser Aufgabe erstellte und geprüfte Datei Mission_Hadi.pdf an. Keine anderen Empfänger. Nicht senden.
 6. Öffne und prüfe alles. Öffne den Entwurf in Outlook. Prüfe Kerims Adresse, den Rollenspiel-Hinweis und öffne den tatsächlichen Anhang.
 
 **Eigene Aufgabe:** Suche nach Hadi-Korrespondenz, finde Kerim und entwirf ihm eine lockere Projektmail mit Mission_Hadi.pdf.
@@ -142,9 +129,9 @@ ChatGPT legt den eigenen OneDrive-Ordner an. Du gibst die Ausgangsdatei in ChatG
 
 **Das zeigst du live:**
 1. Lass den Ordner anlegen. ChatGPT führt die Ordneranlage über das eingerichtete Plugin aus. Öffne danach den Link.
-   Auftrag: Lege in meinem OneDrive einen neuen Ordner „Seminar Schrank“ an. Falls der Name schon existiert, frage nach einem anderen Namen. Zeige den Ordnerlink.
+   Auftrag: Nutze dafür das OneDrive-Plugin. Lege in meinem OneDrive einen neuen Ordner „Seminar Schrank“ an. Falls der Name schon existiert, frage nach einem anderen Namen. Zeige den Ordnerlink.
 2. Lade die Quelle hoch. Lade 03-schrankbrief.txt in ChatGPT hoch. Lass ChatGPT die Datei im neuen Ordner ablegen.
-   Auftrag: Speichere die hochgeladene Datei 03-schrankbrief.txt unverändert im gerade angelegten OneDrive-Ordner. Zeige mir die gespeicherte Datei.
+   Auftrag: Nutze dafür das OneDrive-Plugin. Speichere die hochgeladene Datei 03-schrankbrief.txt unverändert im gerade angelegten OneDrive-Ordner. Zeige mir die gespeicherte Datei.
 3. Mach eine Word-Datei daraus. Bitte um eine echte Formatumwandlung, keine bloße Umbenennung.
    Auftrag: Erstelle aus dem Schrankbrief eine übersichtliche, bearbeitbare Word-Datei namens Schrankbrief_v1.docx. Erhalte das Original.
 4. Ändere einen Inhalt. Passe den Entwurf an, ohne die bisherigen Dateien zu überschreiben.
@@ -152,7 +139,7 @@ ChatGPT legt den eigenen OneDrive-Ordner an. Du gibst die Ausgangsdatei in ChatG
 5. Erzeuge zusätzlich eine PDF. Öffne beide Formate und vergleiche die Inhalte.
    Auftrag: Erzeuge zusätzlich Schrankbrief_v2.pdf. Behalte die Word-Datei.
 6. Lass beide Dateien ablegen. ChatGPT speichert die Ergebnisse im eigenen OneDrive-Ordner.
-   Auftrag: Speichere die geprüfte Word-Datei und PDF im Ordner „Seminar Schrank“. Nichts überschreiben. Zeige beide Dateien.
+   Auftrag: Nutze dafür das OneDrive-Plugin. Speichere die geprüfte Word-Datei und PDF im Ordner „Seminar Schrank“. Nichts überschreiben. Zeige beide Dateien.
 
 **Eigene Aufgabe:** Lass ChatGPT deinen Ordner anlegen und den Schrankbrief als TXT, Word und PDF darin speichern.
 
@@ -248,7 +235,7 @@ ChatGPT erhält unsere leere Angebotsvorlage, den Schrankbrief und die Kalkulati
 3. Verbessere den Text. Ändere nur den gewünschten Abschnitt.
    Auftrag: Formuliere die Leistungsbeschreibung kürzer. Beschreibe unseren maßgefertigten Büroschrank als Vorschlag. Keine Bestellung, Kundenwünsche oder Lieferzusage erfinden.
 4. Prüfe und exportiere. Öffne das Dokument und kontrolliere Zahlen und Layout.
-   Auftrag: Erzeuge zusätzlich eine PDF. Speichere Word und PDF in meinem OneDrive-Ordner „Seminar Schrank“. Zeige mir beide Dateien.
+   Auftrag: Erzeuge zusätzlich eine PDF. Nutze zum Speichern das OneDrive-Plugin. Speichere Word und PDF in meinem OneDrive-Ordner „Seminar Schrank“. Zeige mir beide Dateien.
 
 **Eigene Aufgabe:** Lass die Angebotsvorlage ausfüllen und speichere Word und PDF.
 
@@ -273,9 +260,9 @@ Zum Schrank fehlt noch ein Teppich: Wir suchen mit dem Kleinanzeigen-Plugin drei
 **Das zeigst du live:**
 1. Füge Kleinanzeigen hinzu. Öffne in ChatGPT den Bereich Plugins. Suche Kleinanzeigen und füge das Plugin hinzu. Falls dein Konto stattdessen Apps anzeigt, öffne dort Kleinanzeigen. Ist es schon eingerichtet, gehe weiter.
 2. Suche drei Teppiche. Öffne eine neue Aufgabe im Projekt „Schrank für Hadi“. Kopiere den Text in ChatGPT. Prüfe, ob für die Suche Kleinanzeigen verwendet wird.
-   Auftrag: Nutze Kleinanzeigen: Finde drei schlichte Teppiche für unser fiktives Büro in Hamburg, maximal 200 Euro und ungefähr 200 × 300 cm. Zeige Preis, Maße, Zustand, Ort und Anzeigenlink. Fehlende Angaben bitte offenlassen. Nichts kaufen und niemanden anschreiben.
+   Auftrag: Nutze dafür das Kleinanzeigen-Plugin. Finde drei schlichte Teppiche für unser fiktives Büro in Hamburg, maximal 200 Euro und ungefähr 200 × 300 cm. Zeige Preis, Maße, Zustand, Ort und Anzeigenlink. Fehlende Angaben bitte offenlassen. Nichts kaufen und niemanden anschreiben.
 3. Verfeinere deine Auswahl. Bleibe im selben Gespräch. Wir machen die Auswahl heller und ruhiger. Wenn du andere Farben möchtest, ändere den Prompt.
-   Auftrag: Suche mit Kleinanzeigen nach helleren, möglichst einfarbigen Alternativen. Budget und Ort bleiben gleich. Zeige bis zu drei passende Anzeigen und begründe kurz deine Auswahl. Nichts kaufen oder anschreiben.
+   Auftrag: Nutze dafür das Kleinanzeigen-Plugin. Suche nach helleren, möglichst einfarbigen Alternativen. Budget und Ort bleiben gleich. Zeige bis zu drei passende Anzeigen und begründe kurz deine Auswahl. Nichts kaufen oder anschreiben.
 4. Öffne deinen Favoriten. Wähle eine Anzeige aus. Füge ihren Link an der markierten Stelle ein. Lass ChatGPT die echte Anzeige im In-App-Browser öffnen.
    Auftrag: Öffne diese Anzeige im In-App-Browser: [ANZEIGENLINK EINFÜGEN]. Prüfe Preis, Maße, Zustand und Abholort direkt in der Anzeige. Welche Angaben fehlen? Nichts kaufen und keine Nachricht senden.
 5. Sichere die Teppichidee. Bleibe in deiner Projektaufgabe. Speichere die kurze Auswahlnotiz; Preise und Verfügbarkeit können sich ändern.
@@ -304,13 +291,13 @@ Unser Rollenspiel bekommt einen Weihnachtstermin: 25.12.2026 um 10:00 Uhr, Europ
 
 **Das zeigst du live:**
 1. Zeige den Weihnachtstag. Lass den 25. Dezember im eigenen Kalender anzeigen.
-   Auftrag: Zeige meinen Kalender für den 25.12.2026 in Europe/Berlin.
+   Auftrag: Nutze dafür das Outlook-Plugin. Zeige meinen Kalender für den 25.12.2026 in Europe/Berlin.
 2. Lege unseren Testtermin an. Der Titel macht die Übung erkennbar. Es werden keine Gäste eingeladen.
-   Auftrag: Lege am 25.12.2026 von 10:00 bis 10:30 Uhr, Europe/Berlin, in meinem eigenen Kalender „ÜBUNG – Schrank für Hadi“ an. Keine Gäste und keine Einladungen. Beschreibung: Unser fiktives Seminarprojekt.
+   Auftrag: Nutze dafür das Outlook-Plugin. Lege am 25.12.2026 von 10:00 bis 10:30 Uhr, Europe/Berlin, in meinem eigenen Kalender „ÜBUNG – Schrank für Hadi“ an. Keine Gäste und keine Einladungen. Beschreibung: Unser fiktives Seminarprojekt.
 3. Verschiebe ihn. Ändere denselben Termin statt einen zweiten zu erstellen.
-   Auftrag: Verschiebe genau diesen Übungstermin auf 11:00 bis 11:30 Uhr am selben Tag.
+   Auftrag: Nutze dafür das Outlook-Plugin. Verschiebe genau diesen Übungstermin auf 11:00 bis 11:30 Uhr am selben Tag.
 4. Räume wieder auf. Lass nur diesen Übungstermin entfernen und kontrolliere den Kalender.
-   Auftrag: Entferne nur den eben angelegten Termin „ÜBUNG – Schrank für Hadi“ am 25.12.2026.
+   Auftrag: Nutze dafür das Outlook-Plugin. Entferne nur den eben angelegten Termin „ÜBUNG – Schrank für Hadi“ am 25.12.2026.
 
 **Eigene Aufgabe:** Lege den Weihnachtstermin ohne Gäste an, verschiebe ihn und lösche ihn wieder.
 
@@ -336,7 +323,7 @@ Wir planen, dass ChatGPT zu einem späteren Zeitpunkt einen Mailentwurf vorberei
 1. Sichere den aktuellen Stand. Lass Angebot, Quellen und offene Punkte kurz zusammenfassen.
    Auftrag: Fasse den Stand unseres Schrankprojekts zusammen. Welche Datei ist die aktuelle Angebots-PDF? Was ist noch offen?
 2. Plane die Entwurfserstellung. Nimm zum Test einen Zeitpunkt einige Minuten später. Die Aufgabe darf nichts senden.
-   Auftrag: Plane für einen von mir bestätigten Zeitpunkt in Europe/Berlin: Erstelle einen kurzen Folgeentwurf an Kerim zu unserem Schrankprojekt. Nutze nur den zuvor geprüften Kontakt und den gesicherten Projektstand. Kennzeichne das Seminar-Rollenspiel. Speichere ihn, wenn Outlook verfügbar ist, als ÜBUNG-Entwurf an Kerim. Ist seine geprüfte Adresse nicht verfügbar, frage nach und erfinde keine. Nichts versenden. Fehlen Dateien oder Berechtigungen, melde das.
+   Auftrag: Plane für einen von mir bestätigten Zeitpunkt in Europe/Berlin: Erstelle einen kurzen Folgeentwurf an Kerim zu unserem Schrankprojekt. Nutze nur den zuvor geprüften Kontakt und den gesicherten Projektstand. Kennzeichne das Seminar-Rollenspiel. Nutze dafür das Outlook-Plugin und speichere ihn, wenn es verfügbar ist, als ÜBUNG-Entwurf an Kerim. Ist seine geprüfte Adresse nicht verfügbar, frage nach und erfinde keine. Nichts versenden. Fehlen Dateien oder Berechtigungen, melde das.
 3. Prüfe den gespeicherten Auftrag. Öffne die geplante Aufgabe. Kontrolliere Zeitpunkt, Zeitzone und erlaubte Aktion.
    Auftrag: Zeige mir die gespeicherte Aufgabe und ihren genauen Auftrag.
 4. Prüfe das Ergebnis und räume auf. Wenn die Testzeit erreicht ist, öffne den Entwurf oder die Rückmeldung. Deaktiviere die Übungsaufgabe danach.
@@ -366,7 +353,7 @@ Unser fiktiver Betrieb ändert die Annahme: zehn statt acht Arbeitsstunden. Aktu
 1. Prüfe die zehn Arbeitsstunden. Öffne deine aktuelle Kalkulation in ChatGPT. Wenn bereits zehn Stunden eingetragen sind, lass den Wert stehen.
    Auftrag: Prüfe meine Kalkulation: Wir planen zehn Arbeitsstunden. Falls noch acht eingetragen sind, ändere sie auf zehn. Erhalte die Formeln und speichere eine neue Version. Zeige den aktuellen Angebotspreis.
 2. Aktualisiere dein Paket. Bleibe im Projekt. Gib ChatGPT deine aktuelle Kalkulation und die zu aktualisierenden Dateien. Öffne die Ergebnisse danach selbst.
-   Auftrag: Aktualisiere mit meiner geprüften Kalkulation das Angebot als Word und PDF sowie Mission_Hadi.pdf in Seminar Schrank. Aktualisiere auch den bestehenden Entwurf an Kerim und seinen PDF-Anhang. Nicht senden. Zeige die aktuellen Dateien und offene Fragen.
+   Auftrag: Nutze das OneDrive-Plugin für die Dateiablage und das Outlook-Plugin für den Mailentwurf. Aktualisiere mit meiner geprüften Kalkulation das Angebot als Word und PDF sowie Mission_Hadi.pdf in Seminar Schrank. Aktualisiere auch den bestehenden Entwurf an Kerim und seinen PDF-Anhang. Nicht senden. Zeige die aktuellen Dateien und offene Fragen.
 
 **Eigene Aufgabe:** Aktualisiere dein Angebot für zehn Arbeitsstunden und zeige das fertige Paket.
 
