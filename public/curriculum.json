@@ -690,6 +690,102 @@
       }
     },
     {
+      "id": "teppich",
+      "title": "Ein Teppich fürs Büro.",
+      "short": "Kleinanzeigen-Plugin kennenlernen.",
+      "tools": [
+        "chatgpt"
+      ],
+      "minutes": 35,
+      "why": "Zum Schrank fehlt noch ein Teppich: Wir suchen mit dem Kleinanzeigen-Plugin drei echte Angebote für unser fiktives Büro in Hamburg. Wir verfeinern die Suche, öffnen eine Anzeige im Browser und speichern unseren Favoriten. Die Teppichidee ist eine Ergänzung, kein bestätigter Wunsch von Hadi Teherani.",
+      "principle": "Plugin hinzufügen. Suchen. Auswahl prüfen.",
+      "story": "Zum Schrank fehlt noch ein Teppich: Wir suchen mit dem Kleinanzeigen-Plugin drei echte Angebote für unser fiktives Büro in Hamburg. Wir verfeinern die Suche, öffnen eine Anzeige im Browser und speichern unseren Favoriten. Die Teppichidee ist eine Ergänzung, kein bestätigter Wunsch von Hadi Teherani.",
+      "outcome": "Ein geprüfter Teppich-Favorit mit Preis, Maßen und Anzeigenlink im Projekt.",
+      "skills": [
+        "Plugin finden und hinzufügen",
+        "Suchwunsch mit Budget, Maßen und Ort formulieren",
+        "Ergebnisse mit einer Nachfrage verfeinern",
+        "Anzeige im In-App-Browser prüfen",
+        "Favorit mit Quelle im Projekt sichern"
+      ],
+      "demos": [
+        {
+          "title": "Füge Kleinanzeigen hinzu.",
+          "action": "Öffne in ChatGPT den Bereich Plugins. Suche Kleinanzeigen und füge das Plugin hinzu. Falls dein Konto stattdessen Apps anzeigt, öffne dort Kleinanzeigen. Ist es schon eingerichtet, gehe weiter.",
+          "prompt": "",
+          "see": "Kleinanzeigen ist in deinem Konto verfügbar. Falls die Einrichtung blockiert ist, hilft Kerim oder ITP Consultants.",
+          "asset": ""
+        },
+        {
+          "title": "Suche drei Teppiche.",
+          "action": "Öffne eine neue Aufgabe im Projekt „Schrank für Hadi“. Kopiere den Text in ChatGPT. Prüfe, ob für die Suche Kleinanzeigen verwendet wird.",
+          "prompt": "Nutze Kleinanzeigen: Finde drei schlichte Teppiche für unser fiktives Büro in Hamburg, maximal 200 Euro und ungefähr 200 × 300 cm. Zeige Preis, Maße, Zustand, Ort und Anzeigenlink. Fehlende Angaben bitte offenlassen. Nichts kaufen und niemanden anschreiben.",
+          "see": "Drei echte Anzeigen oder ein klarer Hinweis, welche Suchkriterien zu eng sind.",
+          "asset": ""
+        },
+        {
+          "title": "Verfeinere deine Auswahl.",
+          "action": "Bleibe im selben Gespräch. Wir machen die Auswahl heller und ruhiger. Wenn du andere Farben möchtest, ändere den Prompt.",
+          "prompt": "Suche mit Kleinanzeigen nach helleren, möglichst einfarbigen Alternativen. Budget und Ort bleiben gleich. Zeige bis zu drei passende Anzeigen und begründe kurz deine Auswahl. Nichts kaufen oder anschreiben.",
+          "see": "Die neue Auswahl berücksichtigt deinen zusätzlichen Wunsch.",
+          "asset": ""
+        },
+        {
+          "title": "Öffne deinen Favoriten.",
+          "action": "Wähle eine Anzeige aus. Füge ihren Link an der markierten Stelle ein. Lass ChatGPT die echte Anzeige im In-App-Browser öffnen.",
+          "prompt": "Öffne diese Anzeige im In-App-Browser: [ANZEIGENLINK EINFÜGEN]. Prüfe Preis, Maße, Zustand und Abholort direkt in der Anzeige. Welche Angaben fehlen? Nichts kaufen und keine Nachricht senden.",
+          "see": "Du siehst die echte Anzeige. Die Angaben stimmen mit dem Vorschlag überein oder sind als unklar markiert.",
+          "asset": ""
+        },
+        {
+          "title": "Sichere die Teppichidee.",
+          "action": "Bleibe in deiner Projektaufgabe. Speichere die kurze Auswahlnotiz; Preise und Verfügbarkeit können sich ändern.",
+          "prompt": "Erstelle Teppich_Favorit.txt mit Anzeigenlink, Abrufdatum, Preis, Maßen, Zustand und offenen Fragen aus der geprüften Anzeige. Kennzeichne es als unsere optionale Seminaridee. Gib mir die Datei zum Herunterladen.",
+          "see": "Dein Favorit ist mit Quelle dokumentiert. Lade die Datei herunter und füge sie bei den Projektdateien hinzu.",
+          "asset": ""
+        }
+      ],
+      "mission": "Finde mit Kleinanzeigen einen Teppich für unser fiktives Büro und sichere deinen geprüften Favoriten.",
+      "steps": [
+        "Kleinanzeigen hinzufügen und drei Teppiche suchen.",
+        "Suche verfeinern und eine Anzeige im Browser öffnen.",
+        "Favoriten mit Preis und Quellenlink im Projekt sichern."
+      ],
+      "checks": [
+        "Ich habe das Kleinanzeigen-Plugin verwendet.",
+        "Budget, Maße und Ort sind geprüft oder als offen markiert.",
+        "Ich habe die Originalanzeige geöffnet.",
+        "Mein Favorit ist mit Anzeigenlink gespeichert.",
+        "Ich habe nichts gekauft und niemanden angeschrieben."
+      ],
+      "hints": [
+        "Plugin fehlt oder ist gesperrt? Kerim zeigt den Ablauf; ITP Consultants prüft die Einrichtung.",
+        "Keine Treffer? Lass ChatGPT erklären, welches Kriterium zu eng ist. Ändere zuerst nur eine Vorgabe.",
+        "Anzeige gelöscht oder blockiert? Wähle einen anderen Treffer. Keine Verfügbarkeit erfinden."
+      ],
+      "question": {
+        "ask": "In der Anzeige fehlen die Maße. Was tun wir?",
+        "options": [
+          "Die Maße schätzen und als sicher übernehmen.",
+          "Als offen markieren und eine Rückfrage vorbereiten."
+        ],
+        "correct": 1,
+        "explain": "Eine passende Farbe ersetzt keine geprüften Maße."
+      },
+      "files": [],
+      "bonus": "Entwirf eine kurze Frage an den Verkäufer zu einer fehlenden Angabe. Nur den Text vorbereiten, nicht senden.",
+      "carry": "Der Teppich bleibt eine optionale Ergänzung. Jetzt planen wir unsere weihnachtliche Schrankbesprechung.",
+      "day": 2,
+      "time": "10:15",
+      "number": 8,
+      "rhythm": {
+        "explain": 5,
+        "show": 10,
+        "do": 15,
+        "check": 5
+      }
+    },
+    {
       "id": "kalender",
       "title": "Schrankbesprechung an Weihnachten.",
       "short": "Ein bewusst absurder Übungstermin.",
@@ -772,7 +868,7 @@
       "carry": "Jetzt planen wir eine spätere Entwurfserstellung.",
       "day": 2,
       "time": "11:25",
-      "number": 8,
+      "number": 9,
       "rhythm": {
         "explain": 5,
         "show": 10,
@@ -863,7 +959,7 @@
       "carry": "Zum Schluss verbindest du alle Schritte selbst.",
       "day": 2,
       "time": "13:25",
-      "number": 9,
+      "number": 10,
       "rhythm": {
         "explain": 5,
         "show": 10,
@@ -943,7 +1039,7 @@
       "carry": "Deine Ergebnisse bleiben in deinen eigenen Konten.",
       "day": 2,
       "time": "14:25",
-      "number": 10,
+      "number": 11,
       "rhythm": {
         "explain": 5,
         "show": 10,
@@ -1030,8 +1126,13 @@
         ],
         [
           "10:15",
+          "Ein Teppich fürs Büro.",
+          "35 min"
+        ],
+        [
+          "10:50",
           "Eigene Fragen und Vertiefung",
-          "55 min"
+          "20 min"
         ],
         [
           "11:10",

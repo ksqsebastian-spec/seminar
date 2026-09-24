@@ -28,7 +28,8 @@ Prinzip ansehen, echte Vorführung durch Kerim, im eigenen Konto üben, Ergebnis
 ## Tag 2
 - 09:00 · Wieder ankommen · 15 min
 - 09:15 · ChatGPT füllt das Angebot aus. · 60 min
-- 10:15 · Eigene Fragen und Vertiefung · 55 min
+- 10:15 · Ein Teppich fürs Büro. · 35 min
+- 10:50 · Eigene Fragen und Vertiefung · 20 min
 - 11:10 · Pause · 15 min
 - 11:25 · Schrankbesprechung an Weihnachten. · 60 min
 - 12:25 · Mittagspause · 60 min
@@ -259,7 +260,39 @@ ChatGPT erhält unsere leere Angebotsvorlage, den Schrankbrief und die Kalkulati
 
 **Danach:** Aktualisiere später Mission_Hadi.pdf und den vorhandenen Entwurf an Kerim mit dem geprüften Angebotspreis.
 
-## 8. Schrankbesprechung an Weihnachten.
+## 8. Ein Teppich fürs Büro.
+Zum Schrank fehlt noch ein Teppich: Wir suchen mit dem Kleinanzeigen-Plugin drei echte Angebote für unser fiktives Büro in Hamburg. Wir verfeinern die Suche, öffnen eine Anzeige im Browser und speichern unseren Favoriten. Die Teppichidee ist eine Ergänzung, kein bestätigter Wunsch von Hadi Teherani.
+
+**Das lernen wir:**
+- Plugin finden und hinzufügen
+- Suchwunsch mit Budget, Maßen und Ort formulieren
+- Ergebnisse mit einer Nachfrage verfeinern
+- Anzeige im In-App-Browser prüfen
+- Favorit mit Quelle im Projekt sichern
+
+**Das zeigst du live:**
+1. Füge Kleinanzeigen hinzu. Öffne in ChatGPT den Bereich Plugins. Suche Kleinanzeigen und füge das Plugin hinzu. Falls dein Konto stattdessen Apps anzeigt, öffne dort Kleinanzeigen. Ist es schon eingerichtet, gehe weiter.
+2. Suche drei Teppiche. Öffne eine neue Aufgabe im Projekt „Schrank für Hadi“. Kopiere den Text in ChatGPT. Prüfe, ob für die Suche Kleinanzeigen verwendet wird.
+   Auftrag: Nutze Kleinanzeigen: Finde drei schlichte Teppiche für unser fiktives Büro in Hamburg, maximal 200 Euro und ungefähr 200 × 300 cm. Zeige Preis, Maße, Zustand, Ort und Anzeigenlink. Fehlende Angaben bitte offenlassen. Nichts kaufen und niemanden anschreiben.
+3. Verfeinere deine Auswahl. Bleibe im selben Gespräch. Wir machen die Auswahl heller und ruhiger. Wenn du andere Farben möchtest, ändere den Prompt.
+   Auftrag: Suche mit Kleinanzeigen nach helleren, möglichst einfarbigen Alternativen. Budget und Ort bleiben gleich. Zeige bis zu drei passende Anzeigen und begründe kurz deine Auswahl. Nichts kaufen oder anschreiben.
+4. Öffne deinen Favoriten. Wähle eine Anzeige aus. Füge ihren Link an der markierten Stelle ein. Lass ChatGPT die echte Anzeige im In-App-Browser öffnen.
+   Auftrag: Öffne diese Anzeige im In-App-Browser: [ANZEIGENLINK EINFÜGEN]. Prüfe Preis, Maße, Zustand und Abholort direkt in der Anzeige. Welche Angaben fehlen? Nichts kaufen und keine Nachricht senden.
+5. Sichere die Teppichidee. Bleibe in deiner Projektaufgabe. Speichere die kurze Auswahlnotiz; Preise und Verfügbarkeit können sich ändern.
+   Auftrag: Erstelle Teppich_Favorit.txt mit Anzeigenlink, Abrufdatum, Preis, Maßen, Zustand und offenen Fragen aus der geprüften Anzeige. Kennzeichne es als unsere optionale Seminaridee. Gib mir die Datei zum Herunterladen.
+
+**Eigene Aufgabe:** Finde mit Kleinanzeigen einen Teppich für unser fiktives Büro und sichere deinen geprüften Favoriten.
+
+**Ergebnis prüfen:**
+- Ich habe das Kleinanzeigen-Plugin verwendet.
+- Budget, Maße und Ort sind geprüft oder als offen markiert.
+- Ich habe die Originalanzeige geöffnet.
+- Mein Favorit ist mit Anzeigenlink gespeichert.
+- Ich habe nichts gekauft und niemanden angeschrieben.
+
+**Danach:** Der Teppich bleibt eine optionale Ergänzung. Jetzt planen wir unsere weihnachtliche Schrankbesprechung.
+
+## 9. Schrankbesprechung an Weihnachten.
 Unser Rollenspiel bekommt einen Weihnachtstermin: 25.12.2026 um 10:00 Uhr, Europe/Berlin, 30 Minuten. Es ist kein vereinbarter Termin mit Hadi Teherani. Wir legen ihn ohne Gäste im eigenen Kalender an, verschieben ihn und entfernen ihn wieder.
 
 **Das lernen wir:**
@@ -289,7 +322,7 @@ Unser Rollenspiel bekommt einen Weihnachtstermin: 25.12.2026 um 10:00 Uhr, Europ
 
 **Danach:** Jetzt planen wir eine spätere Entwurfserstellung.
 
-## 9. Den Entwurf später erstellen lassen.
+## 10. Den Entwurf später erstellen lassen.
 Wir planen, dass ChatGPT zu einem späteren Zeitpunkt einen Mailentwurf vorbereitet. Das ist kein zeitversetzter Versand. Ob eine geplante Aufgabe auf Projektdateien und Outlook zugreifen kann, wird im Konto geprüft. Wenn nicht, soll sie die fehlende Verbindung melden oder den Entwurf als Text bereitstellen.
 
 **Das lernen wir:**
@@ -319,7 +352,7 @@ Wir planen, dass ChatGPT zu einem späteren Zeitpunkt einen Mailentwurf vorberei
 
 **Danach:** Zum Schluss verbindest du alle Schritte selbst.
 
-## 10. Dein Angebot steht.
+## 11. Dein Angebot steht.
 Unser fiktiver Betrieb ändert die Annahme: zehn statt acht Arbeitsstunden. Aktualisiere die Kalkulation und das Angebot. Eine andere Person soll Quellen, Annahmen, Dateien und Entwurf wiederfinden können.
 
 **Das lernen wir:**

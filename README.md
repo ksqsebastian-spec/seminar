@@ -1,6 +1,6 @@
 # Ein Arbeitstag mit KI
 
-Deutschsprachiger Anfängerworkshop für Handwerk und Bau: zehn zusammenhängende Stationen: ein maßgefertigter Büroschrank für Hadi Teherani als fiktive Angebotsidee unseres Handwerksbetriebs. Empfohlen sind zwei Seminartage, jeweils 09–16 Uhr einschließlich Pausen.
+Deutschsprachiger Anfängerworkshop für Handwerk und Bau: elf zusammenhängende Stationen: ein maßgefertigter Büroschrank für Hadi Teherani als fiktive Angebotsidee unseres Handwerksbetriebs. Empfohlen sind zwei Seminartage, jeweils 09–16 Uhr einschließlich Pausen.
 
 Die Seminarleitung erklärt und demonstriert live. Teilnehmende arbeiten anschließend in ihrer eigenen Work- und Microsoft-365-Umgebung. Die Website verbindet keine Konten und führt keine KI-Aufträge aus.
 
@@ -52,3 +52,5 @@ Die Kerim-Mail ersetzt „Eine Mail verstehen“ als erste Station. Mission_Hadi
 Jedes Kapitel zeigt Ziel, Ablauf mit Logos und das Ergebnis für das nächste Kapitel. Die Vorführung und das eigene Üben verwenden denselben Schritt-für-Schritt-Ablauf. Jeder Schritt zeigt Programm, konkrete Handlung, sichtbaren kopierbaren Prompt (oder Klickanweisung) und Erfolgskontrolle. `public/chapters.js` liefert die kurzen Kapiteltexte; `curriculum.json` die Arbeitsaufträge.
 
 Vorführung und Mitmachen verwenden einen einzigen Schritt-Ablauf. Nach dem letzten Schritt folgt direkt die Ergebniskontrolle. Alte Links zur separaten Übungsansicht werden weitergeleitet.
+
+Kapitel Teppich (35 Min., Tag 2): Kleinanzeigen hinzufügen, drei Anzeigen suchen, Auswahl verfeinern, Originalanzeige im In-App-Browser prüfen und Teppich_Favorit.txt im Projekt sichern. Kein Kauf und kein Verkäuferkontakt.
