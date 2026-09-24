@@ -187,8 +187,8 @@ Auftrag: Nutze das Kleinanzeigen-Plugin. Suche drei schlichte Teppiche in Hambur
 Prüfen: Du hast einen Favoriten aus echten Anzeigen gewählt.
 
 3. Lass Astra einen Screenshot machen.
-Wechsle für diesen Schritt im Modellmenü auf GPT-6 Astra. Füge den Link deines Favoriten ein.
-Auftrag: Öffne diese Anzeige im In-App-Browser: [ANZEIGENLINK EINFÜGEN]. Prüfe Preis, Maße und Zustand. Erstelle einen Screenshot des Teppichbildes ohne private Verkäuferdaten. Nutze das OneDrive-Plugin und speichere ihn als Teppich_Favorit.png in „Seminar Schrank“. Bewahre den Anzeigenlink als Quelle. Nichts kaufen und niemanden anschreiben.
+Wechsle für diesen Schritt im Modellmenü auf GPT-6 Astra. Bleibe im selben Gespräch und beziehe dich auf deinen gewählten Teppich.
+Auftrag: Öffne die Anzeige unseres gerade gewählten Teppichs im In-App-Browser. Falls noch kein Favorit feststeht, frage mich, welchen der gefundenen Teppiche ich meine. Prüfe Preis, Maße und Zustand. Erstelle einen Screenshot des Teppichbildes ohne private Verkäuferdaten. Nutze das OneDrive-Plugin und speichere ihn als Teppich_Favorit.png in „Seminar Schrank“. Bewahre den Anzeigenlink als Quelle. Nichts kaufen und niemanden anschreiben.
 Prüfen: Der Screenshot zeigt den gewählten Teppich und liegt in OneDrive.
 
 4. Baue das Geschenk ins Angebot ein.

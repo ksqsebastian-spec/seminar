@@ -743,8 +743,8 @@
         },
         {
           "title": "Lass Astra einen Screenshot machen.",
-          "action": "Wechsle für diesen Schritt im Modellmenü auf GPT-6 Astra. Füge den Link deines Favoriten ein.",
-          "prompt": "Öffne diese Anzeige im In-App-Browser: [ANZEIGENLINK EINFÜGEN]. Prüfe Preis, Maße und Zustand. Erstelle einen Screenshot des Teppichbildes ohne private Verkäuferdaten. Nutze das OneDrive-Plugin und speichere ihn als Teppich_Favorit.png in „Seminar Schrank“. Bewahre den Anzeigenlink als Quelle. Nichts kaufen und niemanden anschreiben.",
+          "action": "Wechsle für diesen Schritt im Modellmenü auf GPT-6 Astra. Bleibe im selben Gespräch und beziehe dich auf deinen gewählten Teppich.",
+          "prompt": "Öffne die Anzeige unseres gerade gewählten Teppichs im In-App-Browser. Falls noch kein Favorit feststeht, frage mich, welchen der gefundenen Teppiche ich meine. Prüfe Preis, Maße und Zustand. Erstelle einen Screenshot des Teppichbildes ohne private Verkäuferdaten. Nutze das OneDrive-Plugin und speichere ihn als Teppich_Favorit.png in „Seminar Schrank“. Bewahre den Anzeigenlink als Quelle. Nichts kaufen und niemanden anschreiben.",
           "see": "Der Screenshot zeigt den gewählten Teppich und liegt in OneDrive.",
           "app": "chatgpt",
           "visual": [
