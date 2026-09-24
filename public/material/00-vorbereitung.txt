@@ -11,15 +11,15 @@ ZUGÄNGE TESTEN
 [ ] Meine Lizenz und die benötigten Funktionen wurden geprüft. Bei Fragen zur Einrichtung kontaktiere ich ITP Consultants.
 
 MICROSOFT 365 VERBINDEN
-[ ] Outlook Mail: ChatGPT findet eine Testmail und kann einen ungesendeten Übungsentwurf an meine eigene Adresse speichern.
-[ ] Outlook Kalender: ChatGPT kann meinen Kalender lesen und einen eigenen Übungstermin ohne Gäste anlegen, verschieben und wieder löschen.
+[ ] Outlook Mail: Das Plugin kann Kontakte finden, Entwürfe mit Dateianhängen erstellen und Mails nach meiner Prüfung senden. Kerim Seehafers richtige Adresse ist verfügbar.
+[ ] Outlook Kalender: Das Plugin kann meinen Kalender lesen und einen Termin mit Einladung an Kerim Seehafer erstellen.
 [ ] OneDrive: ChatGPT kann einen eigenen OneDrive-Übungsordner anlegen, eine Testdatei darin öffnen und eine neue Datei dort speichern.
 [ ] Excel: Ich kann eine Datei öffnen. Die ChatGPT-Integration direkt in Excel ist eingerichtet und einmal getestet.
 
 KURZ AUSPROBIEREN
 [ ] Ich kann eine Datei in ChatGPT hochladen und eine erzeugte Datei herunterladen.
 [ ] Der Browser in ChatGPT kann eine Website öffnen.
-[ ] Die Funktion für geplante Aufgaben wurde geprüft. Falls sie fehlt, kläre ich das vorab mit ITP Consultants.
+[ ] Kleinanzeigen lässt sich als Plugin hinzufügen. Der In-App-Browser kann Dateien herunterladen und Screenshots erstellen. Bei Fragen hilft ITP Consultants.
 [ ] Ich kann die Seminarwebsite öffnen und das Übungspaket herunterladen.
 
 FÜR DIE ORGANISATION
@@ -27,5 +27,5 @@ FÜR DIE ORGANISATION
 [ ] Die benötigten Kontofreigaben wurden vorab mit ITP Consultants geklärt.
 [ ] Die Übungsdateien stehen bereit. Es werden keine echten Kundendaten benötigt.
 
-Du brauchst keine Vorkenntnisse. Die Übungsdateien sind fiktiv. Für die Mail-Übung kannst du eine passende eigene Mail von heute oder das fiktive Ersatzbeispiel verwenden.
+Du brauchst keine Vorkenntnisse. Die Übungsdateien sind fiktiv. Im Seminar senden wir Mails und eine Termineinladung an Kerim Seehafer. Hadi Teherani wird nicht kontaktiert.
 Passwörter nicht in diese Checkliste eintragen.

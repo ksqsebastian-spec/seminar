@@ -9,5 +9,5 @@ test('every chapter has orientation and a complete guided sequence',()=>{
 });
 test('research and browser actions are distinct stations',()=>{
  const research=plan.lessons.find(x=>x.id==='recherche'),browser=plan.lessons.find(x=>x.id==='browser');
- assert.match(JSON.stringify(research),/Teherani/);assert.match(JSON.stringify(browser),/Filter/);assert.match(JSON.stringify(browser),/In-App-Browser/);assert.equal(demoArts.browser.length,browser.demos.length);
+ assert.match(JSON.stringify(research),/Teherani/);assert.match(JSON.stringify(browser),/Filter/);assert.match(JSON.stringify(browser),/In-App-Browser/);assert.match(JSON.stringify(browser),/Materialrecherche.xlsx/);
 });

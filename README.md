@@ -1,8 +1,8 @@
 # Ein Arbeitstag mit KI
 
-Deutschsprachiger Anfängerworkshop für Handwerk und Bau: elf zusammenhängende Stationen: ein maßgefertigter Büroschrank für Hadi Teherani als fiktive Angebotsidee unseres Handwerksbetriebs. Empfohlen sind zwei Seminartage, jeweils 09–16 Uhr einschließlich Pausen.
+Deutschsprachiger Anfängerworkshop für Handwerk und Bau: zehn zusammenhängende Kapitel: ein maßgefertigter Büroschrank für Hadi Teherani als fiktive Angebotsidee unseres Handwerksbetriebs. Ohne feste Tages- oder Zeitvorgaben.
 
-Die Seminarleitung erklärt und demonstriert live. Teilnehmende arbeiten anschließend in ihrer eigenen Work- und Microsoft-365-Umgebung. Die Website verbindet keine Konten und führt keine KI-Aufträge aus.
+Die Seminarleitung erklärt und demonstriert live. Teilnehmende arbeiten anschließend in ihrer eigenen ChatGPT- und Microsoft-365-Umgebung. Die Website verbindet keine Konten und führt keine KI-Aufträge aus.
 
 Jedes Kapitel hat drei Abschnitte: Ziel und Ablauf, geführte Schritte, Ergebnis prüfen. Vorführung und eigenes Üben nutzen dieselben Anweisungen. Prompts sind direkt sichtbar und kopierbar. Logos und einfache Ablaufdiagramme verbinden die Werkzeuge. Die Beameransicht vergrößert die Darstellung. Einrichtungspartner: ITP Consultants; Desktop-Installation: Kerim.
 
@@ -20,12 +20,12 @@ Die Vorschau entfernt nur lokal das Secure-Cookie-Attribut für HTTP. Der Produk
 ## Inhalte und Dateien
 
 - `CURRICULUM.md`: vollständiger Lernplan mit Lernzielen, Live-Vorführung, Übungen und Ergebniskriterien.
-- `scripts/curriculum.py`: erzeugt `public/curriculum.json`, Lernplan und Material-ZIP. Nach Inhaltsänderungen ausführen.
+- `scripts/curriculum.py`: erzeugt `public/curriculum.json`, `public/chapters.js`, Lernplan und Material-ZIP. Nach Inhaltsänderungen ausführen.
 - `public/day.js`, `public/day.css`: aktuelle Seminaroberfläche.
-- `public/visuals.js`, `public/visual.css`: visuelle Lernschicht und steuerbare Animationen. Illustrationen sind als schematische Beispiele gekennzeichnet; echte Aufgaben bleiben in den eigenen Konten.
+- `public/storyboard.js`, `public/chapters.css`: animierbare Schaubilder, Ergebnisdateien und interaktive Beispielkalkulation. Echte Aufgaben bleiben in den eigenen Konten.
 - `public/toolkit.js`: nach Funktionen gegliedertes Werkzeugwissen.
 - `public/vorbereitung.html`: druckbare Vorbereitungsliste.
-- `public/material/`: fiktive Übungsdateien einschließlich XLSX, DOCX und ZIP.
+- `public/material/`: aktuelle Vorlage, Vorbereitung, Lernplan und ZIP; ältere Ausgangsmaterialien bleiben für bestehende Links erhalten.
 - `public/screens/SOURCES.md`: Quellen der Originalabbildungen.
 - `public/referenz.html`: frühere Folienfassung; die aktuelle Hauptseite ersetzt sie. Alte Folienlinks werden auf passende Stationen umgeleitet.
 - `scripts/build.mjs`: bündelt geschützte Assets in den Worker.
@@ -44,15 +44,13 @@ Passwortschutz gilt für die ausgelieferte Website und direkte Download-URLs. Di
 Die automatisierten Tests prüfen geschützte Assets, Login, Cookies, abgelaufene/manipulierte Sitzungen, Cross-Origin-Schutz, Download-Dateien und die Inhaltsstruktur. Die tatsächlichen Work-Aktionen sind keine automatisierte Integration dieser Website.
 
 
-Die Mailstation sucht zuerst echte frühere Korrespondenz, findet Kerims gespeicherten Kontakt und erstellt einen humorvollen, ungesendeten Entwurf an ihn. Die Teilnehmenden erzeugen Mission_Hadi.pdf zum Einstieg aus dem Schrankbrief und hängen die geprüfte Datei an.
+## Aktuelles Storyboard
+Kerim finden und eine Mail senden → Hadi recherchieren und Steckbrief erstellen → Projekt mit Steckbrief → OneDrive-Ordner, TXT und ergänzte Firmen-PDF → Browserrecherche als Excel → Kalkulation direkt in Excel für 1, 5 und 10 Schränke → Angebotsvorlage im Browser herunterladen und anhand der Kalkulation ausfüllen → Teppich-Screenshot mit Astra als Geschenkidee im Angebot → Kerim zu Weihnachten einladen → alle erstellten Dateien an Kerim senden.
 
-Die Kerim-Mail ersetzt „Eine Mail verstehen“ als erste Station. Mission_Hadi.pdf benötigt noch keine Recherche, Kalkulation, Projekt- oder OneDrive-Einrichtung. Die spätere doppelte Mailstation entfällt.
+Die Website führt keine Mail- oder Kalenderaktion selbst aus. Die Teilnehmer prüfen Empfänger und Dateien in ihren eigenen Konten. Hadi wird nicht kontaktiert. Reale Preise und Verfügbarkeit werden im Seminar recherchiert. Die interaktive Kalkulation zeigt ausdrücklich fiktive Beispielpreise.
 
-## Vereinfachte Kapitel
-Jedes Kapitel zeigt Ziel, Ablauf mit Logos und das Ergebnis für das nächste Kapitel. Die Vorführung und das eigene Üben verwenden denselben Schritt-für-Schritt-Ablauf. Jeder Schritt zeigt Programm, konkrete Handlung, sichtbaren kopierbaren Prompt (oder Klickanweisung) und Erfolgskontrolle. `public/chapters.js` liefert die kurzen Kapiteltexte; `curriculum.json` die Arbeitsaufträge.
+Für das Angebot: fünf Schränke, zehn Arbeitsstunden je Schrank, zwei Stunden Einrichtung und Transport einmal je Auftrag. Quellenpreise müssen zur Materialeinheit passen. Keine technische Bauplanung.
 
-Vorführung und Mitmachen verwenden einen einzigen Schritt-Ablauf. Nach dem letzten Schritt folgt direkt die Ergebniskontrolle. Alte Links zur separaten Übungsansicht werden weitergeleitet.
-
-Kapitel Teppich (35 Min., Tag 2): Kleinanzeigen hinzufügen, drei Anzeigen suchen, Auswahl verfeinern, Originalanzeige im In-App-Browser prüfen und Teppich_Favorit.txt im Projekt sichern. Kein Kauf und kein Verkäuferkontakt.
+Kapitelübersichten zeigen drei Stationen und das Ergebnis. Jeder Schritt hat ein animierbares Schaubild, eine konkrete Anweisung, einen kopierbaren Prompt oder eine Klickanleitung und eine Erfolgskontrolle. Bewegungen respektieren Reduced Motion. Der separate Übungsmodus bleibt entfernt.
 
 Kleinanzeigen-Symbol: offizielles App-Icon von https://themen.kleinanzeigen.de/static/img/meta/apple-touch-icon.641bad4b6e0d.png
