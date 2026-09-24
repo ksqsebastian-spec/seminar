@@ -4,7 +4,7 @@ Deutschsprachiger Anfängerworkshop für Handwerk und Bau: zehn zusammenhängend
 
 Die Seminarleitung erklärt und demonstriert live. Teilnehmende arbeiten anschließend in ihrer eigenen ChatGPT- und Microsoft-365-Umgebung. Die Website verbindet keine Konten und führt keine KI-Aufträge aus.
 
-Jedes Kapitel hat drei Abschnitte: Ziel und Ablauf, geführte Schritte, Ergebnis prüfen. Vorführung und eigenes Üben nutzen dieselben Anweisungen. Prompts sind direkt sichtbar und kopierbar. Logos und einfache Ablaufdiagramme verbinden die Werkzeuge. Die Beameransicht vergrößert die Darstellung. Einrichtungspartner: ITP Consultants; Desktop-Installation: Kerim.
+Der Ablauf ist ein durchgehend scrollbarer Flowchart mit allen zehn Kapiteln, Plugin-Logos und direkt sichtbaren Prompts. Vorführung und eigenes Üben nutzen dieselben Anweisungen. Prompts sind direkt sichtbar und kopierbar. Logos und einfache Ablaufdiagramme verbinden die Werkzeuge. Die Beameransicht vergrößert die Darstellung. Einrichtungspartner: ITP Consultants; Desktop-Installation: Kerim.
 
 ## Entwicklung
 
@@ -51,6 +51,6 @@ Die Website führt keine Mail- oder Kalenderaktion selbst aus. Die Teilnehmer pr
 
 Für das Angebot: fünf Schränke, zehn Arbeitsstunden je Schrank, zwei Stunden Einrichtung und Transport einmal je Auftrag. Quellenpreise müssen zur Materialeinheit passen. Keine technische Bauplanung.
 
-Kapitelübersichten zeigen drei Stationen und das Ergebnis. Jeder Schritt hat ein animierbares Schaubild, eine konkrete Anweisung, einen kopierbaren Prompt oder eine Klickanleitung und eine Erfolgskontrolle. Bewegungen respektieren Reduced Motion. Der separate Übungsmodus bleibt entfernt.
+Die Ablaufseite zeigt alle Schritte ohne Aufklappen. Kapitel-Sprungmarken erleichtern die Navigation. Einzelansichten bleiben für bestehende Links erhalten; Ergebnisprüfung, Erfolgskästen und Auftrags-Baukasten sind entfernt. Jeder Kopierknopf ist seiner eigenen Promptkarte zugeordnet. Bewegungen respektieren Reduced Motion. Der separate Übungsmodus bleibt entfernt.
 
 Kleinanzeigen-Symbol: offizielles App-Icon von https://themen.kleinanzeigen.de/static/img/meta/apple-touch-icon.641bad4b6e0d.png
