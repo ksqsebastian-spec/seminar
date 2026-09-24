@@ -54,3 +54,5 @@ Jedes Kapitel zeigt Ziel, Ablauf mit Logos und das Ergebnis für das nächste Ka
 Vorführung und Mitmachen verwenden einen einzigen Schritt-Ablauf. Nach dem letzten Schritt folgt direkt die Ergebniskontrolle. Alte Links zur separaten Übungsansicht werden weitergeleitet.
 
 Kapitel Teppich (35 Min., Tag 2): Kleinanzeigen hinzufügen, drei Anzeigen suchen, Auswahl verfeinern, Originalanzeige im In-App-Browser prüfen und Teppich_Favorit.txt im Projekt sichern. Kein Kauf und kein Verkäuferkontakt.
+
+Kleinanzeigen-Symbol: offizielles App-Icon von https://themen.kleinanzeigen.de/static/img/meta/apple-touch-icon.641bad4b6e0d.png
